@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "purpose": "The lens vocabulary. Fifteen lenses an advisory run routes a question through, each named here and mapped to corpus tags in golden_queries.json. build_index.py reads THIS FILE for the lens names, so the vocabulary has exactly one owner.",
+    "why_a_file_and_not_a_graph": "The upstream system (tce-founder/Anton) parses its lens names out of the JavaScript graph that routes them, because there the graph is the owner. Here no graph is written yet, and a stub JS file that looks like a runnable graph but is not would be worse than an honest declaration — a routing check that passes against a fiction is the failure this whole repository is built to avoid. When an ultra-advisor graph is written, it reads its lenses from this file rather than declaring its own.",
+    "the_rule": "A lens listed here MUST have a tag mapping in golden_queries.json, and every tag it names must exist in the SCHEMA.md taxonomy. Checked in both directions by build_index.py --check. A lens with no reachable page is STARVED, which never surfaces at runtime — the lens does not fail, it improvises, and its output reads exactly like a grounded one.",
+    "created": "2026-09-06"
+  },
+
+  "lenses": {
+    "training-design": "How should the training itself be structured — volume, intensity distribution, periodisation, the long run, the taper?",
+    "strength-durability": "What makes the athlete able to absorb the load — strength, plyometric durability, eccentric tolerance, economy?",
+    "terrain-vert": "How is climbing and descending trained, including by the indoor substitutes: treadmill, stair machine, climbing machine?",
+    "physiology": "What is actually adapting, how is it measured, and what does the measurement not say?",
+    "environment": "Heat, altitude and cold — what adapts, over what timeline, and what cannot be adapted to?",
+    "fueling": "Carbohydrate rate, form, and the gut's trained capacity to absorb it.",
+    "hydration-electrolytes": "Fluid and sodium: how much, on what signal, and what the evidence says the supplements do not do.",
+    "daily-nutrition": "The diet away from the race — energy availability, body composition, and the health floor beneath performance.",
+    "recovery-sleep": "What recovery is, what sleep does that nothing else does, and how long a hard effort actually costs.",
+    "injury-health": "Injury prevention, return to running, overtraining, GI distress, feet.",
+    "mindset": "Pain, effort perception, attention, and the mental skills that are trainable rather than innate.",
+    "motivation-adherence": "Why the athlete keeps going out of the door on a Tuesday in February, and what makes them stop.",
+    "time-management": "The athlete's real life — hours available, competing load, and the minimum effective dose that fits inside them.",
+    "race-strategy": "Pacing, in-race decisions, the night, and when a DNF is the correct call rather than a failure.",
+    "race-logistics": "Choosing the race, preparing for it, crew and aid stations, and the kit."
+  }
+}

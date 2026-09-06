@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "purpose": "The routing ratchet. Pins the mapping from advisory LENS names to corpus TAG names, and asserts that a set of real questions can actually be grounded from the corpus. Checked deterministically by build_index.py --check against INDEX.json. No agent runs in the check path.",
+    "why_it_exists": "lenses.json routes by LENS name ('terrain-vert', 'hydration-electrolytes', 'race-logistics'). INDEX.json groups by TAG name ('vertical-gain', 'sodium-electrolytes', 'race-prep'). These are two different vocabularies and without a declared mapping between them a grounding node infers it per run. A lens whose tags resolve to zero pages does not fail loudly; it improvises, and its note reads exactly like a grounded one.",
+    "the_underlying_rule": "An absent key and an empty list are different failures; so are an unmapped lens and a mapped-but-starved one. Both are made visible here.",
+    "known_gap": "Question realism is uneven. These are the questions an ultrarunner actually asks, written from the domain rather than harvested from advisory runs, because this repository has not run one yet. They prove a lens is REACHABLE, not that the corpus answers the question well — depth is not measured here and cannot be without scoring lens output. Nothing in this file grades a page's quality.",
+    "confidentiality": "Questions carry nothing about a specific athlete: no weight, no body composition, no health data, no times. A question is a routing probe, not a record of anyone's situation.",
+    "created": "2026-09-06"
+  },
+
+  "lens_tag_map": {
+    "_note": "Every lens defined in workflows/lenses.json must appear here, and every tag named must exist in the SCHEMA.md taxonomy. build_index.py checks both directions and additionally asserts that lens_tag_map union unrouted_tags equals the taxonomy EXACTLY — so a new tag cannot enter the taxonomy without someone deciding which of the two it is.",
+    "training-design": ["training-methodology", "periodization", "intensity-distribution", "aerobic-base", "threshold", "vo2max", "long-run", "tapering"],
+    "strength-durability": ["strength-training", "plyometrics-durability", "downhill-eccentric", "speed-economy"],
+    "terrain-vert": ["vertical-gain", "treadmill-training", "indoor-climbing-machines", "cross-training"],
+    "physiology": ["physiology", "training-load-monitoring"],
+    "environment": ["heat-adaptation", "altitude", "cold-weather"],
+    "fueling": ["nutrition", "carbohydrate-fueling", "gut-training", "caffeine-supplements"],
+    "hydration-electrolytes": ["hydration", "sodium-electrolytes"],
+    "daily-nutrition": ["daily-diet", "body-composition", "energy-availability"],
+    "recovery-sleep": ["recovery", "sleep"],
+    "injury-health": ["injury-prevention", "return-to-run", "overtraining", "gi-distress", "foot-care"],
+    "mindset": ["mindset", "pain-perception", "self-talk"],
+    "motivation-adherence": ["motivation", "goal-setting", "habit-adherence"],
+    "time-management": ["time-management", "life-load"],
+    "race-strategy": ["pacing", "race-strategy", "dnf-decision", "night-and-sleep-deprivation"],
+    "race-logistics": ["race-prep", "race-selection", "aid-station-crew", "gear-kit"]
+  },
+
+  "unrouted_tags": {
+    "_note": "Taxonomy tags no lens routes to, declared rather than left as an unexplained remainder.",
+    "failure-modes": "cross-cutting — read when hardening any recommendation, not by a single lens",
+    "coaching-practice": "meta — marks a page about who teaches what, not about a training subject",
+    "framework-comparison": "meta — describes a page's form, not its subject",
+    "best-practices": "meta — too broad to route on; every lens would claim it",
+    "evidence-base": "meta — marks that a page carries evidence, not what the evidence is about",
+    "bibliography": "meta — marks a reading lead, not a subject"
+  },
+
+  "questions": [
+    {
+      "q": "I have sixteen weeks until a mountain 100k. How should the block be structured?",
+      "lenses": ["training-design", "race-logistics", "terrain-vert"],
+      "min_pages": 4,
+      "source": "domain — the most common planning question in the sport"
+    },
+    {
+      "q": "How many grams of carbohydrate an hour should I plan for, and how do I get my gut there?",
+      "lenses": ["fueling"],
+      "min_pages": 3,
+      "source": "domain — the question behind the largest single cause of stated withdrawals"
+    },
+    {
+      "q": "Should I take salt tablets, and how much should I drink?",
+      "lenses": ["hydration-electrolytes", "fueling"],
+      "min_pages": 3,
+      "source": "domain — the one question where popular belief and evidence point opposite ways"
+    },
+    {
+      "q": "It is January, I live somewhere flat, and the race has 6,000 m of climbing. What do I actually do?",
+      "lenses": ["terrain-vert", "strength-durability"],
+      "min_pages": 2,
+      "source": "domain — the treadmill and stair-machine question"
+    },
+    {
+      "q": "I have eight hours a week and a job. Is that enough, and what goes in them?",
+      "lenses": ["time-management", "training-design"],
+      "min_pages": 3,
+      "source": "domain — the question with the weakest evidence base and the highest leverage"
+    },
+    {
+      "q": "What is my plan for the second night, and when should I nap?",
+      "lenses": ["recovery-sleep", "race-strategy"],
+      "min_pages": 3,
+      "source": "domain"
+    },
+    {
+      "q": "How do I pace a mountain 100 miler when pace itself is meaningless?",
+      "lenses": ["race-strategy", "physiology"],
+      "min_pages": 3,
+      "source": "domain"
+    },
+    {
+      "q": "I want to stop. Should I?",
+      "lenses": ["race-strategy", "mindset"],
+      "min_pages": 3,
+      "source": "domain — the decision made by the least qualified person present"
+    },
+    {
+      "q": "The race will be 32 degrees. What can I change, and starting when?",
+      "lenses": ["environment", "race-strategy"],
+      "min_pages": 2,
+      "source": "domain — probes a lens whose altitude and cold tags are recorded gaps"
+    },
+    {
+      "q": "I keep missing sessions. Is that a discipline problem or a design problem?",
+      "lenses": ["motivation-adherence", "time-management"],
+      "min_pages": 2,
+      "source": "domain — the question that decides whether the block happens at all"
+    },
+    {
+      "q": "Am I eating enough to be trained at all?",
+      "lenses": ["daily-nutrition", "injury-health"],
+      "min_pages": 3,
+      "source": "domain — the gate question that runs before every training question"
+    },
+    {
+      "q": "Is strength work worth the hours it takes from running?",
+      "lenses": ["strength-durability"],
+      "min_pages": 2,
+      "source": "domain"
+    },
+    {
+      "q": "What do I need to sort out for crew, drop bags and kit?",
+      "lenses": ["race-logistics"],
+      "min_pages": 1,
+      "source": "domain — DELIBERATELY THIN. Three of this lens's four tags are empty (race-selection, aid-station-crew, gear-kit) and it grounds on race-prep alone. The min is 1 so this passes rather than failing every run, and the gap is carried in acceptance_floors.json where it is meant to be argued about"
+    },
+    {
+      "q": "What does the literature actually support here, and where is it silent?",
+      "lenses": ["physiology"],
+      "min_pages": 2,
+      "source": "domain — the meta-question this corpus exists to be able to answer honestly"
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+  "nodes": [
+    {
+      "id": "claim:carb-ceiling",
+      "kind": "claim",
+      "label": "The absorbable carbohydrate ceiling is ~90 g/h, and ~120 g/h with gut training",
+      "path": null
+    },
+    {
+      "id": "claim:gi-leading-dnf",
+      "kind": "claim",
+      "label": "GI distress is the leading cause of ultramarathon DNF",
+      "path": null
+    },
+    {
+      "id": "claim:minimum-effective-dose",
+      "kind": "claim",
+      "label": "Roughly 6-10 h/week, held consistently, is enough to finish a long ultra",
+      "path": null
+    },
+    {
+      "id": "claim:polarized-superiority",
+      "kind": "claim",
+      "label": "A polarised ~80/20 intensity distribution beats other distributions",
+      "path": null
+    },
+    {
+      "id": "claim:sodium-prevents-cramp",
+      "kind": "claim",
+      "label": "Sodium supplementation prevents cramping, dehydration and hyponatremia",
+      "path": null
+    },
+    {
+      "id": "claim:vert-machine-equivalence",
+      "kind": "claim",
+      "label": "An indoor climbing machine substitutes for real vertical gain",
+      "path": null
+    },
+    {
+      "id": "doc:INDEX.md",
+      "kind": "doc",
+      "label": "INDEX.md",
+      "path": "advisory/kb/INDEX.md"
+    },
+    {
+      "id": "doc:README.md",
+      "kind": "doc",
+      "label": "README.md",
+      "path": "advisory/model/README.md"
+    },
+    {
+      "id": "doc:SCHEMA.md",
+      "kind": "doc",
+      "label": "SCHEMA.md",
+      "path": "advisory/kb/SCHEMA.md"
+    },
+    {
+      "id": "doc:action-register.md",
+      "kind": "doc",
+      "label": "action-register.md",
+      "path": "advisory/analysis/action-register.md"
+    },
+    {
+      "id": "doc:athlete-card.md",
+      "kind": "doc",
+      "label": "athlete-card.md",
+      "path": "advisory/analysis/athlete-card.md"
+    },
+    {
+      "id": "doc:cadence-log.md",
+      "kind": "doc",
+      "label": "cadence-log.md",
+      "path": "advisory/analysis/cadence-log.md"
+    },
+    {
+      "id": "doc:fueling.py",
+      "kind": "doc",
+      "label": "fueling.py",
+      "path": "advisory/model/fueling.py"
+    },
+    {
+      "id": "doc:inputs.py",
+      "kind": "doc",
+      "label": "inputs.py",
+      "path": "advisory/model/inputs.py"
+    },
+    {
+      "id": "doc:log.md",
+      "kind": "doc",
+      "label": "log.md",
+      "path": "advisory/kb/log.md"
+    },
+    {
+      "id": "doc:master-list.md",
+      "kind": "doc",
+      "label": "master-list.md",
+      "path": "advisory/analysis/master-list.md"
+    },
+    {
+      "id": "doc:objection-register.md",
+      "kind": "doc",
+      "label": "objection-register.md",
+      "path": "advisory/analysis/objection-register.md"
+    },
+    {
+      "id": "doc:predictions.md",
+      "kind": "doc",
+      "label": "predictions.md",
+      "path": "advisory/analysis/predictions.md"
+    },
+    {
+      "id": "doc:purpose.md",
+      "kind": "doc",
+      "label": "purpose.md",
+      "path": "advisory/kb/purpose.md"
+    },
+    {
+      "id": "doc:source-queue.md",
+      "kind": "doc",
+      "label": "source-queue.md",
+      "path": "advisory/analysis/source-queue.md"
+    },
+    {
+      "id": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "kind": "kb",
+      "label": "carbohydrate-120g-mountain-marathon-trial.md",
+      "path": "advisory/kb/benchmarks/carbohydrate-120g-mountain-marathon-trial.md"
+    },
+    {
+      "id": "kb:carbohydrate-fueling-ladder",
+      "kind": "kb",
+      "label": "carbohydrate-fueling-ladder.md",
+      "path": "advisory/kb/frameworks/carbohydrate-fueling-ladder.md"
+    },
+    {
+      "id": "kb:coaching-schools-and-where-they-disagree",
+      "kind": "kb",
+      "label": "coaching-schools-and-where-they-disagree.md",
+      "path": "advisory/kb/subject/coaching-schools-and-where-they-disagree.md"
+    },
+    {
+      "id": "kb:drink-to-thirst",
+      "kind": "kb",
+      "label": "drink-to-thirst.md",
+      "path": "advisory/kb/frameworks/drink-to-thirst.md"
+    },
+    {
+      "id": "kb:energy-availability-floor",
+      "kind": "kb",
+      "label": "energy-availability-floor.md",
+      "path": "advisory/kb/frameworks/energy-availability-floor.md"
+    },
+    {
+      "id": "kb:fueling-brands-and-their-interests",
+      "kind": "kb",
+      "label": "fueling-brands-and-their-interests.md",
+      "path": "advisory/kb/subject/fueling-brands-and-their-interests.md"
+    },
+    {
+      "id": "kb:gi-distress-and-dnf-figures",
+      "kind": "kb",
+      "label": "gi-distress-and-dnf-figures.md",
+      "path": "advisory/kb/benchmarks/gi-distress-and-dnf-figures.md"
+    },
+    {
+      "id": "kb:gut-training-protocol",
+      "kind": "kb",
+      "label": "gut-training-protocol.md",
+      "path": "advisory/kb/frameworks/gut-training-protocol.md"
+    },
+    {
+      "id": "kb:heat-acclimation-figures",
+      "kind": "kb",
+      "label": "heat-acclimation-figures.md",
+      "path": "advisory/kb/benchmarks/heat-acclimation-figures.md"
+    },
+    {
+      "id": "kb:heat-acclimation-protocol",
+      "kind": "kb",
+      "label": "heat-acclimation-protocol.md",
+      "path": "advisory/kb/frameworks/heat-acclimation-protocol.md"
+    },
+    {
+      "id": "kb:mental-skills-toolkit",
+      "kind": "kb",
+      "label": "mental-skills-toolkit.md",
+      "path": "advisory/kb/frameworks/mental-skills-toolkit.md"
+    },
+    {
+      "id": "kb:minimum-effective-dose-and-time",
+      "kind": "kb",
+      "label": "minimum-effective-dose-and-time.md",
+      "path": "advisory/kb/frameworks/minimum-effective-dose-and-time.md"
+    },
+    {
+      "id": "kb:pacing-by-effort",
+      "kind": "kb",
+      "label": "pacing-by-effort.md",
+      "path": "advisory/kb/frameworks/pacing-by-effort.md"
+    },
+    {
+      "id": "kb:periodization-for-ultras",
+      "kind": "kb",
+      "label": "periodization-for-ultras.md",
+      "path": "advisory/kb/frameworks/periodization-for-ultras.md"
+    },
+    {
+      "id": "kb:polarized-intensity-distribution",
+      "kind": "kb",
+      "label": "polarized-intensity-distribution.md",
+      "path": "advisory/kb/frameworks/polarized-intensity-distribution.md"
+    },
+    {
+      "id": "kb:polarized-training-review-evidence",
+      "kind": "kb",
+      "label": "polarized-training-review-evidence.md",
+      "path": "advisory/kb/benchmarks/polarized-training-review-evidence.md"
+    },
+    {
+      "id": "kb:reds-and-low-energy-availability-evidence",
+      "kind": "kb",
+      "label": "reds-and-low-energy-availability-evidence.md",
+      "path": "advisory/kb/benchmarks/reds-and-low-energy-availability-evidence.md"
+    },
+    {
+      "id": "kb:sleep-and-the-night",
+      "kind": "kb",
+      "label": "sleep-and-the-night.md",
+      "path": "advisory/kb/frameworks/sleep-and-the-night.md"
+    },
+    {
+      "id": "kb:sleep-in-mountain-ultramarathon-finishers",
+      "kind": "kb",
+      "label": "sleep-in-mountain-ultramarathon-finishers.md",
+      "path": "advisory/kb/benchmarks/sleep-in-mountain-ultramarathon-finishers.md"
+    },
+    {
+      "id": "kb:sodium-does-not-prevent-cramping",
+      "kind": "kb",
+      "label": "sodium-does-not-prevent-cramping.md",
+      "path": "advisory/kb/benchmarks/sodium-does-not-prevent-cramping.md"
+    },
+    {
+      "id": "kb:strength-training-for-ultrarunners",
+      "kind": "kb",
+      "label": "strength-training-for-ultrarunners.md",
+      "path": "advisory/kb/frameworks/strength-training-for-ultrarunners.md"
+    },
+    {
+      "id": "kb:strength-training-running-economy-meta-analyses",
+      "kind": "kb",
+      "label": "strength-training-running-economy-meta-analyses.md",
+      "path": "advisory/kb/benchmarks/strength-training-running-economy-meta-analyses.md"
+    },
+    {
+      "id": "kb:the-dnf-decision",
+      "kind": "kb",
+      "label": "the-dnf-decision.md",
+      "path": "advisory/kb/frameworks/the-dnf-decision.md"
+    },
+    {
+      "id": "kb:time-crunched-volume-claims",
+      "kind": "kb",
+      "label": "time-crunched-volume-claims.md",
+      "path": "advisory/kb/benchmarks/time-crunched-volume-claims.md"
+    },
+    {
+      "id": "kb:ultrarunning-book-canon",
+      "kind": "kb",
+      "label": "ultrarunning-book-canon.md",
+      "path": "advisory/kb/benchmarks/ultrarunning-book-canon.md"
+    },
+    {
+      "id": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "kind": "kb",
+      "label": "ultrarunning-podcasts-blogs-and-newsletters.md",
+      "path": "advisory/kb/benchmarks/ultrarunning-podcasts-blogs-and-newsletters.md"
+    },
+    {
+      "id": "kb:vertical-gain-and-its-substitutes",
+      "kind": "kb",
+      "label": "vertical-gain-and-its-substitutes.md",
+      "path": "advisory/kb/frameworks/vertical-gain-and-its-substitutes.md"
+    },
+    {
+      "id": "kb:where-the-evidence-lives",
+      "kind": "kb",
+      "label": "where-the-evidence-lives.md",
+      "path": "advisory/kb/benchmarks/where-the-evidence-lives.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "doc:INDEX.md",
+      "rel": "asserts",
+      "to": "claim:minimum-effective-dose",
+      "evidence": "L42:time-crunched"
+    },
+    {
+      "from": "doc:INDEX.md",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L16:polarized"
+    },
+    {
+      "from": "doc:SCHEMA.md",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L71:120 g/h"
+    },
+    {
+      "from": "doc:purpose.md",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L96:intensity distribution"
+    },
+    {
+      "from": "doc:purpose.md",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L97:vertical gain"
+    },
+    {
+      "from": "doc:source-queue.md",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L43:120 g/h"
+    },
+    {
+      "from": "doc:source-queue.md",
+      "rel": "asserts",
+      "to": "claim:gi-leading-dnf",
+      "evidence": "L44:23%"
+    },
+    {
+      "from": "doc:source-queue.md",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L60:80/20; L46:Polarised"
+    },
+    {
+      "from": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L2:120 g/h; L36:GRAMS OF CARBOHYDRATE PER HOUR"
+    },
+    {
+      "from": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "rel": "relates_to",
+      "to": "kb:gi-distress-and-dnf-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "rel": "relates_to",
+      "to": "kb:gut-training-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L29:120 g/h; L28:90 g/h; L28:60-90 g"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "relates_to",
+      "to": "kb:drink-to-thirst",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "relates_to",
+      "to": "kb:energy-availability-floor",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "relates_to",
+      "to": "kb:gi-distress-and-dnf-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "relates_to",
+      "to": "kb:gut-training-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:carbohydrate-fueling-ladder",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L17:polarized"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "relates_to",
+      "to": "kb:periodization-for-ultras",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "relates_to",
+      "to": "kb:polarized-intensity-distribution",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "relates_to",
+      "to": "kb:polarized-training-review-evidence",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "relates_to",
+      "to": "kb:ultrarunning-book-canon",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "relates_to",
+      "to": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:coaching-schools-and-where-they-disagree",
+      "rel": "relates_to",
+      "to": "kb:vertical-gain-and-its-substitutes",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:drink-to-thirst",
+      "rel": "asserts",
+      "to": "claim:sodium-prevents-cramp",
+      "evidence": "L2:salt tab; L61:sodium prevent; L96:preventing cramp"
+    },
+    {
+      "from": "kb:drink-to-thirst",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:drink-to-thirst",
+      "rel": "relates_to",
+      "to": "kb:fueling-brands-and-their-interests",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:drink-to-thirst",
+      "rel": "relates_to",
+      "to": "kb:heat-acclimation-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:drink-to-thirst",
+      "rel": "relates_to",
+      "to": "kb:sodium-does-not-prevent-cramping",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:energy-availability-floor",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L61:intensity distribution"
+    },
+    {
+      "from": "kb:energy-availability-floor",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:energy-availability-floor",
+      "rel": "relates_to",
+      "to": "kb:minimum-effective-dose-and-time",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:energy-availability-floor",
+      "rel": "relates_to",
+      "to": "kb:reds-and-low-energy-availability-evidence",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:fueling-brands-and-their-interests",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L25:120 g/h; L57:90 g/h"
+    },
+    {
+      "from": "kb:fueling-brands-and-their-interests",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:fueling-brands-and-their-interests",
+      "rel": "relates_to",
+      "to": "kb:drink-to-thirst",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:fueling-brands-and-their-interests",
+      "rel": "relates_to",
+      "to": "kb:gut-training-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:fueling-brands-and-their-interests",
+      "rel": "relates_to",
+      "to": "kb:sodium-does-not-prevent-cramping",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gi-distress-and-dnf-figures",
+      "rel": "asserts",
+      "to": "claim:gi-leading-dnf",
+      "evidence": "L31:23%; L32:35.6%; L39:nausea and vomiting"
+    },
+    {
+      "from": "kb:gi-distress-and-dnf-figures",
+      "rel": "relates_to",
+      "to": "kb:gut-training-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gi-distress-and-dnf-figures",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gi-distress-and-dnf-figures",
+      "rel": "relates_to",
+      "to": "kb:the-dnf-decision",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gi-distress-and-dnf-figures",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gut-training-protocol",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L26:120 g/h; L72:90 g/h; L32:GRAMS OF CARBOHYDRATE PER HOUR"
+    },
+    {
+      "from": "kb:gut-training-protocol",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gut-training-protocol",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:gut-training-protocol",
+      "rel": "relates_to",
+      "to": "kb:gi-distress-and-dnf-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:heat-acclimation-figures",
+      "rel": "relates_to",
+      "to": "kb:heat-acclimation-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:heat-acclimation-figures",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:heat-acclimation-protocol",
+      "rel": "relates_to",
+      "to": "kb:drink-to-thirst",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:heat-acclimation-protocol",
+      "rel": "relates_to",
+      "to": "kb:heat-acclimation-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:heat-acclimation-protocol",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:mental-skills-toolkit",
+      "rel": "relates_to",
+      "to": "kb:minimum-effective-dose-and-time",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:mental-skills-toolkit",
+      "rel": "relates_to",
+      "to": "kb:the-dnf-decision",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:mental-skills-toolkit",
+      "rel": "relates_to",
+      "to": "kb:ultrarunning-book-canon",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "asserts",
+      "to": "claim:minimum-effective-dose",
+      "evidence": "L49:6\u201310 hours; L2:minimum effective dose; L12:time-crunched"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L24:80/20; L17:polarized"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "relates_to",
+      "to": "kb:energy-availability-floor",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "relates_to",
+      "to": "kb:mental-skills-toolkit",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "relates_to",
+      "to": "kb:periodization-for-ultras",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "relates_to",
+      "to": "kb:time-crunched-volume-claims",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:minimum-effective-dose-and-time",
+      "rel": "relates_to",
+      "to": "kb:vertical-gain-and-its-substitutes",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L78:vertical gain"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:gi-distress-and-dnf-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:heat-acclimation-protocol",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:periodization-for-ultras",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:sleep-and-the-night",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:the-dnf-decision",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:pacing-by-effort",
+      "rel": "relates_to",
+      "to": "kb:vertical-gain-and-its-substitutes",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:periodization-for-ultras",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L16:polarized"
+    },
+    {
+      "from": "kb:periodization-for-ultras",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L36:Vertical gain"
+    },
+    {
+      "from": "kb:periodization-for-ultras",
+      "rel": "relates_to",
+      "to": "kb:minimum-effective-dose-and-time",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:periodization-for-ultras",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:periodization-for-ultras",
+      "rel": "relates_to",
+      "to": "kb:strength-training-for-ultrarunners",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "asserts",
+      "to": "claim:minimum-effective-dose",
+      "evidence": "L29:6-10 hours"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L2:80/20; L2:Polarized; L2:intensity distribution"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L112:vertical gain"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "relates_to",
+      "to": "kb:coaching-schools-and-where-they-disagree",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "relates_to",
+      "to": "kb:minimum-effective-dose-and-time",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "relates_to",
+      "to": "kb:periodization-for-ultras",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-intensity-distribution",
+      "rel": "relates_to",
+      "to": "kb:polarized-training-review-evidence",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-training-review-evidence",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L74:80/20; L2:polarised; L55:intensity distribution"
+    },
+    {
+      "from": "kb:polarized-training-review-evidence",
+      "rel": "relates_to",
+      "to": "kb:coaching-schools-and-where-they-disagree",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-training-review-evidence",
+      "rel": "relates_to",
+      "to": "kb:polarized-intensity-distribution",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:polarized-training-review-evidence",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:reds-and-low-energy-availability-evidence",
+      "rel": "relates_to",
+      "to": "kb:energy-availability-floor",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:reds-and-low-energy-availability-evidence",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sleep-and-the-night",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sleep-and-the-night",
+      "rel": "relates_to",
+      "to": "kb:sleep-in-mountain-ultramarathon-finishers",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sleep-and-the-night",
+      "rel": "relates_to",
+      "to": "kb:the-dnf-decision",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sleep-in-mountain-ultramarathon-finishers",
+      "rel": "relates_to",
+      "to": "kb:sleep-and-the-night",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sleep-in-mountain-ultramarathon-finishers",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sodium-does-not-prevent-cramping",
+      "rel": "asserts",
+      "to": "claim:sodium-prevents-cramp",
+      "evidence": "L38:salt tab; L55:sodium prevent; L69:prevent cramp"
+    },
+    {
+      "from": "kb:sodium-does-not-prevent-cramping",
+      "rel": "relates_to",
+      "to": "kb:drink-to-thirst",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sodium-does-not-prevent-cramping",
+      "rel": "relates_to",
+      "to": "kb:fueling-brands-and-their-interests",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:sodium-does-not-prevent-cramping",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:strength-training-for-ultrarunners",
+      "rel": "relates_to",
+      "to": "kb:periodization-for-ultras",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:strength-training-for-ultrarunners",
+      "rel": "relates_to",
+      "to": "kb:strength-training-running-economy-meta-analyses",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:strength-training-for-ultrarunners",
+      "rel": "relates_to",
+      "to": "kb:vertical-gain-and-its-substitutes",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:strength-training-running-economy-meta-analyses",
+      "rel": "relates_to",
+      "to": "kb:strength-training-for-ultrarunners",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:strength-training-running-economy-meta-analyses",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:the-dnf-decision",
+      "rel": "relates_to",
+      "to": "kb:gi-distress-and-dnf-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:the-dnf-decision",
+      "rel": "relates_to",
+      "to": "kb:mental-skills-toolkit",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:the-dnf-decision",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:the-dnf-decision",
+      "rel": "relates_to",
+      "to": "kb:sleep-and-the-night",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:time-crunched-volume-claims",
+      "rel": "asserts",
+      "to": "claim:minimum-effective-dose",
+      "evidence": "L2:Time-crunched"
+    },
+    {
+      "from": "kb:time-crunched-volume-claims",
+      "rel": "relates_to",
+      "to": "kb:minimum-effective-dose-and-time",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:time-crunched-volume-claims",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:ultrarunning-book-canon",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L70:80/20; L70:polarised"
+    },
+    {
+      "from": "kb:ultrarunning-book-canon",
+      "rel": "relates_to",
+      "to": "kb:coaching-schools-and-where-they-disagree",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:ultrarunning-book-canon",
+      "rel": "relates_to",
+      "to": "kb:mental-skills-toolkit",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:ultrarunning-book-canon",
+      "rel": "relates_to",
+      "to": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "rel": "relates_to",
+      "to": "kb:coaching-schools-and-where-they-disagree",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "rel": "relates_to",
+      "to": "kb:ultrarunning-book-canon",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "rel": "relates_to",
+      "to": "kb:where-the-evidence-lives",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:vertical-gain-and-its-substitutes",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L13:stairmaster; L55:StepMill; L79:VersaClimber"
+    },
+    {
+      "from": "kb:vertical-gain-and-its-substitutes",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:vertical-gain-and-its-substitutes",
+      "rel": "relates_to",
+      "to": "kb:strength-training-for-ultrarunners",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "asserts",
+      "to": "claim:minimum-effective-dose",
+      "evidence": "L24:time-crunched"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "asserts",
+      "to": "claim:polarized-superiority",
+      "evidence": "L18:polarized; L82:Intensity distribution"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-120g-mountain-marathon-trial",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:gi-distress-and-dnf-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:heat-acclimation-figures",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:polarized-training-review-evidence",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:reds-and-low-energy-availability-evidence",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:sleep-in-mountain-ultramarathon-finishers",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:sodium-does-not-prevent-cramping",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:strength-training-running-economy-meta-analyses",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:time-crunched-volume-claims",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:where-the-evidence-lives",
+      "rel": "relates_to",
+      "to": "kb:ultrarunning-podcasts-blogs-and-newsletters",
+      "evidence": "wikilink"
+    }
+  ],
+  "claims": {
+    "claim:carb-ceiling": {
+      "label": "The absorbable carbohydrate ceiling is ~90 g/h, and ~120 g/h with gut training",
+      "why_it_matters": "It sets the race fuelling plan, the gut-training block that precedes it, and how much of a bad patch is read as a fuelling failure. The 120 g/h evidence is one small trial in elite men on a mountain marathon; the number travels far better than its population does."
+    },
+    "claim:sodium-prevents-cramp": {
+      "label": "Sodium supplementation prevents cramping, dehydration and hyponatremia",
+      "why_it_matters": "Widely believed and directly contradicted by the trial recorded in [[sodium-does-not-prevent-cramping]]. It is load-bearing in the opposite direction from most claims here: acting on it causes over-drinking, which is the actual mechanism of exercise-associated hyponatremia."
+    },
+    "claim:gi-leading-dnf": {
+      "label": "GI distress is the leading cause of ultramarathon DNF",
+      "why_it_matters": "If true it ranks gut training above most of the training plan. The underlying figures are from two named US 100-mile races and are about the stated PRIMARY reason for withdrawal, which is not the same as cause."
+    },
+    "claim:polarized-superiority": {
+      "label": "A polarised ~80/20 intensity distribution beats other distributions",
+      "why_it_matters": "It decides how every week is built. The systematic-review evidence supports low-intensity dominance far more strongly than it supports POLARISED specifically over pyramidal or threshold models."
+    },
+    "claim:vert-machine-equivalence": {
+      "label": "An indoor climbing machine substitutes for real vertical gain",
+      "why_it_matters": "It is the claim a treadmill-and-stair-machine winter rests on, and it is asymmetric: the machines reproduce the climbing demand reasonably and the DESCENDING demand not at all, which is where the race damage comes from."
+    },
+    "claim:minimum-effective-dose": {
+      "label": "Roughly 6-10 h/week, held consistently, is enough to finish a long ultra",
+      "why_it_matters": "It is the premise the whole time-management lens rests on, and the one with the weakest evidence base in this corpus \u2014 coaching assertion repeated across sources, not a measured finding."
+    }
+  }
+}

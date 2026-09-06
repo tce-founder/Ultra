@@ -1,0 +1,1646 @@
+{
+  "updated": "2026-09-06",
+  "generated_by": "workflows/build_index.py \u2014 deterministic; do not hand-edit",
+  "entry_count": 28,
+  "entries": [
+    {
+      "slug": "carbohydrate-120g-mountain-marathon-trial",
+      "path": "advisory/kb/benchmarks/carbohydrate-120g-mountain-marathon-trial.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "The 120 g/h mountain marathon trial \u2014 the study behind the number, and the four preconditions that travel with it",
+      "tags": [
+        "carbohydrate-fueling",
+        "gut-training",
+        "evidence-base"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "peer-reviewed",
+      "reference_role": "evidence",
+      "population": "20 male ELITE runners, racing a mountain marathon, at altitude, who had ALREADY completed a nutritional and gut-training programme before the trial began. Randomised to 120, 90 and 60 g/h. That is four preconditions at once \u2014 elite, male, gut-trained, and a mountain-marathon duration rather than an ultra duration \u2014 and every one of them is load-bearing. The observational comparisons are different populations again: real-time food and fluid observation during a 120 km ultramarathon, and dietary observation across a continuous 24-hour event, both describing what runners actually did rather than what was prescribed.",
+      "unit": "GRAMS OF CARBOHYDRATE PER HOUR ingested (prescribed and supervised), not absorbed and not oxidised. The outcome is EXERCISE-INDUCED MUSCLE DAMAGE markers measured 24 hours after the race \u2014 blood markers, NOT performance, NOT finishing time, and NOT gastrointestinal comfort. This is the single most important line on this page: the trial's headline result is about a recovery marker, and it is routinely quoted as though it were about going faster.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: carbohydrate-fueling-ladder \u2014 gives that page's top rung its actual provenance, without which the rung reads as a general recommendation",
+        "counterpoint: carbohydrate-fueling-ladder \u2014 the observational field data sit against the trial: real ultrarunners eat considerably LESS than these targets, which any plan built on the trial has to explain"
+      ],
+      "ip_class": "public",
+      "related": [
+        "carbohydrate-fueling-ladder",
+        "gut-training-protocol",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7284742/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946582/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8652078/"
+      ],
+      "outbound": [
+        "carbohydrate-fueling-ladder",
+        "gi-distress-and-dnf-figures",
+        "gut-training-protocol",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "carbohydrate-fueling-ladder",
+      "path": "advisory/kb/frameworks/carbohydrate-fueling-ladder.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "The carbohydrate fuelling ladder \u2014 choosing an hourly rate, and defending it against the number everyone quotes",
+      "tags": [
+        "carbohydrate-fueling",
+        "nutrition",
+        "gi-distress"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The 60-90 g/h guidance derives from laboratory studies of trained cyclists and runners, mostly male, at intensities and durations well below a 100 miler. The 120 g/h finding is from ONE randomised trial of 20 male ELITE mountain runners who had already completed a nutritional and gut-training programme, racing a mountain marathon at altitude. The observational field data (a 120 km ultramarathon, a 24-hour event) show real-world intakes considerably BELOW these targets. No part of this evidence base is derived from mid-pack runners, from women in useful numbers, or from events over about six hours.",
+      "unit": "GRAMS OF CARBOHYDRATE PER HOUR \u2014 total carbohydrate, not grams of glucose, not grams of product, not calories. A 40 g gel is not 40 g of carbohydrate. Where a blend is specified, the ratio (commonly 2:1 or 1:0.8 glucose:fructose) refers to the two transport pathways, and the \"multiple transportable carbohydrate\" argument applies only ABOVE roughly 60 g/h, where single-pathway absorption saturates. Below that, blends buy nothing.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: gut-training-protocol \u2014 this page sets the target the gut-training block exists to reach, which that page otherwise assumes",
+        "counterpoint: fueling-brands-and-their-interests \u2014 the sources that publish the highest recommended rates are the ones that sell carbohydrate, and that is recorded rather than assumed away"
+      ],
+      "ip_class": "public",
+      "related": [
+        "carbohydrate-120g-mountain-marathon-trial",
+        "gut-training-protocol",
+        "gi-distress-and-dnf-figures",
+        "fueling-brands-and-their-interests",
+        "pacing-by-effort",
+        "drink-to-thirst",
+        "energy-availability-floor"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7284742/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946582/",
+        "https://www.precisionhydration.com/performance-advice/nutrition/how-much-carbohydrate-carbs-athletes-per-hour/"
+      ],
+      "outbound": [
+        "carbohydrate-120g-mountain-marathon-trial",
+        "drink-to-thirst",
+        "energy-availability-floor",
+        "gi-distress-and-dnf-figures",
+        "gut-training-protocol",
+        "pacing-by-effort"
+      ],
+      "inbound_count": 7
+    },
+    {
+      "slug": "coaching-schools-and-where-they-disagree",
+      "path": "advisory/kb/subject/coaching-schools-and-where-they-disagree.md",
+      "wiki_type": "entity",
+      "layer": 3,
+      "title": "The coaching schools \u2014 four lineages, and the three questions they actually disagree about",
+      "tags": [
+        "coaching-practice",
+        "training-methodology",
+        "framework-comparison",
+        "aerobic-base"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Not a study population. This page characterises coaching organisations from their own public material \u2014 websites, podcasts, published books' marketing copy, and interviews. It describes what each school SAYS, and the characterisations are this corpus's reading rather than the schools' self-descriptions. None of the four has been asked whether it agrees with the summary here.",
+      "unit": "Not applicable. Where a school's position implies a number (a training-hour threshold, a heart-rate ceiling, an intensity percentage), that number is theirs and carries their unspecified population. Do not compare numbers across schools \u2014 they define zones differently, and a \"Zone 2\" in one is not a \"Zone 2\" in another.",
+      "authority": "asserted",
+      "disposition": [],
+      "ip_class": "public",
+      "related": [
+        "polarized-intensity-distribution",
+        "periodization-for-ultras",
+        "vertical-gain-and-its-substitutes",
+        "polarized-training-review-evidence",
+        "ultrarunning-book-canon",
+        "ultrarunning-podcasts-blogs-and-newsletters"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/ultrarunning/",
+        "https://uphillathlete.com/podcast/talking-health-training-aerobic-deficiency-with-dr-phil-maffetone/",
+        "https://www.rmiguides.com/blog/2019/05/30/mountaineering_training_aerobic_deficiency_syndrome",
+        "https://www.trainingpeaks.com/blog/low-intensity-training-for-mountaineers-a-qa-with-uphill-athletes-scott-johnston/"
+      ],
+      "outbound": [
+        "periodization-for-ultras",
+        "polarized-intensity-distribution",
+        "polarized-training-review-evidence",
+        "ultrarunning-book-canon",
+        "ultrarunning-podcasts-blogs-and-newsletters",
+        "vertical-gain-and-its-substitutes"
+      ],
+      "inbound_count": 6
+    },
+    {
+      "slug": "drink-to-thirst",
+      "path": "advisory/kb/frameworks/drink-to-thirst.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Drinking and sodium \u2014 thirst as the signal, and why the salt tablet does not do what it is sold to do",
+      "tags": [
+        "hydration",
+        "sodium-electrolytes",
+        "failure-modes"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The consensus statements draw on marathon, ultramarathon, triathlon and military populations, including field data from hot-weather ultramarathons of up to 30 hours. Mixed sex, though hyponatremia incidence and risk factors differ by sex and body size and the sport's rules of thumb rarely say so. The cramping/hyponatremia null result is from a specific hot-weather ultramarathon field study. NOT a laboratory dose-response study, and NOT able to exclude effects in individuals with unusually high sweat sodium losses.",
+      "unit": "Sodium is in MILLIGRAMS, and product labels vary between stating sodium and stating sodium CHLORIDE \u2014 a factor of about 2.5 between them. Sweat sodium concentration is mmol/L or mg/L. Plasma sodium is mmol/L; hyponatremia is conventionally below 135 mmol/L. Fluid is in ML PER HOUR. A \"salt tablet\" is not a unit and different products differ by more than fivefold.",
+      "authority": "established",
+      "disposition": [
+        "counterpoint: fueling-brands-and-their-interests \u2014 the commercial guidance on personalised sodium replacement disagrees with the consensus position recorded here, and both are held rather than one being deleted",
+        "sharpened: heat-acclimation-protocol \u2014 that page's adaptation claims include sweat changes; this page says what to do about them, which is less than most athletes assume"
+      ],
+      "ip_class": "public",
+      "related": [
+        "sodium-does-not-prevent-cramping",
+        "carbohydrate-fueling-ladder",
+        "fueling-brands-and-their-interests",
+        "heat-acclimation-protocol"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334560/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4688305/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK572128/"
+      ],
+      "outbound": [
+        "carbohydrate-fueling-ladder",
+        "fueling-brands-and-their-interests",
+        "heat-acclimation-protocol",
+        "sodium-does-not-prevent-cramping"
+      ],
+      "inbound_count": 4
+    },
+    {
+      "slug": "energy-availability-floor",
+      "path": "advisory/kb/frameworks/energy-availability-floor.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "The energy availability floor \u2014 the health constraint that sits under every training decision",
+      "tags": [
+        "energy-availability",
+        "daily-diet",
+        "body-composition",
+        "overtraining"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The REDs literature is broadest in female endurance athletes, where it was first characterised; prevalence work in competitively trained MALE endurance athletes is more recent and thinner but finds low energy availability common there too. Endurance and aesthetic sports are named higher-risk than ball sports. The IOC consensus is a consensus of clinicians and researchers, not a single study \u2014 it synthesises evidence of uneven quality and says so.",
+      "unit": "Energy availability is conventionally kcal per kg FAT-FREE MASS per day \u2014 dietary energy intake minus exercise energy expenditure, divided by fat-free mass. It is NOT calories eaten, and it is not a deficit against total daily expenditure. Fat-free mass requires a body-composition estimate, which carries its own large error, so a computed EA figure is far less precise than its two decimal places suggest. Treat it as a direction of travel, not a measurement.",
+      "authority": "established",
+      "disposition": [
+        "gap: this corpus holds nothing on practical daily nutrition \u2014 meal structure, protein targets, periodised carbohydrate availability. This page names the floor and does not say how to eat above it",
+        "sharpened: minimum-effective-dose-and-time \u2014 that page's argument for training less is strengthened by this one: under-fuelled hours are worse than absent hours, which is not intuitive"
+      ],
+      "ip_class": "public",
+      "related": [
+        "reds-and-low-energy-availability-evidence",
+        "carbohydrate-fueling-ladder",
+        "minimum-effective-dose-and-time"
+      ],
+      "summary": "",
+      "sources": [
+        "https://academic.oup.com/edrv/article/45/5/676/7629683",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6843850/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9110838/"
+      ],
+      "outbound": [
+        "carbohydrate-fueling-ladder",
+        "minimum-effective-dose-and-time",
+        "reds-and-low-energy-availability-evidence"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "fueling-brands-and-their-interests",
+      "path": "advisory/kb/subject/fueling-brands-and-their-interests.md",
+      "wiki_type": "entity",
+      "layer": 3,
+      "title": "Fuelling and hydration brands \u2014 good content, real interests, and the one place they contradict the evidence",
+      "tags": [
+        "nutrition",
+        "carbohydrate-fueling",
+        "hydration",
+        "coaching-practice"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Not a study population. This page describes commercial organisations from their public content. The caution it exists to record concerns the populations in the STUDIES these brands report: a brand's article citing \"research shows 120 g/h\" is reporting a trial in twenty gut-trained elite men, and the brand's article does not say so. The population is lost in exactly one hop, which is the hop most athletes' information travels.",
+      "unit": "Not applicable to this page. The unit hazards it warns about are: grams of PRODUCT versus grams of CARBOHYDRATE (a 40 g gel is not 40 g of carbohydrate); and SODIUM versus SODIUM CHLORIDE on labels, a factor of about 2.5. Both are reported inconsistently across brands and both are the kind of error that survives every other check.",
+      "authority": "asserted",
+      "disposition": [],
+      "ip_class": "public",
+      "related": [
+        "carbohydrate-fueling-ladder",
+        "gut-training-protocol",
+        "drink-to-thirst",
+        "sodium-does-not-prevent-cramping"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.precisionhydration.com/performance-advice/nutrition/how-much-carbohydrate-carbs-athletes-per-hour/",
+        "https://www.scienceinsport.com/sports-nutrition/how-to-fuel-an-ultra-marathon/",
+        "https://thefeed.com/insider/90g-carbs-per-hour-the-endurance-fuel-strategy-that-changes-everything"
+      ],
+      "outbound": [
+        "carbohydrate-fueling-ladder",
+        "drink-to-thirst",
+        "gut-training-protocol",
+        "sodium-does-not-prevent-cramping"
+      ],
+      "inbound_count": 4
+    },
+    {
+      "slug": "gi-distress-and-dnf-figures",
+      "path": "advisory/kb/benchmarks/gi-distress-and-dnf-figures.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "GI distress and DNF \u2014 the withdrawal figures, and what unit each of them is actually in",
+      "tags": [
+        "gi-distress",
+        "dnf-decision",
+        "failure-modes",
+        "evidence-base"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "practitioner",
+      "reference_role": "evidence",
+      "population": "Two named US 100-mile races (Western States and Vermont) for the 23% figure, and a separate study of 100-mile runners for the 35.6% figure. Field is predominantly North American, predominantly male, at hot summer 100-milers \u2014 Western States is specifically a hot race and heat is a direct driver of GI symptoms, so this is close to a worst case rather than a representative one. The 30-90% symptom-prevalence range spans endurance athletes across sports and event lengths. The anxiety correlation is from a 56 km race and is a correlation.",
+      "unit": "READ THIS BEFORE QUOTING ANY NUMBER HERE. The 23% is the share of WITHDRAWING RUNNERS whose stated PRIMARY reason was nausea and vomiting \u2014 not the share of starters, and not a cause established by anything other than self-report. The 35.6% is the share of NON-FINISHERS who said GI symptoms CONTRIBUTED to withdrawal, which is a broader question with a lower bar and a different denominator; the two are not comparable and must never be presented as a range. The 30-90% is symptom PREVALENCE among competitors, most of whom finish \u2014 having symptoms and stopping because of them are different events.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: carbohydrate-fueling-ladder \u2014 supplies the counterweight to maximal fuelling rates, which that page needed and did not have on its own",
+        "gap: no source found reports DNF reasons for the whole field of any race as a fraction of STARTERS, only of non-finishers. The denominator that would make these numbers comparable across races does not exist in anything consulted"
+      ],
+      "ip_class": "public",
+      "related": [
+        "carbohydrate-fueling-ladder",
+        "gut-training-protocol",
+        "pacing-by-effort",
+        "the-dnf-decision",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/gi-distress-ultrarunning-dnf/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8665950/",
+        "https://trailhead.ultrasignup.com/training-nutrition/utmb-dnf-data/"
+      ],
+      "outbound": [
+        "gut-training-protocol",
+        "pacing-by-effort",
+        "the-dnf-decision",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 6
+    },
+    {
+      "slug": "gut-training-protocol",
+      "path": "advisory/kb/frameworks/gut-training-protocol.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Gut training \u2014 raising tolerated carbohydrate rate as a trained adaptation rather than a race-day hope",
+      "tags": [
+        "gut-training",
+        "carbohydrate-fueling",
+        "gi-distress"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The intestinal-adaptation finding comes from trained endurance athletes, small samples, mostly male, in studies of roughly two weeks. The elite trial behind the 120 g/h figure required its subjects to have COMPLETED a nutritional and gut-training programme before the race, which is the detail that most often falls off when the result is quoted. The psychological finding \u2014 that pre-race anxiety and stress correlate with GI symptoms \u2014 is from a 56 km race and is a correlation.",
+      "unit": "GRAMS OF CARBOHYDRATE PER HOUR, as in the fuelling ladder. Progression steps are g/h added per WEEK. \"Tolerance\" here means absence of symptoms sufficient to reduce intake, which is a lower bar than absence of symptoms and is the bar that matters for a race.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: carbohydrate-fueling-ladder \u2014 supplies the mechanism by which a rung on that ladder is reached, which the ladder page states as a target and does not explain",
+        "gap: the progression rates given here (start ~30 g/h, +10 g/h per week) are coaching convention repeated across commercial sources. No trial establishes the schedule, only that adaptation occurs and can be fast"
+      ],
+      "ip_class": "public",
+      "related": [
+        "carbohydrate-120g-mountain-marathon-trial",
+        "gi-distress-and-dnf-figures",
+        "carbohydrate-fueling-ladder",
+        "fueling-brands-and-their-interests"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7284742/",
+        "https://trainright.com/gut-check-techniques-to-keep-your-gut-from-ending-your-race-early/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8665950/"
+      ],
+      "outbound": [
+        "carbohydrate-120g-mountain-marathon-trial",
+        "carbohydrate-fueling-ladder",
+        "gi-distress-and-dnf-figures"
+      ],
+      "inbound_count": 4
+    },
+    {
+      "slug": "heat-acclimation-figures",
+      "path": "advisory/kb/benchmarks/heat-acclimation-figures.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Heat acclimation figures \u2014 the timeline numbers, and the female cohort that breaks the male protocol",
+      "tags": [
+        "heat-adaptation",
+        "evidence-base",
+        "physiology"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "peer-reviewed",
+      "reference_role": "evidence",
+      "population": "Endurance-trained athletes in laboratory heat-chamber protocols; predominantly male in the prolonged-acclimation and haematological studies; ONE study specifically in FEMALES, which is the reason the sex difference below is visible at all. Protocols use isothermic methods that clamp core temperature, with supervised exposure. Not acclimatised populations, not field conditions, not amateurs improvising with a sauna.",
+      "unit": "Plasma volume change is PERCENT OF BASELINE PLASMA VOLUME, not of blood volume \u2014 mixing the two roughly halves the apparent effect. Protocol length is CONSECUTIVE DAYS. Core temperature targets are RECTAL temperature in Celsius; wrist, ear and skin readings are different measurements and are not substitutable. Session lengths are MINUTES OF EXPOSURE.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: heat-acclimation-protocol \u2014 supplies the day counts that page's block length depends on, and the sex difference that changes the recommendation",
+        "gap: nothing found evaluates the amateur's actual methods \u2014 sauna after training, hot bath, over-dressed treadmill. The entire evidence base is heat-chamber protocols and the field practice is uncovered"
+      ],
+      "ip_class": "public",
+      "related": [
+        "heat-acclimation-protocol",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6843002/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6842970/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6532023/"
+      ],
+      "outbound": [
+        "heat-acclimation-protocol",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 2
+    },
+    {
+      "slug": "heat-acclimation-protocol",
+      "path": "advisory/kb/frameworks/heat-acclimation-protocol.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Heat acclimation \u2014 a protocol with a real timeline, and the adaptations that decay fastest",
+      "tags": [
+        "heat-adaptation",
+        "physiology",
+        "race-prep"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Endurance-trained athletes, mostly male, mostly cyclists in laboratory protocols; one of the studies behind the timeline is specifically in FEMALES and found four days insufficient where nine days worked, which is exactly the sort of sex difference the shorter male protocols would not have surfaced. Protocols are laboratory heat chambers at controlled temperature and humidity with core temperature clamped by an isothermic method. NOT derived from athletes acclimating in a hot bath, a sauna, or an over-dressed treadmill session, which is how amateurs actually do it and where the evidence is much thinner.",
+      "unit": "Plasma volume change is a PERCENT of baseline plasma volume, not of blood volume. Protocol length is CONSECUTIVE DAYS; the adaptations are day-count dependent and non-linear, so five sessions spread over three weeks is not a five-day protocol. Core temperature targets are RECTAL temperature in degrees Celsius; a wrist or skin reading is not the same measurement. Session durations are minutes of exposure, not minutes of exercise.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: pacing-by-effort \u2014 supplies the physiological reason effort-based pacing must be re-anchored in heat rather than merely followed",
+        "gap: nothing here covers heat acclimation for a race the athlete travels to, where the acclimation block and the taper collide. That is the ordinary amateur case and it is uncovered"
+      ],
+      "ip_class": "public",
+      "related": [
+        "heat-acclimation-figures",
+        "pacing-by-effort",
+        "drink-to-thirst"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6843002/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6842970/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6532023/"
+      ],
+      "outbound": [
+        "drink-to-thirst",
+        "heat-acclimation-figures",
+        "pacing-by-effort"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "mental-skills-toolkit",
+      "path": "advisory/kb/frameworks/mental-skills-toolkit.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Mental skills \u2014 the trainable ones, separated from the ones that are just personality",
+      "tags": [
+        "mindset",
+        "self-talk",
+        "pain-perception",
+        "motivation"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The psychological-skills evidence is drawn from sport psychology across endurance sports, with the most-cited running work in marathon and cycling time-trial protocols in laboratories \u2014 small samples, mostly trained, mostly male, efforts of under an hour. The self-talk and effort-perception findings are from those protocols. NOTHING here was measured at hour twenty of an ultra, and the extension to that setting is an inference. The GI/anxiety correlation is from a 56 km race.",
+      "unit": "Where effect sizes are referred to they are on TIME TO EXHAUSTION or TIME TRIAL performance in laboratory protocols under an hour \u2014 not on ultra finishing time, for which no such measurement exists. Perceived exertion is an ordinal subjective scale and differences in it are not interconvertible with physiological measures.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: the-dnf-decision \u2014 supplies the techniques that page's row-two countermeasures depend on, which it references without describing",
+        "gap: this corpus holds nothing on the psychology of the training block as distinct from the race \u2014 the identity, the burnout, the athlete who cannot take a rest day. Named as a lead in the master list"
+      ],
+      "ip_class": "public",
+      "related": [
+        "the-dnf-decision",
+        "ultrarunning-book-canon",
+        "minimum-effective-dose-and-time"
+      ],
+      "summary": "",
+      "sources": [
+        "https://marathonhandbook.com/endure/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8665950/",
+        "https://trainright.com/ultrarunning/"
+      ],
+      "outbound": [
+        "minimum-effective-dose-and-time",
+        "the-dnf-decision",
+        "ultrarunning-book-canon"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "minimum-effective-dose-and-time",
+      "path": "advisory/kb/frameworks/minimum-effective-dose-and-time.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "The minimum effective dose \u2014 designing a block around the hours that actually exist",
+      "tags": [
+        "time-management",
+        "life-load",
+        "training-methodology",
+        "habit-adherence"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Coaching-company and practitioner writing aimed at working amateurs, mostly in cycling and triathlon, generalised here to ultrarunning. NO study population and no trial. The recurring 6-10 h/week figure is a coaching convention repeated across commercial sources, several of which sell training plans to exactly this athlete. Treat every number on this page as an assertion with a commercial interest attached, recorded in time-crunched-volume-claims.",
+      "unit": "HOURS PER WEEK OF TRAINING, which in most sources means total session time including warm-up, strength work and commuting \u2014 not hours of running. The distinction matters by 20-30% for anyone who lifts or cycles to work. \"Consistency\" is used loosely across sources; here it means the proportion of PLANNED sessions completed over a rolling twelve weeks, which is a measurable quantity and the one worth tracking.",
+      "authority": "experienced",
+      "disposition": [
+        "counterpoint: polarized-intensity-distribution \u2014 the 80/20 evidence comes from athletes training two to four times these hours, and at 6-8 h/week the case for spending 80% of them easy is materially weaker. Both positions held",
+        "gap: no source consulted offers a defensible method for deciding WHICH sessions to cut when a week collapses. Every one of them says 'be consistent' and none says what to drop"
+      ],
+      "ip_class": "public",
+      "related": [
+        "time-crunched-volume-claims",
+        "polarized-intensity-distribution",
+        "periodization-for-ultras",
+        "energy-availability-floor",
+        "mental-skills-toolkit"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/time-crunched-training-week-framework/",
+        "https://www.precisionhydration.com/performance-advice/performance/how-to-find-a-work-life-training-sport-balance/",
+        "https://simpleendurance.medium.com/gravel-training-with-limited-time-6-8-hours-per-week-plan-for-100-mile-races-2288de413568"
+      ],
+      "outbound": [
+        "energy-availability-floor",
+        "mental-skills-toolkit",
+        "periodization-for-ultras",
+        "time-crunched-volume-claims",
+        "vertical-gain-and-its-substitutes"
+      ],
+      "inbound_count": 5
+    },
+    {
+      "slug": "pacing-by-effort",
+      "path": "advisory/kb/frameworks/pacing-by-effort.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Pacing by effort \u2014 why the mountain ultra is paced on a different variable from the marathon",
+      "tags": [
+        "pacing",
+        "race-strategy",
+        "physiology",
+        "training-load-monitoring"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The negative-split physiology is from MARATHON literature \u2014 road, level, two to four hours, trained runners. It is included here as the thing being argued against, not as support. The mountain-ultra observations (lower speed variability in faster finishers, positive splits normal, aid-station time as a differentiator) come from race-data commentary and coaching analysis of specific events, principally UTMB, and are NOT peer-reviewed. Faster finishers are also systematically different athletes, so \"what fast finishers do\" is not evidence about what would make a given athlete faster.",
+      "unit": "Pace is MIN/KM or MIN/MILE and is close to meaningless on steep terrain. Grade-adjusted pace is a MODELLED equivalent-flat pace and every implementation uses a different model, so GAP figures are not comparable between platforms. \"Effort\" here means rating of perceived exertion, a subjective ordinal scale, NOT heart rate \u2014 heart rate drifts upward at constant effort over hours, which is precisely why it fails as a pacing variable in this event. Splits are percentage slowdown of second half versus first.",
+      "authority": "experienced",
+      "disposition": [
+        "sharpened: carbohydrate-fueling-ladder \u2014 makes explicit that a fuelling failure is frequently a pacing failure one hour earlier, which that page states and does not develop",
+        "gap: no page here holds a defensible method for setting a target finish time on an unfamiliar mountain course. Every source consulted describes pacing DURING the race and none describes the prediction that precedes it"
+      ],
+      "ip_class": "public",
+      "related": [
+        "gi-distress-and-dnf-figures",
+        "the-dnf-decision",
+        "heat-acclimation-protocol",
+        "carbohydrate-fueling-ladder",
+        "periodization-for-ultras",
+        "vertical-gain-and-its-substitutes",
+        "sleep-and-the-night"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12307312/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12832444/",
+        "https://trailhead.ultrasignup.com/training-nutrition/utmb-dnf-data/"
+      ],
+      "outbound": [
+        "carbohydrate-fueling-ladder",
+        "gi-distress-and-dnf-figures",
+        "heat-acclimation-protocol",
+        "periodization-for-ultras",
+        "sleep-and-the-night",
+        "the-dnf-decision",
+        "vertical-gain-and-its-substitutes"
+      ],
+      "inbound_count": 7
+    },
+    {
+      "slug": "periodization-for-ultras",
+      "path": "advisory/kb/frameworks/periodization-for-ultras.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Periodisation for ultras \u2014 sequencing a build when the race is longer than any session in it",
+      "tags": [
+        "periodization",
+        "training-methodology",
+        "tapering",
+        "long-run"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Coaching practice, not a study population. The structures described are those taught by ultrarunning coaching organisations to amateur athletes training roughly 6-15 hours a week for single-day mountain and trail ultras of 50k to 100 miles. NOT derived from a controlled trial; there is no periodisation trial in ultrarunning of any useful size. Where a phase length or a taper duration is given, it is a coaching convention with wide variation between schools, not a measured optimum.",
+      "unit": "Phase lengths are in WEEKS. \"Volume\" means weekly hours of running plus hiking, not miles \u2014 distance is a misleading unit in mountain training, where an hour buys three kilometres uphill and eleven on the flat. Vertical gain is in metres climbed per week.",
+      "authority": "experienced",
+      "disposition": [
+        "sharpened: polarized-intensity-distribution \u2014 the intensity question is meaningless without a phase to place it in, which that page defers to this one",
+        "gap: no page here holds a periodisation model traced to a primary text. This is assembled from coaching-company web material, and the books that would settle it are unread"
+      ],
+      "ip_class": "public",
+      "related": [
+        "polarized-intensity-distribution",
+        "pacing-by-effort",
+        "minimum-effective-dose-and-time",
+        "coaching-schools-and-where-they-disagree",
+        "strength-training-for-ultrarunners"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/ultrarunning/",
+        "https://uphillathlete.com/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4621419/"
+      ],
+      "outbound": [
+        "minimum-effective-dose-and-time",
+        "pacing-by-effort",
+        "strength-training-for-ultrarunners"
+      ],
+      "inbound_count": 5
+    },
+    {
+      "slug": "polarized-intensity-distribution",
+      "path": "advisory/kb/frameworks/polarized-intensity-distribution.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Polarized intensity distribution \u2014 what the 80/20 rule actually claims, and what the evidence supports",
+      "tags": [
+        "intensity-distribution",
+        "aerobic-base",
+        "training-methodology",
+        "threshold",
+        "vo2max"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The reviews behind this page are of endurance athletes broadly \u2014 cyclists, rowers, cross-country skiers, runners at 1500 m to marathon \u2014 predominantly well-trained to elite, predominantly male, in studies of eight to twelve weeks. NOT derived from ultramarathon runners, NOT from athletes training 6-10 hours a week, and NOT over a season. The observational half of the evidence (Stoggl and Sperlich's survey of elite training) describes what elite endurance athletes DO; the interventional half describes what happens to VO2max over three months. Neither describes what makes a recreational runner finish a 100 miler.",
+      "unit": "Percentages are of TRAINING SESSIONS or of TRAINING TIME depending on the study, and the two give materially different numbers for the same athlete because hard sessions are shorter than easy ones. A programme that is 80% easy by time may be 65% easy by session count. Zones are three-zone (below first threshold / between thresholds / above second threshold) unless stated, which is not the five-zone scheme most watches use.",
+      "authority": "established",
+      "disposition": [
+        "gap: nothing in this corpus covers how intensity distribution should differ between a 50k and a 100 miler, and the source literature does not address ultra distances at all"
+      ],
+      "ip_class": "public",
+      "related": [
+        "periodization-for-ultras",
+        "minimum-effective-dose-and-time",
+        "polarized-training-review-evidence",
+        "coaching-schools-and-where-they-disagree"
+      ],
+      "summary": "",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11679080/",
+        "https://link.springer.com/article/10.1007/s40279-024-02034-z",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4621419/"
+      ],
+      "outbound": [
+        "coaching-schools-and-where-they-disagree",
+        "minimum-effective-dose-and-time",
+        "periodization-for-ultras",
+        "polarized-training-review-evidence"
+      ],
+      "inbound_count": 4
+    },
+    {
+      "slug": "polarized-training-review-evidence",
+      "path": "advisory/kb/benchmarks/polarized-training-review-evidence.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "The polarised training reviews \u2014 what the systematic evidence supports, and the study that complicates it",
+      "tags": [
+        "intensity-distribution",
+        "evidence-base",
+        "framework-comparison",
+        "vo2max"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "peer-reviewed",
+      "reference_role": "evidence",
+      "population": "Endurance athletes across cycling, running, rowing, cross-country skiing and triathlon; trained to elite; predominantly male; intervention periods typically 8-12 weeks. One review screened 1,836 articles and included 14. The observational literature (Stoggl and Sperlich) describes the training of well-trained and elite endurance athletes as logged, at training volumes far above an amateur's. NO ultramarathon population appears anywhere in this evidence base, and no event longer than about three hours.",
+      "unit": "Distribution percentages are of SESSIONS or of TIME depending on the study and the two are not interchangeable \u2014 a plan that is 80% easy by time can be 65% easy by session count. Zones are THREE-ZONE (below LT1 / between thresholds / above LT2), not the five-zone scheme on a sports watch. Outcomes are VO2max or VO2peak in ml/kg/min and work economy as oxygen cost at a fixed submaximal workload \u2014 not race performance.",
+      "authority": "established",
+      "disposition": [
+        "counterpoint: polarized-intensity-distribution \u2014 the meta-analytic evidence does NOT separate polarised from other distributions, which is the opposite of what the framework's popular form claims. Both recorded",
+        "gap: no study in either review used ultramarathon runners or events over about three hours, so the entire intensity-distribution literature is being extrapolated into this sport without a single direct observation"
+      ],
+      "ip_class": "public",
+      "related": [
+        "polarized-intensity-distribution",
+        "where-the-evidence-lives",
+        "coaching-schools-and-where-they-disagree"
+      ],
+      "summary": "",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11679080/",
+        "https://link.springer.com/article/10.1007/s40279-024-02034-z",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4621419/"
+      ],
+      "outbound": [
+        "coaching-schools-and-where-they-disagree",
+        "polarized-intensity-distribution",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "reds-and-low-energy-availability-evidence",
+      "path": "advisory/kb/benchmarks/reds-and-low-energy-availability-evidence.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "REDs and low energy availability \u2014 the consensus, the prevalence in men, and what the syndrome debate does not change",
+      "tags": [
+        "energy-availability",
+        "evidence-base",
+        "overtraining",
+        "body-composition"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "peer-reviewed",
+      "reference_role": "foundation",
+      "population": "The IOC consensus synthesises evidence across sports and both sexes, with the deepest literature in FEMALE endurance and aesthetic-sport athletes where the syndrome was first characterised. Prevalence work in competitively trained MALE endurance athletes is more recent and thinner and still finds low energy availability common. Endurance and aesthetic sports are named higher-risk than ball sports. NO ultrarunning-specific data was found in anything consulted.",
+      "unit": "Energy availability is kcal per kg FAT-FREE MASS per day = (dietary energy intake - exercise energy expenditure) / fat-free mass. It is NOT calorie intake and NOT a deficit against total daily energy expenditure, and both substitutions are common. Because fat-free mass comes from a body-composition estimate with substantial error, a computed EA figure carries far less precision than its digits imply. Prevalence figures are PERCENT OF ATHLETES SCREENED, using screening instruments of varying sensitivity, so cross-study prevalence comparisons are unsafe.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: energy-availability-floor \u2014 supplies the consensus standing and the male prevalence data that make that page a gate rather than a topic",
+        "gap: nothing found gives prevalence or risk data specific to ULTRARUNNERS, whose training loads are among the highest in amateur sport and whose culture is unusually tolerant of leanness"
+      ],
+      "ip_class": "public",
+      "related": [
+        "energy-availability-floor",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://academic.oup.com/edrv/article/45/5/676/7629683",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6843850/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11561064/"
+      ],
+      "outbound": [
+        "energy-availability-floor",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 2
+    },
+    {
+      "slug": "sleep-and-the-night",
+      "path": "advisory/kb/frameworks/sleep-and-the-night.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Sleep and the night \u2014 sleep as a training input, and the race-night plan most runners do not have",
+      "tags": [
+        "sleep",
+        "night-and-sleep-deprivation",
+        "recovery"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "The large survey behind most of this is 1,154 finishers of MOUNTAIN ultramarathons \u2014 a self-selected sample of people who finished, which systematically excludes those whose night went worst. The >100 mile sleep/wake study is self-reported. The pacing-under-sleep-deprivation finding is from a single-effort ultramarathon. Sleep-banking evidence comes partly from non-athlete sleep-restriction laboratory work. Nothing here is from a randomised trial of a race-night strategy, because that trial would be difficult and probably unethical.",
+      "unit": "Sleep is in HOURS PER NIGHT, or MINUTES for in-race naps. \"Sleep banking\" means sleep EXTENSION above habitual in the nights before, not catching up afterwards. Race durations are HOURS. Note that \"recovered normal wakefulness within two days\" is a measure of SUBJECTIVE WAKEFULNESS, not of physiological recovery, which takes considerably longer.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: the-dnf-decision \u2014 supplies the mechanism behind that page's rule about not making irreversible decisions at 4 a.m., which it otherwise asserts",
+        "gap: nothing here covers sleep for the shift worker or the parent of a small child, which is a large share of the amateur field and the population for whom every recommendation on this page is unavailable"
+      ],
+      "ip_class": "public",
+      "related": [
+        "sleep-in-mountain-ultramarathon-finishers",
+        "the-dnf-decision",
+        "pacing-by-effort"
+      ],
+      "summary": "",
+      "sources": [
+        "https://link.springer.com/article/10.1186/s40798-024-00704-w",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9316872/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7347363/"
+      ],
+      "outbound": [
+        "pacing-by-effort",
+        "sleep-in-mountain-ultramarathon-finishers",
+        "the-dnf-decision"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "sleep-in-mountain-ultramarathon-finishers",
+      "path": "advisory/kb/benchmarks/sleep-in-mountain-ultramarathon-finishers.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Sleep in mountain ultramarathon finishers \u2014 the 1,154-finisher survey, and the sample it cannot see",
+      "tags": [
+        "sleep",
+        "night-and-sleep-deprivation",
+        "evidence-base"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "empirical",
+      "reference_role": "evidence",
+      "population": "1,154 FINISHERS of mountain ultramarathons, self-reporting after the event. The word finishers is the whole caveat: everyone whose night went badly enough to end their race is absent from this sample by construction, which is precisely the population a night strategy is designed for. The >100-mile sleep/wake study is likewise self-reported. The pacing-under-sleep-deprivation study is a single-effort ultramarathon. Race references are to events such as Western States and UTMB \u2014 competitive mountain 100-milers, not the sport's median event.",
+      "unit": "Race durations are HOURS ON COURSE. Naps are MINUTES. \"Sleep banking\" means SLEEP EXTENSION above habitual in the nights BEFORE the race, not recovery sleep afterwards, and the two are constantly confused. \"Recovered a normal state of wakefulness within two days\" is SUBJECTIVE WAKEFULNESS by self-report \u2014 it is not a measure of physiological or musculoskeletal recovery, which takes far longer, and reading it as such is the most consequential misuse of this page.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: sleep-and-the-night \u2014 supplies the finisher-behaviour data and the sleep-extension association that page's night plan is built on",
+        "counterpoint: sleep-and-the-night \u2014 the survivorship problem here undercuts any recommendation drawn from what finishers did, and is recorded rather than glossed"
+      ],
+      "ip_class": "public",
+      "related": [
+        "sleep-and-the-night",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://link.springer.com/article/10.1186/s40798-024-00704-w",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9316872/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7347363/"
+      ],
+      "outbound": [
+        "sleep-and-the-night",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 2
+    },
+    {
+      "slug": "sodium-does-not-prevent-cramping",
+      "path": "advisory/kb/benchmarks/sodium-does-not-prevent-cramping.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Sodium intake and cramping \u2014 the null result, and the consensus position on drinking",
+      "tags": [
+        "sodium-electrolytes",
+        "hydration",
+        "evidence-base",
+        "failure-modes"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "peer-reviewed",
+      "reference_role": "skeptic",
+      "population": "The null result is from a FIELD study of runners in hot-weather ultramarathons of up to about 30 hours \u2014 real races, not a laboratory, with sodium intake as observed rather than assigned. Mixed sex but not powered to examine sex differences, and hyponatremia risk differs by sex and body size. The consensus statement synthesises marathon, ultramarathon, triathlon and military populations. NOTE what a null field result can and cannot do: it cannot exclude an effect in individuals with unusually high sweat sodium losses, because such individuals were not identified and analysed separately.",
+      "unit": "Sodium is MILLIGRAMS. Product labels differ in whether they state SODIUM or SODIUM CHLORIDE, a factor of about 2.5 between them, and \"a salt tablet\" is not a unit \u2014 products vary more than fivefold. Plasma sodium is mmol/L, with hyponatremia conventionally below 135 mmol/L. Fluid intake is ml/h. The exposure in the null study is TOTAL SODIUM INTAKE over the event, not concentration and not timing.",
+      "authority": "established",
+      "disposition": [
+        "counterpoint: fueling-brands-and-their-interests \u2014 directly contradicts the commercial personalised-sodium position, and both are held with their evidence rather than one being deleted",
+        "sharpened: drink-to-thirst \u2014 this is the evidential spine of that page; without it the thirst recommendation is just another opinion in a crowded field"
+      ],
+      "ip_class": "public",
+      "related": [
+        "drink-to-thirst",
+        "fueling-brands-and-their-interests",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4688305/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334560/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK572128/"
+      ],
+      "outbound": [
+        "drink-to-thirst",
+        "fueling-brands-and-their-interests",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "strength-training-for-ultrarunners",
+      "path": "advisory/kb/frameworks/strength-training-for-ultrarunners.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Strength training for ultrarunners \u2014 what it buys, at what load, and what it does not buy",
+      "tags": [
+        "strength-training",
+        "speed-economy",
+        "injury-prevention",
+        "plyometrics-durability"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Middle- and long-distance runners, trained to highly trained, in controlled trials of 6-14 weeks, predominantly male, with running economy measured at submaximal speeds typically between 12 and 18 km/h on a level treadmill in a laboratory. NOT ultrarunners. NOT measured on a gradient. NOT measured in a fatigued state, which is the state that matters here \u2014 the \"durability\" extension of the finding is an inference from the mechanism, not a result these trials report.",
+      "unit": "Running economy is oxygen cost (ml/kg/min or ml/kg/km) at a FIXED SUBMAXIMAL SPEED. A \"3-5% improvement\" is a reduction in oxygen cost at that speed, NOT a 3-5% improvement in race time and not a 3-5% increase in speed. \"High load\" means an external resistance at roughly 80% of one- repetition maximum or above; it does not mean hard-feeling. Frequency is sessions per week.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: periodization-for-ultras \u2014 supplies the mechanism behind that page's strength/durability phase, which otherwise asserts a phase with no stated purpose",
+        "gap: the running-economy evidence is all from middle- and long-distance runners at speeds far above ultra pace. Nothing here establishes that the effect survives at 12 min/mile on a 20% grade after eight hours"
+      ],
+      "ip_class": "public",
+      "related": [
+        "strength-training-running-economy-meta-analyses",
+        "vertical-gain-and-its-substitutes",
+        "periodization-for-ultras"
+      ],
+      "summary": "",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s40279-023-01978-y",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11052887/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11258194/"
+      ],
+      "outbound": [
+        "periodization-for-ultras",
+        "strength-training-running-economy-meta-analyses",
+        "vertical-gain-and-its-substitutes"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "strength-training-running-economy-meta-analyses",
+      "path": "advisory/kb/benchmarks/strength-training-running-economy-meta-analyses.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Strength training and running economy \u2014 the meta-analyses, and the speeds they were measured at",
+      "tags": [
+        "strength-training",
+        "speed-economy",
+        "evidence-base"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "peer-reviewed",
+      "reference_role": "evidence",
+      "population": "Middle- and long-distance runners, trained to highly trained, predominantly male, in controlled trials of roughly 6-14 weeks. Running economy measured at FIXED SUBMAXIMAL SPEEDS, typically in the 12-18 km/h range, on a LEVEL treadmill, in a laboratory, in a RESTED state. No ultramarathon population. No gradient. No fatigued measurement \u2014 which means the \"durability\" extension of the finding, however plausible, is not something these trials observed.",
+      "unit": "Running economy is OXYGEN COST at a fixed submaximal speed (ml/kg/min or ml/kg/km). A \"3-5% improvement\" is a 3-5% REDUCTION IN OXYGEN COST at that speed. It is NOT a 3-5% improvement in race time, NOT a 3-5% increase in speed, and the conversion between them is not linear and not established. \"High load\" means external resistance at roughly >=80% of one-repetition maximum; it does not mean subjectively hard. Frequency is SESSIONS PER WEEK.",
+      "authority": "established",
+      "disposition": [
+        "sharpened: strength-training-for-ultrarunners \u2014 supplies the load prescription and the frequency finding that page's protocol rests on, and the null result for light circuits",
+        "gap: every measurement is on a level treadmill at speeds far above ultra pace, in fresh athletes. Whether the effect exists at 12 min/mile on a gradient after eight hours is unmeasured, and that is the only version of the question this corpus cares about"
+      ],
+      "ip_class": "public",
+      "related": [
+        "strength-training-for-ultrarunners",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s40279-023-01978-y",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11052887/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11258194/"
+      ],
+      "outbound": [
+        "strength-training-for-ultrarunners",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 2
+    },
+    {
+      "slug": "the-dnf-decision",
+      "path": "advisory/kb/frameworks/the-dnf-decision.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "The DNF decision \u2014 deciding to stop, or not to, using a rule written by someone who had slept",
+      "tags": [
+        "dnf-decision",
+        "race-strategy",
+        "mindset",
+        "failure-modes"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Coaching and practitioner writing about single-day trail and mountain ultras, plus DNF-reason data from named US 100-milers and from UTMB. No study population. The decision procedure below is ASSERTED \u2014 it is a synthesis of practitioner advice with the sleep and GI findings held elsewhere in this corpus, and no part of it has been tested.",
+      "unit": "Not applicable \u2014 this page carries no figures of its own. Where it refers to withdrawal percentages it points at gi-distress-and-dnf-figures, where the unit trap (percent of NON-FINISHERS citing a reason, versus percent of STARTERS) is recorded.",
+      "authority": "experienced",
+      "disposition": [
+        "sharpened: gi-distress-and-dnf-figures \u2014 converts that page's withdrawal statistics into a decision procedure, which the figures alone do not supply",
+        "gap: nothing in this corpus covers the psychological aftermath of a DNF, which several sources describe as the more damaging half and none of them treat systematically"
+      ],
+      "ip_class": "public",
+      "related": [
+        "gi-distress-and-dnf-figures",
+        "pacing-by-effort",
+        "mental-skills-toolkit",
+        "sleep-and-the-night"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/gi-distress-ultrarunning-dnf/",
+        "https://www.trailrunnermag.com/training/how-to-know-when-to-dnf/",
+        "https://trailhead.ultrasignup.com/training-nutrition/utmb-dnf-data/"
+      ],
+      "outbound": [
+        "gi-distress-and-dnf-figures",
+        "mental-skills-toolkit",
+        "pacing-by-effort",
+        "sleep-and-the-night"
+      ],
+      "inbound_count": 4
+    },
+    {
+      "slug": "time-crunched-volume-claims",
+      "path": "advisory/kb/benchmarks/time-crunched-volume-claims.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Time-crunched volume claims \u2014 the 6-10 hour figure, and who is selling it",
+      "tags": [
+        "time-management",
+        "life-load",
+        "evidence-base",
+        "best-practices"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "practitioner",
+      "reference_role": "evidence",
+      "population": "Not a study population \u2014 these are coaching-company and practitioner articles addressed to working amateur endurance athletes, mostly in cycling and triathlon, generalised here to ultrarunning without evidence for that step. Several of the sources SELL TRAINING PLANS TO EXACTLY THIS ATHLETE, which is not disqualifying and is recorded. Where they cite research at all it is the elite training-intensity-distribution literature, whose population trains two to four times these hours.",
+      "unit": "HOURS PER WEEK OF TRAINING, which in these sources generally means total session time including warm-up, strength work and sometimes commuting \u2014 not hours of running. The difference is 20-30% for anyone who lifts. \"Consistency\" is used without definition in every source consulted; the operational definition used in this corpus (percent of PLANNED sessions completed over a rolling twelve weeks) is ours, not theirs, and is labelled as such.",
+      "authority": "experienced",
+      "disposition": [
+        "sharpened: minimum-effective-dose-and-time \u2014 supplies that page's numbers together with the reason to distrust them, which is the only honest way to supply them",
+        "gap: THE largest evidential hole in this corpus. There is no measurement anywhere of what training volume an amateur needs to finish a long ultra, and it is the question amateurs ask first"
+      ],
+      "ip_class": "public",
+      "related": [
+        "minimum-effective-dose-and-time",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/time-crunched-training-week-framework/",
+        "https://www.precisionhydration.com/performance-advice/performance/how-to-find-a-work-life-training-sport-balance/",
+        "https://simpleendurance.medium.com/gravel-training-with-limited-time-6-8-hours-per-week-plan-for-100-mile-races-2288de413568"
+      ],
+      "outbound": [
+        "minimum-effective-dose-and-time",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 2
+    },
+    {
+      "slug": "ultrarunning-book-canon",
+      "path": "advisory/kb/benchmarks/ultrarunning-book-canon.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "The ultrarunning book canon \u2014 what each book is actually for, and which claim in this corpus it would settle",
+      "tags": [
+        "bibliography",
+        "training-methodology",
+        "best-practices",
+        "mindset"
+      ],
+      "citation_status": "recommended",
+      "quality_signal": "unknown",
+      "reference_role": "foundation",
+      "population": "Not applicable \u2014 this is a bibliography, not a source of figures. The relevant caution is about the BOOKS' populations rather than this page's: the training texts here are written from coaching practice with elite and committed-amateur mountain athletes, and none of them is an evidence review. Where a book states a number, that number inherits the book's population, which is frequently unstated. Read them for METHOD; take figures from the papers.",
+      "unit": "Publication years and edition numbers below are as reported by retailers and reader summaries and were NOT verified against publisher records. Page and chapter counts likewise. Treat every bibliographic detail on this page as unverified until the book is in hand \u2014 several of these titles have multiple editions whose content differs materially, and citing the wrong edition is the specific error this note exists to prevent.",
+      "authority": "asserted",
+      "disposition": [
+        "gap: every book on this page is UNREAD. The corpus currently holds no page distilled from a primary training text, which is the single largest structural weakness in it and the reason this page exists as a queue rather than as a summary"
+      ],
+      "ip_class": "public",
+      "related": [
+        "mental-skills-toolkit",
+        "ultrarunning-podcasts-blogs-and-newsletters",
+        "coaching-schools-and-where-they-disagree"
+      ],
+      "summary": "",
+      "sources": [
+        "https://trainright.com/ultrarunning/",
+        "https://www.amazon.com/Training-Essentials-Ultrarunning-Second-Jason/dp/B0B3JQ8M4H",
+        "https://www.goodreads.com/shelf/show/ultrarunning",
+        "https://bymatthart.com/uphill",
+        "https://marathonhandbook.com/endure/"
+      ],
+      "outbound": [
+        "coaching-schools-and-where-they-disagree",
+        "mental-skills-toolkit",
+        "ultrarunning-podcasts-blogs-and-newsletters"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "ultrarunning-podcasts-blogs-and-newsletters",
+      "path": "advisory/kb/benchmarks/ultrarunning-podcasts-blogs-and-newsletters.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Podcasts, blogs and newsletters \u2014 the non-book landscape, what each is reliable for, and where its interest lies",
+      "tags": [
+        "bibliography",
+        "coaching-practice",
+        "best-practices"
+      ],
+      "citation_status": "recommended",
+      "quality_signal": "unknown",
+      "reference_role": "foundation",
+      "population": "Not applicable \u2014 a bibliography. The caution that matters is about the SOURCES: nearly all of these are produced by people with a commercial interest in the sport \u2014 coaches selling coaching, brands selling fuel, media selling attention. That is normal and is not a reason to exclude them; it is a reason to record it, which the table below does per entry.",
+      "unit": "Not applicable. Where a podcast or post quotes a figure, that figure carries the population and unit of the study it is reporting, which the podcast almost never states. A number heard on a podcast is citation_status ACQUIRED at best, and cites the podcast, not the study. That rule is the single most important line on this page.",
+      "authority": "asserted",
+      "disposition": [
+        "gap: the sport's knowledge is disproportionately held in podcasts, and a podcast claim nobody has heard is a gap rather than a citation. This page names where the substance is and records that none of it has been extracted"
+      ],
+      "ip_class": "public",
+      "related": [
+        "ultrarunning-book-canon",
+        "coaching-schools-and-where-they-disagree",
+        "where-the-evidence-lives"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.irunfar.com/ultrarunning-blogs-i-read",
+        "https://podcast.feedspot.com/ultra_running_podcasts/",
+        "https://www.thetravelrunner.com/best-trail-running-podcasts/",
+        "https://bloggers.feedspot.com/trail_running_blogs/",
+        "https://www.listennotes.com/podcasts/some-work-all-play-david-roche-and-megan-SdQri9xfTw1/"
+      ],
+      "outbound": [
+        "coaching-schools-and-where-they-disagree",
+        "ultrarunning-book-canon",
+        "where-the-evidence-lives"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "vertical-gain-and-its-substitutes",
+      "path": "advisory/kb/frameworks/vertical-gain-and-its-substitutes.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Vertical gain and its substitutes \u2014 treadmill, stair machine and climbing machine, and what each one cannot replace",
+      "tags": [
+        "vertical-gain",
+        "treadmill-training",
+        "indoor-climbing-machines",
+        "cross-training",
+        "downhill-eccentric"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Coaching opinion for mountaineers and mountain runners, plus fitness-equipment marketing literature. NO study population. The one quantitative comparison repeated across sources \u2014 that a stair machine presents an effective gradient far steeper than a treadmill's typical 15% ceiling \u2014 is a geometric fact about the machines, not a training finding. Everything about TRANSFER is coaching assertion.",
+      "unit": "\"Vert\" means METRES (or feet) OF ELEVATION GAIN, and the unit trap is severe: a stair machine reports a step count, a floor count, or a vertical figure computed from an assumed step height, and these do not agree between machines or between manufacturers. A treadmill's vertical is speed x grade x time and is arithmetically exact. Do not sum vertical across modalities without stating how each was derived. Gradient is given as PERCENT (rise over run), where 100% is 45 degrees \u2014 not as degrees.",
+      "authority": "experienced",
+      "disposition": [
+        "gap: there is no controlled comparison of indoor vertical modalities against outdoor climbing for mountain-ultra outcomes. Every source behind this page is coaching opinion or equipment marketing, and both are recorded as such",
+        "counterpoint: coaching-schools-and-where-they-disagree \u2014 the schools split on whether hiking-specific work is a distinct discipline or simply low-intensity aerobic work in another posture"
+      ],
+      "ip_class": "public",
+      "related": [
+        "strength-training-for-ultrarunners",
+        "coaching-schools-and-where-they-disagree",
+        "pacing-by-effort"
+      ],
+      "summary": "",
+      "sources": [
+        "https://evokeendurance.com/forums/topic/stairmaster-vs-incline-treadmill-for-vertical-gain/",
+        "https://www.rmiguides.com/blog/2019/03/11/mountaineering_training_training_for_vertical_gain",
+        "https://www.corehandf.com/blogs/shop-hs/stairmaster-vs-incline-treadmill-can-incline-walking-replace-the-stairmaster"
+      ],
+      "outbound": [
+        "pacing-by-effort",
+        "strength-training-for-ultrarunners"
+      ],
+      "inbound_count": 4
+    },
+    {
+      "slug": "where-the-evidence-lives",
+      "path": "advisory/kb/benchmarks/where-the-evidence-lives.md",
+      "wiki_type": "source",
+      "layer": 2,
+      "title": "Where the evidence lives \u2014 the journals, the access routes, and the eight holes this corpus cannot fill",
+      "tags": [
+        "bibliography",
+        "evidence-base",
+        "physiology"
+      ],
+      "citation_status": "recommended",
+      "quality_signal": "unknown",
+      "reference_role": "method",
+      "population": "Not applicable \u2014 a map of sources. The recurring caution about the populations in this literature is the reason the corpus has a `population` field at all: endurance research is built on small samples of well-trained young men, frequently on cycle ergometers because they are easier to instrument than mountains, in efforts far shorter than an ultra. Assume that shape unless a paper says otherwise, and check whether it says otherwise.",
+      "unit": "Not applicable. The standing unit warning: this literature reports oxygen cost, power, time to exhaustion and blood markers. It very rarely reports FINISHING AN ULTRAMARATHON. Every translation from the first set to the second is an inference and should be labelled as one.",
+      "authority": "asserted",
+      "disposition": [
+        "gap: this page IS the gap register for the evidence layer. Its second half lists eight questions this corpus routes to and cannot ground from any literature found, which is the honest state of the sport's evidence base rather than a defect in this vault"
+      ],
+      "ip_class": "public",
+      "related": [
+        "ultrarunning-podcasts-blogs-and-newsletters",
+        "gi-distress-and-dnf-figures",
+        "carbohydrate-120g-mountain-marathon-trial",
+        "polarized-training-review-evidence",
+        "heat-acclimation-figures",
+        "sleep-in-mountain-ultramarathon-finishers",
+        "strength-training-running-economy-meta-analyses",
+        "sodium-does-not-prevent-cramping",
+        "reds-and-low-energy-availability-evidence",
+        "time-crunched-volume-claims"
+      ],
+      "summary": "",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/",
+        "https://link.springer.com/journal/40279",
+        "https://www.frontiersin.org/journals/physiology"
+      ],
+      "outbound": [
+        "carbohydrate-120g-mountain-marathon-trial",
+        "gi-distress-and-dnf-figures",
+        "heat-acclimation-figures",
+        "polarized-training-review-evidence",
+        "reds-and-low-energy-availability-evidence",
+        "sleep-in-mountain-ultramarathon-finishers",
+        "sodium-does-not-prevent-cramping",
+        "strength-training-running-economy-meta-analyses",
+        "time-crunched-volume-claims",
+        "ultrarunning-podcasts-blogs-and-newsletters"
+      ],
+      "inbound_count": 10
+    }
+  ],
+  "by_layer": {
+    "1": [
+      "carbohydrate-fueling-ladder",
+      "drink-to-thirst",
+      "energy-availability-floor",
+      "gut-training-protocol",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "minimum-effective-dose-and-time",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "polarized-intensity-distribution",
+      "sleep-and-the-night",
+      "strength-training-for-ultrarunners",
+      "the-dnf-decision",
+      "vertical-gain-and-its-substitutes"
+    ],
+    "2": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "gi-distress-and-dnf-figures",
+      "heat-acclimation-figures",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-running-economy-meta-analyses",
+      "time-crunched-volume-claims",
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "where-the-evidence-lives"
+    ],
+    "3": [
+      "coaching-schools-and-where-they-disagree",
+      "fueling-brands-and-their-interests"
+    ]
+  },
+  "by_lens": {
+    "aerobic-base": [
+      "coaching-schools-and-where-they-disagree",
+      "polarized-intensity-distribution"
+    ],
+    "aid-station-crew": [],
+    "altitude": [],
+    "best-practices": [
+      "time-crunched-volume-claims",
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters"
+    ],
+    "bibliography": [
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "where-the-evidence-lives"
+    ],
+    "body-composition": [
+      "energy-availability-floor",
+      "reds-and-low-energy-availability-evidence"
+    ],
+    "caffeine-supplements": [],
+    "carbohydrate-fueling": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "carbohydrate-fueling-ladder",
+      "fueling-brands-and-their-interests",
+      "gut-training-protocol"
+    ],
+    "coaching-practice": [
+      "coaching-schools-and-where-they-disagree",
+      "fueling-brands-and-their-interests",
+      "ultrarunning-podcasts-blogs-and-newsletters"
+    ],
+    "cold-weather": [],
+    "cross-training": [
+      "vertical-gain-and-its-substitutes"
+    ],
+    "daily-diet": [
+      "energy-availability-floor"
+    ],
+    "dnf-decision": [
+      "gi-distress-and-dnf-figures",
+      "the-dnf-decision"
+    ],
+    "downhill-eccentric": [
+      "vertical-gain-and-its-substitutes"
+    ],
+    "energy-availability": [
+      "energy-availability-floor",
+      "reds-and-low-energy-availability-evidence"
+    ],
+    "evidence-base": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "gi-distress-and-dnf-figures",
+      "heat-acclimation-figures",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-running-economy-meta-analyses",
+      "time-crunched-volume-claims",
+      "where-the-evidence-lives"
+    ],
+    "failure-modes": [
+      "drink-to-thirst",
+      "gi-distress-and-dnf-figures",
+      "sodium-does-not-prevent-cramping",
+      "the-dnf-decision"
+    ],
+    "foot-care": [],
+    "framework-comparison": [
+      "coaching-schools-and-where-they-disagree",
+      "polarized-training-review-evidence"
+    ],
+    "gear-kit": [],
+    "gi-distress": [
+      "carbohydrate-fueling-ladder",
+      "gi-distress-and-dnf-figures",
+      "gut-training-protocol"
+    ],
+    "goal-setting": [],
+    "gut-training": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "gut-training-protocol"
+    ],
+    "habit-adherence": [
+      "minimum-effective-dose-and-time"
+    ],
+    "heat-adaptation": [
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol"
+    ],
+    "hydration": [
+      "drink-to-thirst",
+      "fueling-brands-and-their-interests",
+      "sodium-does-not-prevent-cramping"
+    ],
+    "indoor-climbing-machines": [
+      "vertical-gain-and-its-substitutes"
+    ],
+    "injury-prevention": [
+      "strength-training-for-ultrarunners"
+    ],
+    "intensity-distribution": [
+      "polarized-intensity-distribution",
+      "polarized-training-review-evidence"
+    ],
+    "life-load": [
+      "minimum-effective-dose-and-time",
+      "time-crunched-volume-claims"
+    ],
+    "long-run": [
+      "periodization-for-ultras"
+    ],
+    "mindset": [
+      "mental-skills-toolkit",
+      "the-dnf-decision",
+      "ultrarunning-book-canon"
+    ],
+    "motivation": [
+      "mental-skills-toolkit"
+    ],
+    "night-and-sleep-deprivation": [
+      "sleep-and-the-night",
+      "sleep-in-mountain-ultramarathon-finishers"
+    ],
+    "nutrition": [
+      "carbohydrate-fueling-ladder",
+      "fueling-brands-and-their-interests"
+    ],
+    "overtraining": [
+      "energy-availability-floor",
+      "reds-and-low-energy-availability-evidence"
+    ],
+    "pacing": [
+      "pacing-by-effort"
+    ],
+    "pain-perception": [
+      "mental-skills-toolkit"
+    ],
+    "periodization": [
+      "periodization-for-ultras"
+    ],
+    "physiology": [
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol",
+      "pacing-by-effort",
+      "where-the-evidence-lives"
+    ],
+    "plyometrics-durability": [
+      "strength-training-for-ultrarunners"
+    ],
+    "race-prep": [
+      "heat-acclimation-protocol"
+    ],
+    "race-selection": [],
+    "race-strategy": [
+      "pacing-by-effort",
+      "the-dnf-decision"
+    ],
+    "recovery": [
+      "sleep-and-the-night"
+    ],
+    "return-to-run": [],
+    "self-talk": [
+      "mental-skills-toolkit"
+    ],
+    "sleep": [
+      "sleep-and-the-night",
+      "sleep-in-mountain-ultramarathon-finishers"
+    ],
+    "sodium-electrolytes": [
+      "drink-to-thirst",
+      "sodium-does-not-prevent-cramping"
+    ],
+    "speed-economy": [
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses"
+    ],
+    "strength-training": [
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses"
+    ],
+    "tapering": [
+      "periodization-for-ultras"
+    ],
+    "threshold": [
+      "polarized-intensity-distribution"
+    ],
+    "time-management": [
+      "minimum-effective-dose-and-time",
+      "time-crunched-volume-claims"
+    ],
+    "training-load-monitoring": [
+      "pacing-by-effort"
+    ],
+    "training-methodology": [
+      "coaching-schools-and-where-they-disagree",
+      "minimum-effective-dose-and-time",
+      "periodization-for-ultras",
+      "polarized-intensity-distribution",
+      "ultrarunning-book-canon"
+    ],
+    "treadmill-training": [
+      "vertical-gain-and-its-substitutes"
+    ],
+    "vertical-gain": [
+      "vertical-gain-and-its-substitutes"
+    ],
+    "vo2max": [
+      "polarized-intensity-distribution",
+      "polarized-training-review-evidence"
+    ]
+  },
+  "by_status": {
+    "recommended": [
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "where-the-evidence-lives"
+    ],
+    "queued": [],
+    "acquired": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "carbohydrate-fueling-ladder",
+      "coaching-schools-and-where-they-disagree",
+      "drink-to-thirst",
+      "energy-availability-floor",
+      "fueling-brands-and-their-interests",
+      "gi-distress-and-dnf-figures",
+      "gut-training-protocol",
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "minimum-effective-dose-and-time",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "polarized-intensity-distribution",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-and-the-night",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses",
+      "the-dnf-decision",
+      "time-crunched-volume-claims",
+      "vertical-gain-and-its-substitutes"
+    ],
+    "read": [],
+    "summarized": [],
+    "rejected": []
+  },
+  "by_type": {
+    "concept": [
+      "carbohydrate-fueling-ladder",
+      "drink-to-thirst",
+      "energy-availability-floor",
+      "gut-training-protocol",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "minimum-effective-dose-and-time",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "polarized-intensity-distribution",
+      "sleep-and-the-night",
+      "strength-training-for-ultrarunners",
+      "the-dnf-decision",
+      "vertical-gain-and-its-substitutes"
+    ],
+    "source": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "gi-distress-and-dnf-figures",
+      "heat-acclimation-figures",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-running-economy-meta-analyses",
+      "time-crunched-volume-claims",
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "where-the-evidence-lives"
+    ],
+    "entity": [
+      "coaching-schools-and-where-they-disagree",
+      "fueling-brands-and-their-interests"
+    ],
+    "comparison": [],
+    "query": []
+  },
+  "by_ip_class": {
+    "public": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "carbohydrate-fueling-ladder",
+      "coaching-schools-and-where-they-disagree",
+      "drink-to-thirst",
+      "energy-availability-floor",
+      "fueling-brands-and-their-interests",
+      "gi-distress-and-dnf-figures",
+      "gut-training-protocol",
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "minimum-effective-dose-and-time",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "polarized-intensity-distribution",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-and-the-night",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses",
+      "the-dnf-decision",
+      "time-crunched-volume-claims",
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "vertical-gain-and-its-substitutes",
+      "where-the-evidence-lives"
+    ],
+    "licensed": []
+  },
+  "by_authority": {
+    "measured": [],
+    "established": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "carbohydrate-fueling-ladder",
+      "drink-to-thirst",
+      "energy-availability-floor",
+      "gi-distress-and-dnf-figures",
+      "gut-training-protocol",
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "polarized-intensity-distribution",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-and-the-night",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses"
+    ],
+    "experienced": [
+      "minimum-effective-dose-and-time",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "the-dnf-decision",
+      "time-crunched-volume-claims",
+      "vertical-gain-and-its-substitutes"
+    ],
+    "asserted": [
+      "coaching-schools-and-where-they-disagree",
+      "fueling-brands-and-their-interests",
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "where-the-evidence-lives"
+    ]
+  },
+  "by_disposition": {
+    "sharpened": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "carbohydrate-fueling-ladder",
+      "drink-to-thirst",
+      "energy-availability-floor",
+      "gi-distress-and-dnf-figures",
+      "gut-training-protocol",
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-and-the-night",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses",
+      "the-dnf-decision",
+      "time-crunched-volume-claims"
+    ],
+    "counterpoint": [
+      "carbohydrate-120g-mountain-marathon-trial",
+      "carbohydrate-fueling-ladder",
+      "drink-to-thirst",
+      "minimum-effective-dose-and-time",
+      "polarized-training-review-evidence",
+      "sleep-in-mountain-ultramarathon-finishers",
+      "sodium-does-not-prevent-cramping",
+      "vertical-gain-and-its-substitutes"
+    ],
+    "gap": [
+      "energy-availability-floor",
+      "gi-distress-and-dnf-figures",
+      "gut-training-protocol",
+      "heat-acclimation-figures",
+      "heat-acclimation-protocol",
+      "mental-skills-toolkit",
+      "minimum-effective-dose-and-time",
+      "pacing-by-effort",
+      "periodization-for-ultras",
+      "polarized-intensity-distribution",
+      "polarized-training-review-evidence",
+      "reds-and-low-energy-availability-evidence",
+      "sleep-and-the-night",
+      "strength-training-for-ultrarunners",
+      "strength-training-running-economy-meta-analyses",
+      "the-dnf-decision",
+      "time-crunched-volume-claims",
+      "ultrarunning-book-canon",
+      "ultrarunning-podcasts-blogs-and-newsletters",
+      "vertical-gain-and-its-substitutes",
+      "where-the-evidence-lives"
+    ]
+  },
+  "orphans": [],
+  "nonreciprocal_related": [],
+  "dangling_related": [],
+  "unclassified_ip": [],
+  "missing_authority": [],
+  "bad_authority": [],
+  "missing_disposition": [],
+  "bad_disposition": [],
+  "untyped": [],
+  "corpus_gaps": []
+}

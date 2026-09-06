@@ -1,0 +1,50 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Each exclusion below is here for a stated reason. A later edit that removes one
+# should remove the reasoning too, or it is removing a guardrail by accident.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# THE ATHLETE'S PRIVATE WORKSPACE.
+# Health data, clinical correspondence, blood work, cycle tracking, body
+# composition, and anything a clinician has said. This does not belong in a git
+# repository at any level of the tree — not in the corpus, and not in the
+# registers either. The registers may record THAT a referral exists; never what
+# it found.
+advisory/private/
+
+# THIRD-PARTY MATERIAL HELD FOR PERSONAL USE.
+# Books, purchased training plans, paid course material, gated coaching content.
+# ip_class: licensed in SCHEMA.md — it may shape a training decision and must
+# never reach anything outward-facing, including by paraphrase. Distillations of
+# it that live in advisory/kb/ ARE tracked; the source material is not.
+advisory/sources/
+*.epub
+*.mobi
+*.azw3
+/*.pdf
+
+# RAW TRAINING EXPORTS.
+# GPX, FIT and TCX files, and platform CSV dumps. Binary, enormous, do not diff,
+# and their home is the platform that produced them. Derived figures in
+# advisory/analysis/ are tracked; the exports are not.
+advisory/exports/
+*.fit
+*.gpx
+*.tcx
+
+# RUN OUTPUT.
+# Per-node notes from an advisory run. Working artifacts: read them, act on them,
+# let them regenerate. They are never the record.
+advisory/.run-notes/
+advisory/kb/.ingest-notes/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
