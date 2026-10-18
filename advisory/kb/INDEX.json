@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-18",
   "generated_by": "workflows/build_index.py \u2014 deterministic; do not hand-edit",
-  "entry_count": 29,
+  "entry_count": 30,
   "entries": [
     {
       "slug": "carbohydrate-120g-mountain-marathon-trial",
@@ -217,6 +217,47 @@
         "carbohydrate-fueling-ladder",
         "minimum-effective-dose-and-time",
         "reds-and-low-energy-availability-evidence"
+      ],
+      "inbound_count": 3
+    },
+    {
+      "slug": "foot-care-and-shoe-fit",
+      "path": "advisory/kb/frameworks/foot-care-and-shoe-fit.md",
+      "wiki_type": "concept",
+      "layer": 1,
+      "title": "Foot care and shoe fit \u2014 blisters, maceration, and the posterior heel",
+      "tags": [
+        "foot-care",
+        "gear-kit",
+        "injury-prevention",
+        "race-prep"
+      ],
+      "citation_status": "acquired",
+      "quality_signal": "",
+      "reference_role": "",
+      "population": "Practitioner and clinical-reference material on friction injury, plus one documented individual case (see the analysis workspace). NO study population and no trial. Foot care in ultrarunning is almost entirely experience-held knowledge: the literature covers blister prevention thinly and posterior heel bursitis mostly from a surgical and podiatric angle rather than a running-load one. Treat everything here as `experienced` unless it says otherwise, and treat anything that is not resolving as a question for a clinician rather than a page to re-read.",
+      "unit": "Shoe drop is MILLIMETRES of heel-to-toe differential, not stack height. Shoe sizing changes referred to here are HALF-SIZES of length, or width letters, not percentages. Where a timeline is given it is DAYS OF SYMPTOM, which is the only quantity an athlete can actually observe.",
+      "authority": "experienced",
+      "disposition": [
+        "gap: closes the foot-care tag, which was empty at first build. Written because a real case made it concrete \u2014 a posterior heel bursitis from heel-counter rubbing, which no page here covered and which the vert plan was about to load weekly",
+        "sharpened: vertical-gain-and-its-substitutes \u2014 adds the demand that page missed entirely. Steep climbing is not only an aerobic and eccentric problem; it is a DORSIFLEXION problem, and the shoe's heel counter is in the loop"
+      ],
+      "ip_class": "public",
+      "related": [
+        "vertical-gain-and-its-substitutes",
+        "the-dnf-decision",
+        "hellbender-100"
+      ],
+      "summary": "",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK572128/",
+        "https://www.irunfar.com/",
+        "https://trainright.com/ultrarunning/"
+      ],
+      "outbound": [
+        "hellbender-100",
+        "the-dnf-decision",
+        "vertical-gain-and-its-substitutes"
       ],
       "inbound_count": 3
     },
@@ -448,7 +489,8 @@
         "pacing-by-effort",
         "the-dnf-decision",
         "vertical-gain-and-its-substitutes",
-        "carbohydrate-fueling-ladder"
+        "carbohydrate-fueling-ladder",
+        "foot-care-and-shoe-fit"
       ],
       "summary": "",
       "sources": [
@@ -462,7 +504,7 @@
         "the-dnf-decision",
         "vertical-gain-and-its-substitutes"
       ],
-      "inbound_count": 4
+      "inbound_count": 5
     },
     {
       "slug": "mental-skills-toolkit",
@@ -992,7 +1034,8 @@
         "pacing-by-effort",
         "mental-skills-toolkit",
         "sleep-and-the-night",
-        "hellbender-100"
+        "hellbender-100",
+        "foot-care-and-shoe-fit"
       ],
       "summary": "",
       "sources": [
@@ -1006,7 +1049,7 @@
         "pacing-by-effort",
         "sleep-and-the-night"
       ],
-      "inbound_count": 5
+      "inbound_count": 6
     },
     {
       "slug": "time-crunched-volume-claims",
@@ -1158,7 +1201,8 @@
         "strength-training-for-ultrarunners",
         "coaching-schools-and-where-they-disagree",
         "pacing-by-effort",
-        "hellbender-100"
+        "hellbender-100",
+        "foot-care-and-shoe-fit"
       ],
       "summary": "",
       "sources": [
@@ -1170,7 +1214,7 @@
         "pacing-by-effort",
         "strength-training-for-ultrarunners"
       ],
-      "inbound_count": 5
+      "inbound_count": 6
     },
     {
       "slug": "where-the-evidence-lives",
@@ -1231,6 +1275,7 @@
       "carbohydrate-fueling-ladder",
       "drink-to-thirst",
       "energy-availability-floor",
+      "foot-care-and-shoe-fit",
       "gut-training-protocol",
       "heat-acclimation-protocol",
       "mental-skills-toolkit",
@@ -1334,12 +1379,15 @@
       "sodium-does-not-prevent-cramping",
       "the-dnf-decision"
     ],
-    "foot-care": [],
+    "foot-care": [
+      "foot-care-and-shoe-fit"
+    ],
     "framework-comparison": [
       "coaching-schools-and-where-they-disagree",
       "polarized-training-review-evidence"
     ],
     "gear-kit": [
+      "foot-care-and-shoe-fit",
       "hellbender-100"
     ],
     "gi-distress": [
@@ -1368,6 +1416,7 @@
       "vertical-gain-and-its-substitutes"
     ],
     "injury-prevention": [
+      "foot-care-and-shoe-fit",
       "strength-training-for-ultrarunners"
     ],
     "intensity-distribution": [
@@ -1420,6 +1469,7 @@
       "strength-training-for-ultrarunners"
     ],
     "race-prep": [
+      "foot-care-and-shoe-fit",
       "heat-acclimation-protocol",
       "hellbender-100"
     ],
@@ -1498,6 +1548,7 @@
       "coaching-schools-and-where-they-disagree",
       "drink-to-thirst",
       "energy-availability-floor",
+      "foot-care-and-shoe-fit",
       "fueling-brands-and-their-interests",
       "gi-distress-and-dnf-figures",
       "gut-training-protocol",
@@ -1529,6 +1580,7 @@
       "carbohydrate-fueling-ladder",
       "drink-to-thirst",
       "energy-availability-floor",
+      "foot-care-and-shoe-fit",
       "gut-training-protocol",
       "heat-acclimation-protocol",
       "mental-skills-toolkit",
@@ -1570,6 +1622,7 @@
       "coaching-schools-and-where-they-disagree",
       "drink-to-thirst",
       "energy-availability-floor",
+      "foot-care-and-shoe-fit",
       "fueling-brands-and-their-interests",
       "gi-distress-and-dnf-figures",
       "gut-training-protocol",
@@ -1620,6 +1673,7 @@
       "strength-training-running-economy-meta-analyses"
     ],
     "experienced": [
+      "foot-care-and-shoe-fit",
       "minimum-effective-dose-and-time",
       "pacing-by-effort",
       "periodization-for-ultras",
@@ -1641,6 +1695,7 @@
       "carbohydrate-fueling-ladder",
       "drink-to-thirst",
       "energy-availability-floor",
+      "foot-care-and-shoe-fit",
       "gi-distress-and-dnf-figures",
       "gut-training-protocol",
       "heat-acclimation-figures",
@@ -1669,6 +1724,7 @@
     ],
     "gap": [
       "energy-availability-floor",
+      "foot-care-and-shoe-fit",
       "gi-distress-and-dnf-figures",
       "gut-training-protocol",
       "heat-acclimation-figures",

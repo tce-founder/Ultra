@@ -18,6 +18,7 @@ related:
   - the-dnf-decision
   - vertical-gain-and-its-substitutes
   - carbohydrate-fueling-ladder
+  - foot-care-and-shoe-fit
 citation_status: acquired
 authority: established
 population: >-

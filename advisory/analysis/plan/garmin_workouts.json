@@ -27,51 +27,12 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy, conversational. No strides yet."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "_scheduleDate": "2026-10-21",
-    "_week": 1,
-    "sportType": {
-      "sportTypeId": 1,
-      "sportTypeKey": "running"
-    },
-    "workoutName": "W1 Easy run",
-    "description": "Hellbender 100 plan \u00b7 week 1",
-    "workoutSegments": [
-      {
-        "segmentOrder": 1,
-        "sportType": {
-          "sportTypeId": 1,
-          "sportTypeKey": "running"
-        },
-        "workoutSteps": [
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 1,
-            "stepType": {
-              "stepTypeId": 3,
-              "stepTypeKey": "interval"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
             "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Easy."
+            "description": "Easy, conversational. No strides yet."
           }
         ]
       }
@@ -105,7 +66,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -162,7 +123,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1800,
+            "endConditionValue": 600,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -219,7 +180,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1800,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -258,51 +219,12 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1800,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy, conversational. No strides yet."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "_scheduleDate": "2026-10-28",
-    "_week": 2,
-    "sportType": {
-      "sportTypeId": 1,
-      "sportTypeKey": "running"
-    },
-    "workoutName": "W2 Easy run",
-    "description": "Hellbender 100 plan \u00b7 week 2",
-    "workoutSegments": [
-      {
-        "segmentOrder": 1,
-        "sportType": {
-          "sportTypeId": 1,
-          "sportTypeKey": "running"
-        },
-        "workoutSteps": [
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 1,
-            "stepType": {
-              "stepTypeId": 3,
-              "stepTypeKey": "interval"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
             "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Easy."
+            "description": "Easy, conversational. No strides yet."
           }
         ]
       }
@@ -336,7 +258,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1800,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -393,7 +315,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2400,
+            "endConditionValue": 1500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -450,7 +372,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2100,
+            "endConditionValue": 1500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -489,7 +411,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2100,
+            "endConditionValue": 1500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -528,7 +450,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -567,7 +489,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2100,
+            "endConditionValue": 1500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -624,7 +546,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 3300,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -681,7 +603,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2400,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -855,7 +777,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1200,
+            "endConditionValue": 600,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -912,7 +834,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -951,7 +873,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2400,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -990,7 +912,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1029,7 +951,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2400,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1086,7 +1008,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 3900,
+            "endConditionValue": 2400,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1143,7 +1065,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 3000,
+            "endConditionValue": 2100,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1182,7 +1104,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2100,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1221,7 +1143,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1260,7 +1182,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2100,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1317,7 +1239,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 4800,
+            "endConditionValue": 3600,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1392,7 +1314,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2400,
+            "endConditionValue": 1500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1449,7 +1371,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 3000,
+            "endConditionValue": 2400,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1488,7 +1410,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2100,
+            "endConditionValue": 1500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1527,7 +1449,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 3000,
+            "endConditionValue": 2400,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1584,7 +1506,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 5100,
+            "endConditionValue": 3900,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1641,7 +1563,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 3600,
+            "endConditionValue": 3000,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1911,7 +1833,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2700,
+            "endConditionValue": 2400,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -1968,12 +1890,12 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2400,
+            "endConditionValue": 2100,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -2025,7 +1947,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 2700,
+            "endConditionValue": 2400,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -2064,7 +1986,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -2121,7 +2043,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 5100,
+            "endConditionValue": 4500,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -2196,7 +2118,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1500,
+            "endConditionValue": 1200,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -2315,7 +2237,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -2618,7 +2540,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -2960,7 +2882,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -3302,7 +3224,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -3644,7 +3566,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -3947,7 +3869,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -4100,7 +4022,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -4442,7 +4364,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -4784,7 +4706,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -5012,7 +4934,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -5354,7 +5276,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -5696,7 +5618,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -5999,7 +5921,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -6152,7 +6074,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -6494,7 +6416,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -6872,7 +6794,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -7211,7 +7133,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -7553,7 +7475,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",
@@ -7856,7 +7778,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for."
+            "description": "Stair machine (StepMill) preferred \u2014 far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender \u2014 that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus \u2014 the exact mechanism "
           },
           {
             "type": "ExecutableStepDTO",

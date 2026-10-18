@@ -68,9 +68,9 @@ def phase_for(week):
 # Weekly training hours (running + vert + strength; daily mobility excluded).
 # Down weeks every 4th. The ramp averages well under 10%/week across the build.
 WEEK_HOURS = {
-    1: 4.0,  2: 4.5,  3: 5.0,  4: 3.5,
-    5: 5.5,  6: 6.0,  7: 6.5,  8: 4.5,
-    9: 7.0, 10: 7.5, 11: 8.0, 12: 5.5,
+    1: 3.0,  2: 3.5,  3: 4.0,  4: 3.0,
+    5: 4.5,  6: 5.0,  7: 5.5,  8: 4.5,
+    9: 6.5, 10: 7.5, 11: 8.0, 12: 5.5,
     13: 8.5, 14: 9.0, 15: 9.5, 16: 6.5,
     17: 10.0, 18: 13.0, 19: 12.0, 20: 8.0,
     21: 12.0, 22: 16.5, 23: 7.0, 24: 12.0,
@@ -87,6 +87,12 @@ WEEK_VERT_FT = {
 }
 
 DOWN_WEEKS = {4, 8, 12, 16, 20, 23, 27, 28}
+
+# Weeks where the athlete is still adding RUNNING DAYS rather than minutes. Going
+# from 1-2 runs a week to five in one step is a frequency jump, and frequency jumps
+# are the cheap kind only if each session stays short — so these weeks run four days
+# and Wednesday is a mobility-and-shoe-check day instead of a fifth run.
+RETURN_TO_RUN_WEEKS = {1, 2}
 
 # ── Special weeks ────────────────────────────────────────────────────────────
 # Mountain trips are weekend-only: the athlete is 3-5 hours from sustained climbs.
@@ -182,6 +188,8 @@ def build_week(w):
     strength_days = STRENGTH_DAYS[ph]
     run_min = hours * 60 - STRENGTH_MIN * len(strength_days)
     weights = dict(WEIGHTS[ph])
+    if w in RETURN_TO_RUN_WEEKS:
+        weights.pop(2, None)        # Wednesday becomes the shoe-and-mobility check
     mountain = w in MOUNTAIN_WEEKS
     tune_up = TUNE_UPS.get(w)
 
@@ -225,6 +233,14 @@ def build_week(w):
                 sessions.append(Session(d, "rest", "Rest — walk only if you want to", 0,
                                         notes="Day after a big effort. Eat, sleep, drive home gently. "
                                               "Nothing you do today improves May; plenty of things could cost it."))
+            elif w in RETURN_TO_RUN_WEEKS and d == 2:
+                sessions.append(Session(d, "mobility", "Shoe audit + mobility", 25, 0,
+                    "NOT a run day — the gap is deliberate while running frequency climbs. "
+                    "Week 1: lay out every pair you own and press a thumb into the back of each "
+                    "heel counter. Anything stiff, high, or with a seam over the Achilles goes in "
+                    "the bin, not the rotation — that shoe is what caused the 2026 bursitis. "
+                    "Then the usual 15 min of ankle, calf and hip work, plus heel-lock lacing "
+                    "practice.")) 
             elif mountain and d == 4:
                 sessions.append(Session(d, "rest", "Travel to the mountains", 0,
                                         notes="Drive. Eat properly on the road; arriving under-fuelled wastes the weekend."))
@@ -267,11 +283,19 @@ def classify(ph, d, w, mountain):
     return ("run", "Easy run", "Easy.", 0)
 
 
+HEEL_WARNING = (
+    " ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's "
+    "heel counter into the back of the calcaneus — the exact mechanism that caused the 2026 "
+    "bursitis. Use a shoe with a soft, low heel collar; lock the heel with the top eyelet so it "
+    "does not piston; stop at the FIRST sign of posterior heel soreness, not the second. "
+    "Substitute if it niggles: uphill treadmill WALKING in a higher-drop shoe, or a weighted "
+    "pack hike, or the bike for the aerobic half. **")
+
 VERT_NOTE = ("Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. "
              "DO NOT hold the handrail; it removes a large and unrecorded share of the work. "
              "Treadmill at max incline is the alternative. Neither trains DESCENDING, which is "
              "what actually breaks down at Hellbender — that is what the mountain weekends and "
-             "the eccentric strength work are for.")
+             "the eccentric strength work are for." + HEEL_WARNING)
 
 
 # Keyed on the FIRST strength day in STRENGTH_DAYS, not a hardcoded weekday. The
@@ -284,13 +308,15 @@ def strength_label(ph, d):
 def strength_notes(ph, d):
     if d == STRENGTH_DAYS[ph][0]:
         return ("Back squat or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. "
-                "Standing calf raise 3x8 heavy. Weighted step-up 3x6/leg. "
+                "Standing calf raise 3x8 heavy, FLAT GROUND until week 9. Weighted step-up 3x6/leg. "
                 "HIGH LOAD, low reps, long rests — the meta-analyses found high-load and combined "
                 "formats improved running economy and submaximal/isometric circuits did not.")
     return ("Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. "
             "ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; "
             "the race's damage is quadriceps braking on descents. "
-            "Calf raise, bent-knee 3x12. Side plank 3x40 s.")
+            "Calf raise, bent-knee 3x12 — FLAT GROUND, not hanging off a step, until week 9: "
+            "loaded end-range dorsiflexion is what irritates a posterior heel bursa. "
+            "Side plank 3x40 s.")
 
 
 def race_week():

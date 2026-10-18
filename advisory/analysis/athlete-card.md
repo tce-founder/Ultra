@@ -24,21 +24,22 @@ updated: 2026-10-18
 | Distance / vert | 102.3 mi · ~21,500 ft · 40 h cutoff | Official course page (sources disagree) | 2026-10-18 |
 | Weeks remaining | 29 (week 1 begins Mon 19 Oct 2026) | Computed | 2026-10-18 |
 | Phase | **Base 1 — tissue tolerance** (weeks 1–8) | Plan | 2026-10-18 |
-| **Observed** weekly volume | **Under 20 mi / 3–4 h** | Athlete, 2026-10-18 | 2026-10-18 |
-| **Planned** weekly volume, week 1 | 4.0 h | Plan | 2026-10-18 |
+| **Observed** weekly volume | **1–2 short runs most weeks** — intake band of 3–4 h was an overstatement | Athlete, 2026-10-18 (corrected same day) | 2026-10-18 |
+| **Planned** weekly volume, week 1 | 3.0 h — 4 run days, not 5 | Plan | 2026-10-18 |
 | Peak planned volume | 14.5 h (week 22, 50-mile tune-up) | Plan | 2026-10-18 |
 | Days available | **6–7, flexible hours** | Athlete, 2026-10-18 | 2026-10-18 |
 | Days actually scheduled | **6** — Monday is a full rest day by design | Plan | 2026-10-18 |
 | Terrain access | **3–5 h from sustained climbs; weekends only** | Athlete, 2026-10-18 | 2026-10-18 |
 | Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) | Plan | 2026-10-18 |
-| Injury status | **Clean, nothing current, no significant history** | Athlete, 2026-10-18 | 2026-10-18 |
+| Injury status | **Resolved posterior-Achilles bursitis** — heel-counter friction, ~March 2026, cost ~7 months of running. Fully settled, no current symptoms | Athlete, 2026-10-18 (**corrects** the intake answer of 'clean history') | 2026-10-18 |
 | Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
-| Longest run, last 2 months | *unknown — ASK* | — | — |
-| Ultra history / longest ever | *unknown — ASK* | — | — |
+| Longest run, last 2 months | **~5k** | Athlete, 2026-10-18 | 2026-10-18 |
+| Ultra history / longest ever | **50-miler finished, ~March 2026.** Month/year to confirm | Athlete, 2026-10-18 | 2026-10-18 |
 | Bodyweight (kg) | *unknown — blocks every nutrition figure* | — | — |
 | Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
 | HR zones / threshold | *unknown — all Garmin workouts ship with no target* | — | — |
 | Ferritin / vitamin D | *not tested* | — | — |
+| Shoe rotation audited | **No — scheduled week 1 Wednesday** | Plan | — |
 | Named crew / pacer | *none yet* | — | — |
 
 ## The four unknowns that matter, ranked
@@ -70,6 +71,9 @@ ones.**
 | Date | Field | From | To | Planned? |
 | ---- | ----- | ---- | -- | -------- |
 | 2026-10-18 | Card created | — | Baseline recorded from a four-question intake | — |
+| 2026-10-18 | Injury status | "clean history" | Resolved posterior-Achilles bursitis, ~7 months off | No — intake correction |
+| 2026-10-18 | Weekly volume | 3–4 h | 1–2 short runs | No — intake correction |
+| 2026-10-18 | Ultra history | unknown | 50-miler finished | No — new information |
 
 ## Rules
 

@@ -18,6 +18,7 @@ related:
   - coaching-schools-and-where-they-disagree
   - pacing-by-effort
   - hellbender-100
+  - foot-care-and-shoe-fit
 citation_status: acquired
 authority: experienced
 disposition:

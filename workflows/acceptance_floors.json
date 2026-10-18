@@ -9,9 +9,9 @@
   },
   "floors": {
     "pages_min": {
-      "value": 29,
+      "value": 30,
       "recorded": "2026-10-18",
-      "reason": "Measured corpus size. Raised from 28 on 2026-10-18 when the Hellbender race page landed. A drop means pages were deleted \u2014 possibly correctly, but never silently."
+      "reason": "Measured corpus size. 28 -> 29 (Hellbender race page) -> 30 (foot care) on 2026-10-18. A drop means pages were deleted \u2014 possibly correctly, but never silently."
     },
     "orphans_max": {
       "value": 0,
@@ -50,13 +50,12 @@
     }
   },
   "allowed_empty_lenses": {
-    "_note": "Tags with zero pages that are KNOWN and accepted. This file is where that judgement lives, so it stays checkable instead of being asserted in prose: an empty tag NOT listed here is an error, and a listed tag that gains a page is reported so the row gets removed. Deliberately carries no total \u2014 a count in a sentence is the thing this file exists to stop drifting. | 2026-10-18: aid-station-crew, gear-kit and race-selection removed \u2014 the Hellbender entity page covers all three. Closed by one page because a concrete race forces concrete answers where a general page kept deferring them.",
+    "_note": "Tags with zero pages that are KNOWN and accepted. This file is where that judgement lives, so it stays checkable instead of being asserted in prose: an empty tag NOT listed here is an error, and a listed tag that gains a page is reported so the row gets removed. Deliberately carries no total \u2014 a count in a sentence is the thing this file exists to stop drifting. | 2026-10-18: aid-station-crew, gear-kit and race-selection removed \u2014 the Hellbender entity page covers all three. Closed by one page because a concrete race forces concrete answers where a general page kept deferring them. | 2026-10-18: foot-care removed \u2014 closed by a real case, a posterior-heel bursitis from heel-counter friction, which no page covered and which the weekly vert session was about to load. The tag was listed as 'little literature, high race impact' and that was exactly right.",
     "altitude": "Uncovered at first build. The environment lens grounds via heat-adaptation so it is not starved, but an altitude question currently reaches heat pages. Closable from the existing physiology literature.",
     "caffeine-supplements": "Uncovered at first build. Referenced in sleep-and-the-night as part of a night plan with no page behind it. The evidence base here is unusually good and the omission is purely one of effort.",
     "cold-weather": "Uncovered at first build. Hypothermia appears in the-dnf-decision's non-negotiable stop list with nothing behind it, which is the worst kind of gap \u2014 a rule with no reasoning attached.",
-    "foot-care": "Uncovered at first build. Blisters and macerated feet end more races than the literature's silence suggests, and almost all the knowledge is practitioner-held.",
     "goal-setting": "Uncovered at first build. motivation-adherence grounds via motivation and habit-adherence so the lens is not starved, but season-level goal setting is the entry point to every other decision and has no page.",
-    "return-to-run": "Uncovered at first build. THE MOST CONSEQUENTIAL EMPTY TAG HERE. injury-health grounds via four other tags so nothing fails, but return-to-run is the decision an injured athlete gets wrong at the highest cost, and a lens that improvises on it will produce something that reads exactly like advice."
+    "return-to-run": "STILL OPEN and now live rather than hypothetical: the athlete is returning from seven months mostly off running. The plan's first weeks do the job in practice (frequency before duration, four run days, a 22% ramp ceiling) but no CORPUS page states the criteria, so the injury-health lens still improvises if asked directly. Highest-priority page in the vault."
   },
   "allowed_starved_lenses": {
     "_note": "A lens whose EVERY mapped tag is empty. This is the serious one: unlike an empty tag it never surfaces at runtime, because the lens does not fail \u2014 it improvises, and its note reads exactly like a grounded one. A golden question routed only to lenses listed here is reported short rather than failed; a starved lens NOT listed here fails the build. AT FIRST BUILD THIS LIST IS EMPTY \u2014 every one of the fifteen lenses has at least one reachable page, which was a deliberate constraint on which pages got written first. Two lenses are nonetheless thin enough to name: race-logistics reaches exactly one page, and motivation-adherence reaches two. Neither is starved and both are one deletion away from it."

@@ -130,3 +130,41 @@ phases. For an athlete with 6-7 available days coming off under 20 mi/week, that
 defect that matters, and it was invisible in the generated document. A second check (the ramp
 ceiling) produced six false failures by comparing build weeks against down weeks; fixed to compare
 against the previous build week, which is the trend line it was always meant to police.
+
+---
+
+## 2026-10-18 — foot-care page; corpus 29 -> 30; an intake answer that was wrong
+
+**What.** Added `frameworks/foot-care-and-shoe-fit.md`, closing the `foot-care` tag.
+
+**Why now.** The athlete revised two intake answers within the hour of giving them. The one that
+mattered: a four-option health question returned "nothing current, clean history" from someone
+whose last twelve months were defined by a posterior-Achilles bursitis that cost seven months of
+running. The band options invited a tidy answer and got one.
+
+**That is a defect in the intake, not in the athlete**, and it is recorded in the athlete card's
+new correction log. The fix for next time is to ask for the last twelve months as free text rather
+than offering four tidy bands.
+
+**The clinical shape of the case is why it earned a corpus page rather than a register note.** The
+cause was EQUIPMENT — a heel counter rubbing — not load. Two consequences that run opposite ways,
+and neither was anywhere in this vault:
+
+1. Rest plus discarding the shoe genuinely cures it. "It settled on its own" is an adequate
+   outcome here, where for a load-driven bursitis it would be a red flag.
+2. Nothing about that resolution reduces recurrence risk, and **sustained steep climbing is the
+   single most provocative thing a mountain-ultra plan prescribes** — weekly, for months, in
+   dorsiflexion, with the counter pressed into the calcaneus.
+
+**`disposition: sharpened` against `vertical-gain-and-its-substitutes`.** That page treated
+climbing as an aerobic and eccentric problem and missed that it is also a DORSIFLEXION problem with
+the shoe in the loop. This is the first `sharpened` in the vault that came from a real case rather
+than from reading, which is the thing `purpose.md` job 3 was written to count.
+
+**Floors raised**, `pages_min` 29 -> 30, committed by hand after `--check` reported the slack.
+
+**`return-to-run` is still empty and its note has been rewritten** to say it is now live rather
+than hypothetical: the athlete is returning from seven months mostly off. The plan does the job in
+practice — frequency before duration, four run days in weeks 1-2, a 22% ramp ceiling — but no
+corpus page states the criteria, so the `injury-health` lens still improvises if asked directly.
+It is the highest-priority page in the vault and that is unchanged by any of today's work.

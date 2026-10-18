@@ -18,6 +18,7 @@ related:
   - mental-skills-toolkit
   - sleep-and-the-night
   - hellbender-100
+  - foot-care-and-shoe-fit
 citation_status: acquired
 authority: experienced
 disposition:

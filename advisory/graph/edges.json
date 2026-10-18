@@ -169,6 +169,12 @@
       "path": "advisory/kb/frameworks/energy-availability-floor.md"
     },
     {
+      "id": "kb:foot-care-and-shoe-fit",
+      "kind": "kb",
+      "label": "foot-care-and-shoe-fit.md",
+      "path": "advisory/kb/frameworks/foot-care-and-shoe-fit.md"
+    },
+    {
       "id": "kb:fueling-brands-and-their-interests",
       "kind": "kb",
       "label": "fueling-brands-and-their-interests.md",
@@ -549,6 +555,24 @@
       "evidence": "wikilink"
     },
     {
+      "from": "kb:foot-care-and-shoe-fit",
+      "rel": "relates_to",
+      "to": "kb:hellbender-100",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:foot-care-and-shoe-fit",
+      "rel": "relates_to",
+      "to": "kb:the-dnf-decision",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:foot-care-and-shoe-fit",
+      "rel": "relates_to",
+      "to": "kb:vertical-gain-and-its-substitutes",
+      "evidence": "wikilink"
+    },
+    {
       "from": "kb:fueling-brands-and-their-interests",
       "rel": "asserts",
       "to": "claim:carb-ceiling",
@@ -666,7 +690,7 @@
       "from": "kb:hellbender-100",
       "rel": "asserts",
       "to": "claim:vert-machine-equivalence",
-      "evidence": "L67:incline treadmill"
+      "evidence": "L68:incline treadmill"
     },
     {
       "from": "kb:hellbender-100",
@@ -1080,7 +1104,7 @@
       "from": "kb:vertical-gain-and-its-substitutes",
       "rel": "asserts",
       "to": "claim:vert-machine-equivalence",
-      "evidence": "L13:stairmaster; L56:StepMill; L80:VersaClimber"
+      "evidence": "L13:stairmaster; L57:StepMill; L81:VersaClimber"
     },
     {
       "from": "kb:vertical-gain-and-its-substitutes",
