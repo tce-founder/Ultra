@@ -3865,7 +3865,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W15 Aerobic run + strides",
-    "description": "Hellbender 100 plan \u00b7 week 15 \u00b7 target 125 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 15",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -3885,7 +3885,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1200,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -3904,7 +3904,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W15 Vert session \u2014 stair machine or treadmill incline",
-    "description": "Hellbender 100 plan \u00b7 week 15 \u00b7 target 875 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 15",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -3942,7 +3942,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 300,
+            "endConditionValue": 600,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -3979,7 +3979,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W15 Aerobic run",
-    "description": "Hellbender 100 plan \u00b7 week 15 \u00b7 target 125 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 15",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -3999,87 +3999,12 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1200,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
             "description": "Easy. If yesterday's vert left you sore, make this shorter \u2014 never faster."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "_scheduleDate": "2027-01-31",
-    "_week": 15,
-    "sportType": {
-      "sportTypeId": 1,
-      "sportTypeKey": "running"
-    },
-    "workoutName": "W15 Medium-long run",
-    "description": "Hellbender 100 plan \u00b7 week 15 \u00b7 target 500 ft vert",
-    "workoutSegments": [
-      {
-        "segmentOrder": 1,
-        "sportType": {
-          "sportTypeId": 1,
-          "sportTypeKey": "running"
-        },
-        "workoutSteps": [
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 1,
-            "stepType": {
-              "stepTypeId": 1,
-              "stepTypeKey": "warmup"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 900,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy. Walk breaks from the start if hilly."
-          },
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 2,
-            "stepType": {
-              "stepTypeId": 3,
-              "stepTypeKey": "interval"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 600,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Back-to-back with Saturday. Slower than yesterday."
-          },
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 3,
-            "stepType": {
-              "stepTypeId": 2,
-              "stepTypeKey": "cooldown"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 600,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy walk/jog. Eat within 30 minutes."
           }
         ]
       }
@@ -4777,7 +4702,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W18 Aerobic run + strides",
-    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 275 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 90 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -4797,7 +4722,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 4200,
+            "endConditionValue": 3300,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -4816,7 +4741,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W18 Vert session \u2014 stair machine or treadmill incline",
-    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 1,924 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 630 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -4854,7 +4779,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 4200,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -4891,7 +4816,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W18 Aerobic run",
-    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 275 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 90 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -4911,7 +4836,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 4200,
+            "endConditionValue": 3300,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -4929,8 +4854,8 @@
       "sportTypeId": 1,
       "sportTypeKey": "running"
     },
-    "workoutName": "W18 Mountain long run / hike",
-    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 3,025 ft vert",
+    "workoutName": "W18 Art Loeb Trail traverse",
+    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 9,200 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -4968,87 +4893,12 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 11400,
+            "endConditionValue": 30900,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Presidents' Day weekend \u2014 three days if you can take the Monday."
-          },
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 3,
-            "stepType": {
-              "stepTypeId": 2,
-              "stepTypeKey": "cooldown"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 600,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy walk/jog. Eat within 30 minutes."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "_scheduleDate": "2027-02-21",
-    "_week": 18,
-    "sportType": {
-      "sportTypeId": 1,
-      "sportTypeKey": "running"
-    },
-    "workoutName": "W18 Back-to-back day 2",
-    "description": "Hellbender 100 plan \u00b7 week 18 \u00b7 target 1,924 ft vert",
-    "workoutSegments": [
-      {
-        "segmentOrder": 1,
-        "sportType": {
-          "sportTypeId": 1,
-          "sportTypeKey": "running"
-        },
-        "workoutSteps": [
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 1,
-            "stepType": {
-              "stepTypeId": 1,
-              "stepTypeKey": "warmup"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 900,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy. Walk breaks from the start if hilly."
-          },
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 2,
-            "stepType": {
-              "stepTypeId": 3,
-              "stepTypeKey": "interval"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 6600,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "On tired legs by design. This is the session that most resembles hour 20 of the race."
+            "description": "30.1 mi point-to-point, ~9,200 ft, Davidson River to Camp Daniel Boone. NOT a race \u2014 a big unsupported day, and the largest single effort before the Heartbreaker. Budget 9 h; it may take 11-12 and that is fine. BAIL POINT: FS 816 at Black Balsam, roughly two-thirds in and road-accessible \u2014 if you are more than 2 h over budget by Gloucester Gap (mile 12.3), stop there instead. Needs a car shuttle at both ends. February on the balds is genuinely exposed: this is the cold-kit test for Hellbender's 6,684 ft sum"
           },
           {
             "type": "ExecutableStepDTO",
@@ -5960,7 +5810,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "COURSE RECON 1 \u2014 Old Fort / Curtis Creek / Mt Mitchell approach."
+            "description": "COURSE RECON 1 \u2014 Old Fort / Curtis Creek. Keep it moderate: the Heartbreaker is six days later and this is a look, not a test."
           },
           {
             "type": "ExecutableStepDTO",
@@ -6067,7 +5917,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W22 Aerobic run + strides",
-    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 350 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 100 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -6087,7 +5937,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1200,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -6106,7 +5956,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W22 Vert session \u2014 stair machine or treadmill incline",
-    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 2,450 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 700 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -6144,7 +5994,7 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 300,
+            "endConditionValue": 600,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
@@ -6181,7 +6031,7 @@
       "sportTypeKey": "running"
     },
     "workoutName": "W22 Aerobic run",
-    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 350 ft vert",
+    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 100 ft vert",
     "workoutSegments": [
       {
         "segmentOrder": 1,
@@ -6201,87 +6051,12 @@
               "conditionTypeId": 2,
               "conditionTypeKey": "time"
             },
-            "endConditionValue": 1200,
+            "endConditionValue": 1800,
             "targetType": {
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
             "description": "Easy. If yesterday's vert left you sore, make this shorter \u2014 never faster."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "_scheduleDate": "2027-03-21",
-    "_week": 22,
-    "sportType": {
-      "sportTypeId": 1,
-      "sportTypeKey": "running"
-    },
-    "workoutName": "W22 Medium-long run",
-    "description": "Hellbender 100 plan \u00b7 week 22 \u00b7 target 1,400 ft vert",
-    "workoutSegments": [
-      {
-        "segmentOrder": 1,
-        "sportType": {
-          "sportTypeId": 1,
-          "sportTypeKey": "running"
-        },
-        "workoutSteps": [
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 1,
-            "stepType": {
-              "stepTypeId": 1,
-              "stepTypeKey": "warmup"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 900,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy. Walk breaks from the start if hilly."
-          },
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 2,
-            "stepType": {
-              "stepTypeId": 3,
-              "stepTypeKey": "interval"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 300,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Back-to-back with Saturday. Slower than yesterday."
-          },
-          {
-            "type": "ExecutableStepDTO",
-            "stepOrder": 3,
-            "stepType": {
-              "stepTypeId": 2,
-              "stepTypeKey": "cooldown"
-            },
-            "endCondition": {
-              "conditionTypeId": 2,
-              "conditionTypeKey": "time"
-            },
-            "endConditionValue": 600,
-            "targetType": {
-              "workoutTargetTypeId": 1,
-              "workoutTargetTypeKey": "no.target"
-            },
-            "description": "Easy walk/jog. Eat within 30 minutes."
           }
         ]
       }
@@ -7247,7 +7022,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "COURSE RECON 2 \u2014 peak weekend. Biggest back-to-back of the build."
+            "description": "COURSE RECON 2 \u2014 peak back-to-back on Hellbender's own course. Night section on the Saturday: start late and finish after dark."
           },
           {
             "type": "ExecutableStepDTO",

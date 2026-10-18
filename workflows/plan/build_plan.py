@@ -72,8 +72,8 @@ WEEK_HOURS = {
     5: 5.5,  6: 6.0,  7: 6.5,  8: 4.5,
     9: 7.0, 10: 7.5, 11: 8.0, 12: 5.5,
     13: 8.5, 14: 9.0, 15: 9.5, 16: 6.5,
-    17: 10.0, 18: 11.0, 19: 12.0, 20: 8.0,
-    21: 12.0, 22: 14.5, 23: 7.0, 24: 12.0,
+    17: 10.0, 18: 13.0, 19: 12.0, 20: 8.0,
+    21: 12.0, 22: 16.5, 23: 7.0, 24: 12.0,
     25: 14.0, 26: 10.0, 27: 7.5, 28: 5.0, 29: 2.5,
 }
 
@@ -82,7 +82,7 @@ WEEK_HOURS = {
 WEEK_VERT_FT = {
     1: 0, 2: 0, 3: 400, 4: 300, 5: 600, 6: 2500, 7: 800, 8: 600,
     9: 1200, 10: 3500, 11: 1600, 12: 1000, 13: 2000, 14: 4500, 15: 2500, 16: 1500,
-    17: 3000, 18: 5500, 19: 4000, 20: 2500, 21: 6500, 22: 7000, 23: 1500, 24: 5000,
+    17: 3000, 18: 11000, 19: 4000, 20: 2500, 21: 6500, 22: 14000, 23: 1500, 24: 5000,
     25: 8000, 26: 3500, 27: 2000, 28: 1000, 29: RACE_VERT_FT,
 }
 
@@ -95,15 +95,33 @@ MOUNTAIN_WEEKS = {
     6:  "Thanksgiving weekend — first mountain block. Hike-heavy, no pace targets.",
     10: "Holiday mountain block. Long hike/run Sat, shorter Sun.",
     14: "Mountain block — first real back-to-back.",
-    18: "Presidents' Day weekend — three days if you can take the Monday.",
-    21: "COURSE RECON 1 — Old Fort / Curtis Creek / Mt Mitchell approach.",
-    25: "COURSE RECON 2 — peak weekend. Biggest back-to-back of the build.",
+    18: "ART LOEB TRAVERSE — Presidents' Day weekend. Take the Monday if you can; this is the biggest day of the build before the Heartbreaker and the drive home afterwards is long.",
+    21: "COURSE RECON 1 — Old Fort / Curtis Creek. Keep it moderate: the Heartbreaker is six days later and this is a look, not a test.",
+    25: "COURSE RECON 2 — peak back-to-back on Hellbender's own course. Night section on the Saturday: start late and finish after dark.",
     27: "Final light course look. Legs stay fresh; this is reconnaissance, not training.",
 }
 
+# Big objective days. Each dominates its week, so the rest of the week is sized around
+# it rather than the other way round. `kind` distinguishes an entered race from a big
+# unsupported training day — the validator excludes races from the weekly-hours
+# reconciliation, because a 13-hour race is not a training-hours figure.
 TUNE_UPS = {
-    15: ("50K tune-up race", 390, "First ultra of the build. Rehearse fuelling at 60 g/h. No time goal."),
-    22: ("50-mile tune-up race", 720, "The single most informative day before May. Full kit, full fuelling, night-capable."),
+    15: {"name": "50K tune-up race — NOT YET CHOSEN", "minutes": 390, "kind": "race", "vert_ft": 3500,
+         "note": "First ultra of the build. Rehearse fuelling at 60 g/h. No time goal. "
+                 "Race still to be picked — see plan/tune-up-races.md."},
+    18: {"name": "Art Loeb Trail traverse", "minutes": 540, "kind": "long", "vert_ft": 9200,
+         "note": "30.1 mi point-to-point, ~9,200 ft, Davidson River to Camp Daniel Boone. "
+                 "NOT a race — a big unsupported day, and the largest single effort before the "
+                 "Heartbreaker. Budget 9 h; it may take 11-12 and that is fine. "
+                 "BAIL POINT: FS 816 at Black Balsam, roughly two-thirds in and road-accessible — "
+                 "if you are more than 2 h over budget by Gloucester Gap (mile 12.3), stop there "
+                 "instead. Needs a car shuttle at both ends. February on the balds is genuinely "
+                 "exposed: this is the cold-kit test for Hellbender's 6,684 ft summit."},
+    22: {"name": "Mount Mitchell Heartbreaker 50M", "minutes": 810, "kind": "race", "vert_ft": 12000,
+         "note": "THE DRESS REHEARSAL. Starts at Camp Grier — the same start line as Hellbender. "
+                 "~12,000 ft, 5:30 am start, 16.5 h cutoff. Climbs Mt Mitchell via the Black "
+                 "Mountain Crest and finishes over Heartbreak Ridge, so it is Hellbender terrain "
+                 "at race effort. Full kit, full race fuelling, nothing untested."},
 }
 
 # ── Session model ────────────────────────────────────────────────────────────
@@ -168,10 +186,13 @@ def build_week(w):
     tune_up = TUNE_UPS.get(w)
 
     if tune_up:
-        # The race IS the long run. Everything else shrinks around it.
-        name, mins, note = tune_up
-        weights = {1: .22, 2: .18, 3: .20, 6: .40}
-        run_min = max(0, run_min - mins)
+        # The big day IS the long run. Everything else shrinks around it, and SUNDAY IS
+        # DROPPED ENTIRELY — after 9-13 hours on Saturday the next day is rest, not a
+        # token jog. The first version left a 20-minute run the day after a 50-mile race.
+        weights = {1: .35, 2: .30, 3: .35}
+        run_min = max(0, run_min - tune_up["minutes"])
+        # The big day carries its own vert; only the remainder is spread across the week.
+        vert = max(0, vert - tune_up["vert_ft"])
 
     if mountain:
         # Friday is travel. Saturday and Sunday carry the block.
@@ -191,14 +212,19 @@ def build_week(w):
                                     notes=strength_notes(ph, d)))
 
         if tune_up and d == 5:
-            name, tmins, note = tune_up
-            sessions.append(Session(d, "race", name, tmins, int(vert * .6), note))
+            sessions.append(Session(d, tune_up["kind"], tune_up["name"], tune_up["minutes"],
+                                    tune_up["vert_ft"], tune_up["note"],
+                                    garmin=tune_up["kind"] != "race"))
             continue
 
         if not frac:
             if d == 0:
                 sessions.append(Session(d, "rest", "Rest", 0,
                                         notes="Full rest. This is the session that makes the others work."))
+            elif tune_up and d == 6:
+                sessions.append(Session(d, "rest", "Rest — walk only if you want to", 0,
+                                        notes="Day after a big effort. Eat, sleep, drive home gently. "
+                                              "Nothing you do today improves May; plenty of things could cost it."))
             elif mountain and d == 4:
                 sessions.append(Session(d, "rest", "Travel to the mountains", 0,
                                         notes="Drive. Eat properly on the road; arriving under-fuelled wastes the weekend."))
@@ -333,7 +359,7 @@ def render_markdown(weeks):
     L.append("| ---- | ---- | ---- |")
     for w in sorted(set(list(MOUNTAIN_WEEKS) + list(TUNE_UPS))):
         sat = week_start(w) + timedelta(days=5)
-        what = TUNE_UPS[w][0] if w in TUNE_UPS else MOUNTAIN_WEEKS[w].split(" — ")[0].split(".")[0]
+        what = TUNE_UPS[w]["name"] if w in TUNE_UPS else MOUNTAIN_WEEKS[w].split(" — ")[0].split(".")[0]
         L.append(f"| {w} | {sat:%a %-d %b %Y} | {what} |")
     L.append(f"| 29 | {RACE_DATE:%a %-d %b %Y} | **{RACE_NAME}** |")
     L.append("")
@@ -345,7 +371,7 @@ def render_markdown(weeks):
         tag = []
         if w in DOWN_WEEKS: tag.append("**down week**")
         if w in MOUNTAIN_WEEKS: tag.append("mountains")
-        if w in TUNE_UPS: tag.append(f"**{TUNE_UPS[w][0]}**")
+        if w in TUNE_UPS: tag.append(f"**{TUNE_UPS[w]['name']}**")
         if w == 29: tag.append("**RACE**")
         short = ph.split(" — ")[0]
         L.append(f"| {w} | {week_start(w):%-d %b} | {short} | {WEEK_HOURS[w]:.1f} | "
@@ -359,7 +385,7 @@ def render_markdown(weeks):
         flags = []
         if w in DOWN_WEEKS: flags.append("DOWN WEEK")
         if w in MOUNTAIN_WEEKS: flags.append("MOUNTAIN TRIP")
-        if w in TUNE_UPS: flags.append(TUNE_UPS[w][0].upper())
+        if w in TUNE_UPS: flags.append(TUNE_UPS[w]["name"].upper())
         if w == 29: flags.append("RACE WEEK")
         if flags:
             hdr += f"  ·  **{' · '.join(flags)}**"

@@ -43,10 +43,10 @@ athlete who deletes them is the athlete who does not start in May.
 | 6 | Sat 28 Nov 2026 | Thanksgiving weekend |
 | 10 | Sat 26 Dec 2026 | Holiday mountain block |
 | 14 | Sat 23 Jan 2027 | Mountain block |
-| 15 | Sat 30 Jan 2027 | 50K tune-up race |
-| 18 | Sat 20 Feb 2027 | Presidents' Day weekend |
+| 15 | Sat 30 Jan 2027 | 50K tune-up race — NOT YET CHOSEN |
+| 18 | Sat 20 Feb 2027 | Art Loeb Trail traverse |
 | 21 | Sat 13 Mar 2027 | COURSE RECON 1 |
-| 22 | Sat 20 Mar 2027 | 50-mile tune-up race |
+| 22 | Sat 20 Mar 2027 | Mount Mitchell Heartbreaker 50M |
 | 25 | Sat 10 Apr 2027 | COURSE RECON 2 |
 | 27 | Sat 24 Apr 2027 | Final light course look |
 | 29 | Fri 7 May 2027 | **Hellbender 100** |
@@ -69,14 +69,14 @@ athlete who deletes them is the athlete who does not start in May.
 | 12 | 4 Jan | Base 2 | 5.5 | 1,000 | **down week** |
 | 13 | 11 Jan | Base 2 | 8.5 | 2,000 |  |
 | 14 | 18 Jan | Base 2 | 9.0 | 4,500 | mountains |
-| 15 | 25 Jan | Base 2 | 9.5 | 2,500 | **50K tune-up race** |
+| 15 | 25 Jan | Base 2 | 9.5 | 2,500 | **50K tune-up race — NOT YET CHOSEN** |
 | 16 | 1 Feb | Base 2 | 6.5 | 1,500 | **down week** |
 | 17 | 8 Feb | Specific | 10.0 | 3,000 |  |
-| 18 | 15 Feb | Specific | 11.0 | 5,500 | mountains |
+| 18 | 15 Feb | Specific | 13.0 | 11,000 | mountains, **Art Loeb Trail traverse** |
 | 19 | 22 Feb | Specific | 12.0 | 4,000 |  |
 | 20 | 1 Mar | Specific | 8.0 | 2,500 | **down week** |
 | 21 | 8 Mar | Specific | 12.0 | 6,500 | mountains |
-| 22 | 15 Mar | Specific | 14.5 | 7,000 | **50-mile tune-up race** |
+| 22 | 15 Mar | Specific | 16.5 | 14,000 | **Mount Mitchell Heartbreaker 50M** |
 | 23 | 22 Mar | Specific | 7.0 | 1,500 | **down week** |
 | 24 | 29 Mar | Specific | 12.0 | 5,000 |  |
 | 25 | 5 Apr | Specific | 14.0 | 8,000 | mountains |
@@ -304,20 +304,20 @@ Target: 9.0 h · 4,500 ft vert
 | Sat | 23 Jan | Mountain long run / hike | 2h55 | 2,475 | Mountain block — first real back-to-back. |
 | Sun | 24 Jan | Back-to-back day 2 | 1h25 | 1,575 | On tired legs by design. This is the session that most resembles hour 20 of the race. |
 
-### Week 15 — 25 Jan to 31 Jan · Base 2 — aerobic volume + vert  ·  **50K TUNE-UP RACE**
+### Week 15 — 25 Jan to 31 Jan · Base 2 — aerobic volume + vert  ·  **50K TUNE-UP RACE — NOT YET CHOSEN**
 
 Target: 9.5 h · 2,500 ft vert
 
 | Day | Date | Session | Time | Vert | Notes |
 | --- | ---- | ------- | ---- | ---- | ----- |
 | Mon | 25 Jan | Rest | — | — | Full rest. This is the session that makes the others work. |
-| Tue | 26 Jan | Aerobic run + strides | 20m | 125 | Easy. Add 6 x 20 s strides at the end once base is in. |
+| Tue | 26 Jan | Aerobic run + strides | 30m | — | Easy. Add 6 x 20 s strides at the end once base is in. |
 | Tue | 26 Jan | Strength A — heavy lower | 45m | — | Back squat or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD, low reps, long rests — the meta-analyses found high-load and combined formats improved running economy and submaximal/isometric circuits did not. |
-| Wed | 27 Jan | Vert session — stair machine or treadmill incline | 20m | 875 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. |
-| Thu | 28 Jan | Aerobic run | 20m | 125 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
+| Wed | 27 Jan | Vert session — stair machine or treadmill incline | 25m | — | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. |
+| Thu | 28 Jan | Aerobic run | 30m | — | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 28 Jan | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12. Side plank 3x40 s. |
-| Sat | 30 Jan | 50K tune-up race | 6h30 | 1,500 | First ultra of the build. Rehearse fuelling at 60 g/h. No time goal. |
-| Sun | 31 Jan | Medium-long run | 35m | 500 | Back-to-back with Saturday. Slower than yesterday. |
+| Sat | 30 Jan | 50K tune-up race — NOT YET CHOSEN | 6h30 | 3,500 | First ultra of the build. Rehearse fuelling at 60 g/h. No time goal. Race still to be picked — see plan/tune-up-races.md. |
+| Sun | 31 Jan | Rest — walk only if you want to | — | — | Day after a big effort. Eat, sleep, drive home gently. Nothing you do today improves May; plenty of things could cost it. |
 
 ### Week 16 — 1 Feb to 7 Feb · Base 2 — aerobic volume + vert  ·  **DOWN WEEK**
 
@@ -351,21 +351,21 @@ Target: 10.0 h · 3,000 ft vert
 | Sat | 13 Feb | Long run | 2h50 | 900 | Conversational throughout. Walk the steep bits on purpose — you will walk them in the race. |
 | Sun | 14 Feb | Medium-long run | 1h35 | 600 | Back-to-back with Saturday. Slower than yesterday. |
 
-### Week 18 — 15 Feb to 21 Feb · Specific — mountain, dark, fuelled  ·  **MOUNTAIN TRIP**
+### Week 18 — 15 Feb to 21 Feb · Specific — mountain, dark, fuelled  ·  **MOUNTAIN TRIP · ART LOEB TRAIL TRAVERSE**
 
-Target: 11.0 h · 5,500 ft vert
+Target: 13.0 h · 11,000 ft vert
 
 | Day | Date | Session | Time | Vert | Notes |
 | --- | ---- | ------- | ---- | ---- | ----- |
 | Mon | 15 Feb | Rest | — | — | Full rest. This is the session that makes the others work. |
-| Tue | 16 Feb | Aerobic run + strides | 1h10 | 275 | Easy. Add 6 x 20 s strides at the end once base is in. |
+| Tue | 16 Feb | Aerobic run + strides | 55m | 90 | Easy. Add 6 x 20 s strides at the end once base is in. |
 | Tue | 16 Feb | Strength A — heavy lower | 45m | — | Back squat or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD, low reps, long rests — the meta-analyses found high-load and combined formats improved running economy and submaximal/isometric circuits did not. |
-| Wed | 17 Feb | Vert session — stair machine or treadmill incline | 1h25 | 1,924 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. |
-| Thu | 18 Feb | Aerobic run | 1h10 | 275 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
+| Wed | 17 Feb | Vert session — stair machine or treadmill incline | 45m | 630 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. |
+| Thu | 18 Feb | Aerobic run | 55m | 90 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 18 Feb | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12. Side plank 3x40 s. |
 | Fri | 19 Feb | Travel to the mountains | — | — | Drive. Eat properly on the road; arriving under-fuelled wastes the weekend. |
-| Sat | 20 Feb | Mountain long run / hike | 3h35 | 3,025 | Presidents' Day weekend — three days if you can take the Monday. |
-| Sun | 21 Feb | Back-to-back day 2 | 2h15 | 1,924 | On tired legs by design. This is the session that most resembles hour 20 of the race. |
+| Sat | 20 Feb | Art Loeb Trail traverse | 9h00 | 9,200 | 30.1 mi point-to-point, ~9,200 ft, Davidson River to Camp Daniel Boone. NOT a race — a big unsupported day, and the largest single effort before the Heartbreaker. Budget 9 h; it may take 11-12 and that is fine. BAIL POINT: FS 816 at Black Balsam, roughly two-thirds in and road-accessible — if you are more than 2 h over budget by Gloucester Gap (mile 12.3), stop there instead. Needs a car shuttle at both ends. February on the balds is genuinely exposed: this is the cold-kit test for Hellbender's 6,684 ft summit. |
+| Sun | 21 Feb | Rest — walk only if you want to | — | — | Day after a big effort. Eat, sleep, drive home gently. Nothing you do today improves May; plenty of things could cost it. |
 
 ### Week 19 — 22 Feb to 28 Feb · Specific — mountain, dark, fuelled
 
@@ -412,23 +412,23 @@ Target: 12.0 h · 6,500 ft vert
 | Thu | 11 Mar | Aerobic run | 1h15 | 325 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 11 Mar | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12. Side plank 3x40 s. |
 | Fri | 12 Mar | Travel to the mountains | — | — | Drive. Eat properly on the road; arriving under-fuelled wastes the weekend. |
-| Sat | 13 Mar | Mountain long run / hike | 4h00 | 3,575 | COURSE RECON 1 — Old Fort / Curtis Creek / Mt Mitchell approach. |
+| Sat | 13 Mar | Mountain long run / hike | 4h00 | 3,575 | COURSE RECON 1 — Old Fort / Curtis Creek. Keep it moderate: the Heartbreaker is six days later and this is a look, not a test. |
 | Sun | 14 Mar | Back-to-back day 2 | 2h30 | 2,275 | On tired legs by design. This is the session that most resembles hour 20 of the race. |
 
-### Week 22 — 15 Mar to 21 Mar · Specific — mountain, dark, fuelled  ·  **50-MILE TUNE-UP RACE**
+### Week 22 — 15 Mar to 21 Mar · Specific — mountain, dark, fuelled  ·  **MOUNT MITCHELL HEARTBREAKER 50M**
 
-Target: 14.5 h · 7,000 ft vert
+Target: 16.5 h · 14,000 ft vert
 
 | Day | Date | Session | Time | Vert | Notes |
 | --- | ---- | ------- | ---- | ---- | ----- |
 | Mon | 15 Mar | Rest | — | — | Full rest. This is the session that makes the others work. |
-| Tue | 16 Mar | Aerobic run + strides | 20m | 350 | Easy. Add 6 x 20 s strides at the end once base is in. |
+| Tue | 16 Mar | Aerobic run + strides | 30m | 100 | Easy. Add 6 x 20 s strides at the end once base is in. |
 | Tue | 16 Mar | Strength A — heavy lower | 45m | — | Back squat or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD, low reps, long rests — the meta-analyses found high-load and combined formats improved running economy and submaximal/isometric circuits did not. |
-| Wed | 17 Mar | Vert session — stair machine or treadmill incline | 20m | 2,450 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. |
-| Thu | 18 Mar | Aerobic run | 20m | 350 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
+| Wed | 17 Mar | Vert session — stair machine or treadmill incline | 25m | 700 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. |
+| Thu | 18 Mar | Aerobic run | 30m | 100 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 18 Mar | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12. Side plank 3x40 s. |
-| Sat | 20 Mar | 50-mile tune-up race | 12h00 | 4,200 | The single most informative day before May. Full kit, full fuelling, night-capable. |
-| Sun | 21 Mar | Medium-long run | 25m | 1,400 | Back-to-back with Saturday. Slower than yesterday. |
+| Sat | 20 Mar | Mount Mitchell Heartbreaker 50M | 13h30 | 12,000 | THE DRESS REHEARSAL. Starts at Camp Grier — the same start line as Hellbender. ~12,000 ft, 5:30 am start, 16.5 h cutoff. Climbs Mt Mitchell via the Black Mountain Crest and finishes over Heartbreak Ridge, so it is Hellbender terrain at race effort. Full kit, full race fuelling, nothing untested. |
+| Sun | 21 Mar | Rest — walk only if you want to | — | — | Day after a big effort. Eat, sleep, drive home gently. Nothing you do today improves May; plenty of things could cost it. |
 
 ### Week 23 — 22 Mar to 28 Mar · Specific — mountain, dark, fuelled  ·  **DOWN WEEK**
 
@@ -475,7 +475,7 @@ Target: 14.0 h · 8,000 ft vert
 | Thu | 8 Apr | Aerobic run | 1h30 | 400 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 8 Apr | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12. Side plank 3x40 s. |
 | Fri | 9 Apr | Travel to the mountains | — | — | Drive. Eat properly on the road; arriving under-fuelled wastes the weekend. |
-| Sat | 10 Apr | Mountain long run / hike | 4h45 | 4,400 | COURSE RECON 2 — peak weekend. Biggest back-to-back of the build. |
+| Sat | 10 Apr | Mountain long run / hike | 4h45 | 4,400 | COURSE RECON 2 — peak back-to-back on Hellbender's own course. Night section on the Saturday: start late and finish after dark. |
 | Sun | 11 Apr | Back-to-back day 2 | 2h55 | 2,800 | On tired legs by design. This is the session that most resembles hour 20 of the race. |
 
 ### Week 26 — 12 Apr to 18 Apr · Taper

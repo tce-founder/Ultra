@@ -133,6 +133,12 @@
       "path": "advisory/analysis/source-queue.md"
     },
     {
+      "id": "doc:tune-up-races.md",
+      "kind": "doc",
+      "label": "tune-up-races.md",
+      "path": "advisory/analysis/plan/tune-up-races.md"
+    },
+    {
       "id": "kb:carbohydrate-120g-mountain-marathon-trial",
       "kind": "kb",
       "label": "carbohydrate-120g-mountain-marathon-trial.md",
