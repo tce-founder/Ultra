@@ -20,6 +20,7 @@ related:
   - periodization-for-ultras
   - vertical-gain-and-its-substitutes
   - sleep-and-the-night
+  - hellbender-100
 citation_status: acquired
 authority: experienced
 disposition:

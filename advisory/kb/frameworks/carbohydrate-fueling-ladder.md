@@ -19,6 +19,7 @@ related:
   - pacing-by-effort
   - drink-to-thirst
   - energy-availability-floor
+  - hellbender-100
 citation_status: acquired
 authority: established
 disposition:

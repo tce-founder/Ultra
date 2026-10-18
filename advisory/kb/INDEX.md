@@ -4,8 +4,8 @@
 > **authored** and exists for a person deciding what to read or what to write next. When they
 > disagree, `INDEX.json` is right about what is on disk and this file is right about what it means.
 
-**State at 2026-09-06:** 28 pages · 14 concept · 12 source · 2 entity · orphans none · one-way
-`related` none · 9 empty tags, all declared · no starved lenses · 14/14 golden questions grounded.
+**State at 2026-10-18:** 29 pages · 14 concept · 12 source · 3 entity · orphans none · one-way
+`related` none · 6 empty tags, all declared · no starved lenses · 14/14 golden questions grounded.
 
 ## Layer 1 — frameworks (`frameworks/`)
 
@@ -55,6 +55,7 @@ Factual extracts with their populations, and the reading queue.
 | ---- | ------ |
 | `coaching-schools-and-where-they-disagree` | Four lineages — CTS/Koop, Uphill Athlete/Evoke, Maffetone, SWAP/Roche — and the three questions they actually disagree about. Read this before treating two corpus pages' conflict as an error |
 | `fueling-brands-and-their-interests` | Who publishes the fuelling content, what they sell, and the one place the commercial position contradicts the evidence |
+| `hellbender-100` | The target race: course, cutoffs, the four demands in the order they bite, and the course-specific failure chain. **Every figure is `acquired` and published sources disagree** — re-derive from the official site before the taper |
 
 ## What is missing, and how missing it is
 
@@ -63,12 +64,15 @@ is what keeps them loud. Ranked by consequence rather than alphabetically:
 
 1. **`return-to-run`** — the decision an injured athlete gets wrong at the highest cost. The
    `injury-health` lens grounds elsewhere, so nothing fails: it will improvise, and the output will
-   read like advice.
+   read like advice. **Now the most consequential gap in the vault**, and the one most likely to
+   matter during a 29-week build off a low base.
 2. **`cold-weather`** — hypothermia sits in the DNF page's non-negotiable stop list with no page
-   behind it. A rule with no reasoning attached.
-3. **`race-selection`** and **`goal-setting`** — the entry points to every other decision.
-4. **`aid-station-crew`** — named as high-value inside `pacing-by-effort` and unwritten.
-5. **`altitude`**, **`caffeine-supplements`**, **`foot-care`**, **`gear-kit`**.
+   behind it. A rule with no reasoning attached, and Hellbender summits at 6,684 ft in early May.
+3. **`goal-setting`** — still an entry point to every other decision.
+4. **`altitude`**, **`caffeine-supplements`**, **`foot-care`**.
+
+*Closed 2026-10-18 by `hellbender-100`: `race-selection`, `aid-station-crew`, `gear-kit`. One
+concrete race forced concrete answers where a general page kept deferring them.*
 
 Beyond the tags, the **eight evidential holes** in `where-the-evidence-lives` are a different kind of
 gap: nobody can close those by writing a page, because the studies do not exist.

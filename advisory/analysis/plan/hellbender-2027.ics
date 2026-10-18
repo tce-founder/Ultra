@@ -1,0 +1,2498 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//tce-founder//Ultra Hellbender Plan//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hellbender 100 training
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hb100-w01-1-2026-10-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261020T173000
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:W1 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w01-2-2026-10-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261020T060000
+DTEND;TZID=America/New_York:20261020T062500
+SUMMARY:W1 · Aerobic run (25m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nEasy\, conversationa
+ l. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w01-3-2026-10-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261021T060000
+DTEND;TZID=America/New_York:20261021T062000
+SUMMARY:W1 · Easy run (20m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w01-4-2026-10-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261022T173000
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:W1 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w01-5-2026-10-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261022T060000
+DTEND;TZID=America/New_York:20261022T062500
+SUMMARY:W1 · Aerobic run (25m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nEasy\, conversationa
+ l.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w01-6-2026-10-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261024T060000
+DTEND;TZID=America/New_York:20261024T065500
+SUMMARY:W1 · Long run (55m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nConversational throu
+ ghout. Walk the steep bits on purpose — you will walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w01-7-2026-10-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261025T060000
+DTEND;TZID=America/New_York:20261025T063000
+SUMMARY:W1 · Recovery run (30m)
+DESCRIPTION:Week 1 · Base 1 — tissue tolerance\\n\\nSlow enough to feel 
+ pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-1-2026-10-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261027T173000
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:W2 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-2-2026-10-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261027T060000
+DTEND;TZID=America/New_York:20261027T063000
+SUMMARY:W2 · Aerobic run (30m)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nEasy\, conversationa
+ l. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-3-2026-10-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261028T060000
+DTEND;TZID=America/New_York:20261028T062000
+SUMMARY:W2 · Easy run (20m)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-4-2026-10-29@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261029T173000
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:W2 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-5-2026-10-29@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261029T060000
+DTEND;TZID=America/New_York:20261029T063000
+SUMMARY:W2 · Aerobic run (30m)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nEasy\, conversationa
+ l.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-6-2026-10-31@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261031T060000
+DTEND;TZID=America/New_York:20261031T070500
+SUMMARY:W2 · Long run (1h05)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nConversational throu
+ ghout. Walk the steep bits on purpose — you will walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w02-7-2026-11-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261101T060000
+DTEND;TZID=America/New_York:20261101T063500
+SUMMARY:W2 · Recovery run (35m)
+DESCRIPTION:Week 2 · Base 1 — tissue tolerance\\n\\nSlow enough to feel 
+ pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-1-2026-11-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261103T173000
+DTEND;TZID=America/New_York:20261103T181500
+SUMMARY:W3 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-2-2026-11-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261103T060000
+DTEND;TZID=America/New_York:20261103T063500
+SUMMARY:W3 · Aerobic run (35m)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance · 20 ft vert\\n\\nEasy\,
+  conversational. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-3-2026-11-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261104T060000
+DTEND;TZID=America/New_York:20261104T062500
+SUMMARY:W3 · Easy run (25m)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-4-2026-11-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261105T173000
+DTEND;TZID=America/New_York:20261105T181500
+SUMMARY:W3 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-5-2026-11-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261105T060000
+DTEND;TZID=America/New_York:20261105T063500
+SUMMARY:W3 · Aerobic run (35m)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance · 20 ft vert\\n\\nEasy\,
+  conversational.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-6-2026-11-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261107T060000
+DTEND;TZID=America/New_York:20261107T072000
+SUMMARY:W3 · Long run (1h20)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance · 160 ft vert\\n\\nConve
+ rsational throughout. Walk the steep bits on purpose — you will walk the
+ m in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w03-7-2026-11-08@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261108T060000
+DTEND;TZID=America/New_York:20261108T064000
+SUMMARY:W3 · Recovery run (40m)
+DESCRIPTION:Week 3 · Base 1 — tissue tolerance · 20 ft vert\\n\\nSlow e
+ nough to feel pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-1-2026-11-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261110T173000
+DTEND;TZID=America/New_York:20261110T181500
+SUMMARY:W4 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-2-2026-11-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261110T060000
+DTEND;TZID=America/New_York:20261110T062000
+SUMMARY:W4 · Aerobic run (20m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance · 15 ft vert\\n\\nEasy\,
+  conversational. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-3-2026-11-11@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261111T060000
+DTEND;TZID=America/New_York:20261111T062000
+SUMMARY:W4 · Easy run (20m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-4-2026-11-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261112T173000
+DTEND;TZID=America/New_York:20261112T181500
+SUMMARY:W4 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-5-2026-11-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261112T060000
+DTEND;TZID=America/New_York:20261112T062000
+SUMMARY:W4 · Aerobic run (20m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance · 15 ft vert\\n\\nEasy\,
+  conversational.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-6-2026-11-14@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261114T060000
+DTEND;TZID=America/New_York:20261114T064500
+SUMMARY:W4 · Long run (45m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance · 120 ft vert\\n\\nConve
+ rsational throughout. Walk the steep bits on purpose — you will walk the
+ m in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w04-7-2026-11-15@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261115T060000
+DTEND;TZID=America/New_York:20261115T062500
+SUMMARY:W4 · Recovery run (25m)
+DESCRIPTION:Week 4 · Base 1 — tissue tolerance · 15 ft vert\\n\\nSlow e
+ nough to feel pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-1-2026-11-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261117T173000
+DTEND;TZID=America/New_York:20261117T181500
+SUMMARY:W5 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-2-2026-11-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261117T060000
+DTEND;TZID=America/New_York:20261117T064000
+SUMMARY:W5 · Aerobic run (40m)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance · 30 ft vert\\n\\nEasy\,
+  conversational. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-3-2026-11-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261118T060000
+DTEND;TZID=America/New_York:20261118T062500
+SUMMARY:W5 · Easy run (25m)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-4-2026-11-19@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261119T173000
+DTEND;TZID=America/New_York:20261119T181500
+SUMMARY:W5 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-5-2026-11-19@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261119T060000
+DTEND;TZID=America/New_York:20261119T064000
+SUMMARY:W5 · Aerobic run (40m)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance · 30 ft vert\\n\\nEasy\,
+  conversational.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-6-2026-11-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261121T060000
+DTEND;TZID=America/New_York:20261121T073000
+SUMMARY:W5 · Long run (1h30)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance · 240 ft vert\\n\\nConve
+ rsational throughout. Walk the steep bits on purpose — you will walk the
+ m in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w05-7-2026-11-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261122T060000
+DTEND;TZID=America/New_York:20261122T065000
+SUMMARY:W5 · Recovery run (50m)
+DESCRIPTION:Week 5 · Base 1 — tissue tolerance · 30 ft vert\\n\\nSlow e
+ nough to feel pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-1-2026-11-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261124T173000
+DTEND;TZID=America/New_York:20261124T181500
+SUMMARY:W6 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-2-2026-11-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261124T060000
+DTEND;TZID=America/New_York:20261124T063500
+SUMMARY:W6 · Aerobic run (35m)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance · 125 ft vert\\n\\nEasy\
+ , conversational. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-3-2026-11-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261125T060000
+DTEND;TZID=America/New_York:20261125T062500
+SUMMARY:W6 · Easy run (25m)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-4-2026-11-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261126T173000
+DTEND;TZID=America/New_York:20261126T181500
+SUMMARY:W6 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-5-2026-11-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261126T060000
+DTEND;TZID=America/New_York:20261126T063500
+SUMMARY:W6 · Aerobic run (35m)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance · 125 ft vert\\n\\nEasy\
+ , conversational.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-6-2026-11-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261127T060000
+DTEND;TZID=America/New_York:20261127T063000
+SUMMARY:W6 · Travel to the mountains
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance\\n\\nDrive. Eat properly 
+ on the road\; arriving under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-7-2026-11-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261128T060000
+DTEND;TZID=America/New_York:20261128T074500
+SUMMARY:W6 · Mountain long run / hike (1h45)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance · 1\,375 ft vert\\n\\nTh
+ anksgiving weekend — first mountain block. Hike-heavy\, no pace targets.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w06-8-2026-11-29@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261129T060000
+DTEND;TZID=America/New_York:20261129T070500
+SUMMARY:W6 · Back-to-back day 2 (1h05)
+DESCRIPTION:Week 6 · Base 1 — tissue tolerance · 875 ft vert\\n\\nOn ti
+ red legs by design. This is the session that most resembles hour 20 of the
+  race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-1-2026-12-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261201T173000
+DTEND;TZID=America/New_York:20261201T181500
+SUMMARY:W7 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-2-2026-12-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261201T060000
+DTEND;TZID=America/New_York:20261201T065000
+SUMMARY:W7 · Aerobic run (50m)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance · 40 ft vert\\n\\nEasy\,
+  conversational. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-3-2026-12-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261202T060000
+DTEND;TZID=America/New_York:20261202T063500
+SUMMARY:W7 · Easy run (35m)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-4-2026-12-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261203T173000
+DTEND;TZID=America/New_York:20261203T181500
+SUMMARY:W7 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-5-2026-12-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261203T060000
+DTEND;TZID=America/New_York:20261203T065000
+SUMMARY:W7 · Aerobic run (50m)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance · 40 ft vert\\n\\nEasy\,
+  conversational.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-6-2026-12-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261205T060000
+DTEND;TZID=America/New_York:20261205T075000
+SUMMARY:W7 · Long run (1h50)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance · 320 ft vert\\n\\nConve
+ rsational throughout. Walk the steep bits on purpose — you will walk the
+ m in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w07-7-2026-12-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261206T060000
+DTEND;TZID=America/New_York:20261206T070000
+SUMMARY:W7 · Recovery run (1h00)
+DESCRIPTION:Week 7 · Base 1 — tissue tolerance · 40 ft vert\\n\\nSlow e
+ nough to feel pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-1-2026-12-08@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261208T173000
+DTEND;TZID=America/New_York:20261208T181500
+SUMMARY:W8 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance\\n\\nBack squat or trap-b
+ ar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 he
+ avy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — the m
+ eta-analyses found high-load and combined formats improved running economy
+  and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-2-2026-12-08@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261208T060000
+DTEND;TZID=America/New_York:20261208T063000
+SUMMARY:W8 · Aerobic run (30m)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance · 30 ft vert\\n\\nEasy\,
+  conversational. No strides yet.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-3-2026-12-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261209T060000
+DTEND;TZID=America/New_York:20261209T062000
+SUMMARY:W8 · Easy run (20m)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance\\n\\nEasy.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-4-2026-12-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261210T173000
+DTEND;TZID=America/New_York:20261210T181500
+SUMMARY:W8 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance\\n\\nBulgarian split squa
+ t 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s lowe
+ ring — this is the Hellbender-specific one\; the race's damage is quadri
+ ceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-5-2026-12-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261210T060000
+DTEND;TZID=America/New_York:20261210T063000
+SUMMARY:W8 · Aerobic run (30m)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance · 30 ft vert\\n\\nEasy\,
+  conversational.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-6-2026-12-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261212T060000
+DTEND;TZID=America/New_York:20261212T070500
+SUMMARY:W8 · Long run (1h05)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance · 240 ft vert\\n\\nConve
+ rsational throughout. Walk the steep bits on purpose — you will walk the
+ m in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w08-7-2026-12-13@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261213T060000
+DTEND;TZID=America/New_York:20261213T063500
+SUMMARY:W8 · Recovery run (35m)
+DESCRIPTION:Week 8 · Base 1 — tissue tolerance · 30 ft vert\\n\\nSlow e
+ nough to feel pointless. That is the point.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-1-2026-12-15@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T181500
+SUMMARY:W9 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert\\n\\nBack squat or t
+ rap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3
+ x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests — 
+ the meta-analyses found high-load and combined formats improved running ec
+ onomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-2-2026-12-15@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261215T060000
+DTEND;TZID=America/New_York:20261215T064500
+SUMMARY:W9 · Aerobic run + strides (45m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert · 60 ft vert\\n\\nE
+ asy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-3-2026-12-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261216T060000
+DTEND;TZID=America/New_York:20261216T065500
+SUMMARY:W9 · Vert session — stair machine or treadmill incline (55m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert · 420 ft vert\\n\\n
+ Stair machine (StepMill) preferred — far steeper than a treadmill's 15% 
+ ceiling. DO NOT hold the handrail\; it removes a large and unrecorded shar
+ e of the work. Treadmill at max incline is the alternative. Neither trains
+  DESCENDING\, which is what actually breaks down at Hellbender — that is
+  what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-4-2026-12-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T181500
+SUMMARY:W9 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert\\n\\nBulgarian split
+  squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 s
+  lowering — this is the Hellbender-specific one\; the race's damage is q
+ uadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x4
+ 0 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-5-2026-12-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261217T060000
+DTEND;TZID=America/New_York:20261217T064500
+SUMMARY:W9 · Aerobic run (45m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert · 60 ft vert\\n\\nE
+ asy. If yesterday's vert left you sore\, make this shorter — never faste
+ r.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-6-2026-12-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261218T060000
+DTEND;TZID=America/New_York:20261218T062500
+SUMMARY:W9 · Easy run (25m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert\\n\\nShort and genui
+ nely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-7-2026-12-19@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261219T060000
+DTEND;TZID=America/New_York:20261219T075000
+SUMMARY:W9 · Long run (1h50)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert · 360 ft vert\\n\\n
+ Conversational throughout. Walk the steep bits on purpose — you will wal
+ k them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w09-8-2026-12-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261220T060000
+DTEND;TZID=America/New_York:20261220T065000
+SUMMARY:W9 · Medium-long run (50m)
+DESCRIPTION:Week 9 · Base 2 — aerobic volume + vert · 240 ft vert\\n\\n
+ Back-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-1-2026-12-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261222T173000
+DTEND;TZID=America/New_York:20261222T181500
+SUMMARY:W10 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-2-2026-12-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261222T060000
+DTEND;TZID=America/New_York:20261222T064500
+SUMMARY:W10 · Aerobic run + strides (45m)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert · 175 ft vert\\n\\
+ nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-3-2026-12-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261223T060000
+DTEND;TZID=America/New_York:20261223T065500
+SUMMARY:W10 · Vert session — stair machine or treadmill incline (55m)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert · 1\,225 ft vert\\
+ n\\nStair machine (StepMill) preferred — far steeper than a treadmill's 
+ 15% ceiling. DO NOT hold the handrail\; it removes a large and unrecorded 
+ share of the work. Treadmill at max incline is the alternative. Neither tr
+ ains DESCENDING\, which is what actually breaks down at Hellbender — tha
+ t is what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-4-2026-12-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261224T173000
+DTEND;TZID=America/New_York:20261224T181500
+SUMMARY:W10 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-5-2026-12-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261224T060000
+DTEND;TZID=America/New_York:20261224T064500
+SUMMARY:W10 · Aerobic run (45m)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert · 175 ft vert\\n\\
+ nEasy. If yesterday's vert left you sore\, make this shorter — never fas
+ ter.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-6-2026-12-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261225T060000
+DTEND;TZID=America/New_York:20261225T063000
+SUMMARY:W10 · Travel to the mountains
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert\\n\\nDrive. Eat pro
+ perly on the road\; arriving under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-7-2026-12-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261226T060000
+DTEND;TZID=America/New_York:20261226T082000
+SUMMARY:W10 · Mountain long run / hike (2h20)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert · 1\,925 ft vert\\
+ n\\nHoliday mountain block. Long hike/run Sat\, shorter Sun.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w10-8-2026-12-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261227T060000
+DTEND;TZID=America/New_York:20261227T071000
+SUMMARY:W10 · Back-to-back day 2 (1h10)
+DESCRIPTION:Week 10 · Base 2 — aerobic volume + vert · 1\,225 ft vert\\
+ n\\nOn tired legs by design. This is the session that most resembles hour 
+ 20 of the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-1-2026-12-29@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261229T173000
+DTEND;TZID=America/New_York:20261229T181500
+SUMMARY:W11 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-2-2026-12-29@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261229T060000
+DTEND;TZID=America/New_York:20261229T065500
+SUMMARY:W11 · Aerobic run + strides (55m)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert · 80 ft vert\\n\\n
+ Easy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-3-2026-12-30@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261230T060000
+DTEND;TZID=America/New_York:20261230T070500
+SUMMARY:W11 · Vert session — stair machine or treadmill incline (1h05)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert · 560 ft vert\\n\\
+ nStair machine (StepMill) preferred — far steeper than a treadmill's 15%
+  ceiling. DO NOT hold the handrail\; it removes a large and unrecorded sha
+ re of the work. Treadmill at max incline is the alternative. Neither train
+ s DESCENDING\, which is what actually breaks down at Hellbender — that i
+ s what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-4-2026-12-31@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261231T173000
+DTEND;TZID=America/New_York:20261231T181500
+SUMMARY:W11 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-5-2026-12-31@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261231T060000
+DTEND;TZID=America/New_York:20261231T065500
+SUMMARY:W11 · Aerobic run (55m)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert · 80 ft vert\\n\\n
+ Easy. If yesterday's vert left you sore\, make this shorter — never fast
+ er.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-6-2027-01-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270101T060000
+DTEND;TZID=America/New_York:20270101T062500
+SUMMARY:W11 · Easy run (25m)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert\\n\\nShort and genu
+ inely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-7-2027-01-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270102T060000
+DTEND;TZID=America/New_York:20270102T081000
+SUMMARY:W11 · Long run (2h10)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert · 480 ft vert\\n\\
+ nConversational throughout. Walk the steep bits on purpose — you will wa
+ lk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w11-8-2027-01-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270103T060000
+DTEND;TZID=America/New_York:20270103T070000
+SUMMARY:W11 · Medium-long run (1h00)
+DESCRIPTION:Week 11 · Base 2 — aerobic volume + vert · 320 ft vert\\n\\
+ nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-1-2027-01-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:W12 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-2-2027-01-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270105T060000
+DTEND;TZID=America/New_York:20270105T063500
+SUMMARY:W12 · Aerobic run + strides (35m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert · 50 ft vert\\n\\n
+ Easy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-3-2027-01-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270106T060000
+DTEND;TZID=America/New_York:20270106T064000
+SUMMARY:W12 · Vert session — stair machine or treadmill incline (40m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert · 350 ft vert\\n\\
+ nStair machine (StepMill) preferred — far steeper than a treadmill's 15%
+  ceiling. DO NOT hold the handrail\; it removes a large and unrecorded sha
+ re of the work. Treadmill at max incline is the alternative. Neither train
+ s DESCENDING\, which is what actually breaks down at Hellbender — that i
+ s what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-4-2027-01-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:W12 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-5-2027-01-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270107T060000
+DTEND;TZID=America/New_York:20270107T063500
+SUMMARY:W12 · Aerobic run (35m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert · 50 ft vert\\n\\n
+ Easy. If yesterday's vert left you sore\, make this shorter — never fast
+ er.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-6-2027-01-08@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270108T060000
+DTEND;TZID=America/New_York:20270108T062000
+SUMMARY:W12 · Easy run (20m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert\\n\\nShort and genu
+ inely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-7-2027-01-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270109T060000
+DTEND;TZID=America/New_York:20270109T072000
+SUMMARY:W12 · Long run (1h20)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert · 300 ft vert\\n\\
+ nConversational throughout. Walk the steep bits on purpose — you will wa
+ lk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w12-8-2027-01-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270110T060000
+DTEND;TZID=America/New_York:20270110T063500
+SUMMARY:W12 · Medium-long run (35m)
+DESCRIPTION:Week 12 · Base 2 — aerobic volume + vert · 200 ft vert\\n\\
+ nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-1-2027-01-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T181500
+SUMMARY:W13 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-2-2027-01-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270112T060000
+DTEND;TZID=America/New_York:20270112T070000
+SUMMARY:W13 · Aerobic run + strides (1h00)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert · 100 ft vert\\n\\
+ nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-3-2027-01-13@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270113T060000
+DTEND;TZID=America/New_York:20270113T071000
+SUMMARY:W13 · Vert session — stair machine or treadmill incline (1h10)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert · 700 ft vert\\n\\
+ nStair machine (StepMill) preferred — far steeper than a treadmill's 15%
+  ceiling. DO NOT hold the handrail\; it removes a large and unrecorded sha
+ re of the work. Treadmill at max incline is the alternative. Neither train
+ s DESCENDING\, which is what actually breaks down at Hellbender — that i
+ s what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-4-2027-01-14@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:W13 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-5-2027-01-14@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270114T060000
+DTEND;TZID=America/New_York:20270114T070000
+SUMMARY:W13 · Aerobic run (1h00)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert · 100 ft vert\\n\\
+ nEasy. If yesterday's vert left you sore\, make this shorter — never fas
+ ter.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-6-2027-01-15@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270115T060000
+DTEND;TZID=America/New_York:20270115T063000
+SUMMARY:W13 · Easy run (30m)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert\\n\\nShort and genu
+ inely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-7-2027-01-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270116T060000
+DTEND;TZID=America/New_York:20270116T082000
+SUMMARY:W13 · Long run (2h20)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert · 600 ft vert\\n\\
+ nConversational throughout. Walk the steep bits on purpose — you will wa
+ lk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w13-8-2027-01-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270117T060000
+DTEND;TZID=America/New_York:20270117T070500
+SUMMARY:W13 · Medium-long run (1h05)
+DESCRIPTION:Week 13 · Base 2 — aerobic volume + vert · 400 ft vert\\n\\
+ nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-1-2027-01-19@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T181500
+SUMMARY:W14 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-2-2027-01-19@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270119T060000
+DTEND;TZID=America/New_York:20270119T070000
+SUMMARY:W14 · Aerobic run + strides (1h00)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert · 225 ft vert\\n\\
+ nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-3-2027-01-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270120T060000
+DTEND;TZID=America/New_York:20270120T071000
+SUMMARY:W14 · Vert session — stair machine or treadmill incline (1h10)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert · 1\,575 ft vert\\
+ n\\nStair machine (StepMill) preferred — far steeper than a treadmill's 
+ 15% ceiling. DO NOT hold the handrail\; it removes a large and unrecorded 
+ share of the work. Treadmill at max incline is the alternative. Neither tr
+ ains DESCENDING\, which is what actually breaks down at Hellbender — tha
+ t is what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-4-2027-01-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:W14 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-5-2027-01-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270121T060000
+DTEND;TZID=America/New_York:20270121T070000
+SUMMARY:W14 · Aerobic run (1h00)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert · 225 ft vert\\n\\
+ nEasy. If yesterday's vert left you sore\, make this shorter — never fas
+ ter.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-6-2027-01-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270122T060000
+DTEND;TZID=America/New_York:20270122T063000
+SUMMARY:W14 · Travel to the mountains
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert\\n\\nDrive. Eat pro
+ perly on the road\; arriving under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-7-2027-01-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270123T060000
+DTEND;TZID=America/New_York:20270123T085500
+SUMMARY:W14 · Mountain long run / hike (2h55)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert · 2\,475 ft vert\\
+ n\\nMountain block — first real back-to-back.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w14-8-2027-01-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270124T060000
+DTEND;TZID=America/New_York:20270124T072500
+SUMMARY:W14 · Back-to-back day 2 (1h25)
+DESCRIPTION:Week 14 · Base 2 — aerobic volume + vert · 1\,575 ft vert\\
+ n\\nOn tired legs by design. This is the session that most resembles hour 
+ 20 of the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-1-2027-01-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:W15 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-2-2027-01-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270126T060000
+DTEND;TZID=America/New_York:20270126T062000
+SUMMARY:W15 · Aerobic run + strides (20m)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert · 125 ft vert\\n\\
+ nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-3-2027-01-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270127T060000
+DTEND;TZID=America/New_York:20270127T062000
+SUMMARY:W15 · Vert session — stair machine or treadmill incline (20m)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert · 875 ft vert\\n\\
+ nStair machine (StepMill) preferred — far steeper than a treadmill's 15%
+  ceiling. DO NOT hold the handrail\; it removes a large and unrecorded sha
+ re of the work. Treadmill at max incline is the alternative. Neither train
+ s DESCENDING\, which is what actually breaks down at Hellbender — that i
+ s what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-4-2027-01-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270128T173000
+DTEND;TZID=America/New_York:20270128T181500
+SUMMARY:W15 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-5-2027-01-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270128T060000
+DTEND;TZID=America/New_York:20270128T062000
+SUMMARY:W15 · Aerobic run (20m)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert · 125 ft vert\\n\\
+ nEasy. If yesterday's vert left you sore\, make this shorter — never fas
+ ter.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-6-2027-01-30@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270130T040000
+DTEND;TZID=America/New_York:20270130T103000
+SUMMARY:W15 · 50K tune-up race (6h30)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert · 1\,500 ft vert\\
+ n\\nFirst ultra of the build. Rehearse fuelling at 60 g/h. No time goal.
+CATEGORIES:RACE
+LOCATION:Camp Grier\, Old Fort\, NC
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w15-7-2027-01-31@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270131T060000
+DTEND;TZID=America/New_York:20270131T063500
+SUMMARY:W15 · Medium-long run (35m)
+DESCRIPTION:Week 15 · Base 2 — aerobic volume + vert · 500 ft vert\\n\\
+ nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-1-2027-02-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270202T173000
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:W16 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert\\n\\nBack squat or 
+ trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 
+ 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long rests —
+  the meta-analyses found high-load and combined formats improved running e
+ conomy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-2-2027-02-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270202T060000
+DTEND;TZID=America/New_York:20270202T064000
+SUMMARY:W16 · Aerobic run + strides (40m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert · 75 ft vert\\n\\n
+ Easy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-3-2027-02-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270203T060000
+DTEND;TZID=America/New_York:20270203T065000
+SUMMARY:W16 · Vert session — stair machine or treadmill incline (50m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert · 525 ft vert\\n\\
+ nStair machine (StepMill) preferred — far steeper than a treadmill's 15%
+  ceiling. DO NOT hold the handrail\; it removes a large and unrecorded sha
+ re of the work. Treadmill at max incline is the alternative. Neither train
+ s DESCENDING\, which is what actually breaks down at Hellbender — that i
+ s what the mountain weekends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-4-2027-02-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270204T173000
+DTEND;TZID=America/New_York:20270204T181500
+SUMMARY:W16 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert\\n\\nBulgarian spli
+ t squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg\, 4 
+ s lowering — this is the Hellbender-specific one\; the race's damage is 
+ quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side plank 3x
+ 40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-5-2027-02-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270204T060000
+DTEND;TZID=America/New_York:20270204T064000
+SUMMARY:W16 · Aerobic run (40m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert · 75 ft vert\\n\\n
+ Easy. If yesterday's vert left you sore\, make this shorter — never fast
+ er.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-6-2027-02-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270205T060000
+DTEND;TZID=America/New_York:20270205T062000
+SUMMARY:W16 · Easy run (20m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert\\n\\nShort and genu
+ inely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-7-2027-02-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270206T060000
+DTEND;TZID=America/New_York:20270206T074000
+SUMMARY:W16 · Long run (1h40)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert · 450 ft vert\\n\\
+ nConversational throughout. Walk the steep bits on purpose — you will wa
+ lk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w16-8-2027-02-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270207T060000
+DTEND;TZID=America/New_York:20270207T064500
+SUMMARY:W16 · Medium-long run (45m)
+DESCRIPTION:Week 16 · Base 2 — aerobic volume + vert · 300 ft vert\\n\\
+ nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-1-2027-02-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270209T173000
+DTEND;TZID=America/New_York:20270209T181500
+SUMMARY:W17 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-2-2027-02-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270209T060000
+DTEND;TZID=America/New_York:20270209T070500
+SUMMARY:W17 · Aerobic run + strides (1h05)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled · 150 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-3-2027-02-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270210T060000
+DTEND;TZID=America/New_York:20270210T072000
+SUMMARY:W17 · Vert session — stair machine or treadmill incline (1h20)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled · 1\,050 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-4-2027-02-11@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T181500
+SUMMARY:W17 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-5-2027-02-11@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270211T060000
+DTEND;TZID=America/New_York:20270211T070500
+SUMMARY:W17 · Aerobic run (1h05)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled · 150 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-6-2027-02-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270212T060000
+DTEND;TZID=America/New_York:20270212T063000
+SUMMARY:W17 · Easy run (30m)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled\\n\\nShort an
+ d genuinely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-7-2027-02-13@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270213T060000
+DTEND;TZID=America/New_York:20270213T085000
+SUMMARY:W17 · Long run (2h50)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled · 900 ft ver
+ t\\n\\nConversational throughout. Walk the steep bits on purpose — you w
+ ill walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w17-8-2027-02-14@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270214T060000
+DTEND;TZID=America/New_York:20270214T073500
+SUMMARY:W17 · Medium-long run (1h35)
+DESCRIPTION:Week 17 · Specific — mountain\, dark\, fuelled · 600 ft ver
+ t\\n\\nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-1-2027-02-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270216T173000
+DTEND;TZID=America/New_York:20270216T181500
+SUMMARY:W18 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-2-2027-02-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270216T060000
+DTEND;TZID=America/New_York:20270216T071000
+SUMMARY:W18 · Aerobic run + strides (1h10)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled · 275 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-3-2027-02-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270217T060000
+DTEND;TZID=America/New_York:20270217T072500
+SUMMARY:W18 · Vert session — stair machine or treadmill incline (1h25)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled · 1\,924 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-4-2027-02-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270218T173000
+DTEND;TZID=America/New_York:20270218T181500
+SUMMARY:W18 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-5-2027-02-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270218T060000
+DTEND;TZID=America/New_York:20270218T071000
+SUMMARY:W18 · Aerobic run (1h10)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled · 275 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-6-2027-02-19@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270219T060000
+DTEND;TZID=America/New_York:20270219T063000
+SUMMARY:W18 · Travel to the mountains
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled\\n\\nDrive. E
+ at properly on the road\; arriving under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-7-2027-02-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270220T060000
+DTEND;TZID=America/New_York:20270220T093500
+SUMMARY:W18 · Mountain long run / hike (3h35)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled · 3\,025 ft 
+ vert\\n\\nPresidents' Day weekend — three days if you can take the Monda
+ y.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w18-8-2027-02-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270221T060000
+DTEND;TZID=America/New_York:20270221T081500
+SUMMARY:W18 · Back-to-back day 2 (2h15)
+DESCRIPTION:Week 18 · Specific — mountain\, dark\, fuelled · 1\,924 ft 
+ vert\\n\\nOn tired legs by design. This is the session that most resembles
+  hour 20 of the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-1-2027-02-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270223T173000
+DTEND;TZID=America/New_York:20270223T181500
+SUMMARY:W19 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-2-2027-02-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270223T060000
+DTEND;TZID=America/New_York:20270223T072000
+SUMMARY:W19 · Aerobic run + strides (1h20)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled · 200 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-3-2027-02-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270224T060000
+DTEND;TZID=America/New_York:20270224T074000
+SUMMARY:W19 · Vert session — stair machine or treadmill incline (1h40)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled · 1\,400 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-4-2027-02-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270225T173000
+DTEND;TZID=America/New_York:20270225T181500
+SUMMARY:W19 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-5-2027-02-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270225T060000
+DTEND;TZID=America/New_York:20270225T072000
+SUMMARY:W19 · Aerobic run (1h20)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled · 200 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-6-2027-02-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270226T060000
+DTEND;TZID=America/New_York:20270226T064000
+SUMMARY:W19 · Easy run (40m)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled\\n\\nShort an
+ d genuinely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-7-2027-02-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270227T060000
+DTEND;TZID=America/New_York:20270227T093000
+SUMMARY:W19 · Long run (3h30)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled · 1\,200 ft 
+ vert\\n\\nConversational throughout. Walk the steep bits on purpose — yo
+ u will walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w19-8-2027-02-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270228T060000
+DTEND;TZID=America/New_York:20270228T080000
+SUMMARY:W19 · Medium-long run (2h00)
+DESCRIPTION:Week 19 · Specific — mountain\, dark\, fuelled · 800 ft ver
+ t\\n\\nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-1-2027-03-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270302T173000
+DTEND;TZID=America/New_York:20270302T181500
+SUMMARY:W20 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-2-2027-03-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270302T060000
+DTEND;TZID=America/New_York:20270302T065000
+SUMMARY:W20 · Aerobic run + strides (50m)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled · 125 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-3-2027-03-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270303T060000
+DTEND;TZID=America/New_York:20270303T070000
+SUMMARY:W20 · Vert session — stair machine or treadmill incline (1h00)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled · 875 ft ver
+ t\\n\\nStair machine (StepMill) preferred — far steeper than a treadmill
+ 's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrecord
+ ed share of the work. Treadmill at max incline is the alternative. Neither
+  trains DESCENDING\, which is what actually breaks down at Hellbender — 
+ that is what the mountain weekends and the eccentric strength work are for
+ .
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-4-2027-03-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270304T173000
+DTEND;TZID=America/New_York:20270304T181500
+SUMMARY:W20 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-5-2027-03-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270304T060000
+DTEND;TZID=America/New_York:20270304T065000
+SUMMARY:W20 · Aerobic run (50m)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled · 125 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-6-2027-03-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270305T060000
+DTEND;TZID=America/New_York:20270305T062500
+SUMMARY:W20 · Easy run (25m)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled\\n\\nShort an
+ d genuinely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-7-2027-03-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270306T060000
+DTEND;TZID=America/New_York:20270306T081000
+SUMMARY:W20 · Long run (2h10)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled · 750 ft ver
+ t\\n\\nConversational throughout. Walk the steep bits on purpose — you w
+ ill walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w20-8-2027-03-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270307T060000
+DTEND;TZID=America/New_York:20270307T071500
+SUMMARY:W20 · Medium-long run (1h15)
+DESCRIPTION:Week 20 · Specific — mountain\, dark\, fuelled · 500 ft ver
+ t\\n\\nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-1-2027-03-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270309T173000
+DTEND;TZID=America/New_York:20270309T181500
+SUMMARY:W21 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-2-2027-03-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270309T060000
+DTEND;TZID=America/New_York:20270309T071500
+SUMMARY:W21 · Aerobic run + strides (1h15)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled · 325 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-3-2027-03-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270310T060000
+DTEND;TZID=America/New_York:20270310T073500
+SUMMARY:W21 · Vert session — stair machine or treadmill incline (1h35)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled · 2\,275 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-4-2027-03-11@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270311T173000
+DTEND;TZID=America/New_York:20270311T181500
+SUMMARY:W21 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-5-2027-03-11@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270311T060000
+DTEND;TZID=America/New_York:20270311T071500
+SUMMARY:W21 · Aerobic run (1h15)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled · 325 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-6-2027-03-12@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270312T060000
+DTEND;TZID=America/New_York:20270312T063000
+SUMMARY:W21 · Travel to the mountains
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled\\n\\nDrive. E
+ at properly on the road\; arriving under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-7-2027-03-13@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270313T060000
+DTEND;TZID=America/New_York:20270313T100000
+SUMMARY:W21 · Mountain long run / hike (4h00)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled · 3\,575 ft 
+ vert\\n\\nCOURSE RECON 1 — Old Fort / Curtis Creek / Mt Mitchell approac
+ h.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w21-8-2027-03-14@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270314T060000
+DTEND;TZID=America/New_York:20270314T083000
+SUMMARY:W21 · Back-to-back day 2 (2h30)
+DESCRIPTION:Week 21 · Specific — mountain\, dark\, fuelled · 2\,275 ft 
+ vert\\n\\nOn tired legs by design. This is the session that most resembles
+  hour 20 of the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-1-2027-03-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270316T173000
+DTEND;TZID=America/New_York:20270316T181500
+SUMMARY:W22 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-2-2027-03-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270316T060000
+DTEND;TZID=America/New_York:20270316T062000
+SUMMARY:W22 · Aerobic run + strides (20m)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled · 350 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-3-2027-03-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270317T060000
+DTEND;TZID=America/New_York:20270317T062000
+SUMMARY:W22 · Vert session — stair machine or treadmill incline (20m)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled · 2\,450 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-4-2027-03-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270318T173000
+DTEND;TZID=America/New_York:20270318T181500
+SUMMARY:W22 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-5-2027-03-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270318T060000
+DTEND;TZID=America/New_York:20270318T062000
+SUMMARY:W22 · Aerobic run (20m)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled · 350 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-6-2027-03-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270320T040000
+DTEND;TZID=America/New_York:20270320T160000
+SUMMARY:W22 · 50-mile tune-up race (12h00)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled · 4\,200 ft 
+ vert\\n\\nThe single most informative day before May. Full kit\, full fuel
+ ling\, night-capable.
+CATEGORIES:RACE
+LOCATION:Camp Grier\, Old Fort\, NC
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w22-7-2027-03-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270321T060000
+DTEND;TZID=America/New_York:20270321T062500
+SUMMARY:W22 · Medium-long run (25m)
+DESCRIPTION:Week 22 · Specific — mountain\, dark\, fuelled · 1\,400 ft 
+ vert\\n\\nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-1-2027-03-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270323T173000
+DTEND;TZID=America/New_York:20270323T181500
+SUMMARY:W23 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-2-2027-03-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270323T060000
+DTEND;TZID=America/New_York:20270323T064500
+SUMMARY:W23 · Aerobic run + strides (45m)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled · 75 ft vert
+ \\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-3-2027-03-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270324T060000
+DTEND;TZID=America/New_York:20270324T065500
+SUMMARY:W23 · Vert session — stair machine or treadmill incline (55m)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled · 525 ft ver
+ t\\n\\nStair machine (StepMill) preferred — far steeper than a treadmill
+ 's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrecord
+ ed share of the work. Treadmill at max incline is the alternative. Neither
+  trains DESCENDING\, which is what actually breaks down at Hellbender — 
+ that is what the mountain weekends and the eccentric strength work are for
+ .
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-4-2027-03-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270325T173000
+DTEND;TZID=America/New_York:20270325T181500
+SUMMARY:W23 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-5-2027-03-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270325T060000
+DTEND;TZID=America/New_York:20270325T064500
+SUMMARY:W23 · Aerobic run (45m)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled · 75 ft vert
+ \\n\\nEasy. If yesterday's vert left you sore\, make this shorter — neve
+ r faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-6-2027-03-26@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270326T060000
+DTEND;TZID=America/New_York:20270326T062000
+SUMMARY:W23 · Easy run (20m)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled\\n\\nShort an
+ d genuinely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-7-2027-03-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270327T060000
+DTEND;TZID=America/New_York:20270327T075000
+SUMMARY:W23 · Long run (1h50)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled · 450 ft ver
+ t\\n\\nConversational throughout. Walk the steep bits on purpose — you w
+ ill walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w23-8-2027-03-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270328T060000
+DTEND;TZID=America/New_York:20270328T070500
+SUMMARY:W23 · Medium-long run (1h05)
+DESCRIPTION:Week 23 · Specific — mountain\, dark\, fuelled · 300 ft ver
+ t\\n\\nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-1-2027-03-30@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270330T173000
+DTEND;TZID=America/New_York:20270330T181500
+SUMMARY:W24 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-2-2027-03-30@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270330T060000
+DTEND;TZID=America/New_York:20270330T072000
+SUMMARY:W24 · Aerobic run + strides (1h20)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled · 250 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-3-2027-03-31@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270331T060000
+DTEND;TZID=America/New_York:20270331T074000
+SUMMARY:W24 · Vert session — stair machine or treadmill incline (1h40)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled · 1\,750 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-4-2027-04-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270401T173000
+DTEND;TZID=America/New_York:20270401T181500
+SUMMARY:W24 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-5-2027-04-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270401T060000
+DTEND;TZID=America/New_York:20270401T072000
+SUMMARY:W24 · Aerobic run (1h20)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled · 250 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-6-2027-04-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270402T060000
+DTEND;TZID=America/New_York:20270402T064000
+SUMMARY:W24 · Easy run (40m)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled\\n\\nShort an
+ d genuinely easy. Drop it without guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-7-2027-04-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270403T060000
+DTEND;TZID=America/New_York:20270403T093000
+SUMMARY:W24 · Long run (3h30)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled · 1\,500 ft 
+ vert\\n\\nConversational throughout. Walk the steep bits on purpose — yo
+ u will walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w24-8-2027-04-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270404T060000
+DTEND;TZID=America/New_York:20270404T080000
+SUMMARY:W24 · Medium-long run (2h00)
+DESCRIPTION:Week 24 · Specific — mountain\, dark\, fuelled · 1\,000 ft 
+ vert\\n\\nBack-to-back with Saturday. Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-1-2027-04-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270406T173000
+DTEND;TZID=America/New_York:20270406T181500
+SUMMARY:W25 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled\\n\\nBack squ
+ at or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf 
+ raise 3x8 heavy. Weighted step-up 3x6/leg. HIGH LOAD\, low reps\, long res
+ ts — the meta-analyses found high-load and combined formats improved run
+ ning economy and submaximal/isometric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-2-2027-04-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270406T060000
+DTEND;TZID=America/New_York:20270406T073000
+SUMMARY:W25 · Aerobic run + strides (1h30)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled · 400 ft ver
+ t\\n\\nEasy. Add 6 x 20 s strides at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-3-2027-04-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270407T060000
+DTEND;TZID=America/New_York:20270407T075000
+SUMMARY:W25 · Vert session — stair machine or treadmill incline (1h50)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled · 2\,800 ft 
+ vert\\n\\nStair machine (StepMill) preferred — far steeper than a treadm
+ ill's 15% ceiling. DO NOT hold the handrail\; it removes a large and unrec
+ orded share of the work. Treadmill at max incline is the alternative. Neit
+ her trains DESCENDING\, which is what actually breaks down at Hellbender 
+ — that is what the mountain weekends and the eccentric strength work are
+  for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-4-2027-04-08@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270408T173000
+DTEND;TZID=America/New_York:20270408T181500
+SUMMARY:W25 · Strength B — unilateral + eccentric (45m)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled\\n\\nBulgaria
+ n split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/le
+ g\, 4 s lowering — this is the Hellbender-specific one\; the race's dama
+ ge is quadriceps braking on descents. Calf raise\, bent-knee 3x12. Side pl
+ ank 3x40 s.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-5-2027-04-08@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270408T060000
+DTEND;TZID=America/New_York:20270408T073000
+SUMMARY:W25 · Aerobic run (1h30)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled · 400 ft ver
+ t\\n\\nEasy. If yesterday's vert left you sore\, make this shorter — nev
+ er faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-6-2027-04-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270409T060000
+DTEND;TZID=America/New_York:20270409T063000
+SUMMARY:W25 · Travel to the mountains
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled\\n\\nDrive. E
+ at properly on the road\; arriving under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-7-2027-04-10@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270410T060000
+DTEND;TZID=America/New_York:20270410T104500
+SUMMARY:W25 · Mountain long run / hike (4h45)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled · 4\,400 ft 
+ vert\\n\\nCOURSE RECON 2 — peak weekend. Biggest back-to-back of the bui
+ ld.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w25-8-2027-04-11@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270411T060000
+DTEND;TZID=America/New_York:20270411T085500
+SUMMARY:W25 · Back-to-back day 2 (2h55)
+DESCRIPTION:Week 25 · Specific — mountain\, dark\, fuelled · 2\,800 ft 
+ vert\\n\\nOn tired legs by design. This is the session that most resembles
+  hour 20 of the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-1-2027-04-13@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270413T173000
+DTEND;TZID=America/New_York:20270413T181500
+SUMMARY:W26 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 26 · Taper\\n\\nBack squat or trap-bar deadlift 4x5 @ hea
+ vy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy. Weighted step-up
+  3x6/leg. HIGH LOAD\, low reps\, long rests — the meta-analyses found hi
+ gh-load and combined formats improved running economy and submaximal/isome
+ tric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-2-2027-04-13@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270413T060000
+DTEND;TZID=America/New_York:20270413T072500
+SUMMARY:W26 · Aerobic run + strides (1h25)
+DESCRIPTION:Week 26 · Taper · 175 ft vert\\n\\nEasy. Add 6 x 20 s strides
+  at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-3-2027-04-14@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270414T060000
+DTEND;TZID=America/New_York:20270414T072500
+SUMMARY:W26 · Vert session — stair machine or treadmill incline (1h25)
+DESCRIPTION:Week 26 · Taper · 1\,225 ft vert\\n\\nStair machine (StepMill
+ ) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold th
+ e handrail\; it removes a large and unrecorded share of the work. Treadmil
+ l at max incline is the alternative. Neither trains DESCENDING\, which is 
+ what actually breaks down at Hellbender — that is what the mountain week
+ ends and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-4-2027-04-15@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270415T060000
+DTEND;TZID=America/New_York:20270415T072000
+SUMMARY:W26 · Aerobic run (1h20)
+DESCRIPTION:Week 26 · Taper · 175 ft vert\\n\\nEasy. If yesterday's vert 
+ left you sore\, make this shorter — never faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-5-2027-04-16@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270416T060000
+DTEND;TZID=America/New_York:20270416T063500
+SUMMARY:W26 · Easy run (35m)
+DESCRIPTION:Week 26 · Taper\\n\\nShort and genuinely easy. Drop it without
+  guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-6-2027-04-17@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270417T060000
+DTEND;TZID=America/New_York:20270417T085000
+SUMMARY:W26 · Long run (2h50)
+DESCRIPTION:Week 26 · Taper · 1\,050 ft vert\\n\\nConversational througho
+ ut. Walk the steep bits on purpose — you will walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w26-7-2027-04-18@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270418T060000
+DTEND;TZID=America/New_York:20270418T074500
+SUMMARY:W26 · Medium-long run (1h45)
+DESCRIPTION:Week 26 · Taper · 700 ft vert\\n\\nBack-to-back with Saturday
+ . Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-1-2027-04-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270420T173000
+DTEND;TZID=America/New_York:20270420T181500
+SUMMARY:W27 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 27 · Taper\\n\\nBack squat or trap-bar deadlift 4x5 @ hea
+ vy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy. Weighted step-up
+  3x6/leg. HIGH LOAD\, low reps\, long rests — the meta-analyses found hi
+ gh-load and combined formats improved running economy and submaximal/isome
+ tric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-2-2027-04-20@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270420T060000
+DTEND;TZID=America/New_York:20270420T065500
+SUMMARY:W27 · Aerobic run + strides (55m)
+DESCRIPTION:Week 27 · Taper · 100 ft vert\\n\\nEasy. Add 6 x 20 s strides
+  at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-3-2027-04-21@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270421T060000
+DTEND;TZID=America/New_York:20270421T065500
+SUMMARY:W27 · Vert session — stair machine or treadmill incline (55m)
+DESCRIPTION:Week 27 · Taper · 700 ft vert\\n\\nStair machine (StepMill) p
+ referred — far steeper than a treadmill's 15% ceiling. DO NOT hold the h
+ andrail\; it removes a large and unrecorded share of the work. Treadmill a
+ t max incline is the alternative. Neither trains DESCENDING\, which is wha
+ t actually breaks down at Hellbender — that is what the mountain weekend
+ s and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-4-2027-04-22@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270422T060000
+DTEND;TZID=America/New_York:20270422T065000
+SUMMARY:W27 · Aerobic run (50m)
+DESCRIPTION:Week 27 · Taper · 100 ft vert\\n\\nEasy. If yesterday's vert 
+ left you sore\, make this shorter — never faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-5-2027-04-23@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270423T060000
+DTEND;TZID=America/New_York:20270423T063000
+SUMMARY:W27 · Travel to the mountains
+DESCRIPTION:Week 27 · Taper\\n\\nDrive. Eat properly on the road\; arrivin
+ g under-fuelled wastes the weekend.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-6-2027-04-24@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270424T060000
+DTEND;TZID=America/New_York:20270424T082500
+SUMMARY:W27 · Mountain long run / hike (2h25)
+DESCRIPTION:Week 27 · Taper · 1\,100 ft vert\\n\\nFinal light course look
+ . Legs stay fresh\; this is reconnaissance\, not training.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w27-7-2027-04-25@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270425T060000
+DTEND;TZID=America/New_York:20270425T073500
+SUMMARY:W27 · Back-to-back day 2 (1h35)
+DESCRIPTION:Week 27 · Taper · 700 ft vert\\n\\nOn tired legs by design. T
+ his is the session that most resembles hour 20 of the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-1-2027-04-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270427T173000
+DTEND;TZID=America/New_York:20270427T181500
+SUMMARY:W28 · Strength A — heavy lower (45m)
+DESCRIPTION:Week 28 · Taper\\n\\nBack squat or trap-bar deadlift 4x5 @ hea
+ vy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy. Weighted step-up
+  3x6/leg. HIGH LOAD\, low reps\, long rests — the meta-analyses found hi
+ gh-load and combined formats improved running economy and submaximal/isome
+ tric circuits did not.
+CATEGORIES:STRENGTH
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-2-2027-04-27@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270427T060000
+DTEND;TZID=America/New_York:20270427T064000
+SUMMARY:W28 · Aerobic run + strides (40m)
+DESCRIPTION:Week 28 · Taper · 50 ft vert\\n\\nEasy. Add 6 x 20 s strides 
+ at the end once base is in.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-3-2027-04-28@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270428T060000
+DTEND;TZID=America/New_York:20270428T064000
+SUMMARY:W28 · Vert session — stair machine or treadmill incline (40m)
+DESCRIPTION:Week 28 · Taper · 350 ft vert\\n\\nStair machine (StepMill) p
+ referred — far steeper than a treadmill's 15% ceiling. DO NOT hold the h
+ andrail\; it removes a large and unrecorded share of the work. Treadmill a
+ t max incline is the alternative. Neither trains DESCENDING\, which is wha
+ t actually breaks down at Hellbender — that is what the mountain weekend
+ s and the eccentric strength work are for.
+CATEGORIES:VERT
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-4-2027-04-29@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270429T060000
+DTEND;TZID=America/New_York:20270429T063500
+SUMMARY:W28 · Aerobic run (35m)
+DESCRIPTION:Week 28 · Taper · 50 ft vert\\n\\nEasy. If yesterday's vert l
+ eft you sore\, make this shorter — never faster.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-5-2027-04-30@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270430T060000
+DTEND;TZID=America/New_York:20270430T062000
+SUMMARY:W28 · Easy run (20m)
+DESCRIPTION:Week 28 · Taper\\n\\nShort and genuinely easy. Drop it without
+  guilt on a bad week.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-6-2027-05-01@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270501T060000
+DTEND;TZID=America/New_York:20270501T072000
+SUMMARY:W28 · Long run (1h20)
+DESCRIPTION:Week 28 · Taper · 300 ft vert\\n\\nConversational throughout.
+  Walk the steep bits on purpose — you will walk them in the race.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w28-7-2027-05-02@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270502T060000
+DTEND;TZID=America/New_York:20270502T065000
+SUMMARY:W28 · Medium-long run (50m)
+DESCRIPTION:Week 28 · Taper · 200 ft vert\\n\\nBack-to-back with Saturday
+ . Slower than yesterday.
+CATEGORIES:LONG
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w29-0-2027-05-03@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270503T060000
+DTEND;TZID=America/New_York:20270503T063000
+SUMMARY:W29 · Shakeout (30m)
+DESCRIPTION:Week 29 · Race week\\n\\nEasy. Legs should feel under-used all
+  week. That is correct.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w29-1-2027-05-04@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270504T060000
+DTEND;TZID=America/New_York:20270504T063000
+SUMMARY:W29 · Shakeout + 4 strides (30m)
+DESCRIPTION:Week 29 · Race week\\n\\nLast chance to feel fast. Keep it sho
+ rt.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w29-2-2027-05-05@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270505T060000
+DTEND;TZID=America/New_York:20270505T063000
+SUMMARY:W29 · Rest — pack and check kit
+DESCRIPTION:Week 29 · Race week\\n\\nLay out drop bags. Check the mandator
+ y kit list against what you own\, not what you remember owning.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w29-3-2027-05-06@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270506T060000
+DTEND;TZID=America/New_York:20270506T062000
+SUMMARY:W29 · Travel + 20 min shakeout (20m)
+DESCRIPTION:Week 29 · Race week\\n\\nDrive to Old Fort. Easy jog on arriva
+ l to settle the legs after the car.
+CATEGORIES:RUN
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w29-4-2027-05-07@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270507T040000
+DTEND;TZID=America/New_York:20270508T200000
+SUMMARY:W29 · Hellbender 100 — 102.3 mi\, ~21\,500 ft (40h00)
+DESCRIPTION:Week 29 · Race week · 21\,500 ft vert\\n\\nEffort ceiling for
+  the first third\, non-negotiable. Hike the climbs on a rule\, not a feeli
+ ng. Pace the descents by damage\, not speed. Fuel from hour one. Never mak
+ e an irreversible decision in the dark — hand the DNF list to your crew.
+CATEGORIES:RACE
+LOCATION:Camp Grier\, Old Fort\, NC
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-w29-5-2027-05-09@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20270509T060000
+DTEND;TZID=America/New_York:20270509T063000
+SUMMARY:W29 · Finish / recover
+DESCRIPTION:Week 29 · Race week\\n\\nEat. Sleep. Do not plan anything.
+CATEGORIES:REST
+END:VEVENT
+BEGIN:VEVENT
+UID:hb100-mobility@tce-founder.ultra
+DTSTAMP:20261018T161855Z
+DTSTART;TZID=America/New_York:20261019T210000
+DTEND;TZID=America/New_York:20261019T211500
+RRULE:FREQ=DAILY;UNTIL=20270507T000000Z
+SUMMARY:Mobility — 15 min
+DESCRIPTION:Ankle dorsiflexion against a wall 10/side. Calf and soleus stre
+ tch 45 s each. Couch stretch 60 s/side. 90/90 hip rotations 10/side. Thora
+ cic rotations 10/side.\n\nHonest framing: the evidence that stretching pre
+ vents running injury is weak. This is here for ankle and hip range you act
+ ually need on technical descents\, and because a short daily anchor keeps 
+ the rest of the routine attached to something.
+CATEGORIES:MOBILITY
+END:VEVENT
+END:VCALENDAR

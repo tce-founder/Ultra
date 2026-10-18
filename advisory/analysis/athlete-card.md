@@ -1,64 +1,81 @@
 ---
 title: Athlete card — current position
 type: register
-status: template
-updated: 2026-09-06
+status: active
+updated: 2026-10-18
 ---
 
 # Athlete card
 
-> **Derived, not asked.** This card is filled once, from what already exists — a training log, a race
-> history, a calendar — and thereafter later runs report **drift** against it rather than
-> re-interviewing the athlete. An advisory system that asks the same twelve questions every session
-> is a form that has learned to talk.
+> **Derived, not asked.** Filled once from what exists; later reviews report **drift** against it
+> rather than re-interviewing. An advisory system that asks the same twelve questions every
+> session is a form that has learned to talk.
 >
-> **Confidentiality.** Nothing here enters `advisory/kb/`. The corpus is the general layer read by
-> every lens on every run; this is the specific layer and it stays out of it. Health data — blood
-> work, menstrual-cycle data, clinical history — does not belong here either: it belongs with the
-> athlete and their clinician, and this card records only that a referral exists, never its content.
-
-## Empty by design
-
-No athlete data has been entered. Seeding this with a plausible example would put invented content
-in the one place in this repository reserved for things that are actually true, and every downstream
-lens would read it as fact.
+> **Confidentiality.** Nothing here enters `advisory/kb/`. Health data — bloods, clinical
+> correspondence — does not belong here either: this card records only *that* a referral or test
+> exists, never its findings.
 
 ## The card
 
 | Field | Value | Derived from | Last checked |
 | ----- | ----- | ------------ | ------------ |
-| Target race, date, distance, vertical | | | |
-| Cutoffs, and the segment where they bind | | | |
-| Weeks remaining | | | |
-| Phase (base / strength / specific / taper) | | | |
-| **Observed** weekly hours, rolling 12 wk | | | |
-| **Planned** weekly hours | | | |
-| Session completion rate, rolling 12 wk | | | |
-| Weekly vertical, metres, with derivation | | | |
-| Longest recent session | | | |
-| Current tolerated fuelling rate, g/h | | | |
-| Target fuelling rate, g/h | | | |
-| Heat exposure available | | | |
-| Injury status, and current restriction | | | |
-| Energy-availability gate — pass / referred | | | |
-| Sleep, habitual hours | | | |
-| Competing life load, next 8 weeks | | | |
-| Named crew / pacer | | | |
+| Target race | **Hellbender 100**, Old Fort NC | `advisory/kb/subject/hellbender-100.md` | 2026-10-18 |
+| Race date | **Fri 7 May 2027** — *athlete said 8 May; unresolved* | Ultrarunning.com listing | 2026-10-18 |
+| Distance / vert | 102.3 mi · ~21,500 ft · 40 h cutoff | Official course page (sources disagree) | 2026-10-18 |
+| Weeks remaining | 29 (week 1 begins Mon 19 Oct 2026) | Computed | 2026-10-18 |
+| Phase | **Base 1 — tissue tolerance** (weeks 1–8) | Plan | 2026-10-18 |
+| **Observed** weekly volume | **Under 20 mi / 3–4 h** | Athlete, 2026-10-18 | 2026-10-18 |
+| **Planned** weekly volume, week 1 | 4.0 h | Plan | 2026-10-18 |
+| Peak planned volume | 14.5 h (week 22, 50-mile tune-up) | Plan | 2026-10-18 |
+| Days available | **6–7, flexible hours** | Athlete, 2026-10-18 | 2026-10-18 |
+| Days actually scheduled | **6** — Monday is a full rest day by design | Plan | 2026-10-18 |
+| Terrain access | **3–5 h from sustained climbs; weekends only** | Athlete, 2026-10-18 | 2026-10-18 |
+| Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) | Plan | 2026-10-18 |
+| Injury status | **Clean, nothing current, no significant history** | Athlete, 2026-10-18 | 2026-10-18 |
+| Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
+| Longest run, last 2 months | *unknown — ASK* | — | — |
+| Ultra history / longest ever | *unknown — ASK* | — | — |
+| Bodyweight (kg) | *unknown — blocks every nutrition figure* | — | — |
+| Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
+| HR zones / threshold | *unknown — all Garmin workouts ship with no target* | — | — |
+| Ferritin / vitamin D | *not tested* | — | — |
+| Named crew / pacer | *none yet* | — | — |
+
+## The four unknowns that matter, ranked
+
+1. **Longest run in the last two months, and any ultra finished.** The plan assumes a first
+   hundred off a low base. If there is a 50-miler in recent history the early phases are too
+   conservative; if the longest run is 6 miles, week 1 is already too much. **Highest-value
+   missing fact in this file.**
+2. **Bodyweight.** Every number in `plan/nutrition.md` is per-kilogram and uncomputed without it.
+3. **Current tolerated fuelling rate**, measured on a real long run rather than estimated. The
+   gut-training progression starts from it.
+4. **Whether the race has a qualifying standard.** If it does, the week-22 50-miler stops being
+   a tune-up and becomes a requirement with its own entry deadline.
+
+## The standing risk on this build
+
+**Ramp rate, not fitness.** Under 20 mi/week to a 102-mile mountain hundred in 29 weeks is
+aggressive, and the limiting system is connective tissue rather than aerobic capacity. The
+athlete has 6–7 days available, which makes it *easy* to do more than the plan asks and to
+*feel* fine doing it for about ten weeks.
+
+The plan defends this with an 8-week base phase, down weeks every fourth week, a mandatory
+Monday rest day, and a 22% ceiling on the build-week ramp that `build_plan.py` enforces rather
+than suggests. **The failure mode to watch for in reviews is not missed sessions — it is added
+ones.**
 
 ## Drift log
 
-One line per review. What changed since the last card, and whether the change was planned.
-
 | Date | Field | From | To | Planned? |
 | ---- | ----- | ---- | -- | -------- |
+| 2026-10-18 | Card created | — | Baseline recorded from a four-question intake | — |
 
 ## Rules
 
 1. **The gate first.** If the energy-availability row is not a clear pass, no training
-   recommendation is produced. See `advisory/kb/frameworks/energy-availability-floor.md`.
-2. **Observed, not intended.** Every hours figure is taken from what happened, not from the plan.
-   Athletes overestimate available hours by a large and consistent margin, and a card built from
-   intentions produces a plan that fails in week three.
-3. **State the derivation for vertical.** Indoor and outdoor vertical are measured differently and
-   must never be summed into one number without saying how each was derived.
-4. **A blank cell is honest; a guessed cell is not.** Downstream, they look identical.
+   recommendation is produced.
+2. **Observed, not intended.** Hours come from what happened, not from the plan.
+3. **State the derivation for vert.** Indoor and outdoor vertical are measured differently and
+   must never be summed without saying how each was derived.
+4. **A blank cell is honest; a guessed cell is not.** Downstream they look identical.

@@ -17,6 +17,7 @@ related:
   - strength-training-for-ultrarunners
   - coaching-schools-and-where-they-disagree
   - pacing-by-effort
+  - hellbender-100
 citation_status: acquired
 authority: experienced
 disposition:

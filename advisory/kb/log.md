@@ -82,3 +82,51 @@ row goes in when there is a first real answer.
 
 `source-queue.md` is the exception and is populated, because it is a queue of things to read rather
 than a record of things that happened.
+
+---
+
+## 2026-10-18 — Hellbender race page; corpus 28 -> 29; three empty tags closed
+
+**What.** Added `subject/hellbender-100.md` — the target race as an entity page: course figures,
+cutoffs, the four demands in the order they bite, and the course-specific failure chain.
+
+**Why it earns a corpus page rather than a register entry.** It passes the SCHEMA naming test:
+everything on it is public, and it tells a reader nothing they could not get from the official
+site. The athlete's relationship to the race is in `advisory/analysis/`; the race itself is
+general reference.
+
+**Three empty tags closed** — `race-selection`, `aid-station-crew`, `gear-kit` — and the rows
+removed from `allowed_empty_lenses`. Worth recording *how*: not by writing three general pages,
+but by writing one page about a specific race, which forced concrete answers where the general
+versions had been deferring them. Possibly a pattern; one instance is not evidence.
+
+**Floors raised.** `pages_min` 28 -> 29, committed by hand after `--check` reported the slack. The
+ratchet behaved exactly as designed: it reported the improvement and declined to tighten itself.
+
+**`disposition` is absent on this page and that is correct** — `entity` pages are exempt under
+SCHEMA.md, because a Layer-3 entity page absorbs nothing.
+
+**Citation honesty.** Every figure on the page is `acquired`, and the page says so prominently,
+because published sources genuinely disagree: official distance 102.3 mi against listings saying
+100; gain between 20,000 and 21,540 ft; a high point given as both 5,408 and 6,684 ft, which
+cannot both be right. The official cutoff page may also be stale. The page carries the
+disagreement rather than resolving it by picking a number, and names re-derivation before the
+taper as the action.
+
+---
+
+## 2026-10-18 — training plan toolchain (registers, not corpus)
+
+**What.** `workflows/plan/build_plan.py` generates a 29-week plan to Hellbender from one
+definition, emitting the document, a Google Calendar `.ics`, and structured Garmin workouts
+together so they cannot drift. `push_garmin.py` uploads them.
+
+**Nothing here touched the corpus**, which is the point of the split: the plan is this athlete's
+and lives in `advisory/analysis/plan/`; what it is built *from* is general and stays in `kb/`.
+
+**The validator earned its place on the first run.** It rejected the first draft for leaving no
+full rest day in any week from 9 onward — the weights gave Monday a small recovery run in two
+phases. For an athlete with 6-7 available days coming off under 20 mi/week, that is precisely the
+defect that matters, and it was invisible in the generated document. A second check (the ramp
+ceiling) produced six false failures by comparing build weeks against down weeks; fixed to compare
+against the previous build week, which is the trend line it was always meant to police.

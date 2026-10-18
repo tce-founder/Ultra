@@ -17,6 +17,7 @@ related:
   - pacing-by-effort
   - mental-skills-toolkit
   - sleep-and-the-night
+  - hellbender-100
 citation_status: acquired
 authority: experienced
 disposition:

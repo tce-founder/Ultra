@@ -97,10 +97,22 @@
       "path": "advisory/analysis/master-list.md"
     },
     {
+      "id": "doc:nutrition.md",
+      "kind": "doc",
+      "label": "nutrition.md",
+      "path": "advisory/analysis/plan/nutrition.md"
+    },
+    {
       "id": "doc:objection-register.md",
       "kind": "doc",
       "label": "objection-register.md",
       "path": "advisory/analysis/objection-register.md"
+    },
+    {
+      "id": "doc:plan.md",
+      "kind": "doc",
+      "label": "plan.md",
+      "path": "advisory/analysis/plan/plan.md"
     },
     {
       "id": "doc:predictions.md",
@@ -179,6 +191,12 @@
       "kind": "kb",
       "label": "heat-acclimation-protocol.md",
       "path": "advisory/kb/frameworks/heat-acclimation-protocol.md"
+    },
+    {
+      "id": "kb:hellbender-100",
+      "kind": "kb",
+      "label": "hellbender-100.md",
+      "path": "advisory/kb/subject/hellbender-100.md"
     },
     {
       "id": "kb:mental-skills-toolkit",
@@ -309,6 +327,24 @@
       "evidence": "L71:120 g/h"
     },
     {
+      "from": "doc:nutrition.md",
+      "rel": "asserts",
+      "to": "claim:carb-ceiling",
+      "evidence": "L79:120 g/h; L94:90 g/h; L79:60\u201390 g"
+    },
+    {
+      "from": "doc:nutrition.md",
+      "rel": "asserts",
+      "to": "claim:sodium-prevents-cramp",
+      "evidence": "L139:prevents cramp"
+    },
+    {
+      "from": "doc:plan.md",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L220:StepMill"
+    },
+    {
       "from": "doc:purpose.md",
       "rel": "asserts",
       "to": "claim:polarized-superiority",
@@ -372,7 +408,7 @@
       "from": "kb:carbohydrate-fueling-ladder",
       "rel": "asserts",
       "to": "claim:carb-ceiling",
-      "evidence": "L29:120 g/h; L28:90 g/h; L28:60-90 g"
+      "evidence": "L30:120 g/h; L29:90 g/h; L29:60-90 g"
     },
     {
       "from": "kb:carbohydrate-fueling-ladder",
@@ -621,6 +657,36 @@
       "evidence": "wikilink"
     },
     {
+      "from": "kb:hellbender-100",
+      "rel": "asserts",
+      "to": "claim:vert-machine-equivalence",
+      "evidence": "L67:incline treadmill"
+    },
+    {
+      "from": "kb:hellbender-100",
+      "rel": "relates_to",
+      "to": "kb:carbohydrate-fueling-ladder",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:hellbender-100",
+      "rel": "relates_to",
+      "to": "kb:pacing-by-effort",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:hellbender-100",
+      "rel": "relates_to",
+      "to": "kb:the-dnf-decision",
+      "evidence": "wikilink"
+    },
+    {
+      "from": "kb:hellbender-100",
+      "rel": "relates_to",
+      "to": "kb:vertical-gain-and-its-substitutes",
+      "evidence": "wikilink"
+    },
+    {
       "from": "kb:mental-skills-toolkit",
       "rel": "relates_to",
       "to": "kb:minimum-effective-dose-and-time",
@@ -684,7 +750,7 @@
       "from": "kb:pacing-by-effort",
       "rel": "asserts",
       "to": "claim:vert-machine-equivalence",
-      "evidence": "L78:vertical gain"
+      "evidence": "L79:vertical gain"
     },
     {
       "from": "kb:pacing-by-effort",
@@ -1008,7 +1074,7 @@
       "from": "kb:vertical-gain-and-its-substitutes",
       "rel": "asserts",
       "to": "claim:vert-machine-equivalence",
-      "evidence": "L13:stairmaster; L55:StepMill; L79:VersaClimber"
+      "evidence": "L13:stairmaster; L56:StepMill; L80:VersaClimber"
     },
     {
       "from": "kb:vertical-gain-and-its-substitutes",
