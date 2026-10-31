@@ -2,7 +2,7 @@
 title: Hellbender 100 — 29-week training plan
 type: register
 status: active
-updated: 2026-10-18
+updated: 2026-10-31
 ---
 
 # Hellbender 100 — 29-week plan
@@ -46,7 +46,7 @@ athlete who deletes them is the athlete who does not start in May.
 | 15 | Sat 30 Jan 2027 | 50K tune-up race — NOT YET CHOSEN |
 | 18 | Sat 20 Feb 2027 | Art Loeb Trail traverse |
 | 21 | Sat 13 Mar 2027 | COURSE RECON 1 |
-| 22 | Sat 20 Mar 2027 | Mount Mitchell Heartbreaker 50M |
+| 22 | Sat 20 Mar 2027 | Self-supported 50 — Hellbender course |
 | 25 | Sat 10 Apr 2027 | COURSE RECON 2 |
 | 27 | Sat 24 Apr 2027 | Final light course look |
 | 29 | Fri 7 May 2027 | **Hellbender 100** |
@@ -76,7 +76,7 @@ athlete who deletes them is the athlete who does not start in May.
 | 19 | 22 Feb | Specific | 12.0 | 4,000 |  |
 | 20 | 1 Mar | Specific | 8.0 | 2,500 | **down week** |
 | 21 | 8 Mar | Specific | 12.0 | 6,500 | mountains |
-| 22 | 15 Mar | Specific | 16.5 | 14,000 | **Mount Mitchell Heartbreaker 50M** |
+| 22 | 15 Mar | Specific | 16.5 | 14,000 | **Self-supported 50 — Hellbender course** |
 | 23 | 22 Mar | Specific | 7.0 | 1,500 | **down week** |
 | 24 | 29 Mar | Specific | 12.0 | 5,000 |  |
 | 25 | 5 Apr | Specific | 14.0 | 8,000 | mountains |
@@ -364,7 +364,7 @@ Target: 13.0 h · 11,000 ft vert
 | Thu | 18 Feb | Aerobic run | 55m | 90 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 18 Feb | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12 — FLAT GROUND, not hanging off a step, until week 9: loaded end-range dorsiflexion is what irritates a posterior heel bursa. Side plank 3x40 s. |
 | Fri | 19 Feb | Travel to the mountains | — | — | Drive. Eat properly on the road; arriving under-fuelled wastes the weekend. |
-| Sat | 20 Feb | Art Loeb Trail traverse | 9h00 | 9,200 | 30.1 mi point-to-point, ~9,200 ft, Davidson River to Camp Daniel Boone. NOT a race — a big unsupported day, and the largest single effort before the Heartbreaker. Budget 9 h; it may take 11-12 and that is fine. BAIL POINT: FS 816 at Black Balsam, roughly two-thirds in and road-accessible — if you are more than 2 h over budget by Gloucester Gap (mile 12.3), stop there instead. Needs a car shuttle at both ends. February on the balds is genuinely exposed: this is the cold-kit test for Hellbender's 6,684 ft summit. |
+| Sat | 20 Feb | Art Loeb Trail traverse | 9h00 | 9,200 | 30.1 mi point-to-point, ~9,200 ft, Davidson River to Camp Daniel Boone. NOT a race — a big unsupported day, and the largest single effort before the self-supported 50. Budget 9 h; it may take 11-12 and that is fine. BAIL POINT: FS 816 at Black Balsam, roughly two-thirds in and road-accessible — if you are more than 2 h over budget by Gloucester Gap (mile 12.3), stop there instead. Needs a car shuttle at both ends. February on the balds is genuinely exposed: this is the cold-kit test for Hellbender's 6,684 ft summit. |
 | Sun | 21 Feb | Rest — walk only if you want to | — | — | Day after a big effort. Eat, sleep, drive home gently. Nothing you do today improves May; plenty of things could cost it. |
 
 ### Week 19 — 22 Feb to 28 Feb · Specific — mountain, dark, fuelled
@@ -412,22 +412,22 @@ Target: 12.0 h · 6,500 ft vert
 | Thu | 11 Mar | Aerobic run | 1h15 | 325 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 11 Mar | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12 — FLAT GROUND, not hanging off a step, until week 9: loaded end-range dorsiflexion is what irritates a posterior heel bursa. Side plank 3x40 s. |
 | Fri | 12 Mar | Travel to the mountains | — | — | Drive. Eat properly on the road; arriving under-fuelled wastes the weekend. |
-| Sat | 13 Mar | Mountain long run / hike | 4h00 | 3,575 | COURSE RECON 1 — Old Fort / Curtis Creek. Keep it moderate: the Heartbreaker is six days later and this is a look, not a test. |
+| Sat | 13 Mar | Mountain long run / hike | 4h00 | 3,575 | COURSE RECON 1 — Old Fort / Curtis Creek. Keep it moderate: the self-supported 50 is six days later and this is a look, not a test. Use it to drive the road crossings and fix where crew will sit. |
 | Sun | 14 Mar | Back-to-back day 2 | 2h30 | 2,275 | On tired legs by design. This is the session that most resembles hour 20 of the race. |
 
-### Week 22 — 15 Mar to 21 Mar · Specific — mountain, dark, fuelled  ·  **MOUNT MITCHELL HEARTBREAKER 50M**
+### Week 22 — 15 Mar to 21 Mar · Specific — mountain, dark, fuelled  ·  **SELF-SUPPORTED 50 — HELLBENDER COURSE**
 
 Target: 16.5 h · 14,000 ft vert
 
 | Day | Date | Session | Time | Vert | Notes |
 | --- | ---- | ------- | ---- | ---- | ----- |
 | Mon | 15 Mar | Rest | — | — | Full rest. This is the session that makes the others work. |
-| Tue | 16 Mar | Aerobic run + strides | 30m | 100 | Easy. Add 6 x 20 s strides at the end once base is in. |
+| Tue | 16 Mar | Aerobic run + strides | 20m | 150 | Easy. Add 6 x 20 s strides at the end once base is in. |
 | Tue | 16 Mar | Strength A — heavy lower | 45m | — | Back squat or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. Standing calf raise 3x8 heavy, FLAT GROUND until week 9. Weighted step-up 3x6/leg. HIGH LOAD, low reps, long rests — the meta-analyses found high-load and combined formats improved running economy and submaximal/isometric circuits did not. |
-| Wed | 17 Mar | Vert session — stair machine or treadmill incline | 25m | 700 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus — the exact mechanism that caused the 2026 bursitis. Use a shoe with a soft, low heel collar; lock the heel with the top eyelet so it does not piston; stop at the FIRST sign of posterior heel soreness, not the second. Substitute if it niggles: uphill treadmill WALKING in a higher-drop shoe, or a weighted pack hike, or the bike for the aerobic half. ** |
-| Thu | 18 Mar | Aerobic run | 30m | 100 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
+| Wed | 17 Mar | Vert session — stair machine or treadmill incline | 20m | 1,050 | Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. DO NOT hold the handrail; it removes a large and unrecorded share of the work. Treadmill at max incline is the alternative. Neither trains DESCENDING, which is what actually breaks down at Hellbender — that is what the mountain weekends and the eccentric strength work are for. ** HEEL WATCH: steep climbing holds the ankle in dorsiflexion, which drives the shoe's heel counter into the back of the calcaneus — the exact mechanism that caused the 2026 bursitis. Use a shoe with a soft, low heel collar; lock the heel with the top eyelet so it does not piston; stop at the FIRST sign of posterior heel soreness, not the second. Substitute if it niggles: uphill treadmill WALKING in a higher-drop shoe, or a weighted pack hike, or the bike for the aerobic half. ** |
+| Thu | 18 Mar | Aerobic run | 20m | 150 | Easy. If yesterday's vert left you sore, make this shorter — never faster. |
 | Thu | 18 Mar | Strength B — unilateral + eccentric | 45m | — | Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; the race's damage is quadriceps braking on descents. Calf raise, bent-knee 3x12 — FLAT GROUND, not hanging off a step, until week 9: loaded end-range dorsiflexion is what irritates a posterior heel bursa. Side plank 3x40 s. |
-| Sat | 20 Mar | Mount Mitchell Heartbreaker 50M | 13h30 | 12,000 | THE DRESS REHEARSAL. Starts at Camp Grier — the same start line as Hellbender. ~12,000 ft, 5:30 am start, 16.5 h cutoff. Climbs Mt Mitchell via the Black Mountain Crest and finishes over Heartbreak Ridge, so it is Hellbender terrain at race effort. Full kit, full race fuelling, nothing untested. |
+| Sat | 20 Mar | Self-supported 50 — Hellbender course | 14h30 | 11,000 | THE DRESS REHEARSAL, run as a training day rather than a race. ~50 mi of the actual Hellbender route with ~11,000 ft. Budget 14.5 h — self-supported is SLOWER than racing: no aid, navigation decisions, and stops that nobody is timing. SUPPORT IS NOT OPTIONAL at this distance alone in these mountains: crew at two road crossings, or a partner, or at minimum a live tracker plus fixed check-in times with someone who will act if you miss one. HEEL: this is the effort shape that caused the 2026 bursitis. Race shoes, heel locked, spare pair at a crossing. Stop at the first posterior-heel soreness — a DNF here costs nothing and a recurrence costs the race. Rehearse: race fuelling rate, the night start, headtorch, cold kit, and the full drop-bag routine. Nothing untested after this day. |
 | Sun | 21 Mar | Rest — walk only if you want to | — | — | Day after a big effort. Eat, sleep, drive home gently. Nothing you do today improves May; plenty of things could cost it. |
 
 ### Week 23 — 22 Mar to 28 Mar · Specific — mountain, dark, fuelled  ·  **DOWN WEEK**

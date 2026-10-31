@@ -13,9 +13,56 @@ updated: 2026-10-18
 | ---- | ---- | ----- | --- |
 | 15 | Sat 30 Jan 2027 | **50K — not yet chosen** | First ultra of the build. Open — see below |
 | 18 | Sat 20 Feb 2027 | **Art Loeb Trail traverse** (not a race) | Biggest single day before the Heartbreaker; cold-kit test |
-| 22 | Sat 20 Mar 2027 | **Mount Mitchell Heartbreaker 50M** | The dress rehearsal, on Hellbender's own start line |
+| 22 | Sat 20 Mar 2027 | **Self-supported 50 — Hellbender course** | Athlete's call, 2026-10-31. Replaces the Heartbreaker |
 
-## Mount Mitchell Heartbreaker — why this and not a generic 50
+## SUPERSEDED 2026-10-31 — the Heartbreaker is out, a self-supported 50 is in
+
+The athlete elected a **self-supported 50 on the Hellbender course** instead of racing the
+Heartbreaker. Recorded rather than argued away; the reasoning below about why the Heartbreaker was
+chosen is kept because it still describes what the substitution gives up.
+
+### What the swap gains
+
+- **The actual course**, not a course that overlaps it. The Heartbreaker shares the start line and
+  Mt Mitchell; a self-supported day can follow Hellbender's own route, including the sections the
+  race does not touch.
+- **The real start time.** Hellbender starts around 4 am and runs into the night. A self-supported
+  day can rehearse that exactly; a race starting at 5:30 am cannot.
+- **A free bail.** Stopping costs nothing — no entry fee, no DNF, no four-hour drive wasted. For an
+  athlete whose main risk is a heel recurrence, a cheap stop is a real safety feature.
+- **No entry deadline, no cutoff pressure, no travel date.**
+
+### What the swap gives up, and this is the honest column
+
+- **Racing.** The thing a race rehearses that nothing else does: going out too fast in a crowd,
+  aid-station discipline, cutoff arithmetic under pressure. After this change **the plan contains
+  no race at all before a 102-mile race** — see the open item below, which is now the most
+  important thing on this page.
+- **The safety net.** A field, sweeps, radios, a medical tent, and a cutoff that removes you.
+  Fifty miles and 11,000 ft alone in the Black Mountains in March has none of that. This is why
+  support is written into the plan as non-negotiable rather than as advice.
+- **An external result.** A finish time against a field is calibration a solo day cannot give.
+
+### The support requirement
+
+Not optional at this distance in this terrain. One of:
+
+1. **Crew at two road crossings** — the better option, and it doubles as drop-bag rehearsal.
+2. **A partner for the whole day.**
+3. **Minimum acceptable:** a live tracker plus fixed check-in times with someone who will act on a
+   missed one, and a written route left with them.
+
+Week 21's recon (Sat 13 Mar) is now also the logistics drive: find the road crossings and fix
+where crew will sit.
+
+### The heel, specifically
+
+**A 50-mile, 11,000 ft day is the effort shape that caused the 2026 bursitis** — and if last
+March's 50 was itself the Heartbreaker, it is very nearly the same day on the same trails. Race
+shoes, heel locked at the top eyelet, spare pair at a crossing, and stop at the first posterior
+soreness. See `advisory/kb/frameworks/foot-care-and-shoe-fit.md`.
+
+## Why the Heartbreaker had been chosen (retained for the record)
 
 Proposed as the 50-mile tune-up because it is not a generic 50-miler. It is **half of
 Hellbender, from the same start line, seven weeks out.**
@@ -93,16 +140,24 @@ back-to-back on the real course, now with a night section.
 - **Winter.** Ice on the balds is normal in February. Microspikes, real wind shell, and a
   turnaround rule agreed before you start.
 
-## Still open — the week 15 50K
+## Still open — the week 15 50K, and it is no longer optional
 
-**No race chosen.** Needs to be a 50K on or near **Sat 30 Jan 2027**, ideally in NC with real
-climbing. This research pass did not find one and did not look hard.
+**No race chosen, and this is now the biggest hole in the plan.**
 
-What it is for: the first ultra of the build, a fuelling rehearsal at 60 g/h, and a no-time-goal
-confidence builder. A flat 50K would do most of that; a hilly one would do all of it.
+With the Heartbreaker dropped, the week-15 50K is **the only race left before Hellbender**. If it
+is also skipped, the athlete arrives at a 102-mile mountain race having not pinned a number on in
+over a year, with no rehearsal of a mass start, an aid station under time pressure, or cutoff
+arithmetic with a clock running.
 
-**If nothing suitable exists on that date**, the fallback is a self-supported 50K on a mountain
-weekend — the plan already has a mountain block at week 14, and week 15 could absorb it.
+Those are real failure modes and they are specifically the ones a solo day cannot touch. **Keep
+this one.** It is a 50K rather than a 50, so the commitment is small — one Saturday, one entry fee,
+one drive.
+
+Needs: a 50K on or near **Sat 30 Jan 2027**, ideally in NC with real climbing. This research pass
+did not find one and did not look hard. Worth a proper search of UltraSignup with a date filter.
+
+**Fallback if nothing exists on that date:** move it rather than drop it. Anywhere in weeks 13-17
+works, and a flatter 50K still rehearses everything a race is for here.
 
 ## Standing caveat
 

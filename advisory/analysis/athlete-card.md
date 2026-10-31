@@ -31,6 +31,8 @@ updated: 2026-10-18
 | Days actually scheduled | **6** — Monday is a full rest day by design | Plan | 2026-10-18 |
 | Terrain access | **3–5 h from sustained climbs; weekends only** | Athlete, 2026-10-18 | 2026-10-18 |
 | Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) | Plan | 2026-10-18 |
+| Races entered | **None.** Heartbreaker declined 2026-10-31 in favour of a self-supported 50; week-15 50K still unchosen | Athlete, 2026-10-31 | 2026-10-31 |
+| Was last March's 50 the Heartbreaker? | **UNRESOLVED — ask.** Changes the injury causation record and the recon value of week 22 | — | — |
 | Injury status | **Resolved posterior-Achilles bursitis** — heel-counter friction, ~March 2026, cost ~7 months of running. Fully settled, no current symptoms | Athlete, 2026-10-18 (**corrects** the intake answer of 'clean history') | 2026-10-18 |
 | Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
 | Longest run, last 2 months | **~5k** | Athlete, 2026-10-18 | 2026-10-18 |
@@ -74,6 +76,7 @@ ones.**
 | 2026-10-18 | Injury status | "clean history" | Resolved posterior-Achilles bursitis, ~7 months off | No — intake correction |
 | 2026-10-18 | Weekly volume | 3–4 h | 1–2 short runs | No — intake correction |
 | 2026-10-18 | Ultra history | unknown | 50-miler finished | No — new information |
+| 2026-10-31 | Week 22 | Mount Mitchell Heartbreaker 50M | Self-supported 50 on the Hellbender course | Yes — athlete's call |
 
 ## Rules
 

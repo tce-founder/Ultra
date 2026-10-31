@@ -102,7 +102,7 @@ MOUNTAIN_WEEKS = {
     10: "Holiday mountain block. Long hike/run Sat, shorter Sun.",
     14: "Mountain block — first real back-to-back.",
     18: "ART LOEB TRAVERSE — Presidents' Day weekend. Take the Monday if you can; this is the biggest day of the build before the Heartbreaker and the drive home afterwards is long.",
-    21: "COURSE RECON 1 — Old Fort / Curtis Creek. Keep it moderate: the Heartbreaker is six days later and this is a look, not a test.",
+    21: "COURSE RECON 1 — Old Fort / Curtis Creek. Keep it moderate: the self-supported 50 is six days later and this is a look, not a test. Use it to drive the road crossings and fix where crew will sit.",
     25: "COURSE RECON 2 — peak back-to-back on Hellbender's own course. Night section on the Saturday: start late and finish after dark.",
     27: "Final light course look. Legs stay fresh; this is reconnaissance, not training.",
 }
@@ -118,16 +118,25 @@ TUNE_UPS = {
     18: {"name": "Art Loeb Trail traverse", "minutes": 540, "kind": "long", "vert_ft": 9200,
          "note": "30.1 mi point-to-point, ~9,200 ft, Davidson River to Camp Daniel Boone. "
                  "NOT a race — a big unsupported day, and the largest single effort before the "
-                 "Heartbreaker. Budget 9 h; it may take 11-12 and that is fine. "
+                 "self-supported 50. Budget 9 h; it may take 11-12 and that is fine. "
                  "BAIL POINT: FS 816 at Black Balsam, roughly two-thirds in and road-accessible — "
                  "if you are more than 2 h over budget by Gloucester Gap (mile 12.3), stop there "
                  "instead. Needs a car shuttle at both ends. February on the balds is genuinely "
                  "exposed: this is the cold-kit test for Hellbender's 6,684 ft summit."},
-    22: {"name": "Mount Mitchell Heartbreaker 50M", "minutes": 810, "kind": "race", "vert_ft": 12000,
-         "note": "THE DRESS REHEARSAL. Starts at Camp Grier — the same start line as Hellbender. "
-                 "~12,000 ft, 5:30 am start, 16.5 h cutoff. Climbs Mt Mitchell via the Black "
-                 "Mountain Crest and finishes over Heartbreak Ridge, so it is Hellbender terrain "
-                 "at race effort. Full kit, full race fuelling, nothing untested."},
+    22: {"name": "Self-supported 50 — Hellbender course", "minutes": 870, "kind": "long",
+         "vert_ft": 11000,
+         "note": "THE DRESS REHEARSAL, run as a training day rather than a race. ~50 mi of the "
+                 "actual Hellbender route with ~11,000 ft. Budget 14.5 h — self-supported is "
+                 "SLOWER than racing: no aid, navigation decisions, and stops that nobody is "
+                 "timing. "
+                 "SUPPORT IS NOT OPTIONAL at this distance alone in these mountains: crew at two "
+                 "road crossings, or a partner, or at minimum a live tracker plus fixed check-in "
+                 "times with someone who will act if you miss one. "
+                 "HEEL: this is the effort shape that caused the 2026 bursitis. Race shoes, heel "
+                 "locked, spare pair at a crossing. Stop at the first posterior-heel soreness — a "
+                 "DNF here costs nothing and a recurrence costs the race. "
+                 "Rehearse: race fuelling rate, the night start, headtorch, cold kit, and the "
+                 "full drop-bag routine. Nothing untested after this day."},
 }
 
 # ── Session model ────────────────────────────────────────────────────────────
@@ -222,7 +231,7 @@ def build_week(w):
         if tune_up and d == 5:
             sessions.append(Session(d, tune_up["kind"], tune_up["name"], tune_up["minutes"],
                                     tune_up["vert_ft"], tune_up["note"],
-                                    garmin=tune_up["kind"] != "race"))
+                                    garmin=False))   # route file, not a structured workout
             continue
 
         if not frac:
