@@ -52,18 +52,37 @@ Read the header of `push_garmin.py` before running it. Three things matter:
    workouts; this works against the private endpoints the web app uses, and the step-type IDs
    come from community reverse-engineering rather than documentation. A bad bulk run leaves 150
    broken workouts to delete by hand.
-3. **Only runs and vert sessions are pushed** — 150 of the 246 sessions. Strength and mobility
-   stay in the calendar, because Garmin's strength-exercise IDs are a separate and much larger
-   reverse-engineering problem and getting them wrong produces a workout that looks right and
-   prescribes the wrong movement.
+3. **Everything trainable is pushed — 202 of 246 sessions.** The other 44 are rest and travel
+   days, which are on the calendar but are not workouts. Breakdown: 81 run, 45 long, 53 strength,
+   20 vert, 2 mobility, 1 tune-up race.
+
+   **Strength goes up as one step per exercise**, under the `strength_training` sport, with no
+   exercise IDs — Garmin's exercise catalogue is a separate reverse-engineering problem and a
+   wrong ID prescribes the wrong movement convincingly. You get the prescription as step text
+   instead of animations, which is the right trade.
+
+   **`SPORT_STRENGTH` is the least certain value in the toolchain.** If strength uploads are
+   rejected, set it to `SPORT_OTHER` in `build_plan.py` and re-run: the workout still lands with
+   its prescription intact, just filed under the wrong sport. Test it first:
+   `push_garmin.py --only strength --limit 1`.
+
+   **All-day objectives** (Art Loeb, the self-supported 50, the week-15 50K) go up with a
+   **lap-button** end condition rather than a duration. A 14-hour countdown step is worse than no
+   timer. Press lap when the day is done.
+
+   **Daily mobility is deliberately NOT pushed.** It is one recurring calendar event; 190 copies
+   of a 15-minute workout on the watch is clutter. The two week-1/2 shoe-audit days do go up,
+   because they are scheduled sessions with content.
 
 ```bash
 pip install "garminconnect[workout]"
 export GARMIN_EMAIL='...' GARMIN_PASSWORD='...'
 
-python3 push_garmin.py --dry-run                  # what would be sent
-python3 push_garmin.py --limit 1                  # send ONE, then look at the watch
-python3 push_garmin.py --from-week 1 --to-week 8  # then a block at a time
+python3 push_garmin.py --dry-run                     # what would be sent, by kind and sport
+python3 push_garmin.py --only run      --limit 1     # one of each sport first
+python3 push_garmin.py --only strength --limit 1     # <- the uncertain one
+python3 push_garmin.py --only mobility --limit 1
+python3 push_garmin.py --from-week 1 --to-week 8     # then a block at a time
 ```
 
 **Workouts ship with no pace or heart-rate target**, deliberately. The athlete's zones are

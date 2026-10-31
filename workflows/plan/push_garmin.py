@@ -11,9 +11,11 @@ reads them from the environment, never from a file and never from an argument
     export GARMIN_EMAIL='you@example.com'
     export GARMIN_PASSWORD='...'          # or use a .netrc / password manager export
 
-    python3 push_garmin.py --dry-run                 # see what WOULD be sent
-    python3 push_garmin.py --limit 1                 # send ONE, check the watch
-    python3 push_garmin.py --from-week 1 --to-week 8 # then a block at a time
+    python3 push_garmin.py --dry-run                      # see what WOULD be sent
+    python3 push_garmin.py --only run      --limit 1      # one of each sport first
+    python3 push_garmin.py --only strength --limit 1      # <- the uncertain one
+    python3 push_garmin.py --only mobility --limit 1
+    python3 push_garmin.py --from-week 1 --to-week 8      # then a block at a time
 
 WHY --dry-run IS THE DEFAULT POSTURE. Garmin publishes no consumer API for
 structured workouts. `python-garminconnect` works against the same private
@@ -61,12 +63,18 @@ def main():
     ap.add_argument("--from-week", type=int, default=1)
     ap.add_argument("--to-week", type=int, default=29)
     ap.add_argument("--limit", type=int, default=0, help="stop after N workouts (0 = no limit)")
+    ap.add_argument("--only", default="", metavar="KIND",
+                    help="restrict to one session kind: run|long|vert|strength|mobility|race. "
+                         "Use this to smoke-test each sport separately — the strength sport ID is "
+                         "the least certain value in the toolchain.")
     ap.add_argument("--dry-run", action="store_true", help="print the plan of record and exit")
     ap.add_argument("--no-schedule", action="store_true", help="create workouts but do not put them on dates")
     ap.add_argument("--sleep", type=float, default=1.0, help="seconds between calls; be polite to the endpoint")
     args = ap.parse_args()
 
     workouts = load(args.json, args.from_week, args.to_week)
+    if args.only:
+        workouts = [w for w in workouts if w.get("_kind") == args.only]
     if args.limit:
         workouts = workouts[:args.limit]
 
@@ -74,15 +82,20 @@ def main():
         print("nothing selected — check --from-week/--to-week")
         return 1
 
+    import collections
+    kinds = collections.Counter(w.get("_kind", "?") for w in workouts)
     print(f"{len(workouts)} workouts, weeks {args.from_week}-{args.to_week}, "
           f"{workouts[0]['_scheduleDate']} .. {workouts[-1]['_scheduleDate']}")
+    print(f"  kinds: {dict(kinds)}")
+    print(f"  sports: {dict(collections.Counter(w['sportType']['sportTypeKey'] for w in workouts))}")
 
     if args.dry_run:
         for w in workouts:
             steps = w["workoutSegments"][0]["workoutSteps"]
-            mins = sum(s["endConditionValue"] for s in steps) / 60
-            print(f"  {w['_scheduleDate']}  W{w['_week']:02d}  {mins:5.0f} min  "
-                  f"{len(steps)} steps  {w['workoutName']}")
+            mins = sum(s.get("endConditionValue", 0) for s in steps) / 60
+            tag = "lap" if mins == 0 else f"{mins:.0f}m"
+            print(f"  {w['_scheduleDate']}  W{w['_week']:02d}  {tag:>6}  "
+                  f"{len(steps)} steps  {w['sportType']['sportTypeKey'][:8]:8}  {w['workoutName']}")
         print("\nDRY RUN — nothing sent. Re-run with --limit 1 to send a single workout.")
         return 0
 

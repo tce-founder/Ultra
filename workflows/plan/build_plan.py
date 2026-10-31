@@ -226,12 +226,12 @@ def build_week(w):
 
         if d in strength_days:
             sessions.append(Session(d, "strength", strength_label(ph, d), STRENGTH_MIN,
-                                    notes=strength_notes(ph, d)))
+                                    notes=strength_notes(ph, d), garmin=True))
 
         if tune_up and d == 5:
             sessions.append(Session(d, tune_up["kind"], tune_up["name"], tune_up["minutes"],
                                     tune_up["vert_ft"], tune_up["note"],
-                                    garmin=False))   # route file, not a structured workout
+                                    garmin=True))
             continue
 
         if not frac:
@@ -243,7 +243,7 @@ def build_week(w):
                                         notes="Day after a big effort. Eat, sleep, drive home gently. "
                                               "Nothing you do today improves May; plenty of things could cost it."))
             elif w in RETURN_TO_RUN_WEEKS and d == 2:
-                sessions.append(Session(d, "mobility", "Shoe audit + mobility", 25, 0,
+                sessions.append(Session(d, "mobility", "Shoe audit + mobility", 25, 0, garmin=True, notes=
                     "NOT a run day — the gap is deliberate while running frequency climbs. "
                     "Week 1: lay out every pair you own and press a thumb into the back of each "
                     "heel counter. Anything stiff, high, or with a seam over the Achilles goes in "
@@ -307,25 +307,61 @@ VERT_NOTE = ("Stair machine (StepMill) preferred — far steeper than a treadmil
              "the eccentric strength work are for." + HEEL_WARNING)
 
 
+# Strength prescriptions. EXERCISES and RATIONALE are separate fields because they
+# serve different consumers: the plan document and the calendar want both, and the
+# Garmin builder wants one step per exercise. The first version stored them as one
+# prose blob split on ". ", which put "HIGH LOAD, low reps, long rests - the
+# meta-analyses found..." on the watch as though it were a sixth exercise.
+STRENGTH_BLOCKS = {
+    "A": {
+        "title": "Strength A — heavy lower",
+        "exercises": [
+            "Back squat or trap-bar deadlift 4x5 @ heavy",
+            "Romanian deadlift 3x6",
+            "Standing calf raise 3x8 heavy — FLAT GROUND until week 9",
+            "Weighted step-up 3x6/leg",
+        ],
+        "rationale": ("HIGH LOAD, low reps, long rests — the meta-analyses found high-load and "
+                      "combined formats improved running economy and submaximal/isometric "
+                      "circuits did not."),
+    },
+    "B": {
+        "title": "Strength B — unilateral + eccentric",
+        "exercises": [
+            "Bulgarian split squat 3x8/leg",
+            "Single-leg RDL 3x8/leg",
+            "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "Calf raise, bent-knee 3x12 — FLAT GROUND, not off a step, until week 9",
+            "Side plank 3x40 s",
+        ],
+        "rationale": ("The eccentric step-down is the Hellbender-specific one: the race's damage "
+                      "is quadriceps braking on descents. Loaded end-range dorsiflexion off a "
+                      "step is what irritates a posterior heel bursa, hence flat ground early."),
+    },
+}
+
+
 # Keyed on the FIRST strength day in STRENGTH_DAYS, not a hardcoded weekday. The
 # two were the same number until the rest-day fix moved strength from Wed/Fri to
 # Tue/Thu, after which every session in the plan rendered as "Strength B".
+def strength_key(ph, d):
+    return "A" if d == STRENGTH_DAYS[ph][0] else "B"
+
+
 def strength_label(ph, d):
-    return "Strength A — heavy lower" if d == STRENGTH_DAYS[ph][0] else "Strength B — unilateral + eccentric"
+    return STRENGTH_BLOCKS[strength_key(ph, d)]["title"]
 
 
 def strength_notes(ph, d):
-    if d == STRENGTH_DAYS[ph][0]:
-        return ("Back squat or trap-bar deadlift 4x5 @ heavy. Romanian deadlift 3x6. "
-                "Standing calf raise 3x8 heavy, FLAT GROUND until week 9. Weighted step-up 3x6/leg. "
-                "HIGH LOAD, low reps, long rests — the meta-analyses found high-load and combined "
-                "formats improved running economy and submaximal/isometric circuits did not.")
-    return ("Bulgarian split squat 3x8/leg. Single-leg RDL 3x8/leg. "
-            "ECCENTRIC step-down 3x10/leg, 4 s lowering — this is the Hellbender-specific one; "
-            "the race's damage is quadriceps braking on descents. "
-            "Calf raise, bent-knee 3x12 — FLAT GROUND, not hanging off a step, until week 9: "
-            "loaded end-range dorsiflexion is what irritates a posterior heel bursa. "
-            "Side plank 3x40 s.")
+    b = STRENGTH_BLOCKS[strength_key(ph, d)]
+    return ". ".join(b["exercises"]) + ". " + b["rationale"]
+
+
+def strength_exercises(title):
+    for b in STRENGTH_BLOCKS.values():
+        if b["title"] == title:
+            return b["exercises"], b["rationale"]
+    return [], ""
 
 
 def race_week():
@@ -491,8 +527,8 @@ def render_ics(weeks):
     for w, (sessions, ph) in weeks.items():
         ws = week_start(w)
         for i, s in enumerate(sessions):
-            if s.kind == "rest" and s.minutes == 0 and s.title == "Rest":
-                continue  # a rest day does not need a calendar entry
+            # Rest days DO get a calendar entry. For an athlete whose main risk is
+            # doing more than the plan asks, a visible "REST" is a session.
             d = ws + timedelta(days=s.day_offset)
             t = DEFAULT_TIMES.get(s.kind, "06:00")
             hh, mm = int(t[:2]), int(t[3:])
@@ -544,23 +580,34 @@ def render_ics(weeks):
 # are the most likely failure point in this whole toolchain, which is why
 # push_garmin.py defaults to --dry-run and supports --limit.
 SPORT_RUNNING = {"sportTypeId": 1, "sportTypeKey": "running"}
+# Strength and mobility sport IDs are the least certain values in this file. If a
+# strength upload is rejected, set SPORT_STRENGTH to SPORT_OTHER and re-run — the
+# workout still lands with its prescription in the step descriptions, just filed
+# under the wrong sport. Test ONE with `push_garmin.py --only strength --limit 1`.
+SPORT_STRENGTH = {"sportTypeId": 5, "sportTypeKey": "strength_training"}
+SPORT_OTHER = {"sportTypeId": 3, "sportTypeKey": "other"}
 STEP_WARMUP = {"stepTypeId": 1, "stepTypeKey": "warmup"}
 STEP_INTERVAL = {"stepTypeId": 3, "stepTypeKey": "interval"}
 STEP_COOLDOWN = {"stepTypeId": 2, "stepTypeKey": "cooldown"}
 END_TIME = {"conditionTypeId": 2, "conditionTypeKey": "time"}
+# For an all-day objective, a 13-hour countdown step is worse than no timer. The
+# athlete presses lap when the day is done.
+END_LAP = {"conditionTypeId": 1, "conditionTypeKey": "lap.button"}
 NO_TARGET = {"workoutTargetTypeId": 1, "workoutTargetTypeKey": "no.target"}
 
 
-def step(order, stype, seconds, desc):
-    return {
+def step(order, stype, seconds, desc, lap=False):
+    s = {
         "type": "ExecutableStepDTO",
         "stepOrder": order,
         "stepType": stype,
-        "endCondition": END_TIME,
-        "endConditionValue": int(seconds),
+        "endCondition": END_LAP if lap else END_TIME,
         "targetType": NO_TARGET,
         "description": desc[:512],
     }
+    if not lap:
+        s["endConditionValue"] = int(seconds)
+    return s
 
 
 def garmin_workout(s, w, when):
@@ -571,7 +618,32 @@ def garmin_workout(s, w, when):
     description instead, where it reads as guidance.
     """
     secs = s.minutes * 60
-    if s.kind in ("long",) or s.minutes >= 90:
+    sport = SPORT_RUNNING
+
+    if s.kind == "strength":
+        # One step per block so the prescription is readable on the watch rather
+        # than buried in a single description. No exercise IDs: Garmin's exercise
+        # catalogue is a separate reverse-engineering problem, and a wrong ID
+        # prescribes the wrong movement convincingly.
+        sport = SPORT_STRENGTH
+        parts, rationale = strength_exercises(s.title)
+        steps = [step(1, STEP_WARMUP, 480, "Bike or easy jog, then the first set at half load. "
+                      + rationale)]
+        body = max(300, secs - 780)
+        per = max(60, body // max(1, len(parts)))
+        for i, part in enumerate(parts, start=2):
+            steps.append(step(i, STEP_INTERVAL, per, part))
+        steps.append(step(len(steps) + 1, STEP_COOLDOWN, 300, "Done. Eat protein within the hour."))
+
+    elif s.kind == "mobility":
+        sport = SPORT_OTHER
+        steps = [step(1, STEP_INTERVAL, secs, s.notes or "Mobility.")]
+
+    elif s.minutes > 360:
+        # An all-day objective. One open-ended step; press lap when finished.
+        steps = [step(1, STEP_INTERVAL, 0, s.notes or "Big day. Press lap when done.", lap=True)]
+
+    elif s.kind in ("long",) or s.minutes >= 90:
         steps = [step(1, STEP_WARMUP, 900, "Easy. Walk breaks from the start if hilly."),
                  step(2, STEP_INTERVAL, max(300, secs - 1500), s.notes or "Conversational effort throughout."),
                  step(3, STEP_COOLDOWN, 600, "Easy walk/jog. Eat within 30 minutes.")]
@@ -581,16 +653,18 @@ def garmin_workout(s, w, when):
                  step(3, STEP_COOLDOWN, 300, "Flat, easy.")]
     else:
         steps = [step(1, STEP_INTERVAL, secs, s.notes or "Easy, conversational.")]
+
     return {
         "_scheduleDate": when.isoformat(),
         "_week": w,
-        "sportType": SPORT_RUNNING,
+        "_kind": s.kind,
+        "sportType": sport,
         "workoutName": f"W{w} {s.title}"[:80],
-        "description": (f"{RACE_NAME} plan · week {w}"
-                        + (f" · target {s.vert_ft:,} ft vert" if s.vert_ft else ""))[:1024],
+        "description": (f"{RACE_NAME} plan - week {w}"
+                        + (f" - target {s.vert_ft:,} ft vert" if s.vert_ft else ""))[:1024],
         "workoutSegments": [{
             "segmentOrder": 1,
-            "sportType": SPORT_RUNNING,
+            "sportType": sport,
             "workoutSteps": steps,
         }],
     }
