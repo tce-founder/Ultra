@@ -133,6 +133,12 @@
       "path": "advisory/analysis/source-queue.md"
     },
     {
+      "id": "doc:training-log.md",
+      "kind": "doc",
+      "label": "training-log.md",
+      "path": "advisory/analysis/plan/training-log.md"
+    },
+    {
       "id": "doc:tune-up-races.md",
       "kind": "doc",
       "label": "tune-up-races.md",

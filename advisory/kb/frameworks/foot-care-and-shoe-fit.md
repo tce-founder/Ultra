@@ -57,6 +57,33 @@ or high counter, a seam, or a heel that pistons because the lacing is loose, and
 friction over the retrocalcaneal and superficial calcaneal bursae — inflammation at the back of
 the heel, above the insertion of the Achilles.
 
+### The documented case — and it is a CASCADE, not a shoe fault
+
+One case is recorded in the analysis workspace, and its actual chain is worth stating precisely
+because the obvious reading of it is wrong:
+
+> **stubbed toe during a 50-mile mountain race → toenail lost → gait altered to protect the toe →
+> altered gait drove the heel against the counter → posterior Achilles bursitis → roughly seven
+> months off running.**
+
+The first instinct on hearing "heel counter rubbing" is that the shoe was wrong. **It probably was
+not.** That shoe had presumably been fine for months. What changed was the *gait*, and the gait
+changed because of something happening at the other end of the foot.
+
+This is the single most useful thing on this page, and it generalises:
+
+**A minor foot problem is dangerous because of the compensation, not the damage.** A lost nail is
+trivial. Forty miles of subtly altered mechanics to protect it is not. The injury that ends the
+season is almost never the thing that went wrong — it is the thing you did about it.
+
+Two consequences:
+
+1. **Toe protection ranks with heel protection**, not below it. On a course with ~21,000 ft of
+   descent, toes are driven forward into the toe box thousands of times, and a stubbed toe on
+   technical ground is an ordinary event rather than bad luck.
+2. **Any mid-race change in how you are moving is a trigger to stop and fix it**, at the next aid
+   station, not at the finish. "I'll run it out" is how a nail becomes a bursitis.
+
 **Why this matters more than it looks.** It is the one injury in this corpus whose cause is
 *equipment* rather than *load*. That has two consequences that run in opposite directions:
 
@@ -74,12 +101,21 @@ and then watch the heel.
 
 ### What to do
 
+**Start at the toes, not the heel** — that is the order the cascade runs in.
+
+0. **Protect the toes.** Enough toe-box length that the toes do not reach the end on a descent
+   (half a size up over ultra distance is normal), enough volume that they are not squeezed, and a
+   rock plate or a real toe bumper for technical ground. Nails short and square several days
+   before — not the night before, which leaves tender beds.
 1. **Audit the rack.** Press a thumb into the back of every heel counter. Stiff, tall, or seamed
-   over the Achilles → out of the rotation. This is the whole intervention and it takes ten minutes.
+   over the Achilles → out of the rotation. Ten minutes, and worth doing even though the recorded
+   case was not primarily a counter fault — a marginal counter is what turns a gait change into an
+   injury rather than an inconvenience.
 2. **Prefer a soft, low collar** for climbing sessions and for the race.
-3. **Lock the heel.** Use the top eyelet properly so the heel does not piston against the counter.
-   A heel that moves rubs; a heel that is held does not. This matters more than the counter's
-   stiffness.
+3. **Lock the heel — it does two jobs.** Using the top eyelet properly stops the heel pistoning
+   against the counter AND stops the foot sliding forward into the toe box on descents. It is
+   therefore the single highest-value thirty seconds in this whole page, because it addresses both
+   ends of the cascade at once. A heel that moves rubs; a heel that is held does not.
 4. **Consider drop.** A higher heel-to-toe drop reduces the dorsiflexion range the ankle has to
    reach, which reduces counter contact. This is a trade — lower drop has other arguments for it —
    but on a 21,000 ft course the climbing argument is the live one.
@@ -128,6 +164,8 @@ toughness one.
 
 - **Foot care is treated as an aid-station activity.** It is a shoe-shop and training-block
   activity; by the aid station the options are all bad.
+- **A small problem is run through rather than fixed**, and the compensation does the damage. This
+  is the recorded case's actual failure mode and the one most worth internalising.
 - **The shoe that caused a problem is kept "for easy runs".** Friction does not care about pace.
 - **Posterior heel soreness is trained through** because it is "just a niggle". It is the early,
   cheap phase of the thing that costs months.
