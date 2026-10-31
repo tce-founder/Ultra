@@ -21,6 +21,26 @@ The athlete elected a **self-supported 50 on the Hellbender course** instead of 
 Heartbreaker. Recorded rather than argued away; the reasoning below about why the Heartbreaker was
 chosen is kept because it still describes what the substitution gives up.
 
+### Confirmed 2026-10-31: the athlete raced the Heartbreaker in March 2026
+
+Which strengthens the swap rather than weakening it, and changes what week 22 is *for*.
+
+**They have already raced that course.** Camp Grier, Snooks Nose, Green Knob, Mt Mitchell via the
+Black Mountain Crest, Heartbreak Ridge. Entering it again would buy a repeat of known ground and
+an official result. The unknowns that remain are elsewhere:
+
+1. **The Hellbender sections the Heartbreaker does not touch.** Week 22 should be routed over
+   those, not over the familiar half.
+2. **The night.** The Heartbreaker is a daylight race. Hellbender is not, and nothing in this
+   athlete's history has rehearsed moving well in the dark.
+3. **Whether the toe-and-heel protocol holds under the exact conditions that broke it.**
+
+**And this is the sharp point: the 2026 injury happened on this terrain, in this effort shape.**
+Week 22 is a deliberate repeat of the conditions that cost seven months — same distance, same
+vert, same technical descents, same race that stubbed the toe. That is precisely why it is worth
+doing, and precisely why the foot protocol is not advisory on that day. It is also the strongest
+remaining argument for crew: someone at a road crossing with a spare pair of shoes.
+
 ### What the swap gains
 
 - **The actual course**, not a course that overlaps it. The Heartbreaker shares the start line and

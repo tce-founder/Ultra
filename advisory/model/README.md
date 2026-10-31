@@ -57,3 +57,37 @@ Not the fuelling plan. The two lines at the end:
 
 Both are visible because the grades travel with the numbers. That is the whole argument for the
 type.
+
+## `projection.py` — cutoff feasibility
+
+```
+python3 projection.py          # sensitivity table
+python3 projection.py 14:30    # project from a known Heartbreaker time
+```
+
+Projects a Hellbender time from the athlete's March 2026 Mount Mitchell Heartbreaker — same start
+line, much of the same terrain, so it is the most informative data point available for the only
+question that can invalidate the whole plan: **is 40 hours comfortable, or is it the objective?**
+
+### Known weaknesses
+
+**1. There is no validated model for 50-to-100-mile scaling on mountain terrain.** The method is a
+convention. Hence: every output is a range, never a number; the range comes from varying the two
+assumptions that matter (vert equivalence, fatigue exponent); and the night penalty is **additive
+and separate**, because a daylight 50 contains no night and folding that into an exponent hides
+the single biggest difference between the two events.
+
+**2. The grade is UNVERIFIED no matter how well the input time is known**, because the method is.
+This is enforced rather than stated: the method is passed to `derive()` as an explicit UNVERIFIED
+`Input`. The first version only passed the athlete's time, so the midpoint printed REPORTED while
+a note three lines below claimed everything was UNVERIFIED — the exact grade laundering this
+repository exists to prevent, committed in the file that teaches the rule.
+
+**3. Breakpoints are computed, not asserted.** The first version hardcoded "somewhere around
+13-14 h" in prose sitting directly under a table showing inside-all-assumptions through 15h00.
+
+**4. It cannot see the athlete.** Nineteen months, an injury, seven months off and a rebuild sit
+between the input and the target. The projection treats the Heartbreaker runner and the May runner
+as the same person, which is the largest unmodelled term and is not small.
+
+**Use the spread to decide, never the midpoint.**

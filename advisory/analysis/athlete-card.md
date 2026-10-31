@@ -32,11 +32,12 @@ updated: 2026-10-18
 | Terrain access | **3–5 h from sustained climbs; weekends only** | Athlete, 2026-10-18 | 2026-10-18 |
 | Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) | Plan | 2026-10-18 |
 | Races entered | **None.** Heartbreaker declined 2026-10-31 in favour of a self-supported 50; week-15 50K still unchosen | Athlete, 2026-10-31 | 2026-10-31 |
-| Was last March's 50 the Heartbreaker? | **UNRESOLVED — ask.** Changes the injury causation record and the recon value of week 22 | — | — |
+| Course knowledge | **Has raced Hellbender's first-half terrain**: Camp Grier start, Snooks Nose, Green Knob, Mt Mitchell via Black Mountain Crest, Heartbreak Ridge | Athlete, 2026-10-31 | 2026-10-31 |
+| Heartbreaker finish time | **UNKNOWN — highest-value open item.** Drives the only cutoff-feasibility estimate available (`advisory/model/projection.py`) | — | — |
 | Injury status | **Resolved posterior-Achilles bursitis**, ~March 2026, ~7 months off. CAUSAL CHAIN (corrected 2026-10-31): stubbed toe mid-race → lost toenail → altered gait → heel driven into the counter → bursitis. **Not primarily a shoe fault — a compensation injury.** Fully settled | Athlete, 2026-10-18 (**corrects** the intake answer of 'clean history') | 2026-10-18 |
 | Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
 | Longest run, last 2 months | **~5k** | Athlete, 2026-10-18 | 2026-10-18 |
-| Ultra history / longest ever | **50-miler finished, ~March 2026.** Month/year to confirm | Athlete, 2026-10-18 | 2026-10-18 |
+| Ultra history / longest ever | **Mount Mitchell Heartbreaker 50M, March 2026** — confirmed 2026-10-31. 50 mi, ~12,000 ft, from Camp Grier. Finish time UNKNOWN and now the top open item | Athlete, 2026-10-31 | 2026-10-31 |
 | Bodyweight (kg) | *unknown — blocks every nutrition figure* | — | — |
 | Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
 | HR zones / threshold | *unknown — all Garmin workouts ship with no target* | — | — |
@@ -78,6 +79,7 @@ ones.**
 | 2026-10-18 | Ultra history | unknown | 50-miler finished | No — new information |
 | 2026-10-31 | Week 22 | Mount Mitchell Heartbreaker 50M | Self-supported 50 on the Hellbender course | Yes — athlete's call |
 | 2026-10-31 | Injury mechanism | "heel-cup rubbing" | Toe trauma → nail loss → gait change → heel rub | No — correction. Shifts prevention to toe box, nail care and reacting to gait change |
+| 2026-10-31 | Ultra history | "a 50 in March last year" | **Mount Mitchell Heartbreaker, March 2026** | No — confirmation. Resolves the 2025/2026 ambiguity and establishes course knowledge |
 
 ## Rules
 

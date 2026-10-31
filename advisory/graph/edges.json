@@ -121,6 +121,12 @@
       "path": "advisory/analysis/predictions.md"
     },
     {
+      "id": "doc:projection.py",
+      "kind": "doc",
+      "label": "projection.py",
+      "path": "advisory/model/projection.py"
+    },
+    {
       "id": "doc:purpose.md",
       "kind": "doc",
       "label": "purpose.md",
