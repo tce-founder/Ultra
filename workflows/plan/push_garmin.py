@@ -30,7 +30,11 @@ endpoints the web app uses:
     POST /workout-service/schedule/{workoutId} -> body {"date": "YYYY-MM-DD"}
 
 The step-type and condition-type IDs in build_plan.py come from community
-reverse-engineering, not documentation. They are the most likely thing in this
+reverse-engineering, not documentation. Where they could be corroborated they have
+been: sportTypeId 5 / "strength_training" and stepTypeId 3 / "interval" appear in
+several independent community projects and in a Garmin forum payload. warmup (1)
+and cooldown (2) are the widely-used convention but were NOT corroborated, so they
+are the likeliest things to be wrong. They are the most likely thing in this
 toolchain to be wrong or to have drifted, and a bad bulk run leaves 150 broken
 workouts to delete by hand. So: dry-run, then ONE, then look at the watch, then
 the rest. The ten minutes this costs is cheaper than the cleanup.
@@ -47,6 +51,9 @@ import sys
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# Every created workout id is appended here as it uploads, so --undo can remove
+# exactly what this script made without guessing from names. Gitignored.
+MANIFEST = os.path.join(HERE, ".garmin_uploaded.jsonl")
 DEFAULT_JSON = os.path.normpath(
     os.path.join(HERE, "..", "..", "advisory", "analysis", "plan", "garmin_workouts.json"))
 
@@ -77,7 +84,13 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="print the plan of record and exit")
     ap.add_argument("--no-schedule", action="store_true", help="create workouts but do not put them on dates")
     ap.add_argument("--sleep", type=float, default=1.0, help="seconds between calls; be polite to the endpoint")
+    ap.add_argument("--undo", action="store_true",
+                    help="DELETE every workout this script created, newest first, from the local "
+                         "manifest. The recovery path for a bulk run that went wrong.")
     args = ap.parse_args()
+
+    if args.undo:
+        return undo(args)
 
     workouts = load(args.json, args.from_week, args.to_week)
     if args.only:
@@ -140,6 +153,7 @@ def main():
     print("logged in")
 
     ok = fail = 0
+
     for w in workouts:
         name, when = w["workoutName"], w["_scheduleDate"]
         try:
@@ -149,10 +163,18 @@ def main():
                 raise RuntimeError(f"no workoutId in response: {str(created)[:200]}")
             if not args.no_schedule:
                 api.schedule_workout(wid, when)
+            with open(MANIFEST, "a") as fh:
+                fh.write(json.dumps({"workoutId": wid, "date": when, "name": name}) + "\n")
             print(f"  OK   {when}  {name}  (id {wid})")
             ok += 1
         except Exception as exc:                      # noqa: BLE001 — report and continue
             print(f"  FAIL {when}  {name}: {type(exc).__name__}: {exc}")
+            # The HTTP body is where Garmin says WHICH field it rejected, and the
+            # exception string usually drops it. Without this a wrong sport or
+            # step-type id produces an unactionable "400 Bad Request".
+            body = getattr(getattr(exc, "response", None), "text", None)
+            if body:
+                print(f"       response: {body[:400]}")
             fail += 1
             if fail >= 3 and ok == 0:
                 print("\nThree failures and no successes — stopping rather than grinding through 150.")
@@ -162,8 +184,73 @@ def main():
 
     print(f"\n{ok} uploaded, {fail} failed")
     if ok:
+        print(f"Recorded in {os.path.relpath(MANIFEST, HERE)} — `--undo` removes exactly these.")
         print("Sync the watch (Garmin Connect app, or plug in) and check Training > Workouts.")
     return 0 if not fail else 1
+
+
+def undo(args):
+    """Delete every workout recorded in the manifest, newest first.
+
+    This exists because the sport and step-type ids in build_plan.py are
+    reverse-engineered. If a bulk run lands 202 subtly wrong workouts, the
+    alternative to this command is deleting them one at a time in the Garmin web
+    UI, which nobody will do — so they would be left there instead, and the
+    calendar would be worse than empty.
+    """
+    if not os.path.exists(MANIFEST):
+        print(f"no manifest at {MANIFEST} — nothing this script created is recorded.")
+        return 1
+    rows = [json.loads(l) for l in open(MANIFEST) if l.strip()]
+    if not rows:
+        print("manifest is empty.")
+        return 0
+
+    print(f"{len(rows)} workouts recorded, {rows[0]['date']} .. {rows[-1]['date']}")
+    if args.dry_run:
+        for r in rows:
+            print(f"  would delete  {r['date']}  {r['workoutId']}  {r['name']}")
+        print("\nDRY RUN — nothing deleted.")
+        return 0
+
+    confirm = input(f"Delete all {len(rows)} from Garmin Connect? Type DELETE to confirm: ")
+    if confirm.strip() != "DELETE":
+        print("aborted.")
+        return 1
+
+    email = args.email or os.environ.get("GARMIN_EMAIL")
+    if not email:
+        print("ERROR: pass --email or set $GARMIN_EMAIL.", file=sys.stderr)
+        return 2
+    password = os.environ.get("GARMIN_PASSWORD") or getpass.getpass(
+        f"Garmin password for {email} (not echoed): ")
+    try:
+        from garminconnect import Garmin
+    except ImportError:
+        print('ERROR: pip install "garminconnect[workout]"', file=sys.stderr)
+        return 2
+    api = Garmin(email, password)
+    api.login()
+
+    kept, gone = [], 0
+    for r in reversed(rows):
+        try:
+            api.delete_workout(r["workoutId"])
+            print(f"  deleted  {r['date']}  {r['name']}")
+            gone += 1
+        except Exception as exc:                      # noqa: BLE001
+            print(f"  FAILED   {r['date']}  {r['name']}: {type(exc).__name__}: {exc}")
+            kept.append(r)
+        time.sleep(args.sleep)
+
+    # Rewrite the manifest with only what could not be deleted, so a second --undo
+    # retries exactly the stragglers rather than re-deleting ids that are gone.
+    with open(MANIFEST, "w") as fh:
+        for r in reversed(kept):
+            fh.write(json.dumps(r) + "\n")
+    print(f"\n{gone} deleted, {len(kept)} left in the manifest"
+          f"{' — re-run --undo to retry those' if kept else ''}")
+    return 0 if not kept else 1
 
 
 if __name__ == "__main__":

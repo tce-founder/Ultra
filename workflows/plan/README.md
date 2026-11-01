@@ -93,6 +93,37 @@ for CI or a password-manager pipe, and the script warns when it uses one.
 **Nothing in this repository should ever contain the password**, and the email is passed as an
 argument rather than committed for the same reason — one less personal detail living in git.
 
+### If it goes wrong: `--undo`
+
+Every created workout id is appended to a local, gitignored manifest as it uploads.
+
+```bash
+python3 push_garmin.py --undo --dry-run                        # list what would go
+python3 push_garmin.py --email you@example.com --undo          # type DELETE to confirm
+```
+
+It deletes newest-first and rewrites the manifest with only what it failed to remove, so a second
+`--undo` retries the stragglers rather than re-deleting ids that are already gone.
+
+**This is the reason it is safe to attempt a 202-workout push at all.** The ids in
+`build_plan.py` are reverse-engineered; without a one-command rollback the alternative to a bad
+bulk run is deleting 202 workouts by hand in the Garmin web UI, which nobody does — so they get
+left there instead, and a calendar full of subtly wrong workouts is worse than an empty one.
+
+### ID provenance — what is corroborated and what is not
+
+| Value | Status |
+| ----- | ------ |
+| `sportTypeId 1` / `running` | Corroborated across community projects |
+| `sportTypeId 5` / `strength_training` | **Corroborated** — several independent projects plus a Garmin forum payload |
+| `sportTypeId 3` / `other` | Convention, uncorroborated |
+| `stepTypeId 3` / `interval` | **Corroborated** |
+| `stepTypeId 1` / `warmup`, `2` / `cooldown` | Widely-used convention, **not corroborated** — likeliest to be wrong |
+| `conditionTypeId 2` / `time`, `1` / `lap.button` | Convention, uncorroborated |
+
+On a failure the script now prints the **HTTP response body**, which is where Garmin names the
+field it rejected. Paste that back and the fix is usually one constant.
+
 **Workouts ship with no pace or heart-rate target**, deliberately. The athlete's zones are
 unknown, and inventing them would put targets on the watch that look authoritative and are
 guesses. Effort guidance is in each step's description instead, where it reads as guidance. Once

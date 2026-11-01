@@ -37,6 +37,11 @@ advisory/exports/
 advisory/.run-notes/
 advisory/kb/.ingest-notes/
 
+# UPLOAD MANIFEST. Records the Garmin workout ids this session created so --undo
+# can remove exactly them. Local bookkeeping about one person's account; not
+# repository content, and useless to anyone else.
+workflows/plan/.garmin_uploaded.jsonl
+
 # Python
 .venv/
 __pycache__/
