@@ -8,8 +8,13 @@ reads them from the environment, never from a file and never from an argument
 (arguments show up in shell history and in `ps`).
 
     pip install "garminconnect[workout]"
-    export GARMIN_EMAIL='you@example.com'
-    export GARMIN_PASSWORD='...'          # or use a .netrc / password manager export
+    python3 push_garmin.py --email you@example.com --dry-run
+
+The password is PROMPTED, never passed as an argument and never read from a file
+by default. An exported GARMIN_PASSWORD survives in shell history, is visible in
+`ps` while the process runs, and tends to end up committed in a dotfile; $GARMIN_
+PASSWORD is still honoured for CI or a password-manager pipe, but it is not the
+recommended path and the script warns when it uses one.
 
     python3 push_garmin.py --dry-run                      # see what WOULD be sent
     python3 push_garmin.py --only run      --limit 1      # one of each sport first
@@ -35,6 +40,7 @@ whole plan and nothing is lost but convenience.
 """
 
 import argparse
+import getpass
 import json
 import os
 import sys
@@ -60,6 +66,7 @@ def strip_private(w):
 def main():
     ap = argparse.ArgumentParser(description="Upload and schedule the Hellbender plan on Garmin Connect.")
     ap.add_argument("--json", default=DEFAULT_JSON)
+    ap.add_argument("--email", default="", help="Garmin account email. Falls back to $GARMIN_EMAIL.")
     ap.add_argument("--from-week", type=int, default=1)
     ap.add_argument("--to-week", type=int, default=29)
     ap.add_argument("--limit", type=int, default=0, help="stop after N workouts (0 = no limit)")
@@ -99,11 +106,27 @@ def main():
         print("\nDRY RUN — nothing sent. Re-run with --limit 1 to send a single workout.")
         return 0
 
-    email = os.environ.get("GARMIN_EMAIL")
+    email = args.email or os.environ.get("GARMIN_EMAIL")
+    if not email:
+        print("ERROR: pass --email or set $GARMIN_EMAIL.", file=sys.stderr)
+        return 2
+
+    # PROMPT, don't read from the environment by preference. An exported
+    # GARMIN_PASSWORD lands in shell history, in `ps` while the process runs, and
+    # in any shell dotfile it gets pasted into. getpass echoes nothing and keeps the
+    # password in this process only. The env var is still honoured for CI or for a
+    # password manager piping it in, but it is no longer what the docs recommend.
     password = os.environ.get("GARMIN_PASSWORD")
-    if not email or not password:
-        print("ERROR: set GARMIN_EMAIL and GARMIN_PASSWORD in the environment.", file=sys.stderr)
-        print("Never pass credentials as arguments — they land in shell history and ps.", file=sys.stderr)
+    if password:
+        print("using $GARMIN_PASSWORD (note: exported secrets persist in shell history)")
+    else:
+        try:
+            password = getpass.getpass(f"Garmin password for {email} (not echoed): ")
+        except (EOFError, KeyboardInterrupt):
+            print("\naborted — no password entered.", file=sys.stderr)
+            return 2
+    if not password:
+        print("ERROR: empty password.", file=sys.stderr)
         return 2
 
     try:

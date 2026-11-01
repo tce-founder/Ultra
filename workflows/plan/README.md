@@ -76,14 +76,22 @@ Read the header of `push_garmin.py` before running it. Three things matter:
 
 ```bash
 pip install "garminconnect[workout]"
-export GARMIN_EMAIL='...' GARMIN_PASSWORD='...'
 
-python3 push_garmin.py --dry-run                     # what would be sent, by kind and sport
-python3 push_garmin.py --only run      --limit 1     # one of each sport first
-python3 push_garmin.py --only strength --limit 1     # <- the uncertain one
-python3 push_garmin.py --only mobility --limit 1
-python3 push_garmin.py --from-week 1 --to-week 8     # then a block at a time
+python3 push_garmin.py --email you@example.com --dry-run              # nothing sent
+python3 push_garmin.py --email you@example.com --only run      --limit 1
+python3 push_garmin.py --email you@example.com --only strength --limit 1   # <- the uncertain one
+python3 push_garmin.py --email you@example.com --only mobility --limit 1
+python3 push_garmin.py --email you@example.com --from-week 1 --to-week 8
 ```
+
+**The password is prompted, not exported.** Earlier versions of this file said to
+`export GARMIN_PASSWORD=...`, which was poor advice: an exported secret persists in shell
+history, is visible in `ps` while the process runs, and tends to end up committed in a dotfile.
+`getpass` echoes nothing and keeps it in the one process. `$GARMIN_PASSWORD` is still honoured
+for CI or a password-manager pipe, and the script warns when it uses one.
+
+**Nothing in this repository should ever contain the password**, and the email is passed as an
+argument rather than committed for the same reason — one less personal detail living in git.
 
 **Workouts ship with no pace or heart-rate target**, deliberately. The athlete's zones are
 unknown, and inventing them would put targets on the watch that look authoritative and are
