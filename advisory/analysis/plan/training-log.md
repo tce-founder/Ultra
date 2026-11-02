@@ -32,7 +32,9 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 
 | Date | Wk | Planned | Actual | Feel | Vert | Heel / toe / gait | Note |
 | ---- | -- | ------- | ------ | ---- | ---- | ----------------- | ---- |
-| 2026-10-31 | 2 | Long run 50m | | | | | *awaiting self-report* |
+| 2026-10-31 | 2 | Long run 50m | | | | | *not reported* |
+| 2026-11-01 | 2 | Recovery run 25m | **not done** | — | — | — | Athlete reported 2026-11-02. One missed 25-min recovery run; no action |
+| 2026-11-02 | 3 | Rest | rest | — | — | — | Scheduled rest day |
 
 ## Week rollup
 
@@ -48,8 +50,9 @@ judged by — not volume.
 
 The plan began Mon 19 Oct 2026. Nothing has been logged, so none of this is known:
 
-- **Did weeks 1 and 2 happen?** If the build actually starts today, the whole plan shifts two
-  weeks later and the taper gets compressed — worth saying now rather than in April.
+- **Did weeks 1 and 2 happen?** Partially answered 2026-11-02: the athlete reported *not* running
+  Sunday 1 Nov, which implies they are tracking the plan and week 2 largely ran. Still unconfirmed
+  session by session, and the Saturday 31 Oct long run is unreported.
 - **Did the Wednesday shoe audit happen?** It is the cheapest injury-prevention action in the
   entire 29 weeks and it was scheduled twice.
 - **Bodyweight**, which still blocks every figure in `plan/nutrition.md`.
