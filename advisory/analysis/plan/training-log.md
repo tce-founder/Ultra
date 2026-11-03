@@ -55,6 +55,9 @@ The plan began Mon 19 Oct 2026. Nothing has been logged, so none of this is know
   session by session, and the Saturday 31 Oct long run is unreported.
 - **Did the Wednesday shoe audit happen?** It is the cheapest injury-prevention action in the
   entire 29 weeks and it was scheduled twice.
-- **Bodyweight**, which still blocks every figure in `plan/nutrition.md`.
+- **Bodyweight**, which still blocks every figure in `plan/nutrition.md`. Now the top open item.
+- **The Heartbreaker finish time**, retracted 2026-11-03. Not blocking — the feasibility
+  conclusion holds across the whole plausible band — but it would tighten the pacing plan.
+  It is in Garmin Connect under March 2026, and in UltraSignup's results for that year.
 - **Fuelling:** anything over 90 minutes should be carrying 30 g/h from week 1. Nothing yet is
   over 90 minutes, so this starts to bite around week 5.

@@ -33,8 +33,8 @@ updated: 2026-10-18
 | Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) | Plan | 2026-10-18 |
 | Races entered | **None.** Heartbreaker declined 2026-10-31 in favour of a self-supported 50; week-15 50K still unchosen | Athlete, 2026-10-31 | 2026-10-31 |
 | Course knowledge | **Has raced Hellbender's first-half terrain**: Camp Grier start, Snooks Nose, Green Knob, Mt Mitchell via Black Mountain Crest, Heartbreak Ridge | Athlete, 2026-10-31 | 2026-10-31 |
-| Heartbreaker finish time | **14:22** (16.5 h cutoff — finished with ~2 h spare) | Athlete, 2026-11-02 | 2026-11-02 |
-| Hellbender projection | **31h11 – 37h57** against a 40 h cutoff. Inside on every assumption; worst-case margin 2h03. Graded UNVERIFIED — the method is a rule of thumb | `advisory/model/projection.py` | 2026-11-02 |
+| Heartbreaker finish time | **UNKNOWN.** 14:22 was offered 2026-11-02 and **retracted 2026-11-03** — the athlete does not know what that figure was. Look it up in Garmin Connect (the activity is in the account) or UltraSignup results | — | — |
+| Hellbender projection | **Robust without the exact time.** Any finish beating the Heartbreaker's own 16.5 h cutoff puts Hellbender between *inside-on-every-assumption* (up to 15h15) and *marginal* (16h30: 61% of assumptions finish). **Never outside on all assumptions.** So the 40 h limit is not a reason to change the plan | `advisory/model/projection.py` | 2026-11-03 |
 | Injury status | **Resolved posterior-Achilles bursitis**, ~March 2026, ~7 months off. CAUSAL CHAIN (corrected 2026-10-31): stubbed toe mid-race → lost toenail → altered gait → heel driven into the counter → bursitis. **Not primarily a shoe fault — a compensation injury.** Fully settled | Athlete, 2026-10-18 (**corrects** the intake answer of 'clean history') | 2026-10-18 |
 | Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
 | Longest run, last 2 months | **~5k** | Athlete, 2026-10-18 | 2026-10-18 |
@@ -81,7 +81,8 @@ ones.**
 | 2026-10-31 | Week 22 | Mount Mitchell Heartbreaker 50M | Self-supported 50 on the Hellbender course | Yes — athlete's call |
 | 2026-10-31 | Injury mechanism | "heel-cup rubbing" | Toe trauma → nail loss → gait change → heel rub | No — correction. Shifts prevention to toe box, nail care and reacting to gait change |
 | 2026-10-31 | Ultra history | "a 50 in March last year" | **Mount Mitchell Heartbreaker, March 2026** | No — confirmation. Resolves the 2025/2026 ambiguity and establishes course knowledge |
-| 2026-11-02 | Heartbreaker time | unknown | **14:22** | No — answers the cutoff-feasibility question. 40 h inside on every assumption |
+| 2026-11-02 | Heartbreaker time | unknown | 14:22 | No — athlete self-report |
+| 2026-11-03 | Heartbreaker time | 14:22 | **RETRACTED — unknown** | No — athlete does not know what that figure was. The feasibility conclusion survives on a sensitivity argument instead; see the projection row |
 
 ## Rules
 
