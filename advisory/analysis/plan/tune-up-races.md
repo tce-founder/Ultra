@@ -21,6 +21,37 @@ The athlete elected a **self-supported 50 on the Hellbender course** instead of 
 Heartbreaker. Recorded rather than argued away; the reasoning below about why the Heartbreaker was
 chosen is kept because it still describes what the substitution gives up.
 
+### REOPENED 2026-11-05 — the Heartbreaker was a DNF, and that bears on this decision
+
+The March 2026 Heartbreaker was **not a finish**. The athlete stopped at **45 miles in 15h00**
+when the toe-to-gait-to-bursitis cascade caught up with them. **No 50-mile race has ever been
+completed.**
+
+That is new information arriving after the week-22 substitution was made, and it pushes the other
+way. The decision is the athlete's, but the case deserves restating honestly:
+
+**The argument for putting the Heartbreaker back on 20 March**
+
+1. **They have never finished a 50.** Attempting 102 miles without that is the single widest gap
+   in this build, and nothing else in the plan closes it. A completed 50 is worth more than any
+   training session on the calendar.
+2. **It is the race that beat them, on the course that beat them.** Finishing it answers the
+   question the DNF left open, and answers it under race conditions rather than self-reported ones.
+3. **A cutoff, aid stations, sweeps and a medical tent** — all the things a solo day cannot supply,
+   and all of which matter more for someone whose last attempt at this distance ended in an
+   injury 45 miles from the start.
+4. **The projection says marginal (~51%).** A finish at the Heartbreaker would replace an
+   extrapolated, injury-contaminated figure with a real one, and would move that estimate
+   substantially in whichever direction is true.
+
+**The argument for keeping the self-supported day** is unchanged and still real: the actual
+Hellbender route, the 4 am start and the night, and a free bail. But note what it cannot do —
+it cannot tell you whether you can finish a 50 under a clock, because there is no clock.
+
+**This corpus's recommendation: race the Heartbreaker.** Do the self-supported course recon
+separately and smaller, in week 21 or 25, where mountain weekends already sit. The thing most
+worth buying between now and May is a 50-mile finish.
+
 ### Confirmed 2026-10-31: the athlete raced the Heartbreaker in March 2026
 
 Which strengthens the swap rather than weakening it, and changes what week 22 is *for*.
@@ -172,6 +203,11 @@ arithmetic with a clock running.
 Those are real failure modes and they are specifically the ones a solo day cannot touch. **Keep
 this one.** It is a 50K rather than a 50, so the commitment is small — one Saturday, one entry fee,
 one drive.
+
+**Sharpened 2026-11-05:** with the Heartbreaker now known to be a DNF, this 50K would be the
+athlete's **first completed ultra of any distance since 2026** — and quite possibly their longest
+completed race, depending on history before the Heartbreaker. It is no longer a confidence
+builder; it is the first rung.
 
 Needs: a 50K on or near **Sat 30 Jan 2027**, ideally in NC with real climbing. This research pass
 did not find one and did not look hard. Worth a proper search of UltraSignup with a date filter.

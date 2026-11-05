@@ -71,6 +71,25 @@ def fmt_h(h):
     return f"{int(h)}h{int(round((h - int(h)) * 60)):02d}"
 
 
+def dnf_equivalent(miles_done, hours, vert_factor=1.5, exponent=1.1):
+    """Scale an UNFINISHED effort up to a full-distance equivalent.
+
+    The athlete covered `miles_done` of the Heartbreaker in `hours` and stopped.
+    This extrapolates to what the full 50 would have taken AT THE SAME EFFORT,
+    assuming vert accrued proportionally to distance.
+
+    READ THE WARNING. If the stop was caused by an injury that developed DURING
+    the race, the observed pace is an INJURED pace, and extrapolating it projects
+    the injured athlete rather than the healthy one. The result is then a floor on
+    capability, not an estimate of it, and how big the gap is depends entirely on
+    how early the injury started — which the number cannot tell you.
+    """
+    vert_done = KNOWN["vert_ft"] * miles_done / KNOWN["miles"]
+    eq_done = equivalent_miles(miles_done, vert_done, vert_factor)
+    eq_full = equivalent_miles(KNOWN["miles"], KNOWN["vert_ft"], vert_factor)
+    return hours * (eq_full / eq_done) ** exponent
+
+
 def project(known_h):
     """Returns (low, high) projected hours across the assumption ranges."""
     out = []
@@ -83,9 +102,18 @@ def project(known_h):
     return min(out), max(out)
 
 
-def report(known_h, label="known result"):
-    known = Input(known_h, "hours", f"athlete's {KNOWN['name']} finish, March 2026",
-                  "REPORTED", population="this athlete, this course, 19 months before the target race",
+def report(known_h, dnf_from=None):
+    # A DNF-derived equivalent must not be labelled a finish. The source string ends
+    # up in the Input, which is the thing downstream reads and quotes.
+    if dnf_from:
+        src = (f"EXTRAPOLATED from a DNF: {dnf_from[0]:g} mi of {KNOWN['miles']:g} in "
+               f"{fmt_h(dnf_from[1])}, March 2026. NOT a finish time")
+        pop = ("this athlete, this course, 19 months out, AND INJURED DURING THE EFFORT — "
+               "the observed pace is an injured pace, so this is a floor on capability")
+    else:
+        src = f"athlete's {KNOWN['name']} finish, March 2026"
+        pop = "this athlete, this course, 19 months before the target race"
+    known = Input(known_h, "hours", src, "REPORTED", population=pop,
                   note="self-reported; not checked against official results")
     lo, hi = project(known_h)
     cutoff = TARGET["cutoff_h"]
@@ -152,6 +180,20 @@ def table():
 
 def main():
     args = sys.argv[1:]
+    dnf = None
+    if args and args[0] == "--dnf":
+        if len(args) < 3:
+            print("usage: projection.py --dnf <miles_completed> <time>  e.g. --dnf 45 15:00")
+            return 2
+        miles, dnf_t = float(args[1]), parse_hm(args[2])
+        dnf = dnf_equivalent(miles, dnf_t)
+        args = [f"{int(dnf)}:{int(round((dnf-int(dnf))*60)):02d}"]
+        print(f"\n  DNF INPUT: {miles:g} mi of {KNOWN['miles']:g} in {fmt_h(dnf_t)}")
+        print(f"  -> {fmt_h(dnf)} full-distance equivalent at the same effort")
+        print(f"  -> that is {'PAST' if dnf > 16.5 else 'inside'} the race's own 16h30 cutoff")
+        print(f"  WARNING: if the stop was caused by an injury that developed during the race,")
+        print(f"  this is an INJURED pace. The projection below is then a FLOOR on capability,")
+        print(f"  not an estimate of it, and the gap depends on how early the injury started.")
     print(f"\n  ASSUMPTIONS (both ranges, neither established)")
     print(f"    vert equivalence   {VERT_FACTOR[0]}–{VERT_FACTOR[1]} flat miles per 1,000 ft")
     print(f"    fatigue exponent   {EXPONENT[0]}–{EXPONENT[1]} on equivalent-distance ratio")
@@ -166,7 +208,7 @@ def main():
         return 0
 
     for a in args:
-        report(parse_hm(a))
+        report(parse_hm(a), dnf_from=(miles, dnf_t) if dnf else None)
     print(f"\n  GRADE NOTE: every projection above is UNVERIFIED regardless of how well the")
     print(f"  input time is known, because the METHOD is a rule of thumb. Use the spread to")
     print(f"  decide, never the midpoint.\n")

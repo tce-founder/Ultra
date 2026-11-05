@@ -56,8 +56,11 @@ The plan began Mon 19 Oct 2026. Nothing has been logged, so none of this is know
 - **Did the Wednesday shoe audit happen?** It is the cheapest injury-prevention action in the
   entire 29 weeks and it was scheduled twice.
 - **Bodyweight**, which still blocks every figure in `plan/nutrition.md`. Now the top open item.
-- **The Heartbreaker finish time**, retracted 2026-11-03. Not blocking — the feasibility
-  conclusion holds across the whole plausible band — but it would tighten the pacing plan.
-  It is in Garmin Connect under March 2026, and in UltraSignup's results for that year.
+- **The Heartbreaker was a DNF** at 45 mi / 15h00 — established 2026-11-05, superseding both the
+  14:22 figure and the assumption that it was a finish. Still worth pulling the Garmin activity
+  for March 2026: the SPLITS would show how early the toe went, which is the one thing that says
+  how much of that 15h00 was an injured pace rather than a real one.
+- **When in the race did the toe injury start?** Decides whether the 51% feasibility estimate is
+  roughly right or materially pessimistic. Nothing recorded answers it.
 - **Fuelling:** anything over 90 minutes should be carrying 30 g/h from week 1. Nothing yet is
   over 90 minutes, so this starts to bite around week 5.
