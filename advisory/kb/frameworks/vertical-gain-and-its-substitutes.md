@@ -59,6 +59,12 @@ least four separable demands, and the indoor options cover them very unevenly:
 | **Eccentric descending load** | Quadriceps braking, thousands of repetitions, joint impact | **Nothing.** No standard machine descends | None — this is the gap |
 | **Terrain skill and footing** | Uneven ground, rock, roots, fatigue-degraded proprioception | Nothing | None |
 
+**Corroborated 2026-11-05.** This page asserted the climb/descend asymmetry from first
+principles at first build. It is now also the stated position of the coaching literature on
+flat-land training: a treadmill lets you "only practise the uphill, and not the downhill, which
+requires a lot of eccentric loading." Independent agreement, so the claim moves from `asserted`
+to the better-supported end of `experienced`.
+
 **The asymmetry is the whole point of this page.** An indoor winter can maintain and even build the
 climbing half of a mountain athlete and leaves the descending half completely untrained. Races are
 lost on the descents — that is where the eccentric damage accumulates and where the late-race
@@ -82,6 +88,29 @@ vertical figures that are not comparable between machines.
 per minute is high. That makes it excellent conditioning and *less* specific: a mountain runner
 climbing with poles does use the upper body, but not in this pattern, and the leg work per minute is
 lower than the whole-body cost suggests.
+
+## The flat-land problem, and what actually substitutes for DESCENDING
+
+For an athlete at sea level with no gradient at all — a coastal plain, a city, the Fens — the
+climbing half is solvable indoors and the descending half is the one that has no good answer. The
+literature's honest position is that nothing replaces a mountain and that a 2-3 day mountain camp
+4-6 weeks out is the standard recommendation. Within that, these are the options, ranked by how
+much descending load they actually deliver:
+
+| Option | Delivers descent? | Notes |
+| ------ | ----------------- | ----- |
+| **Multi-storey car park ramps** | **Yes — the best flat-land answer** | A 6-8 floor garage gives a continuous, repeatable, *runnable* descent on a consistent grade, with the climb for free. Unglamorous and it works. Go off-peak, pick a quiet deck, and check you are allowed |
+| **Bridge repeats** | Partially | Long span bridges give a real grade both ways. The approach ramps are the usable part; the grade is gentle, so the eccentric load is mild |
+| **Stadium / car park stairwells** | Climb yes, descent poorly | Stair *descent* is a different movement from running descent — short, braced, handrail-assisted. Better than nothing, much less specific than a ramp |
+| **Negative-incline treadmill** | Yes, where available | A handful of treadmills do -3% to -6%. Rare, and worth asking a gym directly rather than assuming |
+| **Eccentric strength work** | Not descent, but the adaptation | Step-downs with slow lowering, split squats. Trains the tissue without the terrain. Already in this plan twice a week |
+| **Sand and soft ground** | No | Good for strength and ankle work, no eccentric braking |
+
+**The ranking matters because the instinct is to reach for stairs**, which are the most available
+and among the least specific. A car park ramp is the one that most resembles running downhill.
+
+**And none of this is a substitute for the mountain weekends.** It is what keeps the tissue
+adapted between them so that a monthly mountain trip is a training stimulus rather than an injury.
 
 ## Steps
 

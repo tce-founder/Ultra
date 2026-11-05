@@ -29,8 +29,9 @@ updated: 2026-10-18
 | Peak planned volume | 14.5 h (week 22, 50-mile tune-up) | Plan | 2026-10-18 |
 | Days available | **6–7, flexible hours** | Athlete, 2026-10-18 | 2026-10-18 |
 | Days actually scheduled | **6** — Monday is a full rest day by design | Plan | 2026-10-18 |
-| Terrain access | **3–5 h from sustained climbs; weekends only** | Athlete, 2026-10-18 | 2026-10-18 |
-| Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) | Plan | 2026-10-18 |
+| Home | **Hampstead, NC** — coastal plain, Pender County, effectively sea level | Athlete, 2026-11-05 | 2026-11-05 |
+| Terrain access | **~330–340 mi / 5–5.5 h each way to Old Fort** (my estimate, not verified — check a mapping service). The intake band of "3–5 h" understated it. **Zero usable local vert and zero local descent** | Athlete + estimate, 2026-11-05 | 2026-11-05 |
+| Mountain trips planned | 7 (weeks 6, 10, 14, 18, 21, 25, 27) — **now a 10–11 h round trip each, so each is a 2-night stay, not a day trip. ~75 h of driving in total. Needs consolidating — see below** | Plan | 2026-11-05 |
 | Races entered | **None.** Heartbreaker declined 2026-10-31 in favour of a self-supported 50; week-15 50K still unchosen | Athlete, 2026-10-31 | 2026-10-31 |
 | Course knowledge | **Has raced Hellbender's first-half terrain**: Camp Grier start, Snooks Nose, Green Knob, Mt Mitchell via Black Mountain Crest, Heartbreak Ridge | Athlete, 2026-10-31 | 2026-10-31 |
 | Heartbreaker result | **DNF, 45 mi / 15h00.** The toe-to-gait-to-bursitis cascade ended it. 14:22 was offered 2026-11-02 and retracted 2026-11-03 | Athlete, 2026-11-05 | 2026-11-05 |
@@ -83,6 +84,7 @@ ones.**
 | 2026-10-31 | Ultra history | "a 50 in March last year" | **Mount Mitchell Heartbreaker, March 2026** | No — confirmation. Resolves the 2025/2026 ambiguity and establishes course knowledge |
 | 2026-11-02 | Heartbreaker time | unknown | 14:22 | No — athlete self-report |
 | 2026-11-03 | Heartbreaker time | 14:22 | RETRACTED — unknown | No — athlete did not know what that figure was |
+| 2026-11-05 | Home / terrain | "3–5 h from climbs" | **Hampstead NC, sea level, 5–5.5 h each way** | No — correction. Makes every mountain weekend a 2-night trip and makes descending the acute gap |
 | 2026-11-05 | Heartbreaker result | "50-miler **finished**" | **DNF at 45 mi in 15h00** | No — the most consequential correction in this file. No 50-mile race has ever been completed, and the feasibility verdict moves from comfortable to marginal |
 
 ## Rules
