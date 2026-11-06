@@ -35,6 +35,10 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-10-31 | 2 | Long run 50m | | | | | *not reported* |
 | 2026-11-01 | 2 | Recovery run 25m | **not done** | — | — | — | Athlete reported 2026-11-02. One missed 25-min recovery run; no action |
 | 2026-11-02 | 3 | Rest | rest | — | — | — | Scheduled rest day |
+| 2026-11-03 | 3 | Aerobic 25m + Strength A | | | | | *not reported* |
+| 2026-11-04 | 3 | Easy 20m | | | | | *not reported* |
+| 2026-11-05 | 3 | Aerobic 25m + Strength B | | | | | *not reported* |
+| 2026-11-06 | 3 | *(no Friday session)* | **30m planned — Company Mill, Umstead** | | | | **SWAP, not an addition:** Sunday's 30m recovery moved to Friday to use real terrain while in Raleigh. Sunday 8 Nov now off. Week total unchanged at 4.0 h. **First descent exposure in ~7 months** |
 
 ## Week rollup
 
@@ -45,6 +49,20 @@ judged by — not volume.
 | -- | --------- | -------- | ---------------- | ---- | ---------- |
 | 1 | 3.0 | | 6 | | |
 | 2 | 3.5 | | 6 | | |
+
+## Terrain exposures — tracked separately, because Hampstead supplies none
+
+Descending is the structural gap in this build (athlete card, risk 4): sea level at home, and the
+only eccentric descent load available comes from travel. So every exposure gets logged, with its
+terrain, because the progression here matters more than the weekly hours do.
+
+| Date | Where | Gain | Technical? | Toe / heel after | Note |
+| ---- | ----- | ---- | ---------- | ---------------- | ---- |
+| 2026-11-06 | Company Mill, Umstead SP (Reedy Creek / Harrison Ave) | ~100 ft/mi | **Yes — roots, rocks, uneven** | | First dose. 30 min only, out-and-back to the Crabtree Creek bridge and return |
+
+**The rule for this table:** the first few entries are about tissue tolerance, not about vert
+totals. Unaccustomed descent produces soreness at 24–48 h, so a second exposure inside three days
+is how the first one becomes an injury.
 
 ## Open — unverified from the first two weeks
 
