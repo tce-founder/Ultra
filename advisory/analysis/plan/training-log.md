@@ -38,7 +38,30 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-03 | 3 | Aerobic 25m + Strength A | | | | | *not reported* |
 | 2026-11-04 | 3 | Easy 20m | | | | | *not reported* |
 | 2026-11-05 | 3 | Aerobic 25m + Strength B | | | | | *not reported* |
-| 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | *not reported* | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
+| 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | **Quads: no soreness. Heel/toe: nothing. HAMSTRING tight next morning — athlete suspects the ~2.5 h drive home** | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
+
+## Finding 2026-11-07 — the drive home is part of the session
+
+Quads were **clean** the morning after a 47-minute first descent exposure. That is a better
+eccentric tolerance than the plan assumed and mildly relaxes the descent-progression caution.
+
+What was NOT clean was a hamstring, and the athlete's own read — the ~2.5 h drive home — is the
+likeliest cause and matters far beyond one niggle. **The geography makes this structural:** every
+mountain weekend in this plan ends with **5–5.5 hours in a car seat** immediately after the
+biggest session of the block, seven times before May. Prolonged hip flexion on a loaded,
+un-cooled-down posterior chain is a known way to turn a good session into a week of tightness.
+
+So the drive is now treated as part of the session rather than as what happens afterwards:
+
+1. **Walk 10 minutes before getting in the car.** Non-negotiable after a mountain day.
+2. **Eat and drink before driving**, not at the first services an hour in.
+3. **Stop every hour**, get out, walk 3–5 minutes, and do one set of standing hamstring and hip
+   flexor openers.
+4. **Seat upright**, not reclined — a reclined seat holds more hip flexion, not less.
+5. **Treat the next day as part of the trip.** It is already a rest or easy day in every mountain
+   week; keep it that way rather than backfilling a missed session into it.
+
+This belongs in the plan's mountain-week notes, not only here.
 
 ## The pattern to watch — first instance, 2026-11-06
 
@@ -74,7 +97,7 @@ terrain, because the progression here matters more than the weekly hours do.
 
 | Date | Where | Gain | Technical? | Toe / heel after | Note |
 | ---- | ----- | ---- | ---------- | ---------------- | ---- |
-| 2026-11-06 | Company Mill, Umstead SP (Reedy Creek / Harrison Ave) | ~100 ft/mi | **Yes — roots, rocks, uneven** | *awaiting report* | **Done at 47:33, not the prescribed 30.** 27% walked. Eccentric dose ~58% larger than intended on a first exposure — the reason Saturday was cut |
+| 2026-11-06 | Company Mill, Umstead SP (Reedy Creek / Harrison Ave) | ~100 ft/mi | **Yes — roots, rocks, uneven** | **Quads clean, heel/toe clean, hamstring tight (likely the drive)** | **Done at 47:33, not the prescribed 30.** 27% walked. Eccentric dose ~58% larger than intended on a first exposure — the reason Saturday was cut |
 
 **The rule for this table:** the first few entries are about tissue tolerance, not about vert
 totals. Unaccustomed descent produces soreness at 24–48 h, so a second exposure inside three days

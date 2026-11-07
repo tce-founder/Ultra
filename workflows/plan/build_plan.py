@@ -252,7 +252,13 @@ def build_week(w):
                     "practice.")) 
             elif mountain and d == 4:
                 sessions.append(Session(d, "rest", "Travel to the mountains", 0,
-                                        notes="Drive. Eat properly on the road; arriving under-fuelled wastes the weekend."))
+                                        notes="Drive (~5-5.5 h each way from Hampstead). Eat properly on "
+                                              "the road; arriving under-fuelled wastes the weekend. "
+                                              "THE DRIVE HOME IS PART OF SUNDAY'S SESSION: walk 10 min "
+                                              "before getting in, stop every hour to walk 3-5 min and open "
+                                              "hip flexors and hamstrings, sit upright rather than reclined. "
+                                              "A loaded posterior chain held in hip flexion for five hours "
+                                              "is how a good weekend becomes a tight week."))
             continue
 
         kind, title, note, vshare = classify(ph, d, w, mountain)
