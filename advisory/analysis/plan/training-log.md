@@ -38,7 +38,23 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-03 | 3 | Aerobic 25m + Strength A | | | | | *not reported* |
 | 2026-11-04 | 3 | Easy 20m | | | | | *not reported* |
 | 2026-11-05 | 3 | Aerobic 25m + Strength B | | | | | *not reported* |
-| 2026-11-06 | 3 | *(no Friday session)* | **30m planned — Company Mill, Umstead** | | | | **SWAP, not an addition:** Sunday's 30m recovery moved to Friday to use real terrain while in Raleigh. Sunday 8 Nov now off. Week total unchanged at 4.0 h. **First descent exposure in ~7 months** |
+| 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | *not reported* | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
+
+## The pattern to watch — first instance, 2026-11-06
+
+The athlete card names the standing risk as **added sessions, not missed ones**. First instance
+recorded: a 30-minute prescription run as 47:33, on the one session where overshooting carried the
+most cost — a first eccentric descent exposure after ~7 months off, on root-and-rock terrain, with
+a toe-strike injury history on exactly that ground.
+
+This is not a reprimand and the session was not reckless: it was easy (avg HR 134), a quarter of it
+was walked, and the terrain was the right stimulus. It is recorded because **the consequence lands
+on the NEXT session**, not this one — unaccustomed descent peaks at 24–48 h, so Saturday's long run
+was cut rather than Friday's being undone. That is the whole argument for logging prescription
+against actual.
+
+Watch for: a second instance. One is a good day out. Two is a pattern, and the pattern is the one
+thing this build cannot absorb.
 
 ## Week rollup
 
@@ -58,7 +74,7 @@ terrain, because the progression here matters more than the weekly hours do.
 
 | Date | Where | Gain | Technical? | Toe / heel after | Note |
 | ---- | ----- | ---- | ---------- | ---------------- | ---- |
-| 2026-11-06 | Company Mill, Umstead SP (Reedy Creek / Harrison Ave) | ~100 ft/mi | **Yes — roots, rocks, uneven** | | First dose. 30 min only, out-and-back to the Crabtree Creek bridge and return |
+| 2026-11-06 | Company Mill, Umstead SP (Reedy Creek / Harrison Ave) | ~100 ft/mi | **Yes — roots, rocks, uneven** | *awaiting report* | **Done at 47:33, not the prescribed 30.** 27% walked. Eccentric dose ~58% larger than intended on a first exposure — the reason Saturday was cut |
 
 **The rule for this table:** the first few entries are about tissue tolerance, not about vert
 totals. Unaccustomed descent produces soreness at 24–48 h, so a second exposure inside three days
