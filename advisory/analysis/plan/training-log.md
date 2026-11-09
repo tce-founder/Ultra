@@ -38,6 +38,8 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-03 | 3 | Aerobic 25m + Strength A | | | | | *not reported* |
 | 2026-11-04 | 3 | Easy 20m | | | | | *not reported* |
 | 2026-11-05 | 3 | Aerobic 25m + Strength B | | | | | *not reported* |
+| 2026-11-07 | 3 | 55m long run — **cut** | short easy jog | — | flat | quads clean; hamstring tight, eased | Cut from 55m on the morning report: hamstring niggle after Friday's drive, plus Friday already 58% over. Correct call |
+| 2026-11-08 | 3 | Off (swapped to Fri) | off | — | — | — | As planned |
 | 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | **Quads: no soreness. Heel/toe: nothing. HAMSTRING tight next morning — athlete suspects the ~2.5 h drive home** | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
 
 ## Finding 2026-11-07 — the drive home is part of the session
@@ -86,8 +88,9 @@ judged by — not volume.
 
 | Wk | Planned h | Actual h | Sessions planned | Done | Completion |
 | -- | --------- | -------- | ---------------- | ---- | ---------- |
-| 1 | 3.0 | | 6 | | |
-| 2 | 3.5 | | 6 | | |
+| 1 | 3.0 | *unreported* | 6 | | |
+| 2 | 3.5 | *partial* | 6 | 5 of 6 | Sunday 1 Nov missed |
+| 3 | 4.0 | ~4.0 | 6 | 6 | Friday +18 min over, Saturday cut to compensate. **Net on target** |
 
 ## Terrain exposures — tracked separately, because Hampstead supplies none
 
