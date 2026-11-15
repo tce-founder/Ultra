@@ -152,9 +152,9 @@ fitness" and they never regained a previous level. Checking `classify()` in `bui
 confirms the complaint applies to THIS plan too, and that it is a design defect rather than a
 metric problem.
 
-**Every running day in all 29 weeks is prescribed easy.** "Easy, conversational", "genuinely
+**Every running day in all 29 weeks is prescribed easy.** (Stated once as "no hard work at\nall", which was wrong: `Back squat or trap-bar deadlift 4x5 @ heavy` is genuine high-intensity\nwork. The accurate claim is that there is no hard AEROBIC work.) "Easy, conversational", "genuinely
 easy", "slow enough to feel pointless". The only intensity in the build is 6 x 20 s strides from
-Base 2, plus whatever intensity the athlete chooses on the Tuesday vert session, which carries no
+Base 2, plus whatever intensity the athlete chooses on the Wednesday vert session, which carries no
 intensity prescription at all.
 
 The repo declares `polarized-superiority` as a tracked CLAIM — roughly 80% easy and 20% **hard**.
@@ -200,8 +200,22 @@ for an athlete eight weeks back from a seven-month layoff.
 
 ### Proposed fix, NOT YET APPLIED
 
-Add one quality session per week from week 9, **on the existing Tuesday vert session** rather
+Add one quality session per week from week 9, **on the existing WEDNESDAY vert session** rather
 than as an added day.
+
+**Why not Tuesday and Thursday**, asked by the athlete 2026-11-15. Those are already the two
+heaviest weekdays: 45 min of heavy lower-body strength stacked on a 40-min aerobic run, each.
+Adding threshold running would be a third hard stimulus on the same day, and because the vert
+session sits on Wednesday between them, the week would carry three consecutive hard days
+(Tue/Wed/Thu). Wednesday is the only weekday with a single session. Friday is ruled out twice
+over: it feeds Saturday's long run, and it is the travel day on all seven mountain weeks.
+
+**One quality session, not two.** At week 9 the athlete is nine weeks off a seven-month layoff,
+and the week already carries three significant stressors (Tuesday strength, Saturday long, Sunday
+back-to-back). A second hard session is how a build arrives at May undertrained because February
+was spent injured. If Wednesday is absorbing well by the Specific phase (week 17+), the second
+hard dose should come from the mountain weekends, which are more race-specific than a second
+threshold session.
 
 The argument for that placement is injury-specific. Hard uphill work carries no eccentric
 loading, no high ground-contact force, no speed and no descent — and this athlete's injury
