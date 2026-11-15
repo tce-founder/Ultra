@@ -131,6 +131,43 @@ def main():
     check("--undo --dry-run exits 0 and deletes nothing", rc == 0 and
           not any(i.deleted for i in FakeGarmin.instances))
 
+    # --- a re-run must not duplicate what the manifest already records ---
+    # Uses a kind with no --limit, because --limit is applied AFTER the skip
+    # filter: a limited re-run is SUPPOSED to send the next N un-uploaded
+    # workouts, which is what makes a dead bulk push resumable. The first
+    # version of this test asserted 0 there and was simply wrong.
+    FakeGarmin.instances.clear()
+    sys.argv = ["push_garmin.py", "--email", "x@y.z", "--only", "mobility", "--sleep", "0"]
+    P.main()
+    first = [w["workoutName"] for i in FakeGarmin.instances for w in i.uploaded]
+    check("a first run sends the selection", len(first) == 2, f"{first}")
+
+    FakeGarmin.instances.clear()
+    rc = P.main()
+    resent = sum(len(i.uploaded) for i in FakeGarmin.instances)
+    check("re-running sends nothing already uploaded", rc == 0 and resent == 0, f"{resent} re-sent")
+
+    # --- a limited re-run advances rather than repeating ---
+    # Checked against the MANIFEST, not the uploaded payload: private keys are
+    # stripped before sending, so `_scheduleDate` does not exist on the wire.
+    before = P.already_uploaded()
+    FakeGarmin.instances.clear()
+    sys.argv = ["push_garmin.py", "--email", "x@y.z", "--only", "strength",
+                "--limit", "1", "--sleep", "0"]
+    P.main()
+    after = P.already_uploaded()
+    sent = sum(len(i.uploaded) for i in FakeGarmin.instances)
+    check("a limited re-run advances to un-uploaded work",
+          sent == 1 and len(after - before) == 1,
+          f"sent {sent}, manifest grew by {len(after - before)}")
+
+    FakeGarmin.instances.clear()
+    sys.argv = ["push_garmin.py", "--email", "x@y.z", "--only", "mobility",
+                "--limit", "1", "--sleep", "0", "--allow-duplicates"]
+    P.main()
+    check("--allow-duplicates overrides the skip",
+          sum(len(i.uploaded) for i in FakeGarmin.instances) == 1)
+
     # --- a 401 must produce guidance and exit 2, not a traceback ---
     class Failing(FakeGarmin):
         def login(self, tokenstore=None):

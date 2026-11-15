@@ -188,6 +188,25 @@ def connect(email, password):
     return api
 
 
+def already_uploaded():
+    """(name, date) pairs this script has already created, from the manifest.
+
+    Idempotency is the right DEFAULT for a push script. Without it, a bulk run
+    that dies at workout 100 of 174 leaves the user choosing between re-running
+    (and duplicating 100 workouts on the calendar) and hand-picking the
+    remainder. The manifest already records what was sent; this uses it.
+    """
+    if not os.path.exists(MANIFEST):
+        return set()
+    seen = set()
+    with open(MANIFEST) as fh:
+        for line in fh:
+            if line.strip():
+                r = json.loads(line)
+                seen.add((r.get("name"), r.get("date")))
+    return seen
+
+
 def strip_private(w):
     """Keys prefixed with _ are ours, not Garmin's. Sending them is how a payload
     gets rejected with a 400 that names nothing useful."""
@@ -208,6 +227,9 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="print the plan of record and exit")
     ap.add_argument("--no-schedule", action="store_true", help="create workouts but do not put them on dates")
     ap.add_argument("--sleep", type=float, default=1.0, help="seconds between calls; be polite to the endpoint")
+    ap.add_argument("--allow-duplicates", action="store_true",
+                    help="re-send workouts the manifest says were already uploaded. Off by "
+                         "default: a resumed bulk run should not duplicate the calendar.")
     ap.add_argument("--undo", action="store_true",
                     help="DELETE every workout this script created, newest first, from the local "
                          "manifest. The recovery path for a bulk run that went wrong.")
@@ -219,12 +241,21 @@ def main():
     workouts = load(args.json, args.from_week, args.to_week)
     if args.only:
         workouts = [w for w in workouts if w.get("_kind") == args.only]
+    if not args.allow_duplicates:
+        seen = already_uploaded()
+        before = len(workouts)
+        workouts = [w for w in workouts
+                    if (w["workoutName"], w["_scheduleDate"]) not in seen]
+        if before != len(workouts):
+            print(f"skipping {before - len(workouts)} already uploaded "
+                  f"(--allow-duplicates to re-send)")
     if args.limit:
         workouts = workouts[:args.limit]
 
     if not workouts:
-        print("nothing selected — check --from-week/--to-week")
-        return 1
+        print("nothing to send — everything in this selection is already uploaded, "
+              "or the week range is empty.")
+        return 0
 
     import collections
     kinds = collections.Counter(w.get("_kind", "?") for w in workouts)
