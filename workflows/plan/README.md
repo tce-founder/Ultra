@@ -86,6 +86,12 @@ python3 push_garmin.py --email you@example.com --only mobility --limit 1
 python3 push_garmin.py --email you@example.com --from-week 1 --to-week 8
 ```
 
+**MFA is handled, and the session is cached.** A two-factor account is asked for a code once;
+the resulting OAuth tokens are written to `~/.garminconnect` and every later run resumes from them
+with no password and no code. Without that, each batch of a 202-workout push would be a fresh MFA
+challenge. Those tokens are credentials — they live in the home directory, never in the repo.
+Delete that directory to force a fresh login.
+
 **The library is checked before the password is asked for.** The first version prompted and only
 then tried the import, so a missing dependency made the user type their Garmin password for
 nothing. Nothing should ask for a secret it cannot yet use.

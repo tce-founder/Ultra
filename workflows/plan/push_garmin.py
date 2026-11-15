@@ -11,6 +11,13 @@ reads them from the environment, never from a file and never from an argument
     python3 -m pip install "garminconnect[workout]"
     python3 push_garmin.py --email you@example.com --dry-run
 
+MFA: if your Garmin account has two-factor enabled, you are asked for a code after
+the password. A successful login caches OAuth tokens in ~/.garminconnect (override
+with $GARMIN_TOKENSTORE), and every later run RESUMES from those — no password, no
+MFA code. That matters here: 202 workouts go up in batches, and without the cache
+each batch would be a fresh MFA challenge. Those tokens are credentials: they live
+in your home directory, never in the repository.
+
 The password is PROMPTED, never passed as an argument and never read from a file
 by default. An exported GARMIN_PASSWORD survives in shell history, is visible in
 `ps` while the process runs, and tends to end up committed in a dotfile; $GARMIN_
@@ -55,6 +62,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # Every created workout id is appended here as it uploads, so --undo can remove
 # exactly what this script made without guessing from names. Gitignored.
 MANIFEST = os.path.join(HERE, ".garmin_uploaded.jsonl")
+
+# OAuth tokens from a successful login, so MFA is answered ONCE rather than on
+# every batch. Lives in the home directory, NOT the repository: these tokens are
+# credentials in their own right and have no business near a git tree.
+TOKENSTORE = os.path.expanduser(os.environ.get("GARMIN_TOKENSTORE", "~/.garminconnect"))
 DEFAULT_JSON = os.path.normpath(
     os.path.join(HERE, "..", "..", "advisory", "analysis", "plan", "garmin_workouts.json"))
 
@@ -63,6 +75,48 @@ def load(path, from_week, to_week):
     with open(path) as fh:
         workouts = json.load(fh)
     return [w for w in workouts if from_week <= w.get("_week", 0) <= to_week]
+
+
+def _prompt_mfa():
+    """Garmin asks for a one-time code when MFA is enabled on the account."""
+    return input("Garmin MFA code (authenticator app or SMS): ").strip()
+
+
+def resume():
+    """Try a cached session. Returns an api object, or None.
+
+    Tried BEFORE the password is asked for: when it works there is no password
+    prompt and no MFA code at all, which is the difference between pushing 202
+    workouts in batches and answering an MFA challenge for each batch.
+    """
+    try:
+        from garminconnect import Garmin
+        api = Garmin()
+        api.login(TOKENSTORE)
+        print(f"resumed cached session from {TOKENSTORE}")
+        return api
+    except Exception:
+        return None
+
+
+def connect(email, password):
+    """Full login, wiring up the MFA prompt and caching the tokens afterwards."""
+    from garminconnect import Garmin
+    try:
+        api = Garmin(email=email, password=password, prompt_mfa=_prompt_mfa)
+    except TypeError:
+        # Older releases take positionals and expose prompt_mfa as an attribute.
+        api = Garmin(email, password)
+        setattr(api, "prompt_mfa", _prompt_mfa)
+    api.login()
+    print("logged in")
+    try:
+        api.garth.dump(TOKENSTORE)
+        print(f"cached session tokens in {TOKENSTORE} — later runs skip the password and MFA")
+    except Exception as exc:                      # noqa: BLE001
+        print(f"(could not cache tokens: {type(exc).__name__}: {exc} — "
+              f"you will be asked again next run)")
+    return api
 
 
 def strip_private(w):
@@ -138,6 +192,18 @@ def main():
         print("ERROR: pass --email or set $GARMIN_EMAIL.", file=sys.stderr)
         return 2
 
+    api = resume()
+    if api is None:
+        password = get_password(email)
+        if not password:
+            return 2
+        api = connect(email, password)
+
+    ok = fail = 0
+    return run_uploads(api, workouts, args)
+
+
+def get_password(email):
     # PROMPT, don't read from the environment by preference. An exported
     # GARMIN_PASSWORD lands in shell history, in `ps` while the process runs, and
     # in any shell dotfile it gets pasted into. getpass echoes nothing and keeps the
@@ -248,10 +314,12 @@ def undo(args):
     if not email:
         print("ERROR: pass --email or set $GARMIN_EMAIL.", file=sys.stderr)
         return 2
-    password = os.environ.get("GARMIN_PASSWORD") or getpass.getpass(
-        f"Garmin password for {email} (not echoed): ")
-    api = Garmin(email, password)
-    api.login()
+    api = resume()
+    if api is None:
+        password = get_password(email)
+        if not password:
+            return 2
+        api = connect(email, password)
 
     kept, gone = [], 0
     for r in reversed(rows):
