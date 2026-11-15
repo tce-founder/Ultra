@@ -83,6 +83,21 @@ against actual.
 Watch for: a second instance. One is a good day out. Two is a pattern, and the pattern is the one
 thing this build cannot absorb.
 
+## Garmin integration — first successful upload 2026-11-16
+
+Workout id **1762562381** ("W1 Aerobic run") created and scheduled on the athlete's Garmin
+account. That validates the whole payload shape against the live, undocumented endpoint: the
+`running` sport id, the `interval` step type, the time-based end condition, and the schedule call.
+
+**What is still unproven:** the `strength_training` sport (53 workouts), the `other` sport used for
+mobility (2), and the lap-button end condition used by the three all-day objectives. Those go up
+one at a time before any bulk push.
+
+Four failures preceded it, all mine, all on this athlete's laptop rather than in a test:
+dependency import after the password prompt; a silently-unmatched refactor leaving `run_uploads`
+undefined; no MFA callback; and a token-cache attribute that does not exist on this library
+release. The first two are now covered by `test_push_garmin.py`.
+
 ## Week rollup
 
 Filled at each review. Completion rate over a rolling twelve weeks is the number the plan is

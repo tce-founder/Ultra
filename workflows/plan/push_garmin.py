@@ -82,6 +82,32 @@ def _prompt_mfa():
     return input("Garmin MFA code (authenticator app or SMS): ").strip()
 
 
+def _token_io(api):
+    """Candidate (name, save, load) triples across garminconnect releases.
+
+    The token-persistence attribute has moved between versions: older releases
+    expose `api.garth`, the restructured ones expose `api.client`. Rather than
+    pick one and guess wrong again, every known shape is tried in turn and the
+    one that worked is printed, so a single run tells us which this install has.
+    """
+    return [
+        ("api.garth",   lambda: api.garth.dump(TOKENSTORE),   lambda: api.garth.load(TOKENSTORE)),
+        ("api.client",  lambda: api.client.dump(TOKENSTORE),  lambda: api.client.load(TOKENSTORE)),
+        ("api.dump",    lambda: api.dump(TOKENSTORE),         lambda: api.load(TOKENSTORE)),
+        ("api.session", lambda: api.session.dump(TOKENSTORE), lambda: api.session.load(TOKENSTORE)),
+    ]
+
+
+def _save_tokens(api):
+    for name, save, _load in _token_io(api):
+        try:
+            save()
+            return name
+        except Exception:                          # noqa: BLE001 — try the next shape
+            continue
+    return None
+
+
 def resume():
     """Try a cached session. Returns an api object, or None.
 
@@ -89,14 +115,31 @@ def resume():
     prompt and no MFA code at all, which is the difference between pushing 202
     workouts in batches and answering an MFA challenge for each batch.
     """
+    if not os.path.exists(TOKENSTORE):
+        return None
+    from garminconnect import Garmin
+    # login(tokenstore) is the documented resume path; the explicit loaders are
+    # fallbacks for releases where it is not wired up.
     try:
-        from garminconnect import Garmin
         api = Garmin()
         api.login(TOKENSTORE)
         print(f"resumed cached session from {TOKENSTORE}")
         return api
     except Exception:
-        return None
+        pass
+    for name, _save, load in _token_io(Garmin()):
+        try:
+            api = Garmin()
+            for n, _s, l in _token_io(api):
+                if n == name:
+                    l()
+                    break
+            api.get_full_name()
+            print(f"resumed cached session from {TOKENSTORE} (via {name})")
+            return api
+        except Exception:                          # noqa: BLE001
+            continue
+    return None
 
 
 def connect(email, password):
@@ -129,12 +172,19 @@ def connect(email, password):
                   "does not, it is 1 or 3. If the browser fails too, it is 2.\n", file=sys.stderr)
         raise SystemExit(2)
     print("logged in")
-    try:
-        api.garth.dump(TOKENSTORE)
-        print(f"cached session tokens in {TOKENSTORE} — later runs skip the password and MFA")
-    except Exception as exc:                      # noqa: BLE001
-        print(f"(could not cache tokens: {type(exc).__name__}: {exc} — "
-              f"you will be asked again next run)")
+    via = _save_tokens(api)
+    if via:
+        print(f"cached session tokens in {TOKENSTORE} via {via} — later runs skip password and MFA")
+    else:
+        # Report what the object actually offers, so the next fix is informed
+        # rather than another guess at an attribute name.
+        cands = sorted(a for a in dir(api)
+                       if not a.startswith("_")
+                       and any(k in a.lower() for k in
+                               ("dump", "token", "save", "garth", "client", "session", "auth")))
+        print("(could not cache tokens — you will be asked for password and MFA again next run)")
+        print(f" token-ish attributes on this garminconnect build: {', '.join(cands) or 'none'}")
+        print(" paste that line back and the cache can be wired to the right one.")
     return api
 
 
