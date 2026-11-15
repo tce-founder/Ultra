@@ -108,7 +108,26 @@ def connect(email, password):
         # Older releases take positionals and expose prompt_mfa as an attribute.
         api = Garmin(email, password)
         setattr(api, "prompt_mfa", _prompt_mfa)
-    api.login()
+    try:
+        api.login()
+    except Exception as exc:                      # noqa: BLE001
+        # A traceback through the SSO internals tells the user nothing they can act
+        # on. 401 from Garmin does NOT reliably mean "wrong password" — the same
+        # response comes back when the account is temporarily locked after repeated
+        # attempts, which is easy to trigger while debugging a push script.
+        msg = str(exc)
+        print(f"\nLOGIN FAILED: {type(exc).__name__}: {msg[:200]}\n", file=sys.stderr)
+        if "401" in msg or "Unauthorized" in msg or "Invalid" in msg:
+            print("A 401 from Garmin means one of three things, in rough order of likelihood\n"
+                  "when earlier attempts got as far as the MFA prompt:\n\n"
+                  "  1. TEMPORARY LOCKOUT. Garmin throttles after repeated failed logins and\n"
+                  "     returns the same 401. Wait 15-30 minutes, or clear it by signing in at\n"
+                  "     connect.garmin.com in a browser.\n"
+                  "  2. THE PASSWORD CHANGED since the attempt that reached MFA.\n"
+                  "  3. Stray whitespace — a trailing space survives a paste; a newline does not.\n\n"
+                  "DIAGNOSTIC: sign in at connect.garmin.com first. If the browser works and this\n"
+                  "does not, it is 1 or 3. If the browser fails too, it is 2.\n", file=sys.stderr)
+        raise SystemExit(2)
     print("logged in")
     try:
         api.garth.dump(TOKENSTORE)

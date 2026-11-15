@@ -131,6 +131,19 @@ def main():
     check("--undo --dry-run exits 0 and deletes nothing", rc == 0 and
           not any(i.deleted for i in FakeGarmin.instances))
 
+    # --- a 401 must produce guidance and exit 2, not a traceback ---
+    class Failing(FakeGarmin):
+        def login(self, tokenstore=None):
+            raise RuntimeError("401 Unauthorized (Invalid Username or Password)")
+    sys.modules["garminconnect"].Garmin = Failing
+    sys.argv = ["push_garmin.py", "--email", "x@y.z", "--only", "run", "--limit", "1", "--sleep", "0"]
+    try:
+        rc = P.main()
+    except SystemExit as e:
+        rc = e.code
+    check("a 401 exits 2 rather than raising", rc == 2, f"got {rc}")
+    sys.modules["garminconnect"].Garmin = FakeGarmin
+
     # --- a missing library must not reach the password prompt ---
     saved = sys.modules.pop("garminconnect")
     sys.argv = ["push_garmin.py", "--email", "x@y.z", "--only", "run", "--limit", "1"]
