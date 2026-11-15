@@ -75,7 +75,9 @@ Read the header of `push_garmin.py` before running it. Three things matter:
    because they are scheduled sessions with content.
 
 ```bash
-pip install "garminconnect[workout]"
+# macOS often has no bare `pip`, and system Python refuses global installs.
+python3 -m venv .venv && source .venv/bin/activate
+python3 -m pip install "garminconnect[workout]"
 
 python3 push_garmin.py --email you@example.com --dry-run              # nothing sent
 python3 push_garmin.py --email you@example.com --only run      --limit 1
@@ -83,6 +85,10 @@ python3 push_garmin.py --email you@example.com --only strength --limit 1   # <- 
 python3 push_garmin.py --email you@example.com --only mobility --limit 1
 python3 push_garmin.py --email you@example.com --from-week 1 --to-week 8
 ```
+
+**The library is checked before the password is asked for.** The first version prompted and only
+then tried the import, so a missing dependency made the user type their Garmin password for
+nothing. Nothing should ask for a secret it cannot yet use.
 
 **The password is prompted, not exported.** Earlier versions of this file said to
 `export GARMIN_PASSWORD=...`, which was poor advice: an exported secret persists in shell

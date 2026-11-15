@@ -7,7 +7,8 @@ credentials should never be pasted into a chat or committed to a repository. It
 reads them from the environment, never from a file and never from an argument
 (arguments show up in shell history and in `ps`).
 
-    pip install "garminconnect[workout]"
+    python3 -m venv .venv && source .venv/bin/activate
+    python3 -m pip install "garminconnect[workout]"
     python3 push_garmin.py --email you@example.com --dry-run
 
 The password is PROMPTED, never passed as an argument and never read from a file
@@ -119,6 +120,19 @@ def main():
         print("\nDRY RUN — nothing sent. Re-run with --limit 1 to send a single workout.")
         return 0
 
+    # CHECK THE LIBRARY BEFORE ASKING FOR CREDENTIALS. The first version prompted
+    # for the password and only then tried the import, so a missing dependency
+    # made the user type their Garmin password for nothing. Nothing should ask for
+    # a secret it cannot yet use.
+    try:
+        from garminconnect import Garmin
+    except ImportError:
+        print('ERROR: garminconnect is not installed. On macOS `pip` is often absent; use:\n'
+              '  python3 -m venv .venv && source .venv/bin/activate\n'
+              '  python3 -m pip install "garminconnect[workout]"\n'
+              'then re-run this command from the activated venv.', file=sys.stderr)
+        return 2
+
     email = args.email or os.environ.get("GARMIN_EMAIL")
     if not email:
         print("ERROR: pass --email or set $GARMIN_EMAIL.", file=sys.stderr)
@@ -140,12 +154,6 @@ def main():
             return 2
     if not password:
         print("ERROR: empty password.", file=sys.stderr)
-        return 2
-
-    try:
-        from garminconnect import Garmin
-    except ImportError:
-        print('ERROR: pip install "garminconnect[workout]"', file=sys.stderr)
         return 2
 
     api = Garmin(email, password)
@@ -218,17 +226,30 @@ def undo(args):
         print("aborted.")
         return 1
 
+    # CHECK THE LIBRARY BEFORE ASKING FOR CREDENTIALS. The first version prompted
+    # for the password and only then tried the import, so a missing dependency
+    # made the user type their Garmin password for nothing. Nothing should ask for
+    # a secret it cannot yet use.
+    try:
+        from garminconnect import Garmin
+    except ImportError:
+        print('ERROR: garminconnect is not installed. On macOS `pip` is often absent; use:\n'
+              '  python3 -m venv .venv && source .venv/bin/activate\n'
+              '  python3 -m pip install "garminconnect[workout]"\n'
+              'then re-run this command from the activated venv.', file=sys.stderr)
+        return 2
+
+    try:
+        from garminconnect import Garmin
+    except ImportError:
+        print('ERROR: garminconnect is not installed — see the install note in --help.', file=sys.stderr)
+        return 2
     email = args.email or os.environ.get("GARMIN_EMAIL")
     if not email:
         print("ERROR: pass --email or set $GARMIN_EMAIL.", file=sys.stderr)
         return 2
     password = os.environ.get("GARMIN_PASSWORD") or getpass.getpass(
         f"Garmin password for {email} (not echoed): ")
-    try:
-        from garminconnect import Garmin
-    except ImportError:
-        print('ERROR: pip install "garminconnect[workout]"', file=sys.stderr)
-        return 2
     api = Garmin(email, password)
     api.login()
 
