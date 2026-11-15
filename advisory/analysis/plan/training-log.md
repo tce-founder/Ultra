@@ -145,6 +145,75 @@ actually get executed.
 Not fixed yet — recorded first, because changing the generator mid-week would rewrite the calendar
 and the watch under an athlete who is mid-trip.
 
+## Defect 2026-11-15 — the plan has no hard pole
+
+Raised by the athlete, unprompted: last year's pace-based training "wasn't pushing my overall
+fitness" and they never regained a previous level. Checking `classify()` in `build_plan.py`
+confirms the complaint applies to THIS plan too, and that it is a design defect rather than a
+metric problem.
+
+**Every running day in all 29 weeks is prescribed easy.** "Easy, conversational", "genuinely
+easy", "slow enough to feel pointless". The only intensity in the build is 6 x 20 s strides from
+Base 2, plus whatever intensity the athlete chooses on the Tuesday vert session, which carries no
+intensity prescription at all.
+
+The repo declares `polarized-superiority` as a tracked CLAIM — roughly 80% easy and 20% **hard**.
+The plan implements the 80 and omits the 20 entirely. That is monotonous, not polarized, and it
+would reproduce precisely the plateau the athlete described.
+
+**This is not an argument for HR over pace.** The metric question is separate and answered below.
+A plan with no hard sessions produces no high-intensity adaptation whichever number is on the
+watch face.
+
+### Intensity control — different metric per session type
+
+| Session | Control by | Reason |
+| ------- | ---------- | ------ |
+| Easy / recovery / long | **HR ceiling** | Coastal NC heat inflates HR at a given pace, so a pace target silently converts an easy run into a moderate one. Pace is meaningless on technical trail (2026-11-06: HR 134 at 10:08/km — easy effort, slow pace). And an HR cap cannot be accidentally beaten, which suits an athlete whose standing risk is doing more than prescribed |
+| Threshold / hard flat | **Pace** | HR lags 30-60 s into an effort, drifts up with fatigue at identical output, and is SUPPRESSED when most fatigued — so it is wrong in all three directions precisely when it is being relied on |
+| Climbing / vert | **Effort and breathing** | Neither pace nor HR is usable on sustained climbs |
+
+### The under-appreciated argument for HR: it measures, not just targets
+
+The athlete's report — "never getting to the level of fitness I've had" — describes a missing
+INSTRUMENT as much as a missing stimulus. Pace alone confounds fitness with heat, terrain, wind
+and sleep. Two cheap HR-derived measures close that loop:
+
+1. **Pace at fixed easy HR**, same route, every few weeks. Rising pace at constant HR is aerobic
+   fitness, observed directly.
+2. **Cardiac drift across a long run** — the pace:HR ratio, first half vs second. Under ~5% means
+   the aerobic base is real; over ~10% means long runs are being run too hard.
+
+Neither needs a lab. Both need the HR to be recorded, which starts now.
+
+### Blocked on one number
+
+Zones cannot be set. One data point exists (134 avg / 162 max, reported easy), which establishes
+only that max HR is meaningfully above 162. **Age is deliberately not used:** 220-age carries a
+standard deviation near 10 bpm, wide enough to place an easy ceiling inside a tempo zone. Per the
+toolchain's standing rule, workouts ship with NO targets rather than invented ones.
+
+**Resolution: a 30-minute threshold field test at the end of week 8** (Base 1 → Base 2 boundary,
+~13 Dec 2026). Average HR over the final 20 minutes is LTHR, and every zone derives from it.
+Chosen over a max-HR effort because it is submaximal, more useful as an anchor, and appropriate
+for an athlete eight weeks back from a seven-month layoff.
+
+### Proposed fix, NOT YET APPLIED
+
+Add one quality session per week from week 9, **on the existing Tuesday vert session** rather
+than as an added day.
+
+The argument for that placement is injury-specific. Hard uphill work carries no eccentric
+loading, no high ground-contact force, no speed and no descent — and this athlete's injury
+cascade ran through a gait change under impact. Threshold work on a StepMill or treadmill incline
+delivers the intensity stimulus with close to the lowest mechanical risk available, while being
+directly specific to a race with 21,500 ft of climbing. It closes the fitness-plateau gap and the
+vert gap with one session.
+
+Deferred pending two athlete decisions (quality placement, and the week-22 race question), and to
+be bundled with the down-week fix below — both require regenerating the calendar and the watch,
+which should happen once rather than twice.
+
 ## Open — unverified from the first two weeks
 
 The plan began Mon 19 Oct 2026. Nothing has been logged, so none of this is known:
@@ -161,5 +230,7 @@ The plan began Mon 19 Oct 2026. Nothing has been logged, so none of this is know
   how much of that 15h00 was an injured pace rather than a real one.
 - **When in the race did the toe injury start?** Decides whether the 51% feasibility estimate is
   roughly right or materially pessimistic. Nothing recorded answers it.
+- **HR zones.** Unblocked by one 30-min test at the end of week 8. Until then every run logs
+  avg HR, so the test has a baseline to be compared against.
 - **Fuelling:** anything over 90 minutes should be carrying 30 g/h from week 1. Nothing yet is
   over 90 minutes, so this starts to bite around week 5.

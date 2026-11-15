@@ -86,6 +86,7 @@ ones.**
 | 2026-11-02 | Heartbreaker time | unknown | 14:22 | No — athlete self-report |
 | 2026-11-03 | Heartbreaker time | 14:22 | RETRACTED — unknown | No — athlete did not know what that figure was |
 | 2026-11-05 | Home / terrain | "3–5 h from climbs" | **Hampstead NC, sea level, 5–5.5 h each way** | No — correction. Makes every mountain weekend a 2-night trip and makes descending the acute gap |
+| 2026-11-15 | Intensity distribution | Assumed adequate | **DEFECT: zero hard sessions in 29 weeks.** Raised by the athlete from last year's plateau. Fix proposed on the Tuesday vert session, pending decision | No — design defect |
 | 2026-11-05 | Heartbreaker result | "50-miler **finished**" | **DNF at 45 mi in 15h00** | No — the most consequential correction in this file. No 50-mile race has ever been completed, and the feasibility verdict moves from comfortable to marginal |
 
 ## Rules
