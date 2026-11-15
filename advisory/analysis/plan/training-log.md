@@ -89,9 +89,13 @@ Workout id **1762562381** ("W1 Aerobic run") created and scheduled on the athlet
 account. That validates the whole payload shape against the live, undocumented endpoint: the
 `running` sport id, the `interval` step type, the time-based end condition, and the schedule call.
 
-**What is still unproven:** the `strength_training` sport (53 workouts), the `other` sport used for
-mobility (2), and the lap-button end condition used by the three all-day objectives. Those go up
-one at a time before any bulk push.
+**Second upload 2026-11-16:** workout **1762566316** ("W1 Strength A — heavy lower", 6 steps) —
+`strength_training` sport id 5 **verified against the live API**. That was the least certain
+constant in the toolchain and it covers 53 of the 202 workouts. Token caching also succeeded, via
+`api.client`, so remaining batches need neither password nor MFA.
+
+**Still unproven:** the `other` sport used for mobility (2 workouts) and the lap-button end
+condition on the three all-day objectives. One of each before the bulk push.
 
 Four failures preceded it, all mine, all on this athlete's laptop rather than in a test:
 dependency import after the password prompt; a silently-unmatched refactor leaving `run_uploads`

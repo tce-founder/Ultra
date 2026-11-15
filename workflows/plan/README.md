@@ -143,12 +143,20 @@ left there instead, and a calendar full of subtly wrong workouts is worse than a
 
 | Value | Status |
 | ----- | ------ |
-| `sportTypeId 1` / `running` | Corroborated across community projects |
-| `sportTypeId 5` / `strength_training` | **Corroborated** — several independent projects plus a Garmin forum payload |
-| `sportTypeId 3` / `other` | Convention, uncorroborated |
-| `stepTypeId 3` / `interval` | **Corroborated** |
-| `stepTypeId 1` / `warmup`, `2` / `cooldown` | Widely-used convention, **not corroborated** — likeliest to be wrong |
-| `conditionTypeId 2` / `time`, `1` / `lap.button` | Convention, uncorroborated |
+| `sportTypeId 1` / `running` | **VERIFIED against the live API** 2026-11-16 (workout 1762562381) |
+| `sportTypeId 5` / `strength_training` | **VERIFIED against the live API** 2026-11-16 (workout 1762566316) |
+| `stepTypeId 3` / `interval` | **VERIFIED** — carried by both of the above |
+| `stepTypeId 1` / `warmup`, `2` / `cooldown` | **VERIFIED** — the strength workout carries both |
+| `conditionTypeId 2` / `time` | **VERIFIED** — carried by both |
+| `sportTypeId 3` / `other` (mobility, 2 workouts) | Convention, still unproven |
+| `conditionTypeId 1` / `lap.button` (3 all-day objectives) | Convention, still unproven |
+
+Acceptance of a payload is not the same as it rendering usefully on the watch — check the device
+after each first-of-kind, not just the script's exit code.
+
+**Token persistence on this install goes via `api.client`**, not the `api.garth` of older
+releases. `_token_io()` enumerates the known shapes and prints which one worked, so this does not
+need rediscovering after a library upgrade.
 
 On a failure the script now prints the **HTTP response body**, which is where Garmin names the
 field it rejected. Paste that back and the fix is usually one constant.
