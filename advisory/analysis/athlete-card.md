@@ -42,7 +42,8 @@ updated: 2026-10-18
 | Ultra history / longest ever | **Mount Mitchell Heartbreaker 50M, March 2026** — confirmed 2026-10-31. 50 mi, ~12,000 ft, from Camp Grier. Finish time UNKNOWN and now the top open item | Athlete, 2026-10-31 | 2026-10-31 |
 | Bodyweight (kg) | *unknown — blocks every nutrition figure* | — | — |
 | Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
-| HR zones / threshold | *unknown — all Garmin workouts ship with no target* | — | — |
+| HR zones / threshold | *still unknown — Garmin workouts ship with no target.* **First anchor 2026-11-06:** avg HR 134 / max 162 on technical trail, reported as easy. Working easy ceiling ~140 bpm until a real test | Athlete, 2026-11-06 | 2026-11-15 |
+| Easy pace anchor | **~8:30–9:00 /km running on technical trail** at HR 134 (derived, one session). Flat/smooth: ~8:00–9:00 /km. REPORTED grade — one data point, walk pace assumed | Derived from 2026-11-06 | 2026-11-15 |
 | Ferritin / vitamin D | *not tested* | — | — |
 | Shoe rotation audited | **No — scheduled week 1 Wednesday** | Plan | — |
 | Named crew / pacer | *none yet* | — | — |
