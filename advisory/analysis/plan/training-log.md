@@ -38,6 +38,8 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-03 | 3 | Aerobic 25m + Strength A | | | | | *not reported* |
 | 2026-11-04 | 3 | Easy 20m | | | | | *not reported* |
 | 2026-11-05 | 3 | Aerobic 25m + Strength B | | | | | *not reported* |
+| 2026-11-14 | 4 | Long run 35m | **not done** | — | — | — | Flew to Scottsdale AZ. Moved to Sunday rather than written off — in a down week the long run is the session worth keeping and the recovery run is the droppable one |
+| 2026-11-15 | 4 | Recovery 20m | **35m long run instead** (swap) | | | | Scottsdale. Travel day before |
 | 2026-11-07 | 3 | 55m long run — **cut** | short easy jog | — | flat | quads clean; hamstring tight, eased | Cut from 55m on the morning report: hamstring niggle after Friday's drive, plus Friday already 58% over. Correct call |
 | 2026-11-08 | 3 | Off (swapped to Fri) | off | — | — | — | As planned |
 | 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | **Quads: no soreness. Heel/toe: nothing. HAMSTRING tight next morning — athlete suspects the ~2.5 h drive home** | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
@@ -91,6 +93,7 @@ judged by — not volume.
 | 1 | 3.0 | *unreported* | 6 | | |
 | 2 | 3.5 | *partial* | 6 | 5 of 6 | Sunday 1 Nov missed |
 | 3 | 4.0 | ~4.0 | 6 | 6 | Friday +18 min over, Saturday cut to compensate. **Net on target** |
+| 4 | 3.0 (down) | | 6 | | Sat long run moved to Sun (travel to Scottsdale) |
 
 ## Terrain exposures — tracked separately, because Hampstead supplies none
 
@@ -105,6 +108,23 @@ terrain, because the progression here matters more than the weekly hours do.
 **The rule for this table:** the first few entries are about tissue tolerance, not about vert
 totals. Unaccustomed descent produces soreness at 24–48 h, so a second exposure inside three days
 is how the first one becomes an injury.
+
+## Defect 2026-11-15 — down weeks are not as down as the target says
+
+Week 4's sessions total **3.4 h against a 3.0 h target**. Cause: `r5()` in `build_plan.py` floors
+every session at 20 minutes, which is sensible on its own — a 12-minute run is not worth the kit —
+but in a down week several sessions get floored UP, and the week lands 13% above its target.
+
+The validator does not catch it because its tolerance is +/-0.75 h.
+
+**The direction is wrong for this athlete**, whose recorded standing risk is doing more than the
+plan asks. Down weeks are the specific thing defending a 29-week ramp off a 7-month layoff, and
+they are quietly 13% less restful than designed. Fix is to drop a session from down weeks rather
+than to shave minutes off the floor: four runs instead of five, which is also how the weeks
+actually get executed.
+
+Not fixed yet — recorded first, because changing the generator mid-week would rewrite the calendar
+and the watch under an athlete who is mid-trip.
 
 ## Open — unverified from the first two weeks
 
