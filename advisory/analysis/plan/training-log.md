@@ -142,8 +142,21 @@ they are quietly 13% less restful than designed. Fix is to drop a session from d
 than to shave minutes off the floor: four runs instead of five, which is also how the weeks
 actually get executed.
 
-Not fixed yet — recorded first, because changing the generator mid-week would rewrite the calendar
-and the watch under an athlete who is mid-trip.
+**FIXED 2026-11-15**, bundled with the intensity fix so the calendar and watch regenerate once.
+
+`build_week()` now drops the droppable run from a down week, capturing `total_w` BEFORE the drop
+so the remaining sessions keep their minutes and the week genuinely falls — renormalising would
+have redistributed the same total and made the long run longer, which is the opposite of the
+intent. Base 1 down weeks drop Wednesday (Base 1 has no Friday run); Base 2 onward drop Friday,
+the session already annotated "drop it without guilt".
+
+Mountain weeks are excluded, which week 27 forced: it is both a down week and a mountain week,
+the mountain block already drops Friday for travel, and the second drop undershot the target by
+an hour. A mountain week's sessions are long enough that the 20-minute floor never binds, so the
+defect does not apply there.
+
+Week 4 now lands at 3.08 h against its 3.0 h target, from 3.4 h. The dropped day appears in the
+plan as an explicit "Rest — down week" row rather than vanishing, so it reads as deliberate.
 
 ## Defect 2026-11-15 — the plan has no hard pole
 
@@ -198,7 +211,7 @@ toolchain's standing rule, workouts ship with NO targets rather than invented on
 Chosen over a max-HR effort because it is submaximal, more useful as an anchor, and appropriate
 for an athlete eight weeks back from a seven-month layoff.
 
-### Proposed fix, NOT YET APPLIED
+### Fix APPLIED 2026-11-15
 
 Add one quality session per week from week 9, **on the existing WEDNESDAY vert session** rather
 than as an added day.
@@ -224,9 +237,16 @@ delivers the intensity stimulus with close to the lowest mechanical risk availab
 directly specific to a race with 21,500 ft of climbing. It closes the fitness-plateau gap and the
 vert gap with one session.
 
-Deferred pending two athlete decisions (quality placement, and the week-22 race question), and to
-be bundled with the down-week fix below — both require regenerating the calendar and the watch,
-which should happen once rather than twice.
+**Applied.** `QUALITY` and `quality_for()` in `build_plan.py`. Twelve quality sessions: six full
+sets (weeks 9, 11, 13, 17, 19, 24), five shortened primers on mountain weeks (10, 14, 18, 21, 25)
+where the weekend is the real work, and one taper sharpener (week 26). Nothing in Base 1, nothing
+in a down week, nothing in a tune-up week.
+
+Progression: 4x5 min → 5x5 → 4x8 → 5x8 → 3x12 → 4x10, with 2-4 min easy recoveries.
+
+**No HR or pace target is written**, per the toolchain's standing rule. Effort description only
+until the week-8 test. The athlete asked whether Tuesday AND Thursday should carry it; they
+should not, and the reasoning is above.
 
 ## Open — unverified from the first two weeks
 

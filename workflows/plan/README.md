@@ -26,7 +26,7 @@ happened to open.
 | ----- | --- |
 | Build-week ramp ≤ 22% | Compares each build week to the previous **build** week, not the calendar week before it — comparing against a down week reports a 50% jump every time volume resumes, which is the shape a down week is supposed to have |
 | Every week has a rest day | Caught a real defect: the first draft gave Monday a recovery run in two phases, leaving an athlete with 6–7 available days and no full rest day from week 9 on |
-| Session minutes reconcile with the weekly hour target (±0.75 h) | Weights that do not sum produce a plan whose header and body disagree |
+| Session minutes reconcile with the weekly hour target (±0.75 h) | Weights that do not sum produce a plan whose header and body disagree. NOTE: the ±0.75 h tolerance is wide enough to have hidden down weeks running 13% over target for weeks — see the down-week drop in `build_week()` |
 | Every week has hours and vert defined | A missing week fails loudly rather than generating an empty one |
 
 ## Google Calendar
@@ -52,8 +52,8 @@ Read the header of `push_garmin.py` before running it. Three things matter:
    workouts; this works against the private endpoints the web app uses, and the step-type IDs
    come from community reverse-engineering rather than documentation. A bad bulk run leaves 150
    broken workouts to delete by hand.
-3. **Everything trainable is pushed — 202 of 246 sessions.** The other 44 are rest and travel
-   days, which are on the calendar but are not workouts. Breakdown: 81 run, 45 long, 53 strength,
+3. **Everything trainable is pushed — 195 of 246 sessions.** The rest are rest and travel
+   days, which are on the calendar but are not workouts. Breakdown: 74 run, 45 long, 53 strength,
    20 vert, 2 mobility, 1 tune-up race.
 
    **Strength goes up as one step per exercise**, under the `strength_training` sport, with no
@@ -161,11 +161,42 @@ need rediscovering after a library upgrade.
 On a failure the script now prints the **HTTP response body**, which is where Garmin names the
 field it rejected. Paste that back and the fix is usually one constant.
 
+### Intensity: one hard session a week, on Wednesday
+
+`QUALITY` and `quality_for()` put a threshold set on the Wednesday vert session. Before this
+existed, every running day in all 29 weeks was prescribed easy — the athlete identified the
+resulting plateau from last year's training before the plan did.
+
+Placement is not arbitrary. Tuesday and Thursday already carry 45 min of heavy lower-body
+strength on top of a 40-min aerobic run, and Wednesday sits between them, so hard work on either
+makes three consecutive hard days. Friday feeds Saturday's long run and is the travel day on
+every mountain week. Wednesday is the only weekday with a single session.
+
+Uphill rather than flat, because this athlete's injury ran through a gait change under impact:
+climbing carries no eccentric loading, no high ground-contact force, no speed and no descent,
+while being specific to 21,500 ft of race climbing.
+
+`quality_for()` returns nothing in Base 1, in a down week, or in a tune-up week, and returns a
+shortened primer on mountain weeks where the weekend is the real work. Twelve quality sessions in
+all: six full, five primers, one taper sharpener.
+
 **Workouts ship with no pace or heart-rate target**, deliberately. The athlete's zones are
 unknown, and inventing them would put targets on the watch that look authoritative and are
 guesses. Effort guidance is in each step's description instead, where it reads as guidance. Once
 there is a tested threshold or a set of HR zones, add targets in `garmin_workout()` — that is the
 right time, not before.
+
+**The unblocking test is a 30-minute threshold effort at the end of week 8** (~13 Dec 2026).
+Average HR over the final 20 minutes is LTHR, and every zone derives from it. Chosen over a
+max-HR effort because it is submaximal, it is the more useful anchor, and it suits an athlete
+eight weeks back from a seven-month layoff. Age-based estimates are deliberately not used:
+220-age carries a standard deviation near 10 bpm, wide enough to place an easy ceiling inside a
+tempo zone.
+
+Once LTHR exists, the control differs by session type rather than being one metric throughout:
+HR ceiling for easy volume (heat and technical terrain both corrupt pace targets, and a cap
+cannot be accidentally beaten), pace for flat threshold (HR lags into a rep, drifts up at
+identical output, and is suppressed under deep fatigue), effort for climbing.
 
 If Garmin breaks the endpoint, the `.ics` still carries the entire plan and nothing is lost but
 convenience.
@@ -179,6 +210,7 @@ Most edits are to one of four tables at the top of `build_plan.py`:
 | `WEEK_HOURS` | Weekly training hours. The ramp check polices this |
 | `WEEK_VERT_FT` | Weekly vertical gain target, feet |
 | `MOUNTAIN_WEEKS` | Which weekends are mountain trips, and the note that goes with each |
+| `QUALITY` | The hard uphill set per week. `quality_for()` decides which weeks get one |
 | `TUNE_UPS` | Tune-up races: week, name, minutes, note |
 
 Session structure lives in `WEIGHTS` (fraction of weekly running minutes per weekday, per phase)

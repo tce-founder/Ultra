@@ -163,6 +163,71 @@ class Session:
 # week 9 onward. Having the time to train seven days is exactly why the schedule has
 # to refuse the seventh — the constraint being defended here is tissue adaptation,
 # and it is defended on the days off, not the days on.
+# ── Hard aerobic work ────────────────────────────────────────────────────────
+# Added 2026-11-15. The plan had NONE: every running day in all 29 weeks read
+# "easy", which is the defect the athlete identified from last year's plateau.
+# (Strength was always hard; a heavy 4x5 back squat is real intensity. What was
+# missing was hard AEROBIC work, and that is what raises an aerobic ceiling.)
+#
+# It lives on the WEDNESDAY VERT SESSION and nowhere else. Tuesday and Thursday
+# already carry 45 min of heavy lower-body strength on top of a 40-min aerobic
+# run, and Wednesday sits between them, so hard work on either would make three
+# consecutive hard days. Friday feeds Saturday's long run and is the travel day
+# on every mountain week. Wednesday is the only weekday with one session.
+#
+# Uphill, because this athlete's injury ran through a gait change under impact:
+# climbing has no eccentric loading, no high ground-contact force, no speed and
+# no descent. It is the lowest-risk intensity available, and it is specific to
+# 21,500 ft of race climbing.
+#
+# ONE session a week, not two. The week already carries Tuesday strength,
+# Saturday long and Sunday back-to-back. A second hard session is how a build
+# arrives at May undertrained because February was spent injured.
+#
+# NO HR OR PACE TARGET IS WRITTEN HERE, per the toolchain's standing rule
+# against inventing zones. Effort description only until the week-8 LTHR field
+# test exists; after it, threshold is 94-100% LTHR and this table gains numbers.
+QUALITY = {
+    9:  ("4 x 5 min", 2),
+    11: ("5 x 5 min", 2),
+    13: ("4 x 8 min", 3),
+    17: ("5 x 8 min", 3),
+    19: ("3 x 12 min", 4),
+    24: ("4 x 10 min", 3),
+}
+# Mountain weeks keep the stimulus but not the fatigue: the weekend is the work.
+QUALITY_PRIMER = ("3 x 4 min", 2)
+# Taper: intensity is retained while volume falls. This is the sharpener, not a session
+# that builds anything.
+QUALITY_TAPER = ("3 x 3 min", 2)
+
+QUALITY_EFFORT = (
+    "THRESHOLD EFFORT: hard but controlled. You could speak three or four words, not a "
+    "sentence. On the StepMill this is a cadence you could hold for thirty minutes, not "
+    "five — if the last rep is faster than the first, the first was too slow. "
+    "Recoveries are EASY, not stopped. "
+    "NO HR OR PACE TARGET until the week-8 threshold test; effort is the control here, "
+    "and on a sustained climb effort is the better control anyway — HR lags 30-60 s into "
+    "a rep, drifts upward at identical output as you tire, and is suppressed when you "
+    "are most fatigued.")
+
+
+def quality_for(w, ph, mountain, tune_up, down):
+    """The hard set for week w's Wednesday, or None.
+
+    Nothing in Base 1 (eight weeks off a seven-month layoff is not where intensity
+    belongs), nothing in a down week (the down week IS the adaptation), and nothing in
+    a tune-up week (the race is the hard session).
+    """
+    if ph.startswith("Base 1") or ph.startswith("Race") or down or tune_up:
+        return None
+    if mountain:
+        return QUALITY_PRIMER
+    if ph == "Taper":
+        return QUALITY_TAPER
+    return QUALITY.get(w)
+
+
 WEIGHTS = {
     "Base 1 — tissue tolerance":          {1: .16, 2: .11, 3: .16, 5: .37, 6: .20},
     "Base 2 — aerobic volume + vert":     {1: .14, 2: .17, 3: .14, 4: .07, 5: .33, 6: .15},
@@ -201,6 +266,8 @@ def build_week(w):
         weights.pop(2, None)        # Wednesday becomes the shoe-and-mobility check
     mountain = w in MOUNTAIN_WEEKS
     tune_up = TUNE_UPS.get(w)
+    down = w in DOWN_WEEKS
+    quality = quality_for(w, ph, mountain, tune_up, down)
 
     if tune_up:
         # The big day IS the long run. Everything else shrinks around it, and SUNDAY IS
@@ -219,6 +286,30 @@ def build_week(w):
                 weights[d] *= bump
 
     total_w = sum(weights.values()) or 1.0
+
+    dropped_day = None
+    if down and not tune_up and not mountain:
+        # Down weeks were landing ~13% ABOVE target (week 4: 3.4 h against 3.0). Cause:
+        # r5()'s 20-minute floor rounds several short sessions UP, which is sensible on
+        # its own — a 12-minute run is not worth the kit — but in a low-volume week it
+        # compounds across four or five sessions.
+        #
+        # The direction is wrong for THIS athlete, whose recorded standing risk is doing
+        # more than the plan asks, and down weeks are the specific thing defending a
+        # 29-week ramp off a seven-month layoff. So they were quietly 13% less restful
+        # than designed.
+        #
+        # Fix is to drop the droppable run rather than shave the floor — four runs
+        # instead of five, which is how these weeks get executed anyway. total_w is
+        # captured ABOVE this, deliberately: the remaining sessions keep their original
+        # minutes and the week genuinely falls, where renormalising would just
+        # redistribute the same total and make the long run longer.
+        #
+        # EXCLUDES mountain weeks (week 27 is both). A mountain week already drops Friday
+        # for travel and its sessions are long enough that the floor never binds, so the
+        # second drop just undershot the target by an hour.
+        dropped_day = 4 if 4 in weights else 2
+        weights.pop(dropped_day, None)
 
     for d in range(7):
         frac = weights.get(d, 0)
@@ -250,6 +341,11 @@ def build_week(w):
                     "the bin, not the rotation — that shoe is what caused the 2026 bursitis. "
                     "Then the usual 15 min of ankle, calf and hip work, plus heel-lock lacing "
                     "practice.")) 
+            elif d == dropped_day:
+                sessions.append(Session(d, "rest", "Rest — down week", 0,
+                                        notes="Deliberately dropped, not forgotten. A down week that "
+                                              "is only 13% easier than a build week is not a down "
+                                              "week; this is the session that buys the next three."))
             elif mountain and d == 4:
                 sessions.append(Session(d, "rest", "Travel to the mountains", 0,
                                         notes="Drive (~5-5.5 h each way from Hampstead). Eat properly on "
@@ -261,14 +357,14 @@ def build_week(w):
                                               "is how a good weekend becomes a tight week."))
             continue
 
-        kind, title, note, vshare = classify(ph, d, w, mountain)
+        kind, title, note, vshare = classify(ph, d, w, mountain, quality)
         sessions.append(Session(d, kind, title, mins, int(vert * vshare), note,
                                 garmin=kind in ("run", "long", "vert")))
 
     return sessions, ph
 
 
-def classify(ph, d, w, mountain):
+def classify(ph, d, w, mountain, quality=None):
     """What a given day is for, and its share of the week's vert."""
     base1 = ph.startswith("Base 1")
     if d == 5:
@@ -284,6 +380,11 @@ def classify(ph, d, w, mountain):
             return ("run", "Recovery run", "Slow enough to feel pointless. That is the point.", .05)
         return ("long", "Medium-long run", "Back-to-back with Saturday. Slower than yesterday.", .20)
     if d == 2 and not base1:
+        if quality:
+            reps, rec = quality
+            return ("vert", f"Vert intervals — {reps} hard uphill",
+                    f"{reps} HARD uphill with {rec} min easy between. Warm up 10 min, cool down "
+                    f"10 min. " + QUALITY_EFFORT + " " + VERT_NOTE, .35)
         return ("vert", "Vert session — stair machine or treadmill incline", VERT_NOTE, .35)
     if d == 1:
         return ("run", "Aerobic run" + ("" if base1 else " + strides"),
