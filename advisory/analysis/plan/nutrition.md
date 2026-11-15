@@ -28,14 +28,34 @@ Stop and get professional input if any of these appear:
 - Unintended weight loss during a build, or deliberate weight loss while training.
 - Low mood, poor sleep, lost libido alongside any of the above.
 
-**Do not attempt body-composition change during this build.** If it matters to you, it belongs
-in an off-season with professional support. Under-fuelled training is worse than absent
-training, and that is the one hard constraint in this plan.
+**Do not attempt weight LOSS during this build.** Under-fuelled training is worse than absent
+training, and that is the one hard constraint on this page.
+
+**Deliberate lean-mass GAIN is a different proposition and is not prohibited.** The original
+version of this section banned "body-composition change" in both directions, which conflated two
+opposite risks. A modest energy surplus alongside heavy strength work does not cause relative
+energy deficiency — it is the opposite failure mode. The athlete's stated goal (2026-11-15) is
+190–195 lb from 185 lb, explicitly for leg strength rather than for a number, after an Ironman
+history of cutting weight and feeling weak. That goal is compatible with this gate. See §1a.
 
 ## 1. Daily diet — fuel the work, not the day
 
-You weigh *(fill in)* kg. Every number below is per kilogram, so fill that in and compute once.
-`advisory/model/fueling.py` will do the race-day arithmetic.
+**You weigh 185 lb = 84 kg** (athlete, 2026-11-15). Everything below is computed from it.
+`advisory/model/fueling.py` does the race-day arithmetic.
+
+| Nutrient | Per kg | **At 84 kg** |
+| -------- | ------ | ------------ |
+| Protein | 1.8–2.2 g/kg | **150–185 g/day — target 170 g** |
+| Carbohydrate, easy days | 3–5 g/kg | **250–420 g** |
+| Carbohydrate, moderate days | 5–7 g/kg | **420–590 g** |
+| Carbohydrate, big days | 7–10 g/kg | **590–840 g** |
+| Fat, floor | ≥0.8 g/kg | **≥67 g** |
+
+Protein is set at the UPPER end of the usual endurance range, not the middle, for two reasons
+that both apply here: a heavy strength block runs twice a week for the whole build, and the
+athlete is pursuing lean-mass gain. 170 g/day across 3–4 meals is ~45 g per meal — which in
+practice is the single biggest change most endurance athletes have to make, because 45 g of
+protein is more food than it looks like.
 
 | Nutrient | Target | Notes |
 | -------- | ------ | ----- |
@@ -49,6 +69,78 @@ You weigh *(fill in)* kg. Every number below is per kilogram, so fill that in an
 **Carbohydrate is periodised to the session, not held constant.** The commonest amateur error
 is eating the same way on a rest day and a five-hour mountain day. The second commonest is
 eating like it is a five-hour mountain day on a rest day.
+
+## 1a. The weight goal — 185 → 190–195 lb, as muscle
+
+Stated 2026-11-15: goal 190–195 lb, "so that my legs are stronger and not just cutting weight
+similar to ironman days."
+
+**The reasoning is sound, and the arithmetic supports it more strongly than expected.** The
+intuitive objection to carrying mass up a mountain race is that it costs climbing work. For
+Hellbender's 21,500 ft (6,553 m), five extra pounds (2.27 kg) costs:
+
+```
+W = m·g·h = 2.27 × 9.81 × 6553 = 146 kJ = 35 kcal of mechanical work
+at ~25% efficiency ≈ 140 kcal metabolic, across the ENTIRE course
+```
+
+**About one and a half gels, over 102 miles.** The gravitational penalty for five pounds is
+negligible. The broader carrying cost is larger — running economy scales roughly with mass, so
++2.7% body mass is about +2.7% energy for the same distance, perhaps 300–350 kcal over the race —
+but that is still a few percent against a durability problem that ended the 2026 race outright.
+
+**This athlete's limiter is tissue durability, not power-to-weight.** The Heartbreaker DNF was a
+mechanical failure — toe trauma, gait change, bursitis — not an athlete who was too heavy to
+climb. Eccentric braking capacity on 21,500 ft of descent is a strength quality. Trading a few
+percent of climbing economy for descent durability is the right trade here, and it would not be
+for a competitive runner chasing a podium.
+
+### But 190 is realistic and 195 is not
+
+| | |
+| - | - |
+| Rate lean mass can be added during an endurance build | **0.25–0.5 lb/week**, and the upper end only early |
+| 185 → 190 lb (5 lb) | 10–20 weeks |
+| 185 → 195 lb (10 lb) | 20–40 weeks |
+| Weeks available in the usable window (now, week 4, to week 16) | **~12** |
+
+**Target 190 lb by mid-February, then hold.** 195 is not available inside the window without the
+surplus being large enough that most of the gain is fat, which costs the climbing economy without
+buying the strength.
+
+**The window is now, and it closes at week 16.** Two reasons it is open at all: the athlete is
+eight months detrained, and re-gaining previously held muscle is far faster than building new
+tissue. And weekly volume is still 3–9.5 h, where a surplus is manageable. From week 17 the
+Specific phase runs 10–16.5 h/week, where the energy cost of training makes a deliberate surplus
+impractical and the priority shifts to arriving at May intact.
+
+### How to run it
+
+| | |
+| - | - |
+| Energy surplus | **+250–350 kcal/day.** Not more. A bigger surplus in an endurance build goes to fat, because the hypertrophy signal is already capped by concurrent endurance volume |
+| Protein | 170 g/day, ~45 g per meal (§1) |
+| Strength | Already prescribed. **Progressive load is the whole stimulus** — Strength A must get heavier over the build, or the surplus has nothing to build with |
+| Timing | Protein and carbohydrate within an hour of the Tuesday/Thursday strength sessions |
+
+**Do not track this by scale weight.** Glycogen and fluid swing 3–4 lb inside a week on a
+periodised carbohydrate intake, which is more than the entire 12-week signal. Track instead:
+
+1. **Strength load.** Squat or trap-bar 4×5 and weighted step-up. If these are climbing, the
+   surplus is working. This is the primary measure.
+2. **Waist at the navel**, weekly, fasted. Flat while the bar goes up means the gain is lean.
+3. **Bodyweight as a weekly average**, never a single morning.
+
+If strength is flat and waist is rising, the surplus is too big — cut it to +150 kcal. If both
+are flat, it is too small.
+
+### Concurrent-training interference, stated honestly
+
+Endurance volume and hypertrophy are partly opposed at the signalling level: the pathways that
+endurance training activates suppress the ones that drive muscle growth. This is why the
+realistic target is 5 lb over 12 weeks rather than the 15–20 lb a dedicated strength block might
+produce. The goal is achievable but it is working against the training, not with it — which is
+the argument for taking the low end of the range and taking it early.
 
 ### Micronutrients worth actually checking
 

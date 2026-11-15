@@ -40,7 +40,8 @@ updated: 2026-10-18
 | Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
 | Longest run, last 2 months | **~5k** | Athlete, 2026-10-18 | 2026-10-18 |
 | Ultra history / longest ever | **Mount Mitchell Heartbreaker 50M, March 2026** — confirmed 2026-10-31. 50 mi, ~12,000 ft, from Camp Grier. Finish time UNKNOWN and now the top open item | Athlete, 2026-10-31 | 2026-10-31 |
-| Bodyweight (kg) | *unknown — blocks every nutrition figure* | — | — |
+| Bodyweight (kg) | **84 kg / 185 lb** | Athlete, 2026-11-15 | 2026-11-15 |
+| Goal weight | **190 lb (86 kg) by ~week 16**, as lean mass, for descent durability. Athlete asked for 190–195; 195 is not available inside the window without fat gain. Explicitly NOT a cut — Ironman history of cutting and feeling weak | Athlete + `plan/nutrition.md` §1a | 2026-11-15 |
 | Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
 | HR zones / threshold | *still unknown — Garmin workouts ship with no target.* **First anchor 2026-11-06:** avg HR 134 / max 162 on technical trail, reported as easy. Working easy ceiling ~140 bpm until a real test | Athlete, 2026-11-06 | 2026-11-15 |
 | Easy pace anchor | **~8:30–9:00 /km running on technical trail** at HR 134 (derived, one session). Flat/smooth: ~8:00–9:00 /km. REPORTED grade — one data point, walk pace assumed | Derived from 2026-11-06 | 2026-11-15 |
@@ -54,7 +55,7 @@ updated: 2026-10-18
    hundred off a low base. If there is a 50-miler in recent history the early phases are too
    conservative; if the longest run is 6 miles, week 1 is already too much. **Highest-value
    missing fact in this file.**
-2. **Bodyweight.** Every number in `plan/nutrition.md` is per-kilogram and uncomputed without it.
+2. ~~**Bodyweight.**~~ **ANSWERED 2026-11-15: 185 lb / 84 kg.** All nutrition figures now computed.
 3. **Current tolerated fuelling rate**, measured on a real long run rather than estimated. The
    gut-training progression starts from it.
 4. **Whether the race has a qualifying standard.** If it does, the week-22 50-miler stops being
@@ -86,6 +87,8 @@ ones.**
 | 2026-11-02 | Heartbreaker time | unknown | 14:22 | No — athlete self-report |
 | 2026-11-03 | Heartbreaker time | 14:22 | RETRACTED — unknown | No — athlete did not know what that figure was |
 | 2026-11-05 | Home / terrain | "3–5 h from climbs" | **Hampstead NC, sea level, 5–5.5 h each way** | No — correction. Makes every mountain weekend a 2-night trip and makes descending the acute gap |
+| 2026-11-15 | Bodyweight | unknown | **84 kg / 185 lb**, goal 190 lb as lean mass | — new information. Unblocks the whole nutrition page |
+| 2026-11-15 | Week 22 | Self-supported 50 on the Hellbender course | **Heartbreaker declined again** (too close to May); **Badwater Cape Fear 51.4 mi, Bald Head Island, Sat 20 Mar 2027** proposed — same date, ~2 h away. Not yet decided | Yes — athlete's call |
 | 2026-11-15 | Intensity distribution | Assumed adequate | **DEFECT: zero hard sessions in 29 weeks.** Raised by the athlete from last year's plateau. Fix proposed on the Tuesday vert session, pending decision | No — design defect |
 | 2026-11-05 | Heartbreaker result | "50-miler **finished**" | **DNF at 45 mi in 15h00** | No — the most consequential correction in this file. No 50-mile race has ever been completed, and the feasibility verdict moves from comfortable to marginal |
 
