@@ -105,6 +105,23 @@ for CI or a password-manager pipe, and the script warns when it uses one.
 **Nothing in this repository should ever contain the password**, and the email is passed as an
 argument rather than committed for the same reason — one less personal detail living in git.
 
+### Before changing push_garmin.py: run the tests
+
+```bash
+python3 workflows/plan/test_push_garmin.py
+```
+
+Offline, no account, no network — it injects a fake Garmin client into `sys.modules` and
+exercises the paths that only run AFTER a successful login. Those are where both of this
+toolchain's shipped bugs lived, and neither `--dry-run` nor a syntax check touches them:
+
+- the dependency import sitting after the password prompt, so a missing library made the user
+  type their Garmin password for nothing;
+- a refactor whose string replacement silently did not match, leaving the upload loop inside
+  `get_password()` and `run_uploads` undefined — a NameError the instant the password was entered.
+
+Verified to fail if `run_uploads` is renamed, so it is testing what it claims to.
+
 ### If it goes wrong: `--undo`
 
 Every created workout id is appended to a local, gitignored manifest as it uploads.

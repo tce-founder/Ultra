@@ -199,35 +199,36 @@ def main():
             return 2
         api = connect(email, password)
 
-    ok = fail = 0
     return run_uploads(api, workouts, args)
 
 
 def get_password(email):
-    # PROMPT, don't read from the environment by preference. An exported
-    # GARMIN_PASSWORD lands in shell history, in `ps` while the process runs, and
-    # in any shell dotfile it gets pasted into. getpass echoes nothing and keeps the
-    # password in this process only. The env var is still honoured for CI or for a
-    # password manager piping it in, but it is no longer what the docs recommend.
+    """Returns the password, or None. NEVER an exit code — it is a value, not a status.
+
+    PROMPT, don't read from the environment by preference. An exported
+    GARMIN_PASSWORD lands in shell history, in `ps` while the process runs, and in
+    any shell dotfile it gets pasted into. getpass echoes nothing and keeps the
+    password in this process only. The env var is still honoured for CI or for a
+    password manager piping it in, but it is not what the docs recommend.
+    """
     password = os.environ.get("GARMIN_PASSWORD")
     if password:
         print("using $GARMIN_PASSWORD (note: exported secrets persist in shell history)")
-    else:
-        try:
-            password = getpass.getpass(f"Garmin password for {email} (not echoed): ")
-        except (EOFError, KeyboardInterrupt):
-            print("\naborted — no password entered.", file=sys.stderr)
-            return 2
+        return password
+    try:
+        password = getpass.getpass(f"Garmin password for {email} (not echoed): ")
+    except (EOFError, KeyboardInterrupt):
+        print("\naborted — no password entered.", file=sys.stderr)
+        return None
     if not password:
         print("ERROR: empty password.", file=sys.stderr)
-        return 2
+        return None
+    return password
 
-    api = Garmin(email, password)
-    api.login()
-    print("logged in")
 
+def run_uploads(api, workouts, args):
+    """Upload and schedule each workout, recording ids so --undo can remove them."""
     ok = fail = 0
-
     for w in workouts:
         name, when = w["workoutName"], w["_scheduleDate"]
         try:
@@ -261,6 +262,7 @@ def get_password(email):
         print(f"Recorded in {os.path.relpath(MANIFEST, HERE)} — `--undo` removes exactly these.")
         print("Sync the watch (Garmin Connect app, or plug in) and check Training > Workouts.")
     return 0 if not fail else 1
+
 
 
 def undo(args):
