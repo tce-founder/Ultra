@@ -19,6 +19,7 @@ related:
   - pacing-by-effort
   - hellbender-100
   - foot-care-and-shoe-fit
+  - descending-technique-and-eccentric-conditioning
 citation_status: acquired
 authority: experienced
 disposition:

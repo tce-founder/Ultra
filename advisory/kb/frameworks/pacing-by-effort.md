@@ -21,6 +21,7 @@ related:
   - vertical-gain-and-its-substitutes
   - sleep-and-the-night
   - hellbender-100
+  - descending-technique-and-eccentric-conditioning
 citation_status: acquired
 authority: experienced
 disposition:

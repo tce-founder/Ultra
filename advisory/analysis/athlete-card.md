@@ -61,19 +61,42 @@ updated: 2026-10-18
 4. **Whether the race has a qualifying standard.** If it does, the week-22 50-miler stops being
    a tune-up and becomes a requirement with its own entry deadline.
 
-## The primary limiter — corrected 2026-11-16
+## The primary limiter — corrected TWICE on 2026-11-16
 
-**Eccentric quadriceps durability on descent.** The athlete corrected the DNF cause: the 2026
-race ended because the quads were shot on the descents and speed could not be maintained. The
-toe-to-nail-to-gait-to-bursitis cascade is real, cost seven months, and still governs foot and
-heel prevention — but it is not what stopped the race.
+**EXECUTION — descending skill and pacing discipline.** Not injury, and not tissue durability
+either.
+
+The correction arrived in two steps on the same day. First: the quads were shot on the descents.
+Then, decisively: *"I could have finished the 50 miles at heartbreaker if I could have met the cut
+offs. I was physically running still. The bursa had zero pain, the loss of toenails was not
+stopping the run. It was poor execution on the descents and wasted pace on flats."*
+
+So the 2026 DNF was a **MISSED CUTOFF with the athlete still running and in no pain.** Three
+things follow, and they matter in this order:
+
+1. **Nothing physiological ended that race.** The toe-to-nail-to-gait-to-bursitis cascade is real
+   and cost seven months, but it did not stop the run and produced no pain during it. It governs
+   foot and heel prevention and nothing else.
+2. **The deficit is two specific skills**: execution on descents, and squandered pace on runnable
+   ground. Both are far more trainable in 25 weeks than durability or aerobic ceiling.
+3. **Eccentric conditioning alone will not fix it.** Per
+   `kb/frameworks/descending-technique-and-eccentric-conditioning.md`, repeated-bout conditioning
+   is MEASURED to reduce soreness and damage markers and measured NOT to change the fatigue
+   response. The quality that failed sits closer to fatigue and skill than to soreness. The
+   conditioning is still worth having; it is not the answer on its own.
 
 This moves descending from risk 4 to **risk 1**, and it is the worst possible pairing with this
 athlete's geography: Hampstead is sea level, the nearest real descent is 5–5.5 h away, and the
 plan originally contained seven mountain weekends and one never-progressing 3x10 step-down for
 the exact system that failed.
 
-**The arithmetic is unkind.** The Heartbreaker is ~12,000 ft over 50 miles (~240 ft/mi);
+**The arithmetic is kinder than it was.** An 11% improvement in Heartbreaker-equivalent pace puts
+the projection inside the 40 h cutoff on EVERY assumption in the model (16h51 → 15h00 moves the
+finish probability from ~51% to 100%, worst case 39h24). On a course with 12,000 ft of descent,
+descending skill alone can plausibly account for that much. **This is the single most important
+number in the file**: the gap is 11%, and it is attributed to skills rather than to physiology.
+
+**The distance arithmetic is still unkind.** The Heartbreaker is ~12,000 ft over 50 miles (~240 ft/mi);
 Hellbender is ~21,500 ft over 102 miles (~210 ft/mi). Similar density, but **roughly double the
 absolute descent load**, asked of the system that gave out at mile 45 of the shorter race.
 
@@ -110,6 +133,7 @@ ones.**
 | 2026-11-02 | Heartbreaker time | unknown | 14:22 | No — athlete self-report |
 | 2026-11-03 | Heartbreaker time | 14:22 | RETRACTED — unknown | No — athlete did not know what that figure was |
 | 2026-11-05 | Home / terrain | "3–5 h from climbs" | **Hampstead NC, sea level, 5–5.5 h each way** | No — correction. Makes every mountain weekend a 2-night trip and makes descending the acute gap |
+| 2026-11-16 | **DNF cause (2nd correction, same day)** | Quadriceps failure on descents | **MISSED CUTOFF. Zero pain, still physically running.** "Poor execution on the descents and wasted pace on flats" | No — **supersedes the row below.** Moves the limiter from physiology to EXECUTION, which is the best news in this file: an 11% equivalent-pace gain puts the projection inside the cutoff on every assumption |
 | 2026-11-16 | **DNF cause** | Toe → nail → gait → heel → bursitis ended the race | **Quadriceps failure on descents; could not maintain speed.** The cascade happened and cost 7 months, but did not stop the race | No — **the most consequential correction in this file.** Moves descending from risk 4 to risk 1, weakens the charitable reading of the 51% projection, and made the never-progressing eccentric block the plan's central defect |
 | 2026-11-16 | Badwater Cape Fear | Looked like a straight substitute for the week-22 50 | **38 of its 51.4 mi are flat beach — it tests ZERO descent.** Still worth doing for a first 50-mile finish, but it cannot be read as evidence the failure mode is fixed. Makes the week-25 Hellbender course rehearsal essential rather than optional | — follows from the correction |
 | 2026-11-15 | Bodyweight | unknown | **84 kg / 185 lb**, goal 190 lb as lean mass | — new information. Unblocks the whole nutrition page |

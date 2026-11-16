@@ -102,7 +102,72 @@ dependency import after the password prompt; a silently-unmatched refactor leavi
 undefined; no MFA callback; and a token-cache attribute that does not exist on this library
 release. The first two are now covered by `test_push_garmin.py`.
 
-## Correction 2026-11-16 — the DNF was quads on the descents
+## Correction 2026-11-16 (second, same day) — it was a CUTOFF DNF, and that is good news
+
+Athlete: *"I could have finished the 50 miles at heartbreaker if I could have met the cut offs. I
+was physically running still. The bursa had zero pain the loss of toenails was not stopping the
+run. It was poor execution on the descents and wasted pace on flats."*
+
+**This supersedes the correction below, which was recorded hours earlier.** The sequence of
+diagnoses in this file now runs: injury cascade → eccentric durability failure → **execution**.
+Only the last one is the athlete's own account of why the clock beat them.
+
+### Why this is the best news in the file
+
+| Heartbreaker-equivalent | Hellbender projection | Finishes |
+| ----------------------- | --------------------- | -------- |
+| **16h51** — extrapolated from 45 mi / 15h00 | 36h13 – 43h38 | **51%** |
+| 16h00 (−5%) | 34h30 – 41h41 | 77% |
+| 15h27 (−8%) | 33h23 – 40h26 | 94% |
+| **15h00 (−11%)** | 32h28 – 39h24 | **100% — inside on every assumption** |
+| 14h00 (−17%) | 30h26 – 37h06 | 100%, 2h54 spare |
+
+**The gap is 11%, and it is attributed to two skills rather than to physiology.** On a course with
+12,000 ft of descent, descending execution alone can plausibly account for that much. A durability
+or aerobic-ceiling deficit of 11% in 25 weeks off a seven-month layoff would be a far harder ask.
+
+### The cutoff structure, which shapes the whole pacing problem
+
+From the official intermediate cutoffs (**`acquired`, possibly stale — re-read before entry**):
+
+| Segment | Miles | Hours | Required |
+| ------- | ----- | ----- | -------- |
+| Start → 50.1 | 50.1 | 20.75 | 24.85 min/mi |
+| 50.1 → 65.8 | 15.7 | 5.75 | **21.97 min/mi** |
+| 65.8 → 83.4 | 17.6 | 6.50 | **22.16 min/mi** |
+| 83.4 → 102.3 | 18.9 | 7.00 | **22.22 min/mi** |
+
+**This is the opposite shape from most hundreds.** The first fifty is the MOST generous segment and
+the back half tightens to ~22 min/mi. Two consequences: there is little point banking time early
+against cutoffs, and the binding constraint is holding ~22 min/mi from mile 50 to 102 through a
+night. The athlete ran 20.0 min/mi for 45 miles fresh at the Heartbreaker — so the demand is a
+slightly slower pace, but held three times as far and into a second day.
+
+### What changed in the plan
+
+1. **The descent block is now TECHNIQUE PRACTICE first**, conditioning second, carrying five cues
+   one per rep. The earlier framing — "control the lowering", conditioning-led — was built on the
+   durability diagnosis.
+2. **Long runs carry a RUNNABLE-GROUND DISCIPLINE note**: run everything runnable at easy effort
+   from mile one, and hike the climbs early enough that nothing gets walked later that could have
+   been run. This addresses the second half of the deficit, which had nothing in the plan at all.
+3. **New corpus page**: `kb/frameworks/descending-technique-and-eccentric-conditioning.md`. The
+   tag `downhill-eccentric` previously appeared on exactly one page — about indoor climbing
+   machines, where descent is mentioned only as what they cannot train. It is the corpus's only
+   `measured`-authority page, and it grades the technique half honestly as ASSERTED: a targeted
+   search found no controlled study linking cadence, stride or lean to reduced quadriceps damage
+   or faster descending in trail runners.
+4. **`projection.py` no longer claims an injured pace.** It printed "this is an INJURED pace …
+   a FLOOR on capability". That is now false and said so in the one place downstream code quotes.
+
+### Still open
+
+**What does "wasted pace on flats" mean precisely** — running them too hard early and paying for
+it later, or shuffling them and never banking cheap time? The fix differs. The plan currently
+addresses the second reading, which is the likelier one in a cutoff DNF, but it is worth
+confirming.
+
+## Correction 2026-11-16 — the DNF was quads on the descents (SUPERSEDED, see above)
 
 Athlete, unprompted: *"The dnf was due to poor performance on descents I could not maintain speed
 my quads were shot."*

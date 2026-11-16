@@ -19,6 +19,7 @@ related:
   - vertical-gain-and-its-substitutes
   - carbohydrate-fueling-ladder
   - foot-care-and-shoe-fit
+  - descending-technique-and-eccentric-conditioning
 citation_status: acquired
 authority: established
 population: >-

@@ -16,6 +16,7 @@ related:
   - strength-training-running-economy-meta-analyses
   - vertical-gain-and-its-substitutes
   - periodization-for-ultras
+  - descending-technique-and-eccentric-conditioning
 citation_status: acquired
 authority: established
 disposition:

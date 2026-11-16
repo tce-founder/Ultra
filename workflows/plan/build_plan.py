@@ -387,7 +387,15 @@ def classify(ph, d, w, mountain, quality=None):
         if mountain:
             return ("long", "Mountain long run / hike", MOUNTAIN_WEEKS[w], .55)
         return ("long", "Long run", "Conversational throughout. Walk the steep bits on purpose — "
-                "you will walk them in the race.", .30 if not base1 else .40)
+                "you will walk them in the race. "
+                "RUNNABLE-GROUND DISCIPLINE: run everything runnable, at an effort you would "
+                "call easy, from the first mile. The 2026 DNF lost time two ways and this is the "
+                "second — squandered pace on runnable ground. In a cutoff-limited mountain race "
+                "the flats and gentle grades are where time is CHEAPEST, because climbs are "
+                "capped by sustainable power and steep descents by skill; shuffling them loses "
+                "minutes per mile on the one terrain where speed is nearly free. The discipline "
+                "is in hiking the CLIMBS early enough that nothing has to be walked later that "
+                "could have been run.", .30 if not base1 else .40)
     if d == 6:
         if mountain:
             return ("long", "Back-to-back day 2", "On tired legs by design. This is the session that most "
@@ -456,13 +464,18 @@ def descent_finish(ph, mountain, tune_up):
     return (f" ** DESCENT FINISH — {reps} x down a multi-storey car park ramp, a highway "
             "overpass or a bridge, walking back up between. Wilmington's parking decks are the "
             "nearest usable descent to Hampstead; a treadmill will not do this, since almost "
-            "none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads "
-            "resist rather than landing on a locked knee or braking through the heel. "
-            "THIS IS THE PRIORITY SESSION ELEMENT OF THE WEEK, not a cooldown — the 2026 race "
-            "ended with quads failing on descents at mile 45, and Hellbender asks roughly "
-            "double that descent load. It is deliberately at the END, on tired legs, because "
-            "that is the condition that failed. Stop the block early if the lowering gets "
-            "sloppy; bad descending practised tired teaches bad descending. **")
+            "none decline. THIS IS TECHNIQUE PRACTICE FIRST, conditioning second — the 2026 DNF "
+            "was a MISSED CUTOFF with no pain and the athlete still running, lost to execution "
+            "on the descents. Eccentric conditioning is MEASURED to reduce soreness but measured "
+            "NOT to change the fatigue response, so the skill is the half that buys time. "
+            "Five cues, one per rep: (1) quick short steps; (2) foot lands UNDER the hips, not "
+            "ahead — ahead is the braking position by definition; (3) lean slightly forward from "
+            "the ankles, since leaning back is the commonest fault and puts you on the brakes; "
+            "(4) eyes 3-5 m ahead, never on your feet; (5) hands and shoulders loose. Stop "
+            "braking continuously — fall under control with fast feet. "
+            "Deliberately at the END, on tired legs, because races are not lost descending fresh "
+            "at mile five. Stop the block the moment the lowering gets sloppy: bad descending "
+            "practised tired teaches bad descending, and that is when ankles go. **")
 
 
 VERT_NOTE = ("Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. "

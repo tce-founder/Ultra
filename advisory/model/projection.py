@@ -78,7 +78,12 @@ def dnf_equivalent(miles_done, hours, vert_factor=1.5, exponent=1.1):
     This extrapolates to what the full 50 would have taken AT THE SAME EFFORT,
     assuming vert accrued proportionally to distance.
 
-    READ THE WARNING. If the stop was caused by an injury that developed DURING
+    RESOLVED for this athlete 2026-11-16: the 2026 stop was a MISSED CUTOFF with no
+    pain and the athlete still running, so the observed pace is NOT an injured pace
+    and the projection is an estimate rather than a floor. The paragraph below is
+    retained because the distinction still applies to any future DNF input.
+
+    If a stop WAS caused by an injury that developed DURING
     the race, the observed pace is an INJURED pace, and extrapolating it projects
     the injured athlete rather than the healthy one. The result is then a floor on
     capability, not an estimate of it, and how big the gap is depends entirely on
@@ -108,8 +113,18 @@ def report(known_h, dnf_from=None):
     if dnf_from:
         src = (f"EXTRAPOLATED from a DNF: {dnf_from[0]:g} mi of {KNOWN['miles']:g} in "
                f"{fmt_h(dnf_from[1])}, March 2026. NOT a finish time")
-        pop = ("this athlete, this course, 19 months out, AND INJURED DURING THE EFFORT — "
-               "the observed pace is an injured pace, so this is a floor on capability")
+        # CORRECTED 2026-11-16. This said "AND INJURED DURING THE EFFORT -- the observed
+        # pace is an injured pace, so this is a floor on capability". The athlete has since
+        # established that the bursa gave ZERO pain during the race, the lost toenails did
+        # not stop them, they were still physically running, and the DNF was a MISSED CUTOFF.
+        # So the observed pace is not degraded by injury and is not a floor -- it is what was
+        # actually executed. The charitable reading is gone; what replaces it is better news,
+        # because the deficit is attributed to EXECUTION (descents, squandered pace on
+        # runnable ground) rather than to physiology, and execution is the more trainable of
+        # the two over 25 weeks.
+        pop = ("this athlete, this course, 19 months out. NOT an injured pace: no pain in the "
+               "race, still running, stopped by a MISSED CUTOFF. Athlete attributes the "
+               "deficit to execution on descents and squandered pace on runnable ground")
     else:
         src = f"athlete's {KNOWN['name']} finish, March 2026"
         pop = "this athlete, this course, 19 months before the target race"
@@ -191,9 +206,11 @@ def main():
         print(f"\n  DNF INPUT: {miles:g} mi of {KNOWN['miles']:g} in {fmt_h(dnf_t)}")
         print(f"  -> {fmt_h(dnf)} full-distance equivalent at the same effort")
         print(f"  -> that is {'PAST' if dnf > 16.5 else 'inside'} the race's own 16h30 cutoff")
-        print(f"  WARNING: if the stop was caused by an injury that developed during the race,")
-        print(f"  this is an INJURED pace. The projection below is then a FLOOR on capability,")
-        print(f"  not an estimate of it, and the gap depends on how early the injury started.")
+        print(f"  ESTABLISHED 2026-11-16: this is NOT an injured pace. No pain in the race,")
+        print(f"  still physically running, stopped by a MISSED CUTOFF. So the figure below is")
+        print(f"  an ESTIMATE of executed capability, not a floor on latent capability.")
+        print(f"  The deficit is attributed to EXECUTION — descending, and squandered pace on")
+        print(f"  runnable ground — which is far more trainable than physiology in 25 weeks.")
     print(f"\n  ASSUMPTIONS (both ranges, neither established)")
     print(f"    vert equivalence   {VERT_FACTOR[0]}–{VERT_FACTOR[1]} flat miles per 1,000 ft")
     print(f"    fatigue exponent   {EXPONENT[0]}–{EXPONENT[1]} on equivalent-distance ratio")

@@ -16,6 +16,7 @@ related:
   - vertical-gain-and-its-substitutes
   - the-dnf-decision
   - hellbender-100
+  - descending-technique-and-eccentric-conditioning
 citation_status: acquired
 authority: experienced
 disposition:
