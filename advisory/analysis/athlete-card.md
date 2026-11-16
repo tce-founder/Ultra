@@ -40,7 +40,10 @@ updated: 2026-10-18
 | Energy-availability gate | **Not yet run** — see `plan/nutrition.md` §0 | — | — |
 | Longest run, last 2 months | **~5k** | Athlete, 2026-10-18 | 2026-10-18 |
 | Ultra history / longest ever | **Mount Mitchell Heartbreaker 50M, March 2026** — confirmed 2026-10-31. 50 mi, ~12,000 ft, from Camp Grier. Finish time UNKNOWN and now the top open item | Athlete, 2026-10-31 | 2026-10-31 |
-| Bodyweight (kg) | **84 kg / 185 lb** | Athlete, 2026-11-15 | 2026-11-15 |
+| Height | **6'4" / 1.93 m** | Athlete, 2026-11-16 | 2026-11-16 |
+| Bodyweight (kg) | **84 kg / 185 lb** — BMI 22.5 | Athlete, 2026-11-15 | 2026-11-15 |
+| Waist | **34–35"**, waist:height 0.454 — lean, no fat to lose, real headroom for lean mass | Athlete, 2026-11-16 | 2026-11-16 |
+| Poles | **Allowed at Hellbender** (athlete confirms). ~130 cm for this height. NOT yet owned or trained with — see the descent case in the log | Athlete, 2026-11-16 | 2026-11-16 |
 | Goal weight | **190 lb (86 kg) by ~week 16**, as lean mass, for descent durability. Athlete asked for 190–195; 195 is not available inside the window without fat gain. Explicitly NOT a cut — Ironman history of cutting and feeling weak | Athlete + `plan/nutrition.md` §1a | 2026-11-15 |
 | Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
 | HR zones / threshold | *still unknown — Garmin workouts ship with no target.* **First anchor 2026-11-06:** avg HR 134 / max 162 on technical trail, reported as easy. Working easy ceiling ~140 bpm until a real test | Athlete, 2026-11-06 | 2026-11-15 |
@@ -58,7 +61,7 @@ updated: 2026-10-18
    missing fact in this file.**
 2. ~~**Bodyweight.**~~ **ANSWERED 2026-11-15: 185 lb / 84 kg.** All nutrition figures now computed.
 3. **Current tolerated fuelling rate**, measured on a real long run rather than estimated. The
-   gut-training progression starts from it.
+   gut-training progression starts from it. At 84 kg, read the 60–90 g/h band from its upper half.
 4. **Whether the race has a qualifying standard.** If it does, the week-22 50-miler stops being
    a tune-up and becomes a requirement with its own entry deadline.
 

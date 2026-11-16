@@ -478,14 +478,26 @@ def descent_finish(ph, mountain, tune_up):
             "braking continuously — fall under control with fast feet. "
             "Deliberately at the END, on tired legs, because races are not lost descending fresh "
             "at mile five. Stop the block the moment the lowering gets sloppy: bad descending "
-            "practised tired teaches bad descending, and that is when ankles go. **")
+            "practised tired teaches bad descending, and that is when ankles go. "
+            "MEASURE IT: the watch records cadence per lap. Lap each descent and each walk-back, "
+            "and compare. Descent cadence should be EQUAL TO OR HIGHER THAN your flat cadence — "
+            "if it drops, you are overstriding and braking, which is the fault in numbers rather "
+            "than in feel. At 6'4\" the natural stride is long and the cue fights it harder than "
+            "it would a shorter runner, so this is the one technique cue that does not have to be "
+            "taken on faith. **")
 
 
 VERT_NOTE = ("Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. "
              "DO NOT hold the handrail; it removes a large and unrecorded share of the work. "
              "Treadmill at max incline is the alternative. Neither trains DESCENDING, which is "
              "what actually breaks down at Hellbender — that is what the mountain weekends and "
-             "the eccentric strength work are for." + HEEL_WARNING)
+             "the eccentric strength work are for. "
+             "POLES: allowed at Hellbender, and a stronger case for this athlete than for most — "
+             "~130 cm at 6'4\". They offload the quadriceps on descents, which is the recorded "
+             "failure mode, and they steady a high centre of mass on technical ground. They are "
+             "also a skill: poles used for the first time in a race are a liability, not an aid. "
+             "If they are going to be used in May they want buying now and using on every "
+             "mountain weekend from week 6." + HEEL_WARNING)
 
 
 # Strength prescriptions. EXERCISES and RATIONALE are separate fields because they

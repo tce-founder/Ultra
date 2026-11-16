@@ -95,7 +95,38 @@ climb. Eccentric braking capacity on 21,500 ft of descent is a strength quality.
 percent of climbing economy for descent durability is the right trade here, and it would not be
 for a competitive runner chasing a podium.
 
-### But 190 is realistic and 195 is not
+### The frame changes the read — 6'4" at 185 lb is already lean
+
+Height 6'4" (1.93 m), waist 34–35" (athlete, 2026-11-16).
+
+| | |
+| - | - |
+| BMI at 185 lb | **22.5** |
+| Waist-to-height | **0.454** (under 0.50 is lean; under 0.53 is healthy) |
+| BMI at 190 lb | 23.1 |
+| BMI at 195 lb | 23.7 |
+| BMI at 200 lb | 24.3 |
+
+**This substantially weakens the caution recorded above.** At 6'4" and a 34–35" waist there is no
+fat to lose and genuine room to add lean mass — 195 lb would still be a BMI of 23.7, which is lean
+for that height. The worry that "a bigger surplus goes to fat" applies much less to a frame with
+this much headroom than it would to someone already carrying spare condition.
+
+**So the target was never the problem. The RATE is.** Lean mass still goes on at 0.25–0.5 lb/week
+during an endurance build, and that arithmetic is unchanged by height:
+
+### 190 by mid-February, 195 after the race
+
+| Goal | Gain | Weeks needed | Fits the window? |
+| ---- | ---- | ------------ | ---------------- |
+| 190 lb | +5 lb | 10–20 | **Yes** — ~12 weeks available to week 16 |
+| 195 lb | +10 lb | 20–40 | No — runs into the Specific phase |
+
+**Revised recommendation: 190–192 lb by mid-February, then HOLD through the build, and continue
+toward 195 after 7 May if you still want it.** The reason to stop is not body composition — 195 is
+a perfectly reasonable weight for the frame — it is that the final ten weeks before a 102-mile
+mountain race are not when you want to be adding mass, and at 10–16.5 h/week a surplus stops being
+practical anyway.
 
 | | |
 | - | - |
@@ -113,6 +144,14 @@ eight months detrained, and re-gaining previously held muscle is far faster than
 tissue. And weekly volume is still 3–9.5 h, where a surplus is manageable. From week 17 the
 Specific phase runs 10–16.5 h/week, where the energy cost of training makes a deliberate surplus
 impractical and the priority shifts to arriving at May intact.
+
+### Fuelling note from the frame
+
+At 84 kg the athlete is at the heavier end of the ultrarunning range, so **lean toward the upper
+end of the 60–90 g carbohydrate/hour race band** rather than the middle, and expect absolute sweat
+and sodium losses at the high end too — more surface area, and a humid coastal training
+environment. The per-kilogram figures in §1 already account for mass; the race-day rates in §3 do
+not scale automatically, so read them as "upper half of the band".
 
 ### How to run it
 

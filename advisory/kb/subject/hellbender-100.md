@@ -56,6 +56,44 @@ peak east of the Mississippi — and drops deep into the valleys between.
 **Sample intermediate cutoffs** (from the official page, which may reflect a prior year):
 12:45 am at 50.1 mi · 6:30 am at 65.8 mi · 1:00 pm at 83.4 mi.
 
+### START TIME CONTRADICTION — unresolved 2026-11-16
+
+Registration listings give a **5:00 am Friday** start for 7 May 2027 (and for 2026; earlier years
+show 4:30 am). This page's "40 hours, finish 8:00 pm" implies a **4:00 am** start. A 5:00 am start
+with a 40 h limit finishes at **9:00 pm**, so at most two of {5:00 am start, 40 h, 8:00 pm finish}
+can be true.
+
+It matters because the intermediate cutoffs above are CLOCK times, so an hour of start-time error
+moves every elapsed figure by an hour. Worked through all three readings:
+
+| Segment | 4am/8pm (40h) | 5am/9pm (40h) | 5am/8pm (39h) |
+| ------- | ------------- | ------------- | ------------- |
+| Start → 50.1 mi | 24.85 min/mi | 23.65 | 23.65 |
+| 50.1 → 65.8 | **21.97** | **21.97** | **21.97** |
+| 65.8 → 83.4 | **22.16** | **22.16** | **22.16** |
+| 83.4 → finish | 22.22 | 25.40 | 22.22 |
+
+**The robust conclusion, true under every reading: miles 50 to 83 demand ~22 min/mi, and that is
+the binding constraint.** It is also the overnight section. Everything else in the table moves with
+the assumption; this does not. Plan against it.
+
+### Mandatory gear is checked, and can remove you from the course
+
+Registration listings state gear checks before the start **and at multiple points during the
+race**, with the right to pull runners and pacers for non-compliance. The listed items are
+fragmented and inconsistent across years, but between them include: headlamp plus backup light and
+batteries; a rear-worn flashing red light for night road sections; a **seam-sealed** waterproof
+jacket; an **emergency bivy — a foil blanket explicitly does not count**; an insulating long-sleeve
+base layer; warm hat and gloves; whistle; calories; **40 oz+** hydration capacity; water
+filter/purification; phone or inReach.
+
+**This is a real cost and a real training task, and nothing in this repo covered it.** Several of
+those items have to be bought, carried on long runs to find out whether they fit under a pack, and
+confirmed against the current Runners Guide rather than against a listing.
+
+> **Also note:** the 2026 edition ran an altered course after Hurricane Helene damage, with 2027
+> planned to return to the original. Gear and cutoffs may change accordingly.
+
 > **Every figure on this page is `acquired`.** Published sources disagree with each other and the
 > official cutoff page may be stale. Before entry and before the taper, re-read the official site
 > and update this page. Do not plan a pacing strategy off the table above.
