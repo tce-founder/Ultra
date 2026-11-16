@@ -230,6 +230,61 @@ The two races now cover both halves cleanly:
 **Both should be run SELF-PACED**, and the rehearsal ideally solo — the failure mode being trained
 out is pacing to other people.
 
+## 2026-11-16 — height makes the descending cue MEASURABLE, which is the best outcome of the day
+
+6'4" (1.93 m), waist 34–35". Two consequences, and the second is the useful one.
+
+**1. The weight goal is better supported than I said yesterday.** BMI 22.5, waist:height 0.454 —
+lean, no fat to lose, real headroom. 195 lb would still be BMI 23.7, which is lean at 6'4". The
+"a surplus goes to fat" caution applies far less to this frame. The target was never the problem;
+the RATE is. Revised to **190–192 lb by mid-February, hold through the build, and continue toward
+195 after 7 May if wanted** — the reason to stop is that the final ten weeks before a mountain
+hundred are not when to add mass, not body composition.
+
+**2. Height bears on the DESCENDING diagnosis, and it turns an asserted cue into a number.**
+
+Reasoning from mechanics rather than from evidence, and graded that way: a taller runner has a
+higher centre of mass (less stable on technical ground), longer levers (more torque and more
+eccentric load per step), and **a naturally longer stride and lower cadence.** The central
+descending cue is "quick, short steps" — so at 6'4" the fix fights this athlete's natural stride
+harder than it would a shorter runner's. Some of the descending difficulty is anthropometric
+rather than purely inexperience, which makes the technique work MORE valuable here, not less.
+
+**The payoff: the Fenix 7 Pro records cadence per lap.** So the one technique cue that the corpus
+page honestly grades as ASSERTED can be measured directly:
+
+- Lap each descent rep and each walk-back separately.
+- **Descent cadence should be EQUAL TO OR HIGHER THAN flat cadence.** If it drops, the stride is
+  lengthening and the quads are braking — the fault in numbers instead of in feel.
+- Track the gap across the build. Closing it IS the training effect.
+
+Now in the descent-block note on every long run. It is the only descending instruction in the plan
+that does not have to be taken on trust.
+
+**3. Poles — a stronger case here than for most runners, and not yet acted on.** Allowed at
+Hellbender (athlete confirms). ~130 cm at this height. They offload the quadriceps on descents,
+which is the recorded failure mode, and they steady a high centre of mass on technical ground.
+**But they are a skill**: first used in a race they are a liability. If they are going to May, they
+want buying now and using on every mountain weekend from week 6. Added to the vert-session note.
+
+## Found 2026-11-16 — two race facts the repo had wrong or missing
+
+**Start time contradiction.** Registration listings give a **5:00 am** Friday start for 2027; the
+subject page's "40 h, finish 8:00 pm" implies 4:00 am. At most two of {5 am, 40 h, 8 pm} hold, and
+it matters because the intermediate cutoffs are CLOCK times, so an hour of error moves every
+elapsed figure. Worked through all three readings, the conclusion that survives all of them:
+**miles 50–83 demand ~22 min/mi, overnight, and that is the binding constraint.** Everything else
+in the table moves with the assumption. Plan against the robust number; resolve the rest from the
+official Runners Guide.
+
+**Mandatory gear is checked DURING the race, with the right to pull runners — and the repo had
+nothing on it.** Between the listings: seam-sealed waterproof jacket; emergency bivy (**a foil
+blanket explicitly does not count**); insulating long-sleeve base; headlamp plus backup light and
+batteries; rear-worn flashing red light; warm hat; gloves; whistle; calories; **40 oz+** hydration
+capacity; water filter or purification; phone or inReach. Several need buying, and all need
+carrying on long runs to find out whether they fit under a pack before May. **This is a workstream,
+not a packing list for race week.**
+
 ## Correction 2026-11-16 — the DNF was quads on the descents (SUPERSEDED, see above)
 
 Athlete, unprompted: *"The dnf was due to poor performance on descents I could not maintain speed
