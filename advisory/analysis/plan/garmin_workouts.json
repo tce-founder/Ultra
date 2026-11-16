@@ -86,7 +86,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -260,7 +260,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -314,7 +314,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -600,7 +600,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -774,7 +774,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -828,7 +828,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -1114,7 +1114,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -1288,7 +1288,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -1342,7 +1342,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -1628,7 +1628,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -1762,7 +1762,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -1816,7 +1816,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -2102,7 +2102,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -2276,7 +2276,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -2330,7 +2330,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -2616,7 +2616,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -2790,7 +2790,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -2844,7 +2844,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -3166,7 +3166,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -3340,7 +3340,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -3394,7 +3394,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {
@@ -3680,7 +3680,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
+            "description": "Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first \u2014 add load gradually. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 480
           },
           {
@@ -3814,7 +3814,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering \u2014 STEP HEIGHT is the progression here, not load. Heel watch: stop at the first posterior-heel complaint",
             "endConditionValue": 384
           },
           {
@@ -3868,7 +3868,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
+            "description": "Calf raise, bent-knee 3x12, full range off a step \u2014 bodyweight, heel watch",
             "endConditionValue": 384
           },
           {

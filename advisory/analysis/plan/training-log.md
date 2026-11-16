@@ -160,6 +160,37 @@ slightly slower pace, but held three times as far and into a second day.
 4. **`projection.py` no longer claims an injured pace.** It printed "this is an INJURED pace …
    a FLOOR on capability". That is now false and said so in the one place downstream code quotes.
 
+### Defect 2026-11-16 (third) — the plan withheld its most important exercise for 8 weeks
+
+Found by the athlete: *"FLAT GROUND until week 9 → we're doing vert this week."*
+
+Correct, and it is worse than a stale label. **Week 5 prescribes 600 ft of vert and week 6
+prescribes 2,500 ft on a mountain trip, both inside Base 1.** Steep climbing holds the ankle in
+dorsiflexion — the plan's own `HEEL_WARNING` says exactly that — so the plan was withholding a
+15 cm step in the gym while prescribing hundreds of feet of climbing that loads the same tissue
+far harder. **The precaution protected against a small dose of precisely what it prescribed in a
+large one.**
+
+**And "ECCENTRIC step-down on FLAT GROUND" is not an exercise.** A step-down without a step
+removes the eccentric range that makes the movement worth doing. So the single most important
+exercise in the plan, given a race lost on descents, was gutted for 8 of 29 weeks.
+
+The restriction also rested on a causal model corrected twice since: the 2026 bursitis gave ZERO
+pain during the race, did not stop the run, is ~8 months resolved, and arose from a gait change
+following toe trauma — not from calf loading. Loaded end-range dorsiflexion is a plausible
+irritant for an ACTIVE bursa, not a cause in a settled one.
+
+**Fixed.** Base 1 eccentric step-downs now use a LOW (~15 cm) step with step height as the
+progression; calf work is full range off a step from week 1, bodyweight before load. The heel
+watch is retained as a **stopping rule** rather than a prohibition — which is what it should
+always have been.
+
+### Answered 2026-11-16 — missed cutoff, confirmed
+
+*"Missed cut off. I was still running."* Closes the open question. The constraint was the clock,
+not the athlete's judgement, which means the 40 h Hellbender cutoff and its intermediate splits
+are the thing to model — and the pacing work above is the intervention, not a caveat to it.
+
 ### Still open
 
 **What does "wasted pace on flats" mean precisely** — running them too hard early and paying for

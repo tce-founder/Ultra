@@ -46,6 +46,7 @@ updated: 2026-10-18
 | HR zones / threshold | *still unknown — Garmin workouts ship with no target.* **First anchor 2026-11-06:** avg HR 134 / max 162 on technical trail, reported as easy. Working easy ceiling ~140 bpm until a real test | Athlete, 2026-11-06 | 2026-11-15 |
 | Easy pace anchor | **~8:30–9:00 /km running on technical trail** at HR 134 (derived, one session). Flat/smooth: ~8:00–9:00 /km. REPORTED grade — one data point, walk pace assumed | Derived from 2026-11-06 | 2026-11-15 |
 | Ferritin / vitamin D | *not tested* | — | — |
+| Heel precaution status | **Downgraded 2026-11-16 from prohibition to stopping rule.** Flat-ground restrictions on step-downs and calf raises were incoherent against the vert prescribed in the same weeks, and rested on the superseded causal model | Athlete's catch + `build_plan.py` | 2026-11-16 |
 | Shoe rotation audited | **No — scheduled week 1 Wednesday** | Plan | — |
 | Named crew / pacer | *none yet* | — | — |
 

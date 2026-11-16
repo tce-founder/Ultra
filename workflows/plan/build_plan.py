@@ -543,7 +543,8 @@ def strength_notes(ph, d):
 # pattern, because new eccentric damage close to race day has no time to remodel.
 ECCENTRIC = {
     "Base 1 — tissue tolerance": [
-        "ECCENTRIC step-down 3x10/leg, 4 s lowering — FLAT GROUND, not off a step, until week 9",
+        "ECCENTRIC step-down 3x10/leg off a LOW step (~15 cm), 4 s lowering — STEP HEIGHT is the "
+        "progression here, not load. Heel watch: stop at the first posterior-heel complaint",
     ],
     "Base 2 — aerobic volume + vert": [
         "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
@@ -560,16 +561,37 @@ ECCENTRIC = {
 }
 
 
-# Calf work, by phase. The prescriptions used to carry "FLAT GROUND until week 9"
-# as literal text, which still read "until week 9" in WEEK 19 -- an instruction that
-# contradicted itself for ten weeks of the build and silently never progressed. Flat
-# ground early is right (loaded end-range dorsiflexion off a step is what irritates a
-# posterior heel bursa, and the 2026 bursitis was real), but it has to END.
+# Calf work, by phase.
+#
+# TWO DEFECTS, both found by the athlete 2026-11-16.
+#
+# 1. The prescriptions carried "FLAT GROUND until week 9" as literal text, which still
+#    read "until week 9" in WEEK 19 -- an instruction that contradicted itself for ten
+#    weeks of the build and silently never progressed.
+#
+# 2. The flat-ground restriction itself was incoherent, and the athlete said so: "FLAT
+#    GROUND until week 9 -> we're doing vert this week." Correct. Week 5 prescribes 600
+#    ft of vert and week 6 prescribes 2,500 ft on a mountain trip, all inside Base 1.
+#    Steep climbing holds the ankle in dorsiflexion -- the plan's own HEEL_WARNING says
+#    so -- so the plan was withholding a 15 cm step in the gym while prescribing
+#    hundreds of feet of climbing that loads the same tissue far harder. The precaution
+#    protected against a small dose of exactly what it prescribed in a large one.
+#
+#    It also rested on a causal model that has since been corrected twice. The 2026
+#    bursitis gave ZERO PAIN during the race, did not stop the run, is ~8 months
+#    resolved, and arose from a gait change following toe trauma -- not from calf
+#    loading. Loaded end-range dorsiflexion is a plausible irritant for an ACTIVE bursa,
+#    not a cause in a settled one.
+#
+# So full range throughout, bodyweight before load, with the heel watch retained as a
+# stopping rule rather than a prohibition. Full-range calf work builds Achilles capacity
+# and dorsiflexion range, both of which serve descending -- the actual limiter.
 CALF = {
-    ("A", True):  "Standing calf raise 3x8 heavy — FLAT GROUND, not off a step",
+    ("A", True):  ("Standing calf raise 3x8, FULL RANGE off a step, BODYWEIGHT first — add load "
+                   "gradually. Heel watch: stop at the first posterior-heel complaint"),
     ("A", False): ("Standing calf raise 3x8 heavy, FULL RANGE off a step — heel watch: stop at "
                    "the first posterior-heel complaint, not the second"),
-    ("B", True):  "Calf raise, bent-knee 3x12 — FLAT GROUND, not off a step",
+    ("B", True):  "Calf raise, bent-knee 3x12, full range off a step — bodyweight, heel watch",
     ("B", False): "Calf raise, bent-knee 3x12, full range off a step",
 }
 
