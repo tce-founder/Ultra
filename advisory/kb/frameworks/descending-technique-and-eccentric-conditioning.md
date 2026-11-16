@@ -155,10 +155,36 @@ cost a cutoff-limited runner:
 2. **Hammering the runnable ground early**, arriving at the climbs depleted — which then causes
    error 1 later, at the point in the race where the cutoffs tighten.
 
+### The social-pacing trap, which is how both errors happen at once
+
+The commonest route into error 1 is not laziness or a plan. It is **adopting the terrain
+allocation of whoever you are running with.**
+
+Every mountain-ultra runner has an implicit model of where their time comes from. A skilled
+descender's model is *cruise the runnable ground, make it back on the downhills*, and that model is
+perfectly solvent — **for them.** Borrow the comfortable half of it without owning the descending
+half and you lose time on both terrains at once: slow where speed was cheap, and slow again where
+they were fast.
+
+This is worth stating as a mechanism rather than a cue, because it explains a large,
+otherwise-puzzling time loss from a single decision, and because it feels correct while it is
+happening. Running with people is good for morale and for pacing restraint. **Matching their
+terrain allocation when your terrain strengths differ is the error.** Pick company by matching
+profile, not by matching overall pace.
+
+**The corollary for a weak descender is uncomfortable and important:** your model has to be the
+inverse. Make time on the runnable ground *because* you will give some back on the descents. You
+cannot afford to walk what a good descender can afford to walk.
+
+### The rule
+
 The resolution is not a pace. It is a rule: **run everything runnable, at an effort you would
 describe as easy, from the start — and hike the climbs early enough that nothing has to be
 walked later that could have been run.** The discipline is in the climbs, and it shows up as a
 dividend on the flats.
+
+And one question, every time you notice you are walking beside someone on ground you could run:
+**can I run this?** If yes, run it, and let them go.
 
 ## What this page does not claim
 

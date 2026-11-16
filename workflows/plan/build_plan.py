@@ -389,13 +389,16 @@ def classify(ph, d, w, mountain, quality=None):
         return ("long", "Long run", "Conversational throughout. Walk the steep bits on purpose — "
                 "you will walk them in the race. "
                 "RUNNABLE-GROUND DISCIPLINE: run everything runnable, at an effort you would "
-                "call easy, from the first mile. The 2026 DNF lost time two ways and this is the "
-                "second — squandered pace on runnable ground. In a cutoff-limited mountain race "
-                "the flats and gentle grades are where time is CHEAPEST, because climbs are "
-                "capped by sustainable power and steep descents by skill; shuffling them loses "
-                "minutes per mile on the one terrain where speed is nearly free. The discipline "
-                "is in hiking the CLIMBS early enough that nothing has to be walked later that "
-                "could have been run.", .30 if not base1 else .40)
+                "call easy, from the first mile — and RUN YOUR OWN TERRAIN PLAN, not the group's. "
+                "The 2026 DNF was lost to one root cause with two symptoms: shuffling and walking "
+                "the flats alongside a group that could execute the descents. That group's race "
+                "model — cruise the runnable ground, make the time back on the downhills — is "
+                "only solvent IF YOU CAN DESCEND. Borrowing the easy half of someone else's "
+                "model without having the other half loses time on BOTH terrains. "
+                "Until descending improves, the correct model is the inverse: make time on the "
+                "runnable ground BECAUSE you will give some back on the descents. "
+                "The test, every time you find yourself walking beside someone: CAN I RUN THIS? "
+                "If yes, run it, and let the group go.", .30 if not base1 else .40)
     if d == 6:
         if mountain:
             return ("long", "Back-to-back day 2", "On tired legs by design. This is the session that most "

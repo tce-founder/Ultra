@@ -191,12 +191,44 @@ always have been.
 not the athlete's judgement, which means the 40 h Hellbender cutoff and its intermediate splits
 are the thing to model — and the pacing work above is the intervention, not a caveat to it.
 
-### Still open
+### Answered 2026-11-16 — the mechanism was SOCIAL PACING
 
-**What does "wasted pace on flats" mean precisely** — running them too hard early and paying for
-it later, or shuffling them and never banking cheap time? The fix differs. The plan currently
-addresses the second reading, which is the likelier one in a cutoff DNF, but it is worth
-confirming.
+*"Shuffling out walking with a group that could execute downhill run."*
+
+Neither of the two readings offered. The root cause was **adopting another group's terrain
+allocation.** That group's race model — cruise the runnable ground, make the time back on the
+descents — is perfectly solvent for runners who can descend. The athlete borrowed the comfortable
+half of it without owning the descending half, and so **lost time on both terrains from a single
+decision**: slow where speed was cheapest, and slow again where the group was fast.
+
+This explains a large time loss economically, and it feels correct while it is happening, which is
+why it is recorded as a mechanism rather than a cue. It also means the deficit is more recoverable
+than two independent errors would be — one decision, not two habits.
+
+**The corollary is uncomfortable and is now in the plan:** a weak descender's model has to be the
+INVERSE. Make time on the runnable ground *because* you will give some back on the descents. You
+cannot afford to walk what a good descender can afford to walk.
+
+Added to the long-run note as a terrain-plan instruction plus a one-question test — *can I run
+this?* — and to
+`kb/frameworks/descending-technique-and-eccentric-conditioning.md` as "the social-pacing trap".
+
+### Consequence — I was wrong about Badwater Cape Fear
+
+Recorded 2026-11-16 that a flat beach 50 "tests none of this". **That was wrong once the mechanism
+was known.** 38 of its 51.4 miles are runnable beach, which makes it close to a pure test of
+runnable-ground discipline — exactly half the deficit, and the half that is purely disciplinary
+rather than skill-limited. Its value goes up materially.
+
+The two races now cover both halves cleanly:
+
+| Objective | Date | Tests |
+| --------- | ---- | ----- |
+| Badwater Cape Fear 51.4 mi | Sat 20 Mar 2027 | **Runnable-ground discipline**, plus a first 50-mile finish |
+| Hellbender course rehearsal (week 25) | Sat 10 Apr 2027 | **Descending**, on the actual terrain, 27 days out |
+
+**Both should be run SELF-PACED**, and the rehearsal ideally solo — the failure mode being trained
+out is pacing to other people.
 
 ## Correction 2026-11-16 — the DNF was quads on the descents (SUPERSEDED, see above)
 
