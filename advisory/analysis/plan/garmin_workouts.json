@@ -86,7 +86,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -242,7 +242,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -260,7 +260,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -278,7 +278,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -296,7 +296,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -314,7 +314,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -600,7 +600,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -756,7 +756,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -774,7 +774,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -792,7 +792,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -810,7 +810,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -828,7 +828,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -1114,7 +1114,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -1270,7 +1270,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -1288,7 +1288,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -1306,7 +1306,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -1324,7 +1324,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -1342,7 +1342,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -1628,7 +1628,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -1744,7 +1744,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -1762,7 +1762,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -1780,7 +1780,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -1798,7 +1798,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -1816,7 +1816,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -2102,7 +2102,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -2258,7 +2258,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -2276,7 +2276,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -2294,7 +2294,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -2312,7 +2312,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -2330,7 +2330,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -2616,7 +2616,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -2772,7 +2772,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -2790,7 +2790,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -2808,7 +2808,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -2826,7 +2826,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -2844,7 +2844,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -3166,7 +3166,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -3322,7 +3322,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -3340,7 +3340,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -3358,7 +3358,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -3376,7 +3376,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -3394,7 +3394,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -3680,7 +3680,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 480
           },
           {
@@ -3796,7 +3796,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -3814,7 +3814,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
+            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering \u2014 FLAT GROUND, not off a step, until week 9",
             "endConditionValue": 384
           },
           {
@@ -3832,7 +3832,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
+            "description": "Bulgarian split squat 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -3850,7 +3850,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
+            "description": "Single-leg RDL 3x8/leg",
             "endConditionValue": 384
           },
           {
@@ -3868,7 +3868,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
+            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step",
             "endConditionValue": 384
           },
           {
@@ -4154,7 +4154,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -4346,7 +4346,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -4364,8 +4364,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -4382,8 +4382,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -4400,8 +4400,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -4418,8 +4418,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -4436,12 +4436,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -4592,7 +4610,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 6 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 4500
           },
           {
@@ -4780,7 +4798,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -4972,7 +4990,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -4990,8 +5008,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5008,8 +5026,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5026,8 +5044,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5044,8 +5062,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5062,12 +5080,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -5366,7 +5402,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -5558,7 +5594,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -5576,8 +5612,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5594,8 +5630,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5612,8 +5648,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5630,8 +5666,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -5648,12 +5684,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -5804,7 +5858,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 6 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 6300
           },
           {
@@ -5992,7 +6046,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -6184,7 +6238,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -6202,8 +6256,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6220,8 +6274,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6238,8 +6292,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6256,8 +6310,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6274,12 +6328,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -6390,7 +6462,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 6 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 3300
           },
           {
@@ -6578,7 +6650,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -6770,7 +6842,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -6788,8 +6860,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6806,8 +6878,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6824,8 +6896,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6842,8 +6914,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -6860,12 +6932,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -7016,7 +7106,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 6 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 6900
           },
           {
@@ -7204,7 +7294,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -7396,7 +7486,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -7414,8 +7504,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -7432,8 +7522,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -7450,8 +7540,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -7468,8 +7558,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -7486,12 +7576,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -7790,7 +7898,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -7982,7 +8090,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -8000,8 +8108,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8018,8 +8126,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8036,8 +8144,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8054,8 +8162,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8072,12 +8180,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -8263,7 +8389,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -8455,7 +8581,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -8473,8 +8599,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8491,8 +8617,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8509,8 +8635,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8527,8 +8653,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
@@ -8545,12 +8671,30 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 320
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 320
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -8661,7 +8805,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 6 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 4500
           },
           {
@@ -8849,7 +8993,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -9041,7 +9185,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -9059,8 +9203,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9077,8 +9221,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9095,8 +9239,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9113,8 +9257,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9131,12 +9275,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -9287,7 +9467,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 10 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELE",
             "endConditionValue": 8700
           },
           {
@@ -9475,7 +9655,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -9667,7 +9847,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -9685,8 +9865,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9703,8 +9883,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9721,8 +9901,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9739,8 +9919,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -9757,12 +9937,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -9948,7 +10164,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -10140,7 +10356,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -10158,8 +10374,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10176,8 +10392,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10194,8 +10410,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10212,8 +10428,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10230,12 +10446,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -10386,7 +10638,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 10 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELE",
             "endConditionValue": 11100
           },
           {
@@ -10574,7 +10826,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -10766,7 +11018,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -10784,8 +11036,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10802,8 +11054,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10820,8 +11072,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10838,8 +11090,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -10856,12 +11108,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -10972,7 +11260,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 10 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELE",
             "endConditionValue": 6300
           },
           {
@@ -11160,7 +11448,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -11352,7 +11640,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -11370,8 +11658,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -11388,8 +11676,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -11406,8 +11694,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -11424,8 +11712,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -11442,12 +11730,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -11746,7 +12070,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -11938,7 +12262,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -11956,8 +12280,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -11974,8 +12298,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -11992,8 +12316,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -12010,8 +12334,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -12028,12 +12352,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -12219,7 +12579,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -12411,7 +12771,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -12429,8 +12789,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -12447,8 +12807,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -12465,8 +12825,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -12483,8 +12843,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -12501,12 +12861,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -12617,7 +13013,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 10 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELE",
             "endConditionValue": 5100
           },
           {
@@ -12805,7 +13201,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -12997,7 +13393,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -13015,8 +13411,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13033,8 +13429,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13051,8 +13447,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13069,8 +13465,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13087,12 +13483,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -13243,7 +13675,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 10 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELE",
             "endConditionValue": 11100
           },
           {
@@ -13431,7 +13863,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -13659,7 +14091,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bike or easy jog, then the first set at half load. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, hence flat ground early.",
+            "description": "Bike or easy jog, then the first set at half load. THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps failure on descents, and Hellbender asks roughly double that descent load over 102 miles. Progress the load every fortnight or this session is maintenance for a quality that has to improve. The eccentric step-down is the Hellbender-specific one: the race's damage is quadriceps braking on descents. Loaded end-range dorsiflexion off a step is what irritates a posterior heel bursa, he",
             "endConditionValue": 480
           },
           {
@@ -13677,8 +14109,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Bulgarian split squat 3x8/leg",
-            "endConditionValue": 384
+            "description": "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13695,8 +14127,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Single-leg RDL 3x8/leg",
-            "endConditionValue": 384
+            "description": "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13713,8 +14145,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "endConditionValue": 384
+            "description": "Nordic hamstring curl or sliding leg curl 3x6 \u2014 the posterior half of the same job",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13731,8 +14163,8 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Calf raise, bent-knee 3x12 \u2014 FLAT GROUND, not off a step, until week 9",
-            "endConditionValue": 384
+            "description": "Bulgarian split squat 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
@@ -13749,12 +14181,48 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Side plank 3x40 s",
-            "endConditionValue": 384
+            "description": "Single-leg RDL 3x8/leg",
+            "endConditionValue": 274
           },
           {
             "type": "ExecutableStepDTO",
             "stepOrder": 7,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Calf raise, bent-knee 3x12, full range off a step",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 8,
+            "stepType": {
+              "stepTypeId": 3,
+              "stepTypeKey": "interval"
+            },
+            "endCondition": {
+              "conditionTypeId": 2,
+              "conditionTypeKey": "time"
+            },
+            "targetType": {
+              "workoutTargetTypeId": 1,
+              "workoutTargetTypeKey": "no.target"
+            },
+            "description": "Side plank 3x40 s",
+            "endConditionValue": 274
+          },
+          {
+            "type": "ExecutableStepDTO",
+            "stepOrder": 9,
             "stepType": {
               "stepTypeId": 2,
               "stepTypeKey": "cooldown"
@@ -14089,7 +14557,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -14379,7 +14847,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 4 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 8700
           },
           {
@@ -14567,7 +15035,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -15005,7 +15473,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Standing calf raise 3x8 heavy \u2014 FLAT GROUND until week 9",
+            "description": "Standing calf raise 3x8 heavy, FULL RANGE off a step \u2014 heel watch: stop at the first posterior-heel complaint, not the second",
             "endConditionValue": 480
           },
           {
@@ -15255,7 +15723,7 @@
               "workoutTargetTypeId": 1,
               "workoutTargetTypeKey": "no.target"
             },
-            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race.",
+            "description": "Conversational throughout. Walk the steep bits on purpose \u2014 you will walk them in the race. ** DESCENT FINISH \u2014 4 x down a multi-storey car park ramp, a highway overpass or a bridge, walking back up between. Wilmington's parking decks are the nearest usable descent to Hampstead; a treadmill will not do this, since almost none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads resist rather than landing on a locked knee or braking through the heel. THIS IS THE PRIORITY SESSION ELEM",
             "endConditionValue": 3300
           },
           {

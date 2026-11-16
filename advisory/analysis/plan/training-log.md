@@ -102,6 +102,54 @@ dependency import after the password prompt; a silently-unmatched refactor leavi
 undefined; no MFA callback; and a token-cache attribute that does not exist on this library
 release. The first two are now covered by `test_push_garmin.py`.
 
+## Correction 2026-11-16 — the DNF was quads on the descents
+
+Athlete, unprompted: *"The dnf was due to poor performance on descents I could not maintain speed
+my quads were shot."*
+
+This supersedes the causal model that has driven this repo since 2026-10-31. Both things happened
+— the toe trauma, the lost nail, the gait change, the bursitis that cost seven months — but **the
+race ended because eccentric quadriceps capacity ran out**, not because of the heel.
+
+### What it invalidates
+
+1. **The risk ranking.** Descending was risk 4. It is risk 1, and it is paired with the worst
+   possible geography: sea level at home, 5–5.5 h to the nearest real descent.
+2. **The eccentric block, which was the plan's central defect.** A fixed
+   `ECCENTRIC step-down 3x10/leg, 4 s lowering`, identical in week 3 and week 25. The one quality
+   that most needed progressive overload was the only thing in the plan that never changed. Now
+   progresses by phase in load, step height and tempo.
+3. **The descent thread, which did not exist.** Seven mountain weekends in 29 weeks, for the
+   system that ended the last race. A `DESCENT FINISH` block now closes every non-mountain long
+   run — car park ramps, overpasses, bridges, since Hampstead supplies nothing and treadmills
+   almost never decline. Deliberately at the END, on tired legs: the quads failed at mile 45, not
+   mile 5.
+4. **Yesterday's argument for uphill intervals.** I justified the Wednesday session partly on
+   "climbing has no eccentric loading." Under the corrected model that describes what it does NOT
+   train. The session stays on a narrower claim — the safest way to deliver aerobic intensity,
+   and specific to 21,500 ft of ascent — but it was never the answer to the failure mode, and the
+   comment in `build_plan.py` now says so.
+5. **The charitable reading of the 51% projection.** The athlete card recorded "that was an
+   INJURED pace, so it is a floor on capability." If the limiter was eccentric durability rather
+   than a toe, the 15h00 is closer to a real estimate than to a floor. **Read ~51% as less
+   optimistic, not more.**
+6. **A stale prescription found while fixing the above:** both calf-raise lines carried
+   "FLAT GROUND until week 9" as literal text and never progressed — an instruction still reading
+   "until week 9" in week 19. Now phase-keyed.
+
+### The arithmetic that matters
+
+Heartbreaker: ~12,000 ft over 50 mi. Hellbender: ~21,500 ft over 102 mi. Similar vert density,
+but **roughly double the absolute descent load**, asked of the system that gave out at mile 45 of
+the shorter race. This is the central problem of the build, and nineteen weeks is enough time to
+address it only if it starts now.
+
+### Open question worth answering
+
+Was the DNF a missed cutoff or a voluntary withdrawal? It decides whether the constraint is pace
+against the clock or the athlete's own judgement that continuing was unwise — and those imply
+different things about the 40 h Hellbender cutoff.
+
 ## Week rollup
 
 Filled at each review. Completion rate over a rolling twelve weeks is the number the plan is

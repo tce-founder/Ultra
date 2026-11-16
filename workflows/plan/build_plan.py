@@ -149,6 +149,12 @@ class Session:
     vert_ft: int = 0
     notes: str = ""
     garmin: bool = False     # push this one to the watch
+    # Strength prescriptions vary BY PHASE (the eccentric progression), so they travel
+    # on the session rather than being looked up from the title. The title is identical
+    # across phases, so a title lookup silently returned the Base 1 prescription for
+    # every week of the build.
+    exercises: tuple = ()
+    rationale: str = ""
 
     @property
     def dayname(self):
@@ -175,10 +181,16 @@ class Session:
 # consecutive hard days. Friday feeds Saturday's long run and is the travel day
 # on every mountain week. Wednesday is the only weekday with one session.
 #
-# Uphill, because this athlete's injury ran through a gait change under impact:
-# climbing has no eccentric loading, no high ground-contact force, no speed and
-# no descent. It is the lowest-risk intensity available, and it is specific to
-# 21,500 ft of race climbing.
+# Uphill, and the reason was PARTLY WRONG when first written (2026-11-15). It said
+# climbing is right because it carries no eccentric loading. On 2026-11-16 the athlete
+# corrected the DNF cause to quadriceps failure on descents -- so "no eccentric
+# loading" describes what this session does NOT train, which is the actual limiter.
+#
+# The session stays, on a narrower claim: it is the safest way to deliver AEROBIC
+# intensity (no impact, no speed, no descent), and hours of a mountain hundred are
+# spent climbing, so it is specific to 21,500 ft of race ascent. It is not, and was
+# never, the answer to the failure mode. That is the descent thread and the eccentric
+# progression -- see DESCENT_REPS and ECCENTRIC.
 #
 # ONE session a week, not two. The week already carries Tuesday strength,
 # Saturday long and Sunday back-to-back. A second hard session is how a build
@@ -316,8 +328,10 @@ def build_week(w):
         mins = r5(run_min * frac / total_w) if frac else 0
 
         if d in strength_days:
+            ex, rat = strength_parts(ph, d)
             sessions.append(Session(d, "strength", strength_label(ph, d), STRENGTH_MIN,
-                                    notes=strength_notes(ph, d), garmin=True))
+                                    notes=". ".join(ex) + ". " + rat, garmin=True,
+                                    exercises=tuple(ex), rationale=rat))
 
         if tune_up and d == 5:
             sessions.append(Session(d, tune_up["kind"], tune_up["name"], tune_up["minutes"],
@@ -358,6 +372,8 @@ def build_week(w):
             continue
 
         kind, title, note, vshare = classify(ph, d, w, mountain, quality)
+        if d == 5 and kind == "long":
+            note += descent_finish(ph, mountain, tune_up)
         sessions.append(Session(d, kind, title, mins, int(vert * vshare), note,
                                 garmin=kind in ("run", "long", "vert")))
 
@@ -407,6 +423,48 @@ HEEL_WARNING = (
     "Substitute if it niggles: uphill treadmill WALKING in a higher-drop shoe, or a weighted "
     "pack hike, or the bike for the aerobic half. **")
 
+# ── Descent: the actual failure mode ─────────────────────────────────────────
+# Added 2026-11-16, after the athlete corrected the DNF cause: the 2026 race ended
+# because QUADS FAILED ON DESCENTS and speed could not be maintained -- not because
+# of the toe-to-bursitis cascade, which happened but was not what stopped them.
+#
+# That makes eccentric quadriceps durability the PRIMARY limiter, and the plan had
+# almost nothing for it: seven mountain weekends in 29 weeks, and a fixed
+# 3x10 step-down that never progressed. Seven exposures for the system that ended
+# the last race is not a programme.
+#
+# This goes at the END of the long run on purpose. The quads failed at mile 45, not
+# mile 5, so the stimulus that matters is descending ALREADY TIRED. Fresh descent
+# repeats train a quality the race never tests.
+#
+# The repeated-bout effect is the mechanism being bought: one bout of eccentric work
+# confers weeks of protection against the next. It needs regularity, not volume.
+DESCENT_REPS = {"Base 2 — aerobic volume + vert": 6,
+                "Specific — mountain, dark, fuelled": 10,
+                "Taper": 4}
+
+
+def descent_finish(ph, mountain, tune_up):
+    """The descent block appended to a long run, or ''.
+
+    Nothing in Base 1 (too early), nothing on a mountain week (the weekend IS descent
+    work, and far better), nothing in a tune-up week (the race is the session).
+    """
+    reps = DESCENT_REPS.get(ph)
+    if not reps or mountain or tune_up:
+        return ""
+    return (f" ** DESCENT FINISH — {reps} x down a multi-storey car park ramp, a highway "
+            "overpass or a bridge, walking back up between. Wilmington's parking decks are the "
+            "nearest usable descent to Hampstead; a treadmill will not do this, since almost "
+            "none decline. CONTROL THE LOWERING: quiet feet, short quick strides, let the quads "
+            "resist rather than landing on a locked knee or braking through the heel. "
+            "THIS IS THE PRIORITY SESSION ELEMENT OF THE WEEK, not a cooldown — the 2026 race "
+            "ended with quads failing on descents at mile 45, and Hellbender asks roughly "
+            "double that descent load. It is deliberately at the END, on tired legs, because "
+            "that is the condition that failed. Stop the block early if the lowering gets "
+            "sloppy; bad descending practised tired teaches bad descending. **")
+
+
 VERT_NOTE = ("Stair machine (StepMill) preferred — far steeper than a treadmill's 15% ceiling. "
              "DO NOT hold the handrail; it removes a large and unrecorded share of the work. "
              "Treadmill at max incline is the alternative. Neither trains DESCENDING, which is "
@@ -425,7 +483,7 @@ STRENGTH_BLOCKS = {
         "exercises": [
             "Back squat or trap-bar deadlift 4x5 @ heavy",
             "Romanian deadlift 3x6",
-            "Standing calf raise 3x8 heavy — FLAT GROUND until week 9",
+            "CALF",
             "Weighted step-up 3x6/leg",
         ],
         "rationale": ("HIGH LOAD, low reps, long rests — the meta-analyses found high-load and "
@@ -438,7 +496,7 @@ STRENGTH_BLOCKS = {
             "Bulgarian split squat 3x8/leg",
             "Single-leg RDL 3x8/leg",
             "ECCENTRIC step-down 3x10/leg, 4 s lowering",
-            "Calf raise, bent-knee 3x12 — FLAT GROUND, not off a step, until week 9",
+            "CALF",
             "Side plank 3x40 s",
         ],
         "rationale": ("The eccentric step-down is the Hellbender-specific one: the race's damage "
@@ -460,15 +518,65 @@ def strength_label(ph, d):
 
 
 def strength_notes(ph, d):
+    ex, rat = strength_parts(ph, d)
+    return ". ".join(ex) + ". " + rat
+
+
+# The eccentric block, progressed by phase. Before 2026-11-16 this was a single fixed
+# line -- "ECCENTRIC step-down 3x10/leg, 4 s lowering" -- identical in week 3 and week
+# 25. For an athlete whose race ended in eccentric quadriceps failure, the one quality
+# that most needed progressive overload was the one thing in the plan that never
+# changed. Load, step height and tempo all progress; the taper drops load and keeps the
+# pattern, because new eccentric damage close to race day has no time to remodel.
+ECCENTRIC = {
+    "Base 1 — tissue tolerance": [
+        "ECCENTRIC step-down 3x10/leg, 4 s lowering — FLAT GROUND, not off a step, until week 9",
+    ],
+    "Base 2 — aerobic volume + vert": [
+        "ECCENTRIC step-down 3x12/leg off a 20 cm step, 4 s lowering",
+        "Slow-eccentric back squat 3x5, 4 s lowering, moderate load",
+    ],
+    "Specific — mountain, dark, fuelled": [
+        "LOADED eccentric step-down 4x10/leg off a 30 cm step, 5 s lowering, vest or dumbbells",
+        "Slow-eccentric split squat 3x8/leg, 4 s lowering, loaded",
+        "Nordic hamstring curl or sliding leg curl 3x6 — the posterior half of the same job",
+    ],
+    "Taper": [
+        "ECCENTRIC step-down 2x8/leg, 4 s lowering, BODYWEIGHT — pattern only, no new damage",
+    ],
+}
+
+
+# Calf work, by phase. The prescriptions used to carry "FLAT GROUND until week 9"
+# as literal text, which still read "until week 9" in WEEK 19 -- an instruction that
+# contradicted itself for ten weeks of the build and silently never progressed. Flat
+# ground early is right (loaded end-range dorsiflexion off a step is what irritates a
+# posterior heel bursa, and the 2026 bursitis was real), but it has to END.
+CALF = {
+    ("A", True):  "Standing calf raise 3x8 heavy — FLAT GROUND, not off a step",
+    ("A", False): ("Standing calf raise 3x8 heavy, FULL RANGE off a step — heel watch: stop at "
+                   "the first posterior-heel complaint, not the second"),
+    ("B", True):  "Calf raise, bent-knee 3x12 — FLAT GROUND, not off a step",
+    ("B", False): "Calf raise, bent-knee 3x12, full range off a step",
+}
+
+
+def strength_parts(ph, d):
+    """Exercises and rationale for one strength session, with the eccentric block
+    substituted for the phase."""
     b = STRENGTH_BLOCKS[strength_key(ph, d)]
-    return ". ".join(b["exercises"]) + ". " + b["rationale"]
-
-
-def strength_exercises(title):
-    for b in STRENGTH_BLOCKS.values():
-        if b["title"] == title:
-            return b["exercises"], b["rationale"]
-    return [], ""
+    key = strength_key(ph, d)
+    base1 = ph.startswith("Base 1")
+    ex = [CALF[(key, base1)] if e == "CALF" else e for e in b["exercises"]]
+    rat = b["rationale"]
+    if strength_key(ph, d) == "B":
+        ex = [e for e in ex if "ECCENTRIC step-down" not in e]
+        ex = ECCENTRIC.get(ph, ECCENTRIC["Base 1 — tissue tolerance"]) + ex
+        rat = ("THE ECCENTRIC WORK IS THE POINT OF THIS SESSION. The 2026 DNF was quadriceps "
+               "failure on descents, and Hellbender asks roughly double that descent load over "
+               "102 miles. Progress the load every fortnight or this session is maintenance "
+               "for a quality that has to improve. " + rat)
+    return ex, rat
 
 
 def race_week():
@@ -733,7 +841,7 @@ def garmin_workout(s, w, when):
         # catalogue is a separate reverse-engineering problem, and a wrong ID
         # prescribes the wrong movement convincingly.
         sport = SPORT_STRENGTH
-        parts, rationale = strength_exercises(s.title)
+        parts, rationale = (list(s.exercises), s.rationale)
         steps = [step(1, STEP_WARMUP, 480, "Bike or easy jog, then the first set at half load. "
                       + rationale)]
         body = max(300, secs - 780)
