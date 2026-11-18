@@ -528,8 +528,11 @@ STRENGTH_BLOCKS = {
             "Side plank 3x40 s",
         ],
         "rationale": ("The eccentric step-down is the Hellbender-specific one: the race's damage "
-                      "is quadriceps braking on descents. Loaded end-range dorsiflexion off a "
-                      "step is what irritates a posterior heel bursa, hence flat ground early."),
+                      "is quadriceps braking on descents. Loaded end-range dorsiflexion can "
+                      "irritate an ACTIVE posterior heel bursa, which is why RANGE comes before "
+                      "LOAD here and why the heel watch is a stopping rule rather than a "
+                      "restriction — the 2026 bursa is ~8 months settled and gave no pain in "
+                      "the race itself."),
     },
 }
 
