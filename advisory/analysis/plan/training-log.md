@@ -45,7 +45,7 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | **Quads: no soreness. Heel/toe: nothing. HAMSTRING tight next morning — athlete suspects the ~2.5 h drive home** | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
 
 | 2026-11-17 | 5 | Aerobic 30m + Strength A | **Strength A done** | | | | Athlete confirmed 2026-11-18. The 30m aerobic run is unreported. **First Strength A with full-range calf raises off a step** — the restriction lifted 2026-11-16 |
-| 2026-11-18 | 5 | Easy 20m | | | | | Travelling, hotel, raining. Athlete asked whether it was 30m — it is 20m. Held at 20 because Thursday is the week's long/descent day |
+| 2026-11-18 | 5 | Easy 20m | **30m** | | flat | | Travelling, hotel, raining. **+50% over prescription — SECOND INSTANCE of the overshoot pattern.** Athlete asked whether it was 30m, was told 20m, ran 30m. Done the day before the week's long/descent day, where fresh quads were the point |
 | 2026-11-19 | 5 | *Aerobic 30m + Strength B* → **MOUNTAIN TRAIL RUN, reassigned as the week's LONG RUN** | | | | | Unplanned descent opportunity while travelling. Capped 1h05 incl. walking. Saturday's long run demoted to easy/off so the descent day does not collide with it — see 2026-11-06/07. Strength B moved to Sunday or skipped |
 
 ## Finding 2026-11-07 — the drive home is part of the session
@@ -86,6 +86,34 @@ against actual.
 
 Watch for: a second instance. One is a good day out. Two is a pattern, and the pattern is the one
 thing this build cannot absorb.
+
+### Second instance recorded 2026-11-18 — this is now a pattern, not two one-offs
+
+| Date | Prescribed | Actual | Over |
+| ---- | ---------- | ------ | ---- |
+| 2026-11-06 | 30 min | 47:33 | **+58%** |
+| 2026-11-18 | 20 min | 30 min | **+50%** |
+
+**The absolute dose is trivial** — ten minutes of easy flat running, and week 5 still lands near
+its 4.5 h target. That is not the finding.
+
+**The finding is that the overshoot is proportional, and proportional overshoot scales.** The same
++50% applied to week 10's 2h20 mountain day is 70 extra minutes of descent on unaccustomed legs.
+Applied to week 22's 16.5 h peak it is two and a half hours in the phase with the least margin to
+absorb them. The habit is nearly free to run in November and expensive in February.
+
+Both instances also share a shape worth naming: each landed immediately before the week's biggest
+session. On 6 Nov the consequence was Saturday's long run being cut. On 18 Nov it was the day
+before a rare descent opportunity where fresh quadriceps were the entire point.
+
+**The mechanism is the same one diagnosed for the race itself.** The 2026 DNF was an execution
+failure — pacing to a group, running the wrong terrain allocation. This is the training analogue:
+the prescription is the plan's terrain allocation, and running past it feels like virtue while it
+is happening. The intervention is identical: run the number, not the feeling.
+
+**Next test: Thursday 19 Nov, capped at 1h05 including walking.** Finishing at 1h05 with fewer
+descent reps than wanted is a SUCCESS. Finishing at 1h25 having completed them all is a third
+instance, on the terrain where it costs most.
 
 ## Garmin integration — first successful upload 2026-11-16
 

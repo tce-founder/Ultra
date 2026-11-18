@@ -123,6 +123,12 @@ Monday rest day, and a 22% ceiling on the build-week ramp that `build_plan.py` e
 than suggests. **The failure mode to watch for in reviews is not missed sessions — it is added
 ones.**
 
+**CONFIRMED AS A PATTERN 2026-11-18**, on the second instance: 6 Nov ran +58% over prescription,
+18 Nov ran +50%. Both immediately before the week's biggest session. The absolute doses are small;
+the proportionality is the problem, because +50% of week 22's peak is two and a half hours. Noted
+too that this is the training analogue of the race's own diagnosed failure — running someone
+else's terrain allocation, or the plan's, rather than your own number.
+
 ## Drift log
 
 | Date | Field | From | To | Planned? |
