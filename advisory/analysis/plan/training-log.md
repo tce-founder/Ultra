@@ -45,7 +45,7 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | **Quads: no soreness. Heel/toe: nothing. HAMSTRING tight next morning — athlete suspects the ~2.5 h drive home** | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
 
 | 2026-11-17 | 5 | Aerobic 30m + Strength A | **Strength A done** | | | | Athlete confirmed 2026-11-18. The 30m aerobic run is unreported. **First Strength A with full-range calf raises off a step** — the restriction lifted 2026-11-16 |
-| 2026-11-18 | 5 | Easy 20m | **30m** | | flat | | Travelling, hotel, raining. **+50% over prescription — SECOND INSTANCE of the overshoot pattern.** Athlete asked whether it was 30m, was told 20m, ran 30m. Done the day before the week's long/descent day, where fresh quads were the point |
+| 2026-11-18 | 5 | Easy 20m | **30m**, treadmill, **2.50 mi / 4.02 km** (watch's 5.92 km rejected — see below) | HR unreported | flat, treadmill | | **Cadence 155 spm — first baseline.** Travelling, hotel, raining. **+50% over prescription — SECOND INSTANCE of the overshoot pattern.** Athlete asked whether it was 30m, was told 20m, ran 30m. Done the day before the week's long/descent day, where fresh quads were the point |
 | 2026-11-19 | 5 | *Aerobic 30m + Strength B* → **MOUNTAIN TRAIL RUN, reassigned as the week's LONG RUN** | | | | | Unplanned descent opportunity while travelling. Capped 1h05 incl. walking. Saturday's long run demoted to easy/off so the descent day does not collide with it — see 2026-11-06/07. Strength B moved to Sunday or skipped |
 
 ## Finding 2026-11-07 — the drive home is part of the session
@@ -364,6 +364,53 @@ address it only if it starts now.
 Was the DNF a missed cutoff or a voluntary withdrawal? It decides whether the constraint is pace
 against the clock or the athlete's own judgement that continuing was unwise — and those imply
 different things about the 40 h Hellbender cutoff.
+
+## Data quality 2026-11-18 — the watch over-reads indoor distance by 47%
+
+| Source | Distance | Implied pace | Implied stride at 155 spm |
+| ------ | -------- | ------------ | ------------------------- |
+| Treadmill | 2.50 mi / 4.02 km | 7:27 /km | **0.87 m/step** → 1.74 m stride |
+| Watch | 3.68 mi / 5.92 km | 5:07 /km | **1.27 m/step** → 2.54 m stride |
+
+**The treadmill is right.** The proof does not depend on any pace assumption: at a measured 155 spm
+the watch's distance requires a **2.54 m stride at easy effort**, which is sprint-stride territory
+and did not happen. Indoor running has no GPS, so the Fenix estimates distance from wrist
+accelerometer motion, and uncalibrated that is a guess.
+
+The pace cross-check agrees. 7:27 /km on a treadmill against the athlete's 8:00–9:00 /km outdoor
+easy anchor is consistent — belt-assisted turnover and no wind make indoor pace faster at equal
+effort.
+
+**ACTION: calibrate the watch by entering the treadmill's distance** after an indoor run (the
+watch offers this on save; a saved activity can also be corrected in Garmin Connect). This is not
+cosmetic: the plan contains 20 machine-based vert sessions plus whatever treadmill running the
+winter forces, and a 47% systematic error poisons all of it. It compounds the unit trap already
+recorded in `kb/frameworks/vertical-gain-and-its-substitutes.md`, where machine-reported vert is
+derived from assumed step heights that differ between machines.
+
+**Distance error does NOT affect training load here**, because the plan prescribes MINUTES. The
+30 minutes happened. What it affects is every pace and stride inference drawn from indoor sessions.
+
+## Cadence baseline 2026-11-18 — 155 spm, which is low, as predicted
+
+155 spm at easy treadmill pace. Recreational runners typically sit 160–170.
+
+**This is what the height hypothesis predicted** (6'4", long levers, long natural stride, low
+turnover — logged 2026-11-16). It is mild corroborating evidence and not proof: one data point, one
+pace, on a treadmill, and cadence rises with speed. But a long-stride low-cadence runner is exactly
+the profile that overstrides and heel-brakes on descent, which is the diagnosed race failure.
+
+**Descent target: ≥155 spm, ideally 160–170.**
+
+**Better test than this baseline:** on the 19 Nov trail run, lap flats, climbs and descents
+SEPARATELY and compare within the run — same shoes, legs, day and watch, which controls for
+everything a treadmill comparison does not. Descent cadence below flat cadence on that run
+confirms the overstriding fault in the athlete's own data and gives the five technique cues a
+number to move.
+
+**Missing: today's heart rate.** 7:27 /km is faster than the outdoor easy anchor, so whether this
+session was genuinely easy is unknown. Above ~140 bpm it was 50% longer AND harder than prescribed,
+the day before a descent day.
 
 ## Week rollup
 

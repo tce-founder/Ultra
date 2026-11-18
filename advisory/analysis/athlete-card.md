@@ -46,6 +46,8 @@ updated: 2026-10-18
 | Poles | **Allowed at Hellbender** (athlete confirms). ~130 cm for this height. NOT yet owned or trained with — see the descent case in the log | Athlete, 2026-11-16 | 2026-11-16 |
 | Goal weight | **190 lb (86 kg) by ~week 16**, as lean mass, for descent durability. Athlete asked for 190–195; 195 is not available inside the window without fat gain. Explicitly NOT a cut — Ironman history of cutting and feeling weak | Athlete + `plan/nutrition.md` §1a | 2026-11-15 |
 | Current tolerated fuelling rate | *unknown — measure in week 1* | — | — |
+| Cadence | **155 spm** at easy treadmill pace, 2026-11-18 — LOW (recreational norm 160–170), consistent with the 6'4" long-stride prediction. Descent target ≥155, ideally 160–170 | Athlete, 2026-11-18 | 2026-11-18 |
+| Indoor distance accuracy | **Watch over-reads by 47% uncalibrated** — proven by a 2.54 m implied stride at 155 spm. Trust the treadmill; calibrate. Affects every indoor pace and vert inference | Derived 2026-11-18 | 2026-11-18 |
 | HR zones / threshold | *still unknown — Garmin workouts ship with no target.* **First anchor 2026-11-06:** avg HR 134 / max 162 on technical trail, reported as easy. Working easy ceiling ~140 bpm until a real test | Athlete, 2026-11-06 | 2026-11-15 |
 | Easy pace anchor | **~8:30–9:00 /km running on technical trail** at HR 134 (derived, one session). Flat/smooth: ~8:00–9:00 /km. REPORTED grade — one data point, walk pace assumed | Derived from 2026-11-06 | 2026-11-15 |
 | Ferritin / vitamin D | *not tested* | — | — |
