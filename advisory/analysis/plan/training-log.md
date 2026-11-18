@@ -44,6 +44,10 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 | 2026-11-08 | 3 | Off (swapped to Fri) | off | — | — | — | As planned |
 | 2026-11-06 | 3 | 30m (swap from Sun) | **47:33** total / 44:30 moving, ~4.7 km | avg HR 134, max 162 | Company Mill, technical | **Quads: no soreness. Heel/toe: nothing. HAMSTRING tight next morning — athlete suspects the ~2.5 h drive home** | **58% over prescription.** Walk 12:50 = 27% — the technical ground was walked, as asked. Avg pace 10:08/km, moving 9:29. First descent exposure in ~7 months |
 
+| 2026-11-17 | 5 | Aerobic 30m + Strength A | **Strength A done** | | | | Athlete confirmed 2026-11-18. The 30m aerobic run is unreported. **First Strength A with full-range calf raises off a step** — the restriction lifted 2026-11-16 |
+| 2026-11-18 | 5 | Easy 20m | | | | | Travelling, hotel, raining. Athlete asked whether it was 30m — it is 20m. Held at 20 because Thursday is the week's long/descent day |
+| 2026-11-19 | 5 | *Aerobic 30m + Strength B* → **MOUNTAIN TRAIL RUN, reassigned as the week's LONG RUN** | | | | | Unplanned descent opportunity while travelling. Capped 1h05 incl. walking. Saturday's long run demoted to easy/off so the descent day does not collide with it — see 2026-11-06/07. Strength B moved to Sunday or skipped |
+
 ## Finding 2026-11-07 — the drive home is part of the session
 
 Quads were **clean** the morning after a 47-minute first descent exposure. That is a better
