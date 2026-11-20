@@ -46,7 +46,7 @@ is noticing that something changed. See `advisory/kb/frameworks/foot-care-and-sh
 
 | 2026-11-17 | 5 | Aerobic 30m + Strength A | **Strength A done** | | | | Athlete confirmed 2026-11-18. The 30m aerobic run is unreported. **First Strength A with full-range calf raises off a step** — the restriction lifted 2026-11-16 |
 | 2026-11-18 | 5 | Easy 20m | **30m**, treadmill, **2.50 mi / 4.02 km** (watch's 5.92 km rejected — see below) | HR unreported | flat, treadmill | | **Cadence 155 spm — first baseline.** Travelling, hotel, raining. **+50% over prescription — SECOND INSTANCE of the overshoot pattern.** Athlete asked whether it was 30m, was told 20m, ran 30m. Done the day before the week's long/descent day, where fresh quads were the point |
-| 2026-11-19 | 5 | *Aerobic 30m + Strength B* → **MOUNTAIN TRAIL RUN, reassigned as the week's LONG RUN** | | | | | Unplanned descent opportunity while travelling. Capped 1h05 incl. walking. Saturday's long run demoted to easy/off so the descent day does not collide with it — see 2026-11-06/07. Strength B moved to Sunday or skipped |
+| 2026-11-19 | 5 | *Aerobic 30m + Strength B* → **MOUNTAIN TRAIL RUN, reassigned as the week's LONG RUN** | **1h00 — CAP HELD** | "feeling good" next morning; too early, DOMS peaks 24-48 h | McDowell Sonoran, Gateway toward Bell Pass | *awaiting report* | **Descent exposure #2 in 8 months.** Athlete proposed the full 7.1 mi / 1,525 ft / 3-4 h Bell Pass out-and-back, ran it past me first, and took a 35-min turnaround instead. **First time the overshoot pattern was tested and corrected.** Capped 1h05 incl. walking. Saturday's long run demoted to easy/off so the descent day does not collide with it — see 2026-11-06/07. Strength B moved to Sunday or skipped |
 
 ## Finding 2026-11-07 — the drive home is part of the session
 
@@ -364,6 +364,31 @@ address it only if it starts now.
 Was the DNF a missed cutoff or a voluntary withdrawal? It decides whether the constraint is pace
 against the clock or the athlete's own judgement that continuing was unwise — and those imply
 different things about the 40 h Hellbender cutoff.
+
+## 2026-11-19 — the overshoot pattern was tested and HELD
+
+Recorded the day after logging the pattern's second instance, so this is the first live test.
+
+The athlete proposed **Gateway to Bell Pass: 7.1 mi, 1,525 ft, 3–4 h estimated** — three to four
+times the 1h05 cap. **They proposed it rather than ran it**, which is the distinction that matters:
+the previous two instances were discovered after the fact. The trail itself was a good choice
+(out-and-back, well-graded, a sustained runnable descent on the return, no rock steps); only the
+distance was wrong, and out-and-back meant the athlete controlled where it ended.
+
+Prescription given: **turn at 35 minutes regardless of position**, which converts a summit
+objective into a time-boxed session and makes the entire return leg continuous descent practice.
+
+**Outcome: 1h00. Inside the cap. Bell Pass not reached.**
+
+Turning around mid-climb with the summit in sight is the same discipline as not taking a group's
+pace on the flats — the race's diagnosed failure. That it was exercised deliberately, two days
+after the pattern was named, is the most encouraging thing in this log. **One correction is not a
+fixed habit.** The test recurs at week 10's 2h20 mountain day, where the same +50% would be 70
+extra minutes of descent.
+
+**Still outstanding from this session** — it was run specifically to produce these:
+descent cadence vs flat-section cadence (laps), total vert, and how the descents felt.
+Without them the session generated training load but no measurement.
 
 ## Data quality 2026-11-18 — the watch over-reads indoor distance by 47%
 
